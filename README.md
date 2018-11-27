@@ -2,7 +2,8 @@
 30 Seconds Of STL ( Standard Template Library in C++ ).
 
 ## Contents
-  ### ``<algorithm>``
+
+### ``<algorithm>``
 
 <details>  
 <summary>View contents</summary>
@@ -96,7 +97,7 @@
 * [`prev_permutation`](#unary)
 </details>
 
-  ### ``<list>``
+### ``<list>``
   
 <details>
 <summary>View contents</summary>
@@ -152,3 +153,30 @@
 * [`spreadOver`](#spreadover)
 * [`unary`](#unary)
 </details>
+
+#count
+**Description :** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to value).
+
+**Example** : 
+```cpp
+
+    std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
+ 
+    // determine how many integers in a std::vector match a target value.
+    int target1 = 3;
+    int num_items1 = count(v.begin(), v.end(), target1);
+    cout << "number: " << target1 << " count: " << num_items1 << '\n';
+ 
+```
+
+#count_if
+**Description** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to value).
+
+**Example ** :
+```cpp
+std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
+ 
+// use a lambda expression to count elements divisible by 3.
+int num_items3 = count_if(v.begin(), v.end(), [](int i){return i % 3 == 0;});
+cout << "number divisible by three: " << num_items3 << '\n';
+```
