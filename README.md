@@ -1,6 +1,9 @@
 # 30-Seconds-Of-STL
 30 Seconds Of STL ( Standard Template Library in C++ ).
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+
 ## Contents
 
 ### ``<algorithm>``
