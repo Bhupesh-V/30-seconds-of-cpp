@@ -155,28 +155,80 @@
 </details>
 
 # count
-**Description :** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to value).
+**Description :** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to *value*).
 
 **Example** : 
 ```cpp
-
     std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
  
     // determine how many integers in a std::vector match a target value.
     int target1 = 3;
     int num_items1 = count(v.begin(), v.end(), target1);
     cout << "number: " << target1 << " count: " << num_items1 << '\n';
- 
-```
+ ```
 
 # count_if
-**Description** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to value).
+**Description** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to *value*).
 
 **Example**:
 ```cpp
-std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
+    vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
  
-// use a lambda expression to count elements divisible by 3.
-int num_items3 = count_if(v.begin(), v.end(), [](int i){return i % 3 == 0;});
-cout << "number divisible by three: " << num_items3 << '\n';
+    // use a lambda expression to count elements divisible by 3.
+    int num_items3 = count_if(v.begin(), v.end(), [](int i){return i % 3 == 0;});
+    cout << "number divisible by three: " << num_items3 << '\n';
+```
+
+# find
+**Description** : Returns the first element in the range [first, last) that satisfies specific criteria(searches for an element equal to *value*).
+
+**Example**:
+```cpp
+    vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
+
+    int searchme = 4;
+    if(find(std::begin(v), std::end(v), searchme) != end(v)){
+        cout <<"\n v conatins 3";
+    }
+    else
+        cout<<"No match !!";
+```
+# find_if
+**Description** : Returns the first element in the range [first, last) that satisfies specific criteria(searches for an element for which predicate/condition p returns *true*).
+
+**Example**:
+```cpp
+    bool IsOdd (int i) {
+    return ((i%2)==1);
+    }
+
+    int main(){
+        vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
+        if(find_if(std::begin(v), std::end(v),IsOdd) != end(v)){
+            cout <<"\n Odd Value Found";
+        }
+        else
+            cout<<"No match !!";
+        return 0;
+    }
+```
+
+# find_if_not
+**Description** : Returns the first element in the range [first, last) that satisfies specific criteria(searches for an element for which predicate q returns *false*).
+
+**Example**:
+```cpp
+    bool IsOdd (int i) {
+        return ((i%2)==1);
+    }
+
+    int main(){
+        vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
+        if(find_if_not(std::begin(v), std::end(v),IsOdd) != end(v)){
+            cout <<"\n First Even Value";
+        }
+        else
+            cout<<"No match !!";
+        return 0;
+    }
 ```
