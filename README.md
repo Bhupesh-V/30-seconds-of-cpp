@@ -154,7 +154,7 @@
 * [`unary`](#unary)
 </details>
 
-#count
+# count
 **Description :** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to value).
 
 **Example** : 
@@ -169,10 +169,10 @@
  
 ```
 
-#count_if
+# count_if
 **Description** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to value).
 
-**Example ** :
+**Example**:
 ```cpp
 std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
  
