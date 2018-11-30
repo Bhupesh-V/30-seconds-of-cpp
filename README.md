@@ -158,18 +158,16 @@
 <details>
 <summary>View contents</summary>
 
-* [`ary`](#ary)
-* [`call`](#call)
-* [`collectInto`](#collectinto)
-* [`flip`](#flip)
-* [`over`](#over)
-* [`overArgs`](#overargs)
-* [`pipeAsyncFunctions`](#pipeasyncfunctions)
-* [`pipeFunctions`](#pipefunctions)
-* [`promisify`](#promisify)
-* [`rearg`](#rearg)
-* [`spreadOver`](#spreadover)
-* [`unary`](#unary)
+* [`pop`](#pop)
+* [`back`](#back)
+* [`push`](#push)
+* [`size`](#size)
+* [`swap`](#swap)
+* [`empty`](#empty)
+* [`front`](#front)
+* [`emplace`](#emplace)
+* [`queue`](#queue)
+* [`~queue`](#~queue)
 </details>
 
 ### ``<vector>``
