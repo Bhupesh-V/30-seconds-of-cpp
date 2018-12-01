@@ -1,5 +1,6 @@
 # 30-Seconds-Of-STL
-30 Seconds Of STL ( Standard Template Library in C++ ).
+30 Seconds Of STL ( Standard Template Library in C++ )
+*A collection of  STL features(functions/libraries) of C++  which can be learned in 30 seconds or less.*
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
