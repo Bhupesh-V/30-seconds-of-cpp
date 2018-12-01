@@ -406,3 +406,11 @@ The generator function has to be defined by the user, and it is called successiv
         mystack.pop(); 
     } 
 ```
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+### Contributing
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
