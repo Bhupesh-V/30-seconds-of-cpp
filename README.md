@@ -1,9 +1,9 @@
-
-![STL](https://github.com/Bhupesh-V/30-Seconds-Of-STL/Logo/stl.png)
-
 # 30-Seconds-Of-STL
-30 Seconds Of STL ( Standard Template Library in C++ )
-*A collection of  STL features(functions/libraries) of C++  which can be learned in 30 seconds or less.*
+## 30 Seconds Of STL ( Standard Template Library in C++ )
+
+**A collection of  STL features(functions/libraries) of C++  which can be learned in 30 seconds or less.**
+
+![STL](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/Logo/stl.png)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
