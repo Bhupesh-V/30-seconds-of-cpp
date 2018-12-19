@@ -69,7 +69,7 @@
 * [`partition_point`](#unary)
 * [`is_sorted`](#unary)
 * [`is_sorted_until`](#unary)
-* [`sort`](#unary)
+* [`sort`](#sort)
 * [`partial_sort`](#unary)
 * [`partial_sort_copy`](#unary)
 * [`stable_sort`](#unary)
@@ -425,7 +425,7 @@ The generator function has to be defined by the user, and it is called successiv
     cout <<"First adjacent element that are equal "<<i<<'\n';
  ```
 
-# Sort()
+# Sort
 **Description :**  This function is implemented as Quick-sort. The complexity of it is O(N*log(N)).
   
 **Example** :
