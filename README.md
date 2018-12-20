@@ -69,7 +69,7 @@
 * [`partition_point`](#unary)
 * [`is_sorted`](#unary)
 * [`is_sorted_until`](#unary)
-* [`sort`](#unary)
+* [`sort`](#sort)
 * [`partial_sort`](#unary)
 * [`partial_sort_copy`](#unary)
 * [`stable_sort`](#unary)
@@ -416,13 +416,41 @@ The generator function has to be defined by the user, and it is called successiv
 **Example** :
 
 ```cpp
-    **CODE EXAMPLE **
     std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
  
     // Binary function which returns first adjacent element pairs based on certain condition (as third argument) . 
     // Default condition checks equality.
     auto i  = std::adjacent_find (v.begin(), v.end());
     cout <<"First adjacent element that are equal "<<i<<'\n';
+ ```
+ # Sort
+**Description :**  This function is implemented as Quick-sort. The complexity of it is O(N*log(N)).
+  
+**Example** :
+
+```cpp
+
+using namespace std;   
+void show(int a[]) 
+{ 
+    for(int i = 0; i < 10; ++i) 
+        cout << a[i] << " "; 
+} 
+  
+int main() 
+{ 
+    int a[10]= {1, 5, 8, 9, 6, 7, 3, 4, 2, 0}; 
+    cout << "\n The array before sorting is : "; 
+    show(a); 
+  
+    sort(a, a+10); 
+  
+    cout << "\n\n The array after sorting is : "; 
+    show(a); 
+  
+    return 0; 
+  
+} 
  ```
 # binary_search 
 **Description :** Binary search is a widely used searching algorithm that requires the array to be sorted before search is applied. The main idea behind this algorithm is to keep dividing the array in half (divide and conquer) until the element is found, or all the elements are exhausted.
@@ -431,9 +459,8 @@ The prototype for binary search is :
 binary_search(startaddress, endaddress, valuetofind)
   ```
 **Example** :
-
 ```cpp
-   void show(int a[], int arraysize) 
+      void show(int a[], int arraysize) 
 { 
     for (int i = 0; i < arraysize; ++i) 
         cout << a[i] << " "; 
