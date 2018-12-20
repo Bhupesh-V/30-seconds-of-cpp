@@ -524,6 +524,23 @@ int main()
     return 0; 
 } 
 ```
+# clear-list
+**Description :** clear() function is used to remove all the elements of the list container, thus making it size 0.
+**Example** :
+```cpp
+int main() 
+{ 
+    list<int> mylist{ 1, 2, 3, 4, 5 }; 
+  
+    mylist.clear(); 
+    // List becomes empty 
+  
+    // Printing the list 
+    for (auto it = mylist.begin(); it != mylist.end(); ++it) 
+        cout << ' ' << *it; 
+    return 0; 
+} 
+```
 # erase-list
  **Description :** The list::erase() is a built-in function in C++ STL which is used to delete elements from a list container. This function can be used to remove a single element or a range of elements from the specified list container.
  
