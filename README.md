@@ -431,12 +431,8 @@ The generator function has to be defined by the user, and it is called successiv
 **Example** :
 
 ```cpp
-    **CODE EXAMPLE **
-    #include <iostream> 
-#include <algorithm> 
-  
-using namespace std; 
-  
+
+using namespace std;   
 void show(int a[]) 
 { 
     for(int i = 0; i < 10; ++i) 
