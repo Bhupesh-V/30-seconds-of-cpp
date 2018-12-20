@@ -493,6 +493,37 @@ int main()
     return 0; 
 } 
  ```
+ # empty-list
+**Description :** The list::empty() is a built-in function in C++ STL is used to check whether a particular list container is empty or not. 
+
+**Example** :
+```cpp
+int main() 
+{ 
+    // Creating a list 
+    list<int> demoList; 
+  
+    // check if list is empty 
+    if (demoList.empty()) 
+        cout << "Empty List\n"; 
+    else
+        cout << "Not Empty\n"; 
+  
+    // Add elements to the List 
+    demoList.push_back(10); 
+    demoList.push_back(20); 
+    demoList.push_back(30); 
+    demoList.push_back(40); 
+  
+    // check again if list is empty 
+    if (demoList.empty()) 
+        cout << "Empty List\n"; 
+    else
+        cout << "Not Empty\n"; 
+  
+    return 0; 
+} 
+```
 # clear-list
 **Description :** clear() function is used to remove all the elements of the list container, thus making it size 0.
 
@@ -511,6 +542,7 @@ int main()
     return 0; 
 } 
 ```
+    
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
