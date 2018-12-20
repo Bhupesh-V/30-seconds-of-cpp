@@ -416,7 +416,6 @@ The generator function has to be defined by the user, and it is called successiv
 **Example** :
 
 ```cpp
-    **CODE EXAMPLE **
     std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
  
     // Binary function which returns first adjacent element pairs based on certain condition (as third argument) . 
