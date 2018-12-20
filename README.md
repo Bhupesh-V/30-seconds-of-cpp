@@ -69,7 +69,7 @@
 * [`partition_point`](#unary)
 * [`is_sorted`](#unary)
 * [`is_sorted_until`](#unary)
-* [`sort`](#unary)
+* [`sort`](#sort)
 * [`partial_sort`](#unary)
 * [`partial_sort_copy`](#unary)
 * [`stable_sort`](#unary)
@@ -425,6 +425,35 @@ The generator function has to be defined by the user, and it is called successiv
     cout <<"First adjacent element that are equal "<<i<<'\n';
  ```
 
+# Sort
+**Description :**  This function is implemented as Quick-sort. The complexity of it is O(N*log(N)).
+  
+**Example** :
+
+```cpp
+
+using namespace std;   
+void show(int a[]) 
+{ 
+    for(int i = 0; i < 10; ++i) 
+        cout << a[i] << " "; 
+} 
+  
+int main() 
+{ 
+    int a[10]= {1, 5, 8, 9, 6, 7, 3, 4, 2, 0}; 
+    cout << "\n The array before sorting is : "; 
+    show(a); 
+  
+    sort(a, a+10); 
+  
+    cout << "\n\n The array after sorting is : "; 
+    show(a); 
+  
+    return 0; 
+  
+} 
+ ```
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
