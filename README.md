@@ -6,7 +6,7 @@
 ![STL](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/Logo/stl.png)
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-
+[![license](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/LICENSE)
 
 ## Contents
 
@@ -521,23 +521,6 @@ int main()
     else
         cout << "Not Empty\n"; 
   
-    return 0; 
-} 
-```
-# clear-list
-**Description :** clear() function is used to remove all the elements of the list container, thus making it size 0.
-**Example** :
-```cpp
-int main() 
-{ 
-    list<int> mylist{ 1, 2, 3, 4, 5 }; 
-  
-    mylist.clear(); 
-    // List becomes empty 
-  
-    // Printing the list 
-    for (auto it = mylist.begin(); it != mylist.end(); ++it) 
-        cout << ' ' << *it; 
     return 0; 
 } 
 ```
