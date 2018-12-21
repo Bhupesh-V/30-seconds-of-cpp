@@ -391,6 +391,28 @@ The generator function has to be defined by the user, and it is called successiv
     } 
 ```
 
+# back-list
+**Description** : The list::back() function in C++ STL returns a direct reference to the last element in the list container.
+
+**Example**:
+```cpp
+int main() 
+{ 
+    // Initialization of list 
+    list<int> demo_list; 
+  
+    // Adding elements to the list 
+    demo_list.push_back(10); 
+    demo_list.push_back(20); 
+    demo_list.push_back(30); 
+  
+    // prints the last element of demo_list 
+    cout << demo_list.back(); 
+  
+    return 0; 
+} 
+```
+
 # top
 **Description** : top() function is used to reference the top(or the newest) element of the stack.
 
