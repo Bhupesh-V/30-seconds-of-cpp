@@ -333,6 +333,27 @@ The generator function has to be defined by the user, and it is called successiv
         return 0; 
     } 
 ```
+# cend-list
+**Description** : The list::cend() is a built-in function in C++ STL which returns a constant random access iterator which points to the end of the list. 
+
+**Example**:
+```cpp
+int main() 
+{ 
+  
+    // declaration of list 
+    list<int> lis = { 100, 200, 300, 400, 500 }; 
+  
+    // printing list elements 
+    cout << "List: " << endl; 
+  
+    for (auto it = lis.cbegin(); it != lis.cend(); ++it) 
+        cout << *it << " "; 
+  
+    return 0; 
+} 
+```
+
 # end-list
 **Description** : The list::end() is a built-in function in C++ STL which is used to get an iterator to past the last element.
 
@@ -404,6 +425,29 @@ int main()
         mystack.pop(); 
     } 
 ```
+# cbegin
+**Description** :he list::cbegin() is a built-in function in C++ STL which returns a constant random access iterator which points to the beginning of the list. 
+
+**Example**:
+```cpp
+int main() 
+{ 
+    // declaration of list 
+    list<int> lis = { 15, 26, 37, 48, 59 }; 
+  
+    // Prints the first element 
+    cout << "The first element is: " << *lis.cbegin(); 
+  
+    // printing list elements 
+    cout << "\nList: "; 
+  
+    for (auto it = lis.cbegin(); it != lis.end(); ++it) 
+        cout << *it << " "; 
+  
+    return 0; 
+} 
+
+```
 
 # empty
 **Description** : empty() function is used to check if the stack container is empty or not.
@@ -445,7 +489,26 @@ int main()
     return 0; 
 } 
 ```
+# crbegin
+**Description** : The list::crbegin() is a built-in function in c++ STL that returns a constant reverse iterator which points to the last element of the list i.e reversed beginning of container.
 
+**Example**:
+```cpp
+int main() 
+{ 
+    // declaration of the list 
+    list<int> lis = { 109, 207, 305, 403, 501 }; 
+  
+    // prints the last element 
+    cout << "The last element is: " << *lis.crbegin(); 
+    cout << "\nList: "; 
+  
+    for (auto it = lis.crbegin(); it != lis.crend(); ++it) 
+        cout << *it << " "; 
+  
+    return 0; 
+} 
+```
 # swap-list
 **Description** : This function is used to swap the contents of one list with another list of same type and size.
 
@@ -539,6 +602,25 @@ int main()
   
 } 
  ```
+# crend
+**Description :** The list::crend() is a built-in function in C++ STL that returns a constant reverse iterator which points to the theoretical element preceding the first element in the list i.e. the reverse end of the list. 
+
+**Example** :
+```cpp
+int main() 
+{ 
+    // declaration of the list 
+    list<int> lis = { 27, 46, 65, 84, 30, 22 }; 
+  
+    cout << "List: " << endl; 
+  
+    for (auto it = lis.crbegin(); it != lis.crend(); ++it) 
+        cout << *it << " "; 
+  
+    return 0; 
+} 
+```
+
 # binary_search 
 **Description :** Binary search is a widely used searching algorithm that requires the array to be sorted before search is applied. The main idea behind this algorithm is to keep dividing the array in half (divide and conquer) until the element is found, or all the elements are exhausted.
 The prototype for binary search is :
@@ -675,6 +757,23 @@ int main()
     return 0; 
 }
 ```
+# rbegin
+**Description :** list::rbegin() is an inbuilt function in C++ STL that returns a reverse iterator which points to the last element of the list.
+    
+**Example** :
+```cpp
+int main() 
+{ 
+    list<int> lis = { 105, 207, 309, 401, 503 }; 
+  
+    cout << "The list in reverse order: "; 
+  
+    for (auto it = lis.rbegin(); it != lis.rend(); ++it) 
+        cout << *it << " "; 
+  
+    return 0; 
+} 
+```
 # size-list
 **Description :** The list::size() is a built-in function in C++ STL which is used to find the number of elements present in a list container.
     
@@ -699,6 +798,7 @@ int main()
     return 0; 
 } 
 ```
+
 # rend
 **Description :** list::rend() is an inbuilt function in C++ STL that returns a reverse iterator which points to the position before the beginning of the list.
 
@@ -716,6 +816,7 @@ int main()
     return 0; 
 } 
 ```
+
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
