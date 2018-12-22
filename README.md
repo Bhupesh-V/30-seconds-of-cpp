@@ -539,6 +539,25 @@ int main()
   
 } 
  ```
+# crend
+**Description :** The list::crend() is a built-in function in C++ STL that returns a constant reverse iterator which points to the theoretical element preceding the first element in the list i.e. the reverse end of the list. 
+
+**Example** :
+```cpp
+int main() 
+{ 
+    // declaration of the list 
+    list<int> lis = { 27, 46, 65, 84, 30, 22 }; 
+  
+    cout << "List: " << endl; 
+  
+    for (auto it = lis.crbegin(); it != lis.crend(); ++it) 
+        cout << *it << " "; 
+  
+    return 0; 
+} 
+```
+
 # binary_search 
 **Description :** Binary search is a widely used searching algorithm that requires the array to be sorted before search is applied. The main idea behind this algorithm is to keep dividing the array in half (divide and conquer) until the element is found, or all the elements are exhausted.
 The prototype for binary search is :
