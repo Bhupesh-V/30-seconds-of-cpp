@@ -333,6 +333,27 @@ The generator function has to be defined by the user, and it is called successiv
         return 0; 
     } 
 ```
+# cend-list
+**Description** : The list::cend() is a built-in function in C++ STL which returns a constant random access iterator which points to the end of the list. 
+
+**Example**:
+```cpp
+int main() 
+{ 
+  
+    // declaration of list 
+    list<int> lis = { 100, 200, 300, 400, 500 }; 
+  
+    // printing list elements 
+    cout << "List: " << endl; 
+  
+    for (auto it = lis.cbegin(); it != lis.cend(); ++it) 
+        cout << *it << " "; 
+  
+    return 0; 
+} 
+```
+
 # end-list
 **Description** : The list::end() is a built-in function in C++ STL which is used to get an iterator to past the last element.
 
