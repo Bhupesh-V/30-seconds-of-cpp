@@ -694,6 +694,23 @@ int main()
     return 0; 
 }
 ```
+# rbegin
+**Description :** list::rbegin() is an inbuilt function in C++ STL that returns a reverse iterator which points to the last element of the list.
+    
+**Example** :
+```cpp
+int main() 
+{ 
+    list<int> lis = { 105, 207, 309, 401, 503 }; 
+  
+    cout << "The list in reverse order: "; 
+  
+    for (auto it = lis.rbegin(); it != lis.rend(); ++it) 
+        cout << *it << " "; 
+  
+    return 0; 
+} 
+```
 # size-list
 **Description :** The list::size() is a built-in function in C++ STL which is used to find the number of elements present in a list container.
     
@@ -718,6 +735,7 @@ int main()
     return 0; 
 } 
 ```
+
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
