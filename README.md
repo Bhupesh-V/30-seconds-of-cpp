@@ -821,7 +821,36 @@ int main()
     return 0; 
 } 
 ```
+# splice-list
+**Description :** The list::splice() is a built-in function in C++ STL which is used to transfer elements from one list to another
 
+**Example** :
+```cpp
+int main() 
+{ 
+    // initializing lists 
+    list<int> l1 = { 1, 2, 3 }; 
+    list<int> l2 = { 4, 5 }; 
+    list<int> l3 = { 6, 7, 8 }; 
+  
+    // transfer all the elements of l2 
+    l1.splice(l1.begin(), l2); 
+  
+    // at the beginning of l1 
+    cout << "list l1 after splice operation" << endl; 
+    for (auto x : l1) 
+        cout << x << " "; 
+  
+    // transfer all the elements of l1 
+    l3.splice(l3.begin(), l1); 
+  
+    // at the end of l3 
+    cout << "\nlist l3 after splice operation" << endl; 
+    for (auto x : l3) 
+        cout << x << " "; 
+    return 0; 
+} 
+```
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
