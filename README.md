@@ -338,6 +338,22 @@ The generator function has to be defined by the user, and it is called successiv
         return 0; 
     } 
 ```
+# begin-list
+**Description** : begin() function is used to return an iterator pointing to the first element of the list container.
+
+**Example**:
+```cpp
+int main() 
+{ 
+    // declaration of list container 
+    list<int> mylist{ 1, 2, 3, 4, 5 }; 
+  
+    // using begin() to print list 
+    for (auto it = mylist.begin(); it != mylist.end(); ++it) 
+        cout << ' ' << *it; 
+    return 0; 
+} 
+```
 # cend-list
 **Description** : The list::cend() is a built-in function in C++ STL which returns a constant random access iterator which points to the end of the list. 
 
