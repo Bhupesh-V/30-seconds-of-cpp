@@ -802,6 +802,31 @@ int main()
     return 0; 
 } 
 ```
+
+# merge-list
+ **Description :** The list::merge() is an inbuilt function in C++ STL which merges two sorted lists into one. 
+ 
+  **Example** :
+```cpp
+int main() 
+{ 
+    // declaring the lists 
+    // initially sorted 
+    list<int> list1 = { 10, 20, 30 }; 
+    list<int> list2 = { 40, 50, 60 }; 
+  
+    // merge operation 
+    list2.merge(list1); 
+  
+    cout << "List:  "; 
+  
+    for (auto it = list2.begin(); it != list2.end(); ++it) 
+        cout << *it << " "; 
+  
+    return 0; 
+} 
+```
+
 # erase-list
  **Description :** The list::erase() is a built-in function in C++ STL which is used to delete elements from a list container. This function can be used to remove a single element or a range of elements from the specified list container.
  
