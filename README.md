@@ -393,6 +393,25 @@ int main()
 } 
 ```
 
+# clear-list
+**Description** : clear() function is used to remove all the elements of the list container, thus making it size 0.
+
+**Example**:
+```cpp
+int main() 
+{ 
+    list<int> mylist{ 1, 2, 3, 4, 5 }; 
+  
+    mylist.clear(); 
+    // List becomes empty 
+  
+    // Printing the list 
+    for (auto it = mylist.begin(); it != mylist.end(); ++it) 
+        cout << ' ' << *it; 
+    return 0; 
+} 
+
+```
 # push
 **Description** : push() function is used to insert an element at the top of the stack. The element is added to the stack container and the size of the stack is increased by 1.
 
