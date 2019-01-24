@@ -1104,7 +1104,7 @@ body .markdown-body
 <li><a href="#swap"><code>swap</code></a></li>
 <li><a href="#swap_ranges"><code>swap_ranges</code></a></li>
 <li><a href="#iter_swap"><code>iter_swap</code></a></li>
-<li><a href="#unary"><code>reverse</code></a></li>
+<li><a href="#reverse"><code>reverse</code></a></li>
 <li><a href="#unary"><code>reverse_copy</code></a></li>
 <li><a href="#unary"><code>rotate</code></a></li>
 <li><a href="#unary"><code>rotate_copy</code></a></li>
@@ -1442,6 +1442,31 @@ cout &lt;&lt;&quot;First adjacent element that are equal &quot;&lt;&lt;i&lt;&lt;
 
 
 <p>```</p>
+
+<h1 id="reverse">REVERSE<a class="headerlink" href="#reverse" title="Permanent link"></a></h1>
+<p><strong>Description</strong>  It reverses the order of the elements in the range [first, last) of any container.</p>
+<p><strong>Example</strong>:
+  <div class="codehilite"><pre> 
+      
+      <span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span> 
+          <span class="kt">int</span> <span class="n">i</span><span class="p">;</span> 
+          <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">v1;</span><span class="p"></span> 
+
+          <span class="n">v1.push_back(1);</span>
+          <span class="n">v1.push_back(2);</span>
+          <span class="n">v1.push_back(3);</span>
+          <span class="n">v1.push_back(4);</span>
+
+          <span class="n">reverse(v1.begin(),v1.end());</span>
+          
+          <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;::</span><span class="n">iterator</span> <span class="n">i1</span><span class="p">;</span> 
+          <span class="k">for</span> <span class="p">(</span><span class="n">i1</span> <span class="o">=</span> <span class="n">v1</span><span class="p">.</span><span class="n">begin</span><span class="p">();</span> <span class="n">i1</span> <span class="o">!=</span> <span class="n">v1</span><span class="p">.</span><span class="n">end</span><span class="p">();</span> <span class="o">++</span><span class="n">i1</span><span class="p">)</span> <span class="p">{</span> 
+              <span class="n">cout</span> <span class="o">&lt;&lt;</span> <span class="o">*</span><span class="n">i1</span> <span class="o">&lt;&lt;</span> <span class="s">&quot; &quot;</span><span class="p">;</span> 
+          <span class="p">}</span> 
+          <span class="k">return</span> <span class="mi">0</span><span class="p">;</span> 
+      <span class="p">}</span> 
+  </pre></div></p>
+  
 <h3 id="license">License<a class="headerlink" href="#license" title="Permanent link"></a></h3>
 <p>This project is licensed under the MIT License - see the <a href="/home/bhupesh/Documents/30-Seconds-Of-STL/LICENSE">LICENSE.md</a> file for details</p>
 <h3 id="contributing">Contributing<a class="headerlink" href="#contributing" title="Permanent link"></a></h3>
