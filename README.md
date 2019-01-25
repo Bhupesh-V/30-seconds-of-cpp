@@ -59,7 +59,7 @@
 * [`swap`](#swap)
 * [`swap_ranges`](#swap_ranges)
 * [`iter_swap`](#iter_swap)
-* [`reverse`](#unary)
+* [`reverse`](#reverse)
 * [`reverse_copy`](#unary)
 * [`rotate`](#unary)
 * [`rotate_copy`](#unary)
