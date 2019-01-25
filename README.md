@@ -1050,7 +1050,7 @@ int main()
 **Description :** The list::splice() is a built-in function in C++ STL which is used to transfer elements from one list to another
 
 **Example** :
-```cpp
+```cppEverything up-to-date
 int main() 
 { 
     // initializing lists 
@@ -1075,6 +1075,30 @@ int main()
         cout << x << " "; 
     return 0; 
 } 
+```
+
+# reverse
+**Description :**  It reverses the order of the elements in the range [first, last) of any container. 
+
+**Example** :
+```cppEverything up-to-date
+ int main() { 
+          int i; 
+          vector<int> v1; 
+
+          v1.push_back(1);
+          v1.push_back(2);
+          v1.push_back(3);
+          v1.push_back(4);
+
+          reverse(v1.begin(),v1.end());
+
+          vector<int>::iterator i1; 
+          for (i1 = v1.begin(); i1 != v1.end(); ++i1) { 
+              cout << *i1 << " "; 
+          } 
+          return 0; 
+      } 
 ```
 ### License
 
