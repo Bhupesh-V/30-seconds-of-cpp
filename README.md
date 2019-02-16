@@ -15,7 +15,7 @@
 
 ## Contents
 
-### ``<algorithm>``
+### [``<algorithm>``](### <algorithm>) 
 
 <details>  
 <summary>View contents</summary>
@@ -109,7 +109,8 @@
 * [`prev_permutation`](#unary)
 </details>
 
-### ``<stack>``
+### [``<stack>``](### <stack>)
+
 <details>
 <summary>View contents</summary>
 
@@ -122,7 +123,7 @@
 * [`emplace`](#emplace)
 </details>
 
-### ``<list>``
+### [``<list>``](### <list>)
   
 <details>
 <summary>View contents</summary>
@@ -162,7 +163,7 @@
 * [`get_allocator`](#get_allocator)
 </details>
 
-### ``<queue>``
+### [``<queue>``](### <queue>)
   
 <details>
 <summary>View contents</summary>
@@ -179,7 +180,7 @@
 * [`~queue`](#~queue)
 </details>
 
-### ``<vector>``
+### [``<vector>``](### <vector>)
   
 <details>
 <summary>View contents</summary>
@@ -215,6 +216,21 @@
 * [`get_allocator`](#get_allocator-vector)
 * [`shrink_to_fit`](#shrink_to_fit-vector)
 </details>
+
+### <algorithm>
+To learn about <algorithm>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/algorithm.md)
+
+### <stack>
+To learn about <algorithm>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/stack.md)
+
+### <list>
+To learn about <algorithm>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/list.md)
+
+### <queue>
+To learn about <algorithm>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/queue.md)
+
+### <vector>
+To learn about <algorithm>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/vector.md)
 
 
 ### License
