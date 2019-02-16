@@ -15,7 +15,7 @@
 
 ## Contents
 
-### [``<algorithm>``](### <algorithm>) 
+### ``<algorithm>``] 
 
 <details>  
 <summary>View contents</summary>
@@ -109,7 +109,7 @@
 * [`prev_permutation`](#unary)
 </details>
 
-### [``<stack>``](### <stack>)
+### ``<stack>``]
 
 <details>
 <summary>View contents</summary>
@@ -123,7 +123,7 @@
 * [`emplace`](#emplace)
 </details>
 
-### [``<list>``](### <list>)
+### ``<list>``
   
 <details>
 <summary>View contents</summary>
@@ -163,7 +163,7 @@
 * [`get_allocator`](#get_allocator)
 </details>
 
-### [``<queue>``](### <queue>)
+### ``<queue>``]
   
 <details>
 <summary>View contents</summary>
@@ -180,7 +180,7 @@
 * [`~queue`](#~queue)
 </details>
 
-### [``<vector>``](### <vector>)
+### ``<vector>``
   
 <details>
 <summary>View contents</summary>
