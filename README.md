@@ -217,20 +217,22 @@
 * [`shrink_to_fit`](#shrink_to_fit-vector)
 </details>
 
-### <algorithm>
+
+
+### algorithm
 To learn about <algorithm>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/algorithm.md)
 
-### <stack>
-To learn about <algorithm>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/stack.md)
+### stack
+To learn about <stack>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/stack.md)
 
-### <list>
-To learn about <algorithm>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/list.md)
+### list
+To learn about <list>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/list.md)
 
-### <queue>
-To learn about <algorithm>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/queue.md)
+### queue
+To learn about <queue>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/queue.md)
 
-### <vector>
-To learn about <algorithm>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/vector.md)
+### vector
+To learn about <vector>. Go [here](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/vector.md)
 
 
 ### License
