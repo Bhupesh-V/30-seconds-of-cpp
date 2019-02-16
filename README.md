@@ -1,5 +1,5 @@
 # 30-Seconds-Of-STL
-## 30 Seconds Of STL ( Standard Template Library in C++ )
+### 30 Seconds Of Standard Template Library in C++.
 
 <p align="center">
     <a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL">
