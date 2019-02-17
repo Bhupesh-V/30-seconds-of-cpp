@@ -14,6 +14,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![license](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/Bhupesh-V/30-Seconds-Of-STL.svg?branch=master)](https://travis-ci.org/Bhupesh-V/30-Seconds-Of-STL)
+[![CodeFactor](https://www.codefactor.io/repository/github/bhupesh-v/30-seconds-of-stl/badge)](https://www.codefactor.io/repository/github/bhupesh-v/30-seconds-of-stl)
 
 <hr>
 
