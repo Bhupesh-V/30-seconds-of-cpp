@@ -14,6 +14,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![license](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/Bhupesh-V/30-Seconds-Of-STL.svg?branch=master)](https://travis-ci.org/Bhupesh-V/30-Seconds-Of-STL)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBhupesh-V%2F30-Seconds-Of-STL.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FBhupesh-V%2F30-Seconds-Of-STL?ref=badge_shield)
 
 <hr>
 
@@ -52,6 +53,9 @@
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FBhupesh-V%2F30-Seconds-Of-STL.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FBhupesh-V%2F30-Seconds-Of-STL?ref=badge_large)
 
 ### Contributing
 
