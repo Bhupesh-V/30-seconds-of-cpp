@@ -1,5 +1,5 @@
 # 30-Seconds-of-STL
-### 30 Seconds Of Standard Template Library in C++.
+>### 30 Seconds Of Standard Template Library in C++.
 
 <p align="center">
     <a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL">
@@ -21,40 +21,46 @@
 
 ## Contents
 
-<table style="width:100%">
+<table>
   <tr>
     <th>Header File</th>
     <th>Link</th> 
+    <th>Code Directory</th>
   </tr>
   <tr>
     <td>algorithm</td>
       <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/algorithm.md">algorithm.md</a></td> 
+      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/tree/master/algorithm">Sample Codes</a></td>
   </tr>
   <tr>
     <td>vector</td>
       <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/vector.md">vector.md</a></td> 
+      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/tree/master/vector">Sample Codes</a></td>
   </tr>
   <tr>
     <td>list</td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/list.md">list.md</a></td> 
+      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/list.md">list.md</a></td>
+      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/tree/master/list">Sample Codes</a></td>
   </tr>
   <tr>
     <td>queue</td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/queue.md">queue.md</a></td> 
+      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/queue.md">queue.md</a></td>
+      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/tree/master/queue">Sample Codes</a></td>
   </tr>
   <tr>
     <td>stack</td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/stack.md">stack.md</a></td> 
+      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/stack.md">stack.md</a></td>
+      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/tree/master/stack">Sample Codes</a></td>
   </tr>
 </table>
 
 
 
 
-### License
+## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
 
-### Contributing
+## Contributing
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
