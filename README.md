@@ -11,6 +11,7 @@
 <hr>
 
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/72e93df05bce4d7598f222676bfb511c)](https://app.codacy.com/app/Bhupesh-V/30-Seconds-Of-STL?utm_source=github.com&utm_medium=referral&utm_content=Bhupesh-V/30-Seconds-Of-STL&utm_campaign=Badge_Grade_Dashboard)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![license](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/Bhupesh-V/30-Seconds-Of-STL.svg?branch=master)](https://travis-ci.org/Bhupesh-V/30-Seconds-Of-STL)
