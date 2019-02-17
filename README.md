@@ -1,4 +1,4 @@
-# 30-Seconds-Of-STL
+# 30-Seconds-of-STL
 ### 30 Seconds Of Standard Template Library in C++.
 
 <p align="center">
@@ -8,10 +8,14 @@
     <br>
     <strong>A collection of  STL features (functions/libraries) of C++  which can be learned in 30 seconds or less.</strong>
 </p>
+<hr>
 
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![license](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/LICENSE)
+[![Build Status](https://travis-ci.org/Bhupesh-V/30-Seconds-Of-STL.svg?branch=master)](https://travis-ci.org/Bhupesh-V/30-Seconds-Of-STL)
+
+<hr>
 
 ## Contents
 
