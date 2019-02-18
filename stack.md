@@ -2,13 +2,15 @@
 <details>
 <summary>View contents</summary>
 
-* [`push`](#push)
-* [`pop`](#pop)
-* [`top`](#top)
-* [`swize`](#swize)
-* [`swap`](#swap)
-* [`empty`](#empty)
-* [`emplace`](#emplace)
+<ol>
+    <li><a href="#push"><code>push</code></a></li>
+    <li><a href="#pop"><code>pop</code></a></li>
+    <li><a href="#top"><code>top</code></a></li>
+    <li><a href="#swize"><code>swize</code></a></li>
+    <li><a href="#swap"><code>swap</code></a></li>
+    <li><a href="#empty"><code>empty</code></a></li>
+    <li><a href="#emplace"><code>emplace</code></a>
+</ol>
 </details>
 
 # push
