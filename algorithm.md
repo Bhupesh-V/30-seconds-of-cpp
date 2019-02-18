@@ -1,96 +1,96 @@
 # ``<algorithm>``
-
-<details>  
-<summary>View contents</summary>
-
-* [`allof`](#allof)
-* [`anyof`](#anyof)
-* [`noneof`](#noneof)
-* [`for_each`](#for_each)
-* [`for_each_n`](#for_each_n)
-* [`count`](#count)
-* [`count_if`](#count_if)
-* [`mismatch`](#mismatch)
-* [`equal`](#equal)
-* [`find`](#find)
-* [`find_if`](#find_if)
-* [`find_if_not`](#find_if_not)
-* [`find_end`](#find_end)
-* [`find_first_of`](#find_first_of)
-* [`adjacent_find`](#adjacent_find)
-* [`search`](#search)
-* [`search_n`](#search_n)
-* [`copy`](#copy)
-* [`copy_if`](#copy_if)
-* [`copy_n`](#copy_n)
-* [`copy_backward`](#copy_backward)
-* [`move`](#move)
-* [`move_backward`](#move_backward)
-* [`fill`](#fill)
-* [`fill_n`](#fill_n)
-* [`transform`](#transform)
-* [`generate`](#generate)
-* [`generate_n`](#generate_n)
-* [`remove`](#remove)
-* [`remove_if`](#remove_if)
-* [`remove_copy`](#remove_copy)
-* [`remove_copy_if`](#remove_copy_if)
-* [`replace`](#replace)
-* [`replace_if`](#replace_if)
-* [`replace_copy`](#replace_copy)
-* [`replace_copy_if`](#replace_copy_if)
-* [`swap`](#swap)
-* [`swap_ranges`](#swap_ranges)
-* [`iter_swap`](#iter_swap)
-* [`reverse`](#reverse)
-* [`reverse_copy`](#unary)
-* [`rotate`](#unary)
-* [`rotate_copy`](#unary)
-* [`random_shuffle`](#unary)
-* [`shuffle`](#unary)
-* [`unique`](#unary)
-* [`unique_copy`](#unary)
-* [`is_partitioned`](#unary)
-* [`partition`](#unary)
-* [`partition_copy`](#unary)
-* [`stable_partition`](#unary)
-* [`partition_point`](#unary)
-* [`is_sorted`](#unary)
-* [`is_sorted_until`](#unary)
-* [`sort`](#sort)
-* [`partial_sort`](#unary)
-* [`partial_sort_copy`](#unary)
-* [`stable_sort`](#unary)
-* [`nth_element`](#unary)
-* [`lower_bound`](#unary)
-* [`upper_bound`](#unary)
-* [`binary_search`](#binary_search)
-* [`equal_range`](#unary)
-* [`merge`](#unary)
-* [`inplace_merge`](#unary)
-* [`includes`](#unary)
-* [`set_difference`](#unary)
-* [`set_intersection`](#unary)
-* [`set_symmetric_difference`](#unary)
-* [`set_union`](#unary)
-* [`is_heap`](#unary)
-* [`is_heap_until`](#unary)
-* [`make_heap`](#unary)
-* [`push_heap`](#unary)
-* [`pop_heap`](#unary)
-* [`sort_heap`](#unary)
-* [`clamp`](#unary)
-* [`max`](#unary)
-* [`max_element`](#unary)
-* [`min`](#unary)
-* [`min_element`](#unary)
-* [`minimax`](#unary)
-* [`minimax_element`](#unary)
-* [`lexicographical_compare`](#unary)
-* [`is_permutation`](#unary)
-* [`next_permutation`](#unary)
-* [`prev_permutation`](#unary)
+<details>
+<summary>View Contents </summary>
+<ol>
+    <li><a href="#allof"><code>allof</code></a></li>
+    <li><a href="#anyof"><code>anyof</code></a></li>
+    <li><a href="#noneof"><code>noneof</code></a></li>
+    <li><a href="#for_each"><code>for_each</code></a></li>
+    <li><a href="#for_each_n"><code>for_each_n</code></a></li>
+    <li><a href="#count"><code>count</code></a></li>
+    <li><a href="#count_if"><code>count_if</code></a></li>
+    <li><a href="#mismatch"><code>mismatch</code></a></li>
+    <li><a href="#equal"><code>equal</code></a></li>
+    <li><a href="#find"><code>find</code></a></li>
+    <li><a href="#find_if"><code>find_if</code></a></li>
+    <li><a href="#find_if_not"><code>find_if_not</code></a></li>
+    <li><a href="#find_end"><code>find_end</code></a></li>
+    <li><a href="#find_first_of"><code>find_first_of</code></a></li>
+    <li><a href="#adjacent_find"><code>adjacent_find</code></a></li>
+    <li><a href="#search"><code>search</code></a></li>
+    <li><a href="#search_n"><code>search_n</code></a></li>
+    <li><a href="#copy"><code>copy</code></a></li>
+    <li><a href="#copy_if"><code>copy_if</code></a></li>
+    <li><a href="#copy_n"><code>copy_n</code></a></li>
+    <li><a href="#copy_backward"><code>copy_backward</code></a></li>
+    <li><a href="#move"><code>move</code></a></li>
+    <li><a href="#move_backward"><code>move_backward</code></a></li>
+    <li><a href="#fill"><code>fill</code></a></li>
+    <li><a href="#fill_n"><code>fill_n</code></a></li>
+    <li><a href="#transform"><code>transform</code></a></li>
+    <li><a href="#generate"><code>generate</code></a></li>
+    <li><a href="#generate_n"><code>generate_n</code></a></li>
+    <li><a href="#remove"><code>remove</code></a></li>
+    <li><a href="#remove_if"><code>remove_if</code></a></li>
+    <li><a href="#remove_copy"><code>remove_copy</code></a></li>
+    <li><a href="#remove_copy_if"><code>remove_copy_if</code></a></li>
+    <li><a href="#replace"><code>replace</code></a></li>
+    <li><a href="#replace_if"><code>replace_if</code></a></li>
+    <li><a href="#replace_copy"><code>replace_copy</code></a></li>
+    <li><a href="#replace_copy_if"><code>replace_copy_if</code></a></li>
+    <li><a href="#swap"><code>swap</code></a></li>
+    <li><a href="#swap_ranges"><code>swap_ranges</code></a></li>
+    <li><a href="#iter_swap"><code>iter_swap</code></a></li>
+    <li><a href="#reverse"><code>reverse</code></a></li>
+    <li><a href="#unary"><code>reverse_copy</code></a></li>
+    <li><a href="#unary"><code>rotate</code></a></li>
+    <li><a href="#unary"><code>rotate_copy</code></a></li>
+    <li><a href="#unary"><code>random_shuffle</code></a></li>
+    <li><a href="#unary"><code>shuffle</code></a></li>
+    <li><a href="#unary"><code>unique</code></a></li>
+    <li><a href="#unary"><code>unique_copy</code></a></li>
+    <li><a href="#unary"><code>is_partitioned</code></a></li>
+    <li><a href="#unary"><code>partition</code></a></li>
+    <li><a href="#unary"><code>partition_copy</code></a></li>
+    <li><a href="#unary"><code>stable_partition</code></a></li>
+    <li><a href="#unary"><code>partition_point</code></a></li>
+    <li><a href="#unary"><code>is_sorted</code></a></li>
+    <li><a href="#unary"><code>is_sorted_until</code></a></li>
+    <li><a href="#sort"><code>sort</code></a></li>
+    <li><a href="#unary"><code>partial_sort</code></a></li>
+    <li><a href="#unary"><code>partial_sort_copy</code></a></li>
+    <li><a href="#unary"><code>stable_sort</code></a></li>
+    <li><a href="#unary"><code>nth_element</code></a></li>
+    <li><a href="#unary"><code>lower_bound</code></a></li>
+    <li><a href="#unary"><code>upper_bound</code></a></li>
+    <li><a href="#binary_search"><code>binary_search</code></a></li>
+    <li><a href="#unary"><code>equal_range</code></a></li>
+    <li><a href="#unary"><code>merge</code></a></li>
+    <li><a href="#unary"><code>inplace_merge</code></a></li>
+    <li><a href="#unary"><code>includes</code></a></li>
+    <li><a href="#unary"><code>set_difference</code></a></li>
+    <li><a href="#unary"><code>set_intersection</code></a></li>
+    <li><a href="#unary"><code>set_symmetric_difference</code></a></li>
+    <li><a href="#unary"><code>set_union</code></a></li>
+    <li><a href="#unary"><code>is_heap</code></a></li>
+    <li><a href="#unary"><code>is_heap_until</code></a></li>
+    <li><a href="#unary"><code>make_heap</code></a></li>
+    <li><a href="#unary"><code>push_heap</code></a></li>
+    <li><a href="#unary"><code>pop_heap</code></a></li>
+    <li><a href="#unary"><code>sort_heap</code></a></li>
+    <li><a href="#unary"><code>clamp</code></a></li>
+    <li><a href="#unary"><code>max</code></a></li>
+    <li><a href="#unary"><code>max_element</code></a></li>
+    <li><a href="#unary"><code>min</code></a></li>
+    <li><a href="#unary"><code>min_element</code></a></li>
+    <li><a href="#unary"><code>minimax</code></a></li>
+    <li><a href="#unary"><code>minimax_element</code></a></li>
+    <li><a href="#unary"><code>lexicographical_compare</code></a></li>
+    <li><a href="#unary"><code>is_permutation</code></a></li>
+    <li><a href="#unary"><code>next_permutation</code></a></li>
+    <li><a href="#unary"><code>prev_permutation</code></a>
 </details>
+</ol>
 
 
 # count
