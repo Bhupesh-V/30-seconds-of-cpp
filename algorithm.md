@@ -105,7 +105,7 @@
     int num_items1 = count(v.begin(), v.end(), target1);
     cout << "number: " << target1 << " count: " << num_items1 << '\n';
  ```
-
+ **[See Sample Code](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/algorithm/count.cpp)**
 # count_if
 **Description** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to *value*).
 
