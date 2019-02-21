@@ -86,7 +86,7 @@
     // using begin() to print list 
     for (auto it = mylist.begin(); it != mylist.end(); ++it) 
         cout << ' ' << *it; 
-} 
+
 ```
 # cend-list
 **Description** : The list::cend() is a built-in function in C++ STL which returns a constant random access iterator which points to the end of the list. 
@@ -101,7 +101,7 @@
   
     for (auto it = lis.cbegin(); it != lis.cend(); ++it) 
         cout << *it << " "; 
-} 
+
 ```
 
 # end-list
@@ -131,7 +131,7 @@
          itr != demoList.end(); itr++) { 
         cout << *itr << " "; 
     } 
-} 
+
 ```
 
 # clear-list
@@ -148,7 +148,7 @@
     // Printing the list 
     for (auto it = mylist.begin(); it != mylist.end(); ++it) 
         cout << ' ' << *it; 
-} 
+ 
 ```
 
 # cbegin
@@ -167,7 +167,7 @@
   
     for (auto it = lis.cbegin(); it != lis.end(); ++it) 
         cout << *it << " "; 
-} 
+ 
 ```
 
 # front-list
@@ -189,7 +189,7 @@
   
     // Print the first element 
     cout << ele; 
-} 
+ 
 ```
 
 # back-list
@@ -207,7 +207,7 @@
   
     // prints the last element of demo_list 
     cout << demo_list.back(); 
-} 
+
 ```
 # crbegin
 **Description** : The list::crbegin() is a built-in function in c++ STL that returns a constant reverse iterator which points to the last element of the list i.e reversed beginning of container.
@@ -223,7 +223,7 @@
   
     for (auto it = lis.crbegin(); it != lis.crend(); ++it) 
         cout << *it << " "; 
-} 
+
 ```
 # remove
 **Description** :The list::remove() is a built-in function in C++ STL which is used to remove elements from a list container.
@@ -249,14 +249,14 @@
   
     // delete all elements with value 20 
     demoList.remove(20); 
-  
+
     // List after removing elements 
     cout << "\nList after removing elements: "; 
     for (auto itr = demoList.begin(); 
-         itr != demoList.end(); itr++) { 
+        itr != demoList.end(); itr++) { 
         cout << *itr << " "; 
     } 
-} 
+ 
 ```
 
 # swap-list
@@ -303,7 +303,7 @@
     for (int itr : demo_list) { 
         cout << itr << " "; 
     } 
-} 
+
 ```
 
 # crend
@@ -318,7 +318,7 @@
   
     for (auto it = lis.crbegin(); it != lis.crend(); ++it) 
         cout << *it << " "; 
-} 
+
 ```
 
 # sort-list
@@ -336,7 +336,7 @@
     // printing the list after sort 
     for (auto it = mylist.begin(); it != mylist.end(); ++it) 
         cout << ' ' << *it; 
-} 
+
 ```
 
  # empty-list
@@ -384,7 +384,7 @@
   
     for (auto it = list2.begin(); it != list2.end(); ++it) 
         cout << *it << " "; 
-  
+
 ```
 
 # erase-list
@@ -421,10 +421,10 @@
     // first element 
     cout << "\nList after deleting first element:"; 
     for (auto itr = demoList.begin(); 
-         itr != demoList.end(); itr++) { 
+        itr != demoList.end(); itr++) { 
         cout << *itr << " "; 
     } 
-}
+
 ```
 
 # rbegin
@@ -439,7 +439,7 @@
   
     for (auto it = lis.rbegin(); it != lis.rend(); ++it) 
         cout << *it << " "; 
-} 
+
 ```
 
 # size-list
@@ -460,7 +460,7 @@
     int size = demoList.size(); 
   
     cout << "The list contains " << size << " elements"; 
-} 
+
 ```
 
 # resize
@@ -500,7 +500,7 @@
     cout << "\n\nList after third resize: "; 
     for (auto itr = demoList.begin(); itr != demoList.end(); itr++) 
         cout << *itr << " "; 
-  
+
 ```
 
 # rend
