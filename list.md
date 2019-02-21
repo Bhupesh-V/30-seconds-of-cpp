@@ -46,8 +46,6 @@
 
 **Example**:
 ```cpp
-int main() 
-{ 
     // declaring list 
     list<int> list1; 
   
@@ -82,15 +80,12 @@ int main()
 
 **Example**:
 ```cpp
-int main() 
-{ 
     // declaration of list container 
     list<int> mylist{ 1, 2, 3, 4, 5 }; 
   
     // using begin() to print list 
     for (auto it = mylist.begin(); it != mylist.end(); ++it) 
         cout << ' ' << *it; 
-    return 0; 
 } 
 ```
 # cend-list
@@ -98,9 +93,6 @@ int main()
 
 **Example**:
 ```cpp
-int main() 
-{ 
-  
     // declaration of list 
     list<int> lis = { 100, 200, 300, 400, 500 }; 
   
@@ -109,8 +101,6 @@ int main()
   
     for (auto it = lis.cbegin(); it != lis.cend(); ++it) 
         cout << *it << " "; 
-  
-    return 0; 
 } 
 ```
 
@@ -119,8 +109,6 @@ int main()
 
 **Example**:
 ```cpp
-int main() 
-{ 
     // Creating a list 
     list<int> demoList; 
   
@@ -143,8 +131,6 @@ int main()
          itr != demoList.end(); itr++) { 
         cout << *itr << " "; 
     } 
-  
-    return 0; 
 } 
 ```
 
@@ -153,8 +139,7 @@ int main()
 
 **Example**:
 ```cpp
-int main() 
-{ 
+
     list<int> mylist{ 1, 2, 3, 4, 5 }; 
   
     mylist.clear(); 
@@ -163,7 +148,6 @@ int main()
     // Printing the list 
     for (auto it = mylist.begin(); it != mylist.end(); ++it) 
         cout << ' ' << *it; 
-    return 0; 
 } 
 ```
 
@@ -172,8 +156,6 @@ int main()
 
 **Example**:
 ```cpp
-int main() 
-{ 
     // declaration of list 
     list<int> lis = { 15, 26, 37, 48, 59 }; 
   
@@ -185,8 +167,6 @@ int main()
   
     for (auto it = lis.cbegin(); it != lis.end(); ++it) 
         cout << *it << " "; 
-  
-    return 0; 
 } 
 ```
 
@@ -195,8 +175,6 @@ int main()
 
 **Example**:
 ```cpp
-int main() 
-{ 
     // Creating a list 
     list<int> demoList; 
   
@@ -211,8 +189,6 @@ int main()
   
     // Print the first element 
     cout << ele; 
-  
-    return 0; 
 } 
 ```
 
@@ -221,8 +197,6 @@ int main()
 
 **Example**:
 ```cpp
-int main() 
-{ 
     // Initialization of list 
     list<int> demo_list; 
   
@@ -233,8 +207,6 @@ int main()
   
     // prints the last element of demo_list 
     cout << demo_list.back(); 
-  
-    return 0; 
 } 
 ```
 # crbegin
@@ -242,8 +214,6 @@ int main()
 
 **Example**:
 ```cpp
-int main() 
-{ 
     // declaration of the list 
     list<int> lis = { 109, 207, 305, 403, 501 }; 
   
@@ -253,8 +223,6 @@ int main()
   
     for (auto it = lis.crbegin(); it != lis.crend(); ++it) 
         cout << *it << " "; 
-  
-    return 0; 
 } 
 ```
 # remove
@@ -262,8 +230,6 @@ int main()
 
 **Example**:
 ```cpp
-int main() 
-{ 
     // Creating a list 
     list<int> demoList; 
   
@@ -290,8 +256,6 @@ int main()
          itr != demoList.end(); itr++) { 
         cout << *itr << " "; 
     } 
-  
-    return 0; 
 } 
 ```
 
@@ -300,8 +264,6 @@ int main()
 
 **Example**:
 ```cpp
-int main() 
-{ 
     // list container declaration 
     list<int> mylist1{ 1, 2, 3, 4 }; 
     list<int> mylist2{ 3, 5, 7, 9 }; 
@@ -322,8 +284,6 @@ int main()
     for (auto it = mylist2.begin(); 
               it != mylist2.end(); ++it) 
         cout << ' ' << *it; 
-    return 0; 
-} 
 
 ```
 
@@ -332,8 +292,6 @@ int main()
 
 **Example**:
 ```cpp
-int main() 
-{ 
     // Initialization of list 
     list<int> demo_list; 
   
@@ -345,8 +303,6 @@ int main()
     for (int itr : demo_list) { 
         cout << itr << " "; 
     } 
-  
-    return 0; 
 } 
 ```
 
@@ -355,8 +311,6 @@ int main()
 
 **Example** :
 ```cpp
-int main() 
-{ 
     // declaration of the list 
     list<int> lis = { 27, 46, 65, 84, 30, 22 }; 
   
@@ -364,8 +318,6 @@ int main()
   
     for (auto it = lis.crbegin(); it != lis.crend(); ++it) 
         cout << *it << " "; 
-  
-    return 0; 
 } 
 ```
 
@@ -375,7 +327,6 @@ int main()
 **Example** :
 
 ```cpp
- int main() { 
     // list declaration of integer type 
     list<int> mylist{ 1, 5, 3, 2, 4 }; 
   
@@ -385,7 +336,6 @@ int main()
     // printing the list after sort 
     for (auto it = mylist.begin(); it != mylist.end(); ++it) 
         cout << ' ' << *it; 
-    return 0; 
 } 
 ```
 
@@ -394,8 +344,6 @@ int main()
 
 **Example** :
 ```cpp
-int main() 
-{ 
     // Creating a list 
     list<int> demoList; 
   
@@ -416,8 +364,6 @@ int main()
         cout << "Empty List\n"; 
     else
         cout << "Not Empty\n"; 
-  
-    return 0; 
 } 
 ```
 
@@ -426,8 +372,6 @@ int main()
  
   **Example** :
 ```cpp
-int main() 
-{ 
     // declaring the lists 
     // initially sorted 
     list<int> list1 = { 10, 20, 30 }; 
@@ -441,8 +385,6 @@ int main()
     for (auto it = list2.begin(); it != list2.end(); ++it) 
         cout << *it << " "; 
   
-    return 0; 
-} 
 ```
 
 # erase-list
@@ -450,7 +392,6 @@ int main()
  
  **Example** :
 ```cpp
-int main() { 
     // Creating a list 
     list<int> demoList; 
   
@@ -483,8 +424,6 @@ int main() {
          itr != demoList.end(); itr++) { 
         cout << *itr << " "; 
     } 
-  
-    return 0; 
 }
 ```
 
@@ -493,16 +432,13 @@ int main() {
     
 **Example** :
 ```cpp
-int main() 
-{ 
+
     list<int> lis = { 105, 207, 309, 401, 503 }; 
   
     cout << "The list in reverse order: "; 
   
     for (auto it = lis.rbegin(); it != lis.rend(); ++it) 
         cout << *it << " "; 
-  
-    return 0; 
 } 
 ```
 
@@ -511,8 +447,6 @@ int main()
     
 **Example** :
 ```cpp
-int main() 
-{ 
     // Creating a list 
     list<int> demoList; 
   
@@ -526,8 +460,6 @@ int main()
     int size = demoList.size(); 
   
     cout << "The list contains " << size << " elements"; 
-  
-    return 0; 
 } 
 ```
 
@@ -536,8 +468,6 @@ int main()
 
 **Example** :
 ```cpp
-int main() 
-{ 
     // Creating a list 
     list<int> demoList; 
   
@@ -571,8 +501,6 @@ int main()
     for (auto itr = demoList.begin(); itr != demoList.end(); itr++) 
         cout << *itr << " "; 
   
-    return 0; 
-} 
 ```
 
 # rend
@@ -580,8 +508,7 @@ int main()
 
 **Example** :
 ```cpp
-int main() 
-{ 
+
     list<int> lis = { 109, 206, 303, 401, 506 }; 
   
     cout << "The list in reverse order: "; 
@@ -589,17 +516,13 @@ int main()
     for (auto it = lis.rbegin(); it != lis.rend(); ++it) 
         cout << *it << " "; 
   
-    return 0; 
-} 
 ```
 
 # splice-list
 **Description :** The list::splice() is a built-in function in C++ STL which is used to transfer elements from one list to another
 
 **Example** :
-```cppEverything up-to-date
-int main() 
-{ 
+```cpp
     // initializing lists 
     list<int> l1 = { 1, 2, 3 }; 
     list<int> l2 = { 4, 5 }; 
@@ -620,6 +543,5 @@ int main()
     cout << "\nlist l3 after splice operation" << endl; 
     for (auto x : l3) 
         cout << x << " "; 
-    return 0; 
-} 
+
 ```
