@@ -57,6 +57,13 @@
 ## Slack
 Join other C++ enthusiasts in our [Slack](https://join.slack.com/t/30-seconds-of-stl/shared_invite/enQtNTU0MTYxMDk0MzQxLTlhY2Q1MWZmOTM0ODRmOWMwYTllYzVjMzM2ZDk5NjY3MDU2NDljNDlmMDQ5MTMyOGQyOTVlNzEwOTc0MmYwOWY) Community.
 
+## Contributors :purple_heart: :tada:
+| Name          | Profile       |
+| ------------- |:-------------:|
+| TANIYA GUPTA    | [thetaniyagupta](https://github.com/thetaniyagupta) |
+| Codacy Badger    | [codacy-badger](https://github.com/codacy-badger) |
+| Saumya Agnihotri    | [saumyaagnihtori](https://github.com/saumyaagnihtori) |
+| shan7030    | [shan7030](https://github.com/shan7030) |
 
 ## License
 
