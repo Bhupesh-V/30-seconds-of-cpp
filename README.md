@@ -1,4 +1,4 @@
-# 30-Seconds-of-STL
+# 30-Seconds-of-C++
 >### 30 Seconds Of Standard Template Library in C++.
 
 <p align="center">
