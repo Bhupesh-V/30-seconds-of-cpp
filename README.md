@@ -3,7 +3,7 @@
 
 <p align="center">
     <a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL">
-        <img src="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/Logo/stl.png"  height="400" weight = "400"/>
+        <img src="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/logo/stl.png"  height="400" weight = "400"/>
     </a>
     <br>
     <strong>A collection of  STL features (functions/libraries) of C++  which can be learned in 30 seconds or less.</strong>
@@ -14,8 +14,8 @@
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/72e93df05bce4d7598f222676bfb511c)](https://app.codacy.com/app/Bhupesh-V/30-Seconds-Of-STL?utm_source=github.com&utm_medium=referral&utm_content=Bhupesh-V/30-Seconds-Of-STL&utm_campaign=Badge_Grade_Dashboard)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![license](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/Bhupesh-V/30-Seconds-Of-STL.svg?branch=master)](https://travis-ci.org/Bhupesh-V/30-Seconds-Of-STL)
-[![CodeFactor](https://www.codefactor.io/repository/github/bhupesh-v/30-seconds-of-stl/badge)](https://www.codefactor.io/repository/github/bhupesh-v/30-seconds-of-stl)
+[![Build Status](https://travis-ci.org/Bhupesh-V/30-seconds-of-cpp.svg?branch=master)](https://travis-ci.org/Bhupesh-V/30-seconds-of-cpp)
+[![CodeFactor](https://www.codefactor.io/repository/github/bhupesh-v/30-seconds-of-cpp/badge)](https://www.codefactor.io/repository/github/bhupesh-v/30-seconds-of-cpp)
 
 <hr>
 
