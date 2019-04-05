@@ -228,7 +228,7 @@ The generator function has to be defined by the user, and it is called successiv
     // Binary function which returns first adjacent element pairs based on certain condition (as third argument) . 
     // Default condition checks equality.
     auto i  = std::adjacent_find (v.begin(), v.end());
-    cout <<"First adjacent elements that are equal "<< *i <<'\n';
+    cout <<"The first pair of repeated elements are:"<< *i <<'\n';
 ```
 
 # binary_search 
