@@ -127,7 +127,7 @@
 
     int searchme = 4;
     if(find(std::begin(v), std::end(v), searchme) != end(v)){
-        cout <<"\n v conatins 3";
+        cout <<"\n v contains 3";
     }
     else
         cout<<"No match !!";
@@ -228,7 +228,7 @@ The generator function has to be defined by the user, and it is called successiv
     // Binary function which returns first adjacent element pairs based on certain condition (as third argument) . 
     // Default condition checks equality.
     auto i  = std::adjacent_find (v.begin(), v.end());
-    cout <<"First adjacent element that are equal "<<i<<'\n';
+    cout <<"First adjacent elements that are equal "<< *i <<'\n';
 ```
 
 # binary_search 
