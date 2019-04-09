@@ -2,10 +2,11 @@
 >### 30 Seconds Of Standard Template Library in C++.
 
 <p align="center">
-    <a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL">
-        <img src="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/logo/stl.png"  height="400" weight = "400"/>
+    <a href="https://github.com/Bhupesh-V/30-Seconds-of-cpp">
+        <img src="https://github.com/Bhupesh-V/30-Seconds-of-cpp/blob/master/logo/new_logo_2.jpg"  height="400" weight = "400"/>
     </a>
     <br>
+    <hr>
     <strong>A collection of  STL features (functions/libraries) of C++  which can be learned in 30 seconds or less.</strong>
 </p>
 <hr>
@@ -64,6 +65,9 @@ Join other C++ enthusiasts in our [Slack](https://join.slack.com/t/30-seconds-of
 | Codacy Badger    | [codacy-badger](https://github.com/codacy-badger) |
 | Saumya Agnihotri    | [saumyaagnihtori](https://github.com/saumyaagnihtori) |
 | shan7030    | [shan7030](https://github.com/shan7030) |
+
+## Special Mention
+A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo :heart:
 
 ## License
 
