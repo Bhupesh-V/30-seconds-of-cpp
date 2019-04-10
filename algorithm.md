@@ -92,7 +92,22 @@
 </details>
 </ol>
 
-
+# for_each 
+ **Description :**  Applies the given function object f to the result of dereferencing every iterator in the range [first, last), in order.
+ 
+ **Example :**
+  ```cpp
+       class Display{
+        public: 
+            void operator() (int i){ std::cout << i << " "; }
+       };
+       
+      std::vector<int> a{3,2,3,9};
+      // Applying the function object Display to the result of dereferencing a 
+      std::for_each(a.begin(),a.end(), Display); // Will output, 3 2 3 9
+      
+  ```
+    
 # count
 **Description :** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to *value*).
 
