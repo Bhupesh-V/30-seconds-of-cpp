@@ -290,16 +290,11 @@ int main() {
 **Description :**  It reverses the order of the elements in the range [first, last) of any container. 
 
 **Example** :
-```cppEverything up-to-date
+```cpp
  int main() { 
           int i; 
-          vector<int> v1; 
-
-          v1.push_back(1);
-          v1.push_back(2);
-          v1.push_back(3);
-          v1.push_back(4);
-
+          vector<int> v1{1,2,,3,4};
+          
           reverse(v1.begin(),v1.end());
 
           vector<int>::iterator i1; 
