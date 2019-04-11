@@ -92,7 +92,24 @@
 </details>
 </ol>
 
-
+# for_each 
+ **Description :**  Applies the given Function Object f to each element of the container in range [first, last)
+ 
+ **Example :**
+  ```cpp
+       class Display{
+        public: 
+            void operator() (int i){ 
+            std::cout << i << " ";
+            }
+       };
+       
+      std::vector<int> a{3,2,3,9};
+      // Applying the function object Display to each element of a 
+      std::for_each(a.begin(),a.end(), Display); // Will output, 3 2 3 9
+      
+  ```
+    
 # count
 **Description :** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to *value*).
 
@@ -275,16 +292,11 @@ int main() {
 **Description :**  It reverses the order of the elements in the range [first, last) of any container. 
 
 **Example** :
-```cppEverything up-to-date
+```cpp
  int main() { 
           int i; 
-          vector<int> v1; 
-
-          v1.push_back(1);
-          v1.push_back(2);
-          v1.push_back(3);
-          v1.push_back(4);
-
+          vector<int> v1{1,2,,3,4};
+          
           reverse(v1.begin(),v1.end());
 
           vector<int>::iterator i1; 
