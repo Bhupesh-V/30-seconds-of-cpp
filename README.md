@@ -55,8 +55,10 @@
   </tr>
 </table>
 
-## Slack
-Join other C++ enthusiasts in our [Slack](https://join.slack.com/t/30-seconds-of-cpp/shared_invite/enQtNTU0MTYxMDk0MzQxLTlhY2Q1MWZmOTM0ODRmOWMwYTllYzVjMzM2ZDk5NjY3MDU2NDljNDlmMDQ5MTMyOGQyOTVlNzEwOTc0MmYwOWY) Community.
+## Community
+Join other C++ enthusiasts on 
+- [Slack](https://join.slack.com/t/30-seconds-of-cpp/shared_invite/enQtNTU0MTYxMDk0MzQxLTlhY2Q1MWZmOTM0ODRmOWMwYTllYzVjMzM2ZDk5NjY3MDU2NDljNDlmMDQ5MTMyOGQyOTVlNzEwOTc0MmYwOWY).
+- [Discord](https://discord.gg/KAD3JZq)
 
 ## Contributors :purple_heart: :tada:
 | Name          | Profile       |
