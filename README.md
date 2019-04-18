@@ -3,11 +3,11 @@
 
 <p align="center">
     <a href="https://github.com/Bhupesh-V/30-Seconds-of-cpp">
-        <img src="https://github.com/Bhupesh-V/30-Seconds-of-cpp/blob/master/logo/new_logo_2.jpg"  height="400" weight = "400"/>
+        <img src="https://github.com/Bhupesh-V/30-Seconds-of-cpp/blob/master/logo/new_logo_2.jpg" height=auto weight=100%>
     </a>
     <br>
     <hr>
-    <strong>A collection of  STL features (functions/libraries) of C++  which can be learned in 30 seconds or less.</strong>
+    <strong>A collection of STL features (functions/libraries) of C++ which can be learned in 30 seconds or less.</strong>
 </p>
 <hr>
 
