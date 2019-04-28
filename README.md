@@ -26,32 +26,32 @@
   <tr>
     <th>Header File</th>
     <th>Link</th> 
-    <th>Code Directory</th>
+      <th>Project Status</th>
   </tr>
   <tr>
     <td>algorithm</td>
       <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/algorithm.md">algorithm.md</a></td> 
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/tree/master/algorithm">Sample Codes</a></td>
+      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/2">&lt;algorithm&gt;</a></td>
   </tr>
   <tr>
     <td>vector</td>
       <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/vector.md">vector.md</a></td> 
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/tree/master/vector">Sample Codes</a></td>
+      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/4">&lt;vector&gt;</a></td>
   </tr>
   <tr>
     <td>list</td>
       <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/list.md">list.md</a></td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/tree/master/list">Sample Codes</a></td>
+      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/3">&lt;list&gt;</a></td>
   </tr>
   <tr>
     <td>queue</td>
       <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/queue.md">queue.md</a></td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/tree/master/queue">Sample Codes</a></td>
+      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/6">&lt;queue&gt;</a></td>
   </tr>
   <tr>
     <td>stack</td>
       <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/stack.md">stack.md</a></td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/tree/master/stack">Sample Codes</a></td>
+      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/5">&lt;stack&gt;</a></td>
   </tr>
 </table>
 
@@ -70,6 +70,7 @@ Join other C++ enthusiasts on
 | Saumya Agnihotri    | [saumyaagnihtori](https://github.com/saumyaagnihtori) |
 | shan7030    | [shan7030](https://github.com/shan7030) |
 | Sonkeng Maldini |[sdmg15](https://github.com/sdmg15) |
+| Pranav Khurana | [Pranav-Khurana](https://github.com/Pranav-Khurana) |https://github.com/Pranav-Khurana
 
 ## Special Mention
 A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo :heart:
