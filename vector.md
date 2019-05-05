@@ -43,7 +43,7 @@
 **Example** :
 
 ```cpp
-    std::vector<int> v{ 1, 2, 3};
+    std::vector<int> v{ 1, 2, 3 };
     
     // append 4 to the existing vector using emplace_back
     v.emplace_back(4);
