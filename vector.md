@@ -37,4 +37,13 @@
 </ol>
 </details>
 
+# emplace_back
+**Description :**  Constructs a new vector element using the argument value passed, and appends it to the end of the vector.
+  
+**Example** :
 
+```cpp
+    std::vector<int> v{ 1, 2, 3};
+    
+    // append 4 to the existing vector using emplace_back
+    v.emplace_back(4);
