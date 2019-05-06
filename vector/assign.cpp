@@ -8,7 +8,7 @@
 #include <iostream>
 #include <vector>
 
-void print(const std::vector<int> numbers){
+void print(const std::vector<int> & numbers){
     std::cout << "{ ";
 
     for (auto num : numbers){
