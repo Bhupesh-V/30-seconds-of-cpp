@@ -115,7 +115,7 @@
  
  **Example :**
   ```cpp
-       class Display{
+       class {
         public: 
             void operator() (int i){ 
             std::cout << i << " ";
@@ -124,9 +124,10 @@
        
       std::vector<int> a{3,2,3,9};
       // Applying the function object Display to each element of a 
-      std::for_each(a.begin(),a.end(), Display); // Will output, 3 2 3 9
+      std::for_each(a.begin(),a.end(), Display()); // Will output, 3 2 3 9
       
   ```
+  [Run Code](https://rextester.com/GYPZ26028)
     
 # count
 **Description :** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to *value*).
