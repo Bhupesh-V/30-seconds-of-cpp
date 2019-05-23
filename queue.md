@@ -39,6 +39,7 @@
         myqueue.pop(); 
     } 
 ```
+**[Run Code](https://rextester.com/XACN77371)**
 
 # push
 **Description** : push() function is used to insert an element at the back of the queue. The element is added to the queue container and the size of the queue is increased by 1.
@@ -59,3 +60,4 @@
         myqueue.pop(); 
     } 
 ```
+**[Run Code](https://rextester.com/OEC31098)**
