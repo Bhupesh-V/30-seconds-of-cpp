@@ -127,7 +127,7 @@
       std::for_each(a.begin(),a.end(), Display()); // Will output, 3 2 3 9
       
   ```
-  [Run Code](https://rextester.com/GYPZ26028)
+  [Run Code](https://rextester.com/BNHGL9456)
     
 # count
 **Description :** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to *value*).
