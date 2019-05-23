@@ -2,11 +2,11 @@
 ## Welcome :smile:
 ### To start contributing follow below steps :point_down::
 
-1. Star :star: the Repository.
-2. Fork :fork_and_knife: it.
-3. Create Branch with your feature `<feature>`.
-4. Push Changes.
-5. Send Pull Request :smile:.
+1. [Star :star:](https://help.github.com/en/articles/about-stars) the Repository.
+2. [Fork :fork_and_knife:](https://help.github.com/en/articles/fork-a-repo) it.
+3. Create [Branch :herb:](https://help.github.com/en/articles/about-branches) with your feature `<feature>`.
+4. [Push](https://help.github.com/en/articles/pushing-to-a-remote) changes.
+5. Send [Pull Request](https://help.github.com/en/articles/about-pull-requests) :smile:.
 6. Enjoy Contributing :yum:.
 
 For Adding functions in **header.md** files, 
