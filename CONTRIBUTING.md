@@ -1,16 +1,16 @@
 
 ## Welcome :smile:
-### To start contributing follow below steps :point_down::
+### To start contributing, follow these steps :point_down::
 
-1. [Star :star:](https://help.github.com/en/articles/about-stars) the Repository.
-2. [Fork :fork_and_knife:](https://help.github.com/en/articles/fork-a-repo) it.
-3. Create [Branch :herb:](https://help.github.com/en/articles/about-branches) with your feature `<feature>`.
+1. [Star](https://help.github.com/en/articles/about-stars) :star: the Repository.
+2. [Fork](https://help.github.com/en/articles/fork-a-repo) :fork_and_knife: it.
+3. Create [Branch](https://help.github.com/en/articles/about-branches) :herb: with your feature `<feature>`.
 4. [Push](https://help.github.com/en/articles/pushing-to-a-remote) changes.
 5. Send [Pull Request](https://help.github.com/en/articles/about-pull-requests) :smile:.
 6. Enjoy Contributing :yum:.
 
-For Adding functions in **header.md** files, 
-Use the below template (Copy from Raw Format): 
+For adding functions in **header.md** files, 
+use the below template (copy from raw format): 
 
 ```
 # name
@@ -32,7 +32,7 @@ Use the below template (Copy from Raw Format):
 # Style Guide
 Follow this style guide to add sample programs.
 
-1. Naming Style : 
+1. Naming Style: 
     Name your program just the same as listed in the header.md file 
 
 2. Comment Header:Add the following comment header in every program.The comment header should always be at the top of program.
@@ -68,13 +68,13 @@ Follow this style guide to add sample programs.
     galaxy=stars+asteroids          // DO NOT USE THIS FORMAT.
     galaxy = stars + asteroids      // USE THIS FORMAT.
 ```
-7. Always add braces in a for/while loop even its a one liner loop.
+7. Always add braces in a for/while loop even its a one-liner loop.
 ```cpp    
     for(int i=0;i<45;i++)
-        cout<<i<<" ";               //DO NOT DO THIS.
+        cout<<i<<" ";               // DO NOT DO THIS.
     
     for(int i=0;i<45;i++){
-        cout<<i<<" ";               //DO THIS.
+        cout<<i<<" ";               // DO THIS.
     }
 ```
 
