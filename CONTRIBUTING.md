@@ -6,7 +6,7 @@
 2. [Fork](https://help.github.com/en/articles/fork-a-repo) :fork_and_knife: it.
 3. Create [Branch](https://help.github.com/en/articles/about-branches) :herb: with your feature `<feature>`.
 4. [Push](https://help.github.com/en/articles/pushing-to-a-remote) changes.
-5. Send [Pull Request](https://help.github.com/en/articles/about-pull-requests) :smile:.
+5. Submit [Pull Request](https://help.github.com/en/articles/about-pull-requests) :smile:.
 6. Enjoy contributing :yum:.
 
 For adding functions in **header.md** files, 
