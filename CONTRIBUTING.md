@@ -10,7 +10,7 @@
 6. Enjoy contributing :yum:.
 
 For adding functions in **header.md** files, 
-use the below template (copy from raw format): 
+use the following template (copy from raw format): 
 
 ```
 # name
@@ -30,7 +30,7 @@ use the below template (copy from raw format):
 ---
 
 # Style Guide
-Follow this style guide to add sample programs.
+Follow this style guide to add sample programs:
 
 1. Naming Style: 
     Name your program just the same as listed in the header.md file 
@@ -68,7 +68,7 @@ Follow this style guide to add sample programs.
     galaxy=stars+asteroids          // DO NOT USE THIS FORMAT.
     galaxy = stars + asteroids      // USE THIS FORMAT.
 ```
-7. Always add braces in a for/while loop even its a one-liner loop.
+7. Always add braces in a for/while loop, even its a one-liner loop.
 ```cpp    
     for(int i=0;i<45;i++)
         cout<<i<<" ";               // DO NOT DO THIS.
