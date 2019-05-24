@@ -99,3 +99,4 @@ Two variations:
 
 ```
 [See Sample code](vector/erase.cpp)
+[Run Code](https://rextester.com/XWYI46957)
