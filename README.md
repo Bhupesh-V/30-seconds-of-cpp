@@ -1,5 +1,5 @@
 # 30-Seconds-of-C++
->### 30 Seconds Of Standard Template Library in C++.
+>### 30 Seconds Of Standard Template Library in C++
 
 <p align="center">
     <a href="https://github.com/Bhupesh-V/30-Seconds-of-cpp">
@@ -7,7 +7,7 @@
     </a>
     <br>
     <hr>
-    <strong>A collection of STL features (functions/libraries) of C++ which can be learned in 30 seconds or less.</strong>
+    <strong>A collection of C++ STL features (functions/libraries) which can be learned in 30 seconds or less</strong>
 </p>
 <hr>
 
@@ -25,7 +25,7 @@
 <table>
   <tr>
     <th>Header File</th>
-    <th>Link</th> 
+    <th>Document</th> 
       <th>Project Status</th>
   </tr>
   <tr>
@@ -57,7 +57,7 @@
 
 ## Community
 Join other C++ enthusiasts on 
-- [Slack](https://join.slack.com/t/30-seconds-of-cpp/shared_invite/enQtNTU0MTYxMDk0MzQxLTlhY2Q1MWZmOTM0ODRmOWMwYTllYzVjMzM2ZDk5NjY3MDU2NDljNDlmMDQ5MTMyOGQyOTVlNzEwOTc0MmYwOWY).
+- [Slack](https://join.slack.com/t/30-seconds-of-cpp/shared_invite/enQtNTU0MTYxMDk0MzQxLTlhY2Q1MWZmOTM0ODRmOWMwYTllYzVjMzM2ZDk5NjY3MDU2NDljNDlmMDQ5MTMyOGQyOTVlNzEwOTc0MmYwOWY)
 - [Discord](https://discord.gg/KAD3JZq)
 
 ## 30 Seconds of Knowledge
@@ -71,14 +71,16 @@ Join other C++ enthusiasts on
 | shan7030    | [shan7030](https://github.com/shan7030) |
 | Sonkeng Maldini |[sdmg15](https://github.com/sdmg15) |
 | Pranav Khurana | [Pranav-Khurana](https://github.com/Pranav-Khurana) |https://github.com/Pranav-Khurana
+| Rickey Patel | [rickey90](https://github.com/rickey90) |
+| Kyle Johnson | [kydojo](https://github.com/kydojo) |
 
 ## Special Mention
 A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo :heart:
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE) file for details.
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests to us.
