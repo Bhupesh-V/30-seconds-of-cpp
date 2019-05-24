@@ -39,7 +39,7 @@ int main(){
   print(vector1);
 
   // Bonus Example
-  // Remove element with value 'valueToRemove' from vector 'vector1'
+  // Remove element with value 'valueToRemove' from vector 'vector2'
   // Using 'algorithm' C++ STL library to remove a specific value
   int valueToRemove = 7;
   std::vector<int> vector2 = { 5,6,1,7,12,3,7,9,7,2};
