@@ -251,6 +251,7 @@ The generator function has to be defined by the user, and it is called successiv
         return 0; 
     } 
 ```
+**[Run Code](https://rextester.com/PZAMR64880)**
 
 # adjacent_find 
 **Description :**  Binary function which returns first adjacent element pairs based on certain condition (as third argument).  Default condition checks equality.
