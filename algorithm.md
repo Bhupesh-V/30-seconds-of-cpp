@@ -277,8 +277,9 @@ binary_search(startaddress, endaddress, valuetofind)
 **Example** :
 ```cpp
     void show(int a[], int arraysize) { 
-        for (int i = 0; i < arraysize; ++i) 
+        for (int i = 0; i < arraysize; ++i) { 
             cout << a[i] << " "; 
+	}
     } 
   
 int main() { 
@@ -307,6 +308,7 @@ int main() {
     return 0; 
 } 
 ```
+**[Run Code](https://rextester.com/NVMTV62786)**
 
 # reverse
 **Description :**  It reverses the order of the elements in the range [first, last) of any container. 
@@ -315,7 +317,7 @@ int main() {
 ```cpp
  int main() { 
           int i; 
-          vector<int> v1{1,2,,3,4};
+          vector<int> v1{1,2,3,4};
           
           reverse(v1.begin(),v1.end());
 
@@ -326,6 +328,7 @@ int main() {
           return 0; 
       } 
 ```
+**[Run Code](https://rextester.com/NXC57566)**
 
 # sort
 **Description :**  This function is implemented as Quick-sort. The complexity of it is O(N*log(N)).
