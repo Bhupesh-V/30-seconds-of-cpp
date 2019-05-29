@@ -11,8 +11,7 @@
 #include <vector>
 #include<string>
 
-void print(std::string vector_name, const std::vector<int> &vec){
-
+void print(const std::string vector_name, const std::vector<int> &vec){
 	//Function to print the vector name and the vector 
     std::cout << vector_name << "{ ";
 
@@ -28,8 +27,7 @@ void swap_vectors(std::vector<int> &vec1, std::vector<int> &vec2){
 	vec1.swap(vec2); // Can also be vec2.swap(vec1) 
 } 
 
-int main (){
- 	
+int main (){	
  	//Intializing the vectors  
  	std::vector<int> vector1 = {1,2,3};
 	std::vector<int> vector2 = {4,5,6,6};
