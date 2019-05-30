@@ -68,6 +68,7 @@ Two variations:
     // example is now: { 0, 0, 0 }
 ```
 [See Sample code](vector/assign.cpp)
+[Run Code](https://rextester.com/LWBW83885)
 
 # erase
 **Description** : Erases the specified elements from the vector.
