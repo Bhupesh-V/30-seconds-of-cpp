@@ -11,7 +11,7 @@
 #include <vector>
 #include<string>
 
-void print(const std::string vector_name, const std::vector<int> &vec){
+void print(const std::string &vector_name, const std::vector<int> &vec){
 	//Function to print the vector name and the vector 
     std::cout << vector_name << "{ ";
 
