@@ -153,6 +153,7 @@
     int num_items3 = count_if(v.begin(), v.end(), [](int i){return i % 3 == 0;});
     cout << "number divisible by three: " << num_items3 << '\n';
 ```
+  [Run Code](https://rextester.com/ODLVJ96130)
 
 # find
 **Description** : Returns the first element in the range [first, last) that satisfies specific criteria(searches for an element equal to *value*).
