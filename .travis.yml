@@ -1,20 +1,15 @@
 language: cpp
 sudo: required
-dist: Trusty
-matrix:
-  include:
-    # works on Precise and Trusty
-    - os: linux
-      addons:
-        apt:
-          sources:
-            - ubuntu-toolchain-r-test
-          packages:
-            - g++-7
-      env:
-        - MATRIX_EVAL="CC=gcc-7 && CXX=g++-7"
-
-before_install:
-    - eval "${MATRIX_EVAL}"
 script:
-  cd vector && make && cd ../stack &&  make && cd ../queue && make && cd ../list && make && cd ../algorithm && make
+  - sudo unlink /usr/bin/gcc && sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
+  - sudo unlink /usr/bin/g++ && sudo ln -s /usr/bin/g++-5 /usr/bin/g++
+  - gcc --version
+  - cd vector && make && cd ../stack &&  make && cd ../queue && make && cd ../list && make && cd ../algorithm && make
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - gcc-5
+    - g++-5  
