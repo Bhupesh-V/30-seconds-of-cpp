@@ -4,7 +4,7 @@ SRC_FILES:=$(wildcard ${SRC_PATH}/*.cpp)
 SRC_FILES:= $(filter-out ${SRC_PATH}/sample.cpp, $(SRC_FILES))
 SRC_BIN=$(SRC_FILES:${SRC_PATH}/%.cpp=${OUT_PATH}/%)
 
-CXX=g++-7
+CXX=g++
 
 all: $(SRC_BIN)
 
