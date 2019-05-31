@@ -127,7 +127,7 @@
       std::for_each(a.begin(),a.end(), Display()); // Will output, 3 2 3 9
       
   ```
-  [Run Code](https://rextester.com/BNHGL9456)
+**[Run Code](https://rextester.com/BNHGL9456)**
     
 # count
 **Description :** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to *value*).
@@ -153,7 +153,7 @@
     int num_items3 = count_if(v.begin(), v.end(), [](int i){return i % 3 == 0;});
     std::cout << "number divisible by three: " << num_items3 << '\n';
 ```
-  [Run Code](https://rextester.com/ODLVJ96130)
+**[Run Code](https://rextester.com/XYVYW31080)**
 
 # find
 **Description** : Returns the first element in the range [first, last) that satisfies specific criteria(searches for an element equal to *value*).
@@ -169,7 +169,7 @@
     else
         std::cout<<"No match !!";
 ```
-  [Run Code](https://rextester.com/FIVI88863)
+**[Run Code](https://rextester.com/FIVI88863)**
 
 # find_if
 **Description** : Returns the first element in the range [first, last) that satisfies specific criteria(searches for an element for which predicate/condition p returns *true*).
@@ -190,7 +190,7 @@
         return 0;
     }
 ```
-  [Run Code](https://rextester.com/ANC42820)
+**[Run Code](https://rextester.com/ANC42820)**
 
 # find_if_not
 **Description** : Returns the first element in the range [first, last) that satisfies specific criteria(searches for an element for which predicate q returns *false*).
@@ -211,7 +211,7 @@
         return 0;
     }
 ```
-  [Run Code](https://rextester.com/TZCBJG77851)
+**[Run Code](https://rextester.com/TZCBJG77851)**
 
 # find_first_of
 **Description** : Return iterator to the first element in the range [first, last) that is equal to an element from the range [s_first; s_last). If no such element is found, last is returned.(Searches the range [first, last) for any of the elements in the range [s_first, s_last) ).
@@ -230,7 +230,7 @@
                   << std::distance(v.begin(), result) << "\n";
     }
 ```
-  [Run Code](https://rextester.com/YPXP50467)
+**[Run Code](https://rextester.com/YPXP50467)**
 
 # generate
 **Description** : Used to generate numbers based upon a generator function, and then, it assigns those values to the elements in the container in the range [first, last).
