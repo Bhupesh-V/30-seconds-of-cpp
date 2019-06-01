@@ -127,7 +127,7 @@
       std::for_each(a.begin(),a.end(), Display()); // Will output, 3 2 3 9
       
   ```
-  [Run Code](https://rextester.com/BNHGL9456)
+**[Run Code](https://rextester.com/BNHGL9456)**
     
 # count
 **Description :** : Returns the number of elements in the range `[first, last)` satisfying specific criteria(counts the elements that are equal to *value*).
@@ -139,7 +139,7 @@
     // determine how many integers in a std::vector match a target value.
     int target1 = 3;
     int num_items1 = count(v.begin(), v.end(), target1);
-    cout << "number: " << target1 << " count: " << num_items1 << '\n';
+    std::cout << "number: " << target1 << " count: " << num_items1 << '\n';
  ```
  **[See Sample Code](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/algorithm/count.cpp)**
 # count_if
@@ -147,28 +147,29 @@
 
 **Example**:
 ```cpp
-    vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
+    std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
  
     // use a lambda expression to count elements divisible by 3.
     int num_items3 = count_if(v.begin(), v.end(), [](int i){return i % 3 == 0;});
-    cout << "number divisible by three: " << num_items3 << '\n';
+    std::cout << "number divisible by three: " << num_items3 << '\n';
 ```
-  [Run Code](https://rextester.com/ODLVJ96130)
+**[Run Code](https://rextester.com/XYVYW31080)**
 
 # find
 **Description** : Returns the first element in the range [first, last) that satisfies specific criteria(searches for an element equal to *value*).
 
 **Example**:
 ```cpp
-    vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
+    std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
 
     int searchme = 4;
     if(find(std::begin(v), std::end(v), searchme) != end(v)){
-        cout <<"\n v contains 3";
+        std::cout <<"\n v contains 3";
     }
     else
-        cout<<"No match !!";
+        std::cout<<"No match !!";
 ```
+**[Run Code](https://rextester.com/FIVI88863)**
 
 # find_if
 **Description** : Returns the first element in the range [first, last) that satisfies specific criteria(searches for an element for which predicate/condition p returns *true*).
@@ -176,19 +177,20 @@
 **Example**:
 ```cpp
     bool IsOdd (int i) {
-    return ((i%2)==1);
+        return ((i%2)==1);
     }
 
     int main(){
-        vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
+        std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
         if(find_if(std::begin(v), std::end(v),IsOdd) != end(v)){
-            cout <<"\n Odd Value Found";
+            std::cout <<"\n Odd Value Found";
         }
         else
-            cout<<"No match !!";
+            std::cout<<"No match !!";
         return 0;
     }
 ```
+**[Run Code](https://rextester.com/ANC42820)**
 
 # find_if_not
 **Description** : Returns the first element in the range [first, last) that satisfies specific criteria(searches for an element for which predicate q returns *false*).
@@ -200,15 +202,16 @@
     }
 
     int main(){
-        vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
+        std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
         if(find_if_not(std::begin(v), std::end(v),IsOdd) != end(v)){
-            cout <<"\n First Even Value";
+            std::cout <<"\n First Even Value";
         }
         else
-            cout<<"No match !!";
+            std::cout<<"No match !!";
         return 0;
     }
 ```
+**[Run Code](https://rextester.com/TZCBJG77851)**
 
 # find_first_of
 **Description** : Return iterator to the first element in the range [first, last) that is equal to an element from the range [s_first; s_last). If no such element is found, last is returned.(Searches the range [first, last) for any of the elements in the range [s_first, s_last) ).
@@ -227,6 +230,7 @@
                   << std::distance(v.begin(), result) << "\n";
     }
 ```
+**[Run Code](https://rextester.com/YPXP50467)**
 
 # generate
 **Description** : Used to generate numbers based upon a generator function, and then, it assigns those values to the elements in the container in the range [first, last).
