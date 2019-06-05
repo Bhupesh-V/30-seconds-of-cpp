@@ -101,3 +101,18 @@ Two variations:
 ```
 [See Sample code](vector/erase.cpp)
 [Run Code](https://rextester.com/XWYI46957)
+
+# swap
+**Description** : Swaps the contents of two vectors
+
+**Example**:
+```cpp
+ 	//Intializing the vectors  
+ 	std::vector<int> vector1 = {1,2,3};
+	std::vector<int> vector2 = {4,5,6,6};
+
+	vector1.swap(vector2);
+
+```
+[See Sample code](vector/swap.cpp)
+[Run Code](https://rextester.com/PNR78595)
