@@ -360,6 +360,7 @@ int main() {
         return 0; 
 } 
 ```
+**[Run Code](https://rextester.com/JJZQO18587)**
 
 # all_of
 **Description :** This function operates on whole range of array elements and checks for a given property on every element and returns true when each element in range satisfies specified property, else returns false.
