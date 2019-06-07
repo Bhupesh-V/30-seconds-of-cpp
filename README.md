@@ -53,6 +53,11 @@
       <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/stack.md">stack.md</a></td>
       <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/5">&lt;stack&gt;</a></td>
   </tr>
+  <tr>
+    <td>map</td>
+      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/map.md">map.md</a></td>
+      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/7">&lt;map&gt;</a></td>
+  </tr>
 </table>
 
 ## Community
