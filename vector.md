@@ -67,8 +67,8 @@ Two variations:
     example.assign(3, 0);
     // example is now: { 0, 0, 0 }
 ```
-[See Sample code](vector/assign.cpp)
-[Run Code](https://rextester.com/LWBW83885)
+**[See Sample code](vector/assign.cpp)**
+**[Run Code](https://rextester.com/LWBW83885)**
 
 # erase
 **Description** : Erases the specified elements from the vector.
@@ -99,5 +99,21 @@ Two variations:
     vector2.erase( std::remove(vector2.begin(),vector2.end(),valueToRemove),vector2.end());
 
 ```
-[See Sample code](vector/erase.cpp)
-[Run Code](https://rextester.com/XWYI46957)
+**[See Sample code](vector/erase.cpp)**
+**[Run Code](https://rextester.com/XWYI46957)**
+
+# swap
+**Description** : Swaps the contents of two vectors
+
+**Example**:
+```cpp
+    //Intializing the vectors  
+    std::vector<int> vector1 = {1,2,3};
+    std::vector<int> vector2 = {4,5,6,6};
+
+    /Function to swap the vectors
+    vector1.swap(vector2);
+
+```
+**[See Sample code](vector/swap.cpp)**
+**[Run Code](https://rextester.com/PNR78595)**
