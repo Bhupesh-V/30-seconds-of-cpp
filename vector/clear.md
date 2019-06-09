@@ -30,3 +30,4 @@
     // Size of vector is 0
     std::cout << "Vector size: " << myVector.size() << std::endl;
 ```
+**[Run Code](https://rextester.com/IPP45757)**
