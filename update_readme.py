@@ -100,7 +100,7 @@ def get_functions(category):
     titles = []
     for filename in files:
         fullname = os.path.join(category, filename)
-        if (os.path.isfile(fullname)) and fullname.endswith('.md'):
+        if (os.path.isfile(fullname)) and fullname.endswith('.md') and fullname != category + '/README.md':
             title = get_title(fullname)
             titles.append((title, fullname))
     return titles
@@ -128,8 +128,9 @@ def print_file(category_names, count, categories):
 ''')
         # print the list of categories with links
         for category in sorted(category_names):
-            file_.write('* [{0}](#{1})\n'.format(category,
+            file_.write('* [{0}](#{1}) '.format(category,
                                                  category))
+            file_.write(EMOJIS[category] + '\n')
 
         # print the section for each category
         file_.write('''
@@ -138,7 +139,6 @@ def print_file(category_names, count, categories):
 ''')
         for category in sorted(category_names):
             file_.write('### {0} '.format(category.capitalize()))
-            file_.write(EMOJIS[category])
             file_.write('\n')
             file_.write('<details><summary>View contents</summary>\n<ol>\n')
             tils = categories[category]

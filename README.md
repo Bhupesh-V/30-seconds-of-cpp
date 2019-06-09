@@ -24,16 +24,16 @@
 
 ### Header Files
 
-* [algorithm](#algorithm)
-* [list](#list)
-* [map](#map)
-* [queue](#queue)
-* [stack](#stack)
-* [vector](#vector)
+* [algorithm](#algorithm) :sparkles:
+* [list](#list) :page_with_curl:
+* [map](#map) :world_map: 
+* [queue](#queue) :large_blue_circle:
+* [stack](#stack) :books:
+* [vector](#vector) :arrow_upper_right:
 
 ---
 
-### Algorithm :sparkles:
+### Algorithm 
 <details><summary>View contents</summary>
 <ol>
 <li><a href="algorithm/adjacent_find.md"><code>adjacent_find</code></a></li>
@@ -56,7 +56,7 @@
 </ol>
 </details>
 
-### List :page_with_curl:
+### List 
 <details><summary>View contents</summary>
 <ol>
 <li><a href="list/assign.md"><code>assign</code></a></li>
@@ -85,14 +85,14 @@
 </ol>
 </details>
 
-### Map :world_map: 
+### Map 
 <details><summary>View contents</summary>
 <ol>
 
 </ol>
 </details>
 
-### Queue :large_blue_circle:
+### Queue 
 <details><summary>View contents</summary>
 <ol>
 <li><a href="queue/back.md"><code>back</code></a></li>
@@ -107,7 +107,7 @@
 </ol>
 </details>
 
-### Stack :books:
+### Stack 
 <details><summary>View contents</summary>
 <ol>
 <li><a href="stack/empty.md"><code>empty</code></a></li>
@@ -119,7 +119,7 @@
 </ol>
 </details>
 
-### Vector :arrow_upper_right:
+### Vector 
 <details><summary>View contents</summary>
 <ol>
 <li><a href="vector/assign.md"><code>assign</code></a></li>
