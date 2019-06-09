@@ -33,8 +33,7 @@
 
 ---
 
-### Algorithm
-
+### Algorithm :sparkles:
 <details><summary>View contents</summary>
 <ol>
 <li><a href="algorithm/adjacent_find.md"><code>adjacent_find</code></a></li>
@@ -57,8 +56,7 @@
 </ol>
 </details>
 
-### List
-
+### List :page_with_curl:
 <details><summary>View contents</summary>
 <ol>
 <li><a href="list/assign.md"><code>assign</code></a></li>
@@ -87,16 +85,14 @@
 </ol>
 </details>
 
-### Map
-
+### Map :world_map: 
 <details><summary>View contents</summary>
 <ol>
 
 </ol>
 </details>
 
-### Queue
-
+### Queue :large_blue_circle:
 <details><summary>View contents</summary>
 <ol>
 <li><a href="queue/back.md"><code>back</code></a></li>
@@ -111,8 +107,7 @@
 </ol>
 </details>
 
-### Stack
-
+### Stack :books:
 <details><summary>View contents</summary>
 <ol>
 <li><a href="stack/empty.md"><code>empty</code></a></li>
@@ -124,8 +119,7 @@
 </ol>
 </details>
 
-### Vector
-
+### Vector :arrow_upper_right:
 <details><summary>View contents</summary>
 <ol>
 <li><a href="vector/assign.md"><code>assign</code></a></li>

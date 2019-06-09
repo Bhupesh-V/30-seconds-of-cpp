@@ -1,10 +1,21 @@
 #!/usr/bin/env python
+
 ''' Simple script to auto-generate the README.md file for a 30 Seconds of C++ project.
     Apply as a git hook by running the following command in linux:
         cd .git/hooks/ && ln -s ../../createtil.py pre-commit && cd -
 '''
 from __future__ import print_function
 import os
+
+EMOJIS = {
+  "algorithm": ':sparkles:',
+  "stack": ':books:',
+  "queue": ':large_blue_circle:',
+  "map": ':world_map: ',
+  "string": ':red_circle:',
+  "list": ':page_with_curl:',
+  "vector": ':arrow_upper_right:'
+}
 
 HEADER = '''# 30 Seconds of C++
 >### 30 Seconds Of Standard Template Library in C++
@@ -72,22 +83,22 @@ def get_list_of_categories():
     return dirs
 
 
-def get_title(til_file):
+def get_title(function_file):
     ''' Read the file until we hit the first line that starts with a #
     indicating a title in markdown.  We'll use that as the title for this
     entry. '''
-    with open(til_file) as _file:
+    with open(function_file) as _file:
         for line in _file:
             line = line.strip()
             if line.startswith('#'):
                 return line[1:].lstrip()  # text after # and whitespace
 
 
-def get_tils(category):
+def get_functions(category):
     ''' For a given category, get the list of function() titles. '''
-    til_files = [x for x in os.listdir(category)]
+    files = [x for x in os.listdir(category)]
     titles = []
-    for filename in til_files:
+    for filename in files:
         fullname = os.path.join(category, filename)
         if (os.path.isfile(fullname)) and fullname.endswith('.md'):
             title = get_title(fullname)
@@ -99,7 +110,7 @@ def get_category_dict(category_names):
     categories = {}
     count = 0
     for category in category_names:
-        titles = get_tils(category)
+        titles = get_functions(category)
         categories[category] = titles
         count += len(titles)
     return count, categories
@@ -126,7 +137,8 @@ def print_file(category_names, count, categories):
 
 ''')
         for category in sorted(category_names):
-            file_.write('### {0}\n'.format(category.capitalize()))
+            file_.write('### {0} '.format(category.capitalize()))
+            file_.write(EMOJIS[category])
             file_.write('\n')
             file_.write('<details><summary>View contents</summary>\n<ol>\n')
             tils = categories[category]
