@@ -31,6 +31,7 @@
         mystack.pop(); 
     } 
 ```
+**[Run Code](https://rextester.com/JRY48091)**
 
 # pop
 **Description** : pop() function is used to remove an element from the top of the stack(newest element in the stack). The element is removed to the stack container and the size of the stack is decreased by 1.
@@ -50,6 +51,7 @@
         mystack.pop(); 
     } 
 ```
+**[Run Code](https://rextester.com/MIKHGL76695)**
 
 # empty
 **Description** : empty() function is used to check if the stack container is empty or not.
@@ -69,6 +71,7 @@
         mystack.pop(); 
     } 
 ```
+**[Run Code](https://rextester.com/PQL30958)**
 
 # top
 **Description** : top() function is used to reference the top(or the newest) element of the stack.
@@ -88,7 +91,7 @@
         mystack.pop(); 
     } 
 ```
-
+**[Run Code](https://rextester.com/OMMI96105)**
 
 # size
 **Description** : size() function is used to return the size of the satck or the number of elements in the stack.
@@ -108,5 +111,4 @@
 	// Print the size of mystack (5)
 	std::cout << mystack.size();
 ```
-
 **[Run Code](https://rextester.com/OEZV66856)**
