@@ -8,12 +8,12 @@
 4. [Push](https://help.github.com/en/articles/pushing-to-a-remote) changes.
 5. Submit [Pull Request](https://help.github.com/en/articles/about-pull-requests) :smile:.
 6. Make PR(s) in either `snippets` directory or in one of the following :
-   - [algorithm](https://github.com/Bhupesh-V/30-Seconds-of-cpp/algorithm/)
-   - [list](https://github.com/Bhupesh-V/30-Seconds-of-cpp/list/)
-   - [stack](https://github.com/Bhupesh-V/30-Seconds-of-cpp/stack/)
-   - [map](https://github.com/Bhupesh-V/30-Seconds-of-cpp/map/)
-   - [vector](https://github.com/Bhupesh-V/30-Seconds-of-cpp/vector/)
-   - [queue](https://github.com/Bhupesh-V/30-Seconds-of-cpp/queue/)
+   - [algorithm](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/algorithm)
+   - [list](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/list)
+   - [stack](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/stack)
+   - [map](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/map)
+   - [vector](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/vector)
+   - [queue](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/queue)
 7. Enjoy contributing :yum:.
 
 For adding functions in different directories, use the following template (copy from raw format): 
