@@ -35,7 +35,7 @@ For adding functions in different directories, use the following template (copy 
     int num_items1 = count(v.begin(), v.end(), target1);
     cout << "number: " << target1 << " count: " << num_items1 << '\n';
 ```
-**[See Sample code](snippets/vector/example.cpp)**
+**[See Sample code](snippets/vector/example.cpp)**<br>
 **[Run Code](https://rextester.com/ABC)**
 
 ---
