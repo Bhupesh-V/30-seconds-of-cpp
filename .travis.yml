@@ -4,7 +4,7 @@ script:
   - sudo unlink /usr/bin/gcc && sudo ln -s /usr/bin/gcc-5 /usr/bin/gcc
   - sudo unlink /usr/bin/g++ && sudo ln -s /usr/bin/g++-5 /usr/bin/g++
   - gcc --version
-  - cd vector && make && cd ../stack &&  make && cd ../queue && make && cd ../list && make && cd ../algorithm && make
+  - cd snippets/vector && make && cd ../stack &&  make && cd ../queue && make && cd ../list && make && cd ../algorithm && make
 
 addons:
   apt:

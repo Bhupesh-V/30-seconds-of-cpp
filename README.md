@@ -1,4 +1,4 @@
-# 30-Seconds-of-C++
+# 30 Seconds of C++
 >### 30 Seconds Of Standard Template Library in C++
 
 <p align="center">
@@ -20,45 +20,121 @@
 [![Open Source Helpers](https://www.codetriage.com/bhupesh-v/30-seconds-of-cpp/badges/users.svg)](https://www.codetriage.com/bhupesh-v/30-seconds-of-cpp)
 <hr>
 
-## Contents
 
-<table>
-  <tr>
-    <th>Header File</th>
-    <th>Document</th> 
-      <th>Project Status</th>
-  </tr>
-  <tr>
-    <td>algorithm</td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/algorithm.md">algorithm.md</a></td> 
-      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/2">&lt;algorithm&gt;</a></td>
-  </tr>
-  <tr>
-    <td>vector</td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/vector.md">vector.md</a></td> 
-      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/4">&lt;vector&gt;</a></td>
-  </tr>
-  <tr>
-    <td>list</td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/list.md">list.md</a></td>
-      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/3">&lt;list&gt;</a></td>
-  </tr>
-  <tr>
-    <td>queue</td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/queue.md">queue.md</a></td>
-      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/6">&lt;queue&gt;</a></td>
-  </tr>
-  <tr>
-    <td>stack</td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/stack.md">stack.md</a></td>
-      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/5">&lt;stack&gt;</a></td>
-  </tr>
-  <tr>
-    <td>map</td>
-      <td><a href="https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/map.md">map.md</a></td>
-      <td><a href="https://github.com/Bhupesh-V/30-seconds-of-cpp/projects/7">&lt;map&gt;</a></td>
-  </tr>
-</table>
+
+### Header Files
+
+* [algorithm](#algorithm)
+* [list](#list)
+* [map](#map)
+* [queue](#queue)
+* [stack](#stack)
+* [vector](#vector)
+
+---
+
+### Algorithm
+
+<details><summary>View contents</summary>
+<ol>
+<li><a href="algorithm/adjacent_find.md"><code>adjacent_find</code></a></li>
+<li><a href="algorithm/all_of.md"><code>all_of</code></a></li>
+<li><a href="algorithm/any_of.md"><code>any_of</code></a></li>
+<li><a href="algorithm/binary_search.md"><code>binary_search</code></a></li>
+<li><a href="algorithm/count.md"><code>count</code></a></li>
+<li><a href="algorithm/count_if.md"><code>count_if</code></a></li>
+<li><a href="algorithm/find.md"><code>find</code></a></li>
+<li><a href="algorithm/find_first_of.md"><code>find_first_of</code></a></li>
+<li><a href="algorithm/find_if.md"><code>find_if</code></a></li>
+<li><a href="algorithm/find_if_not.md"><code>find_if_not</code></a></li>
+<li><a href="algorithm/for_each.md"><code>for_each</code></a></li>
+<li><a href="algorithm/generate.md"><code>generate</code></a></li>
+<li><a href="algorithm/mismatch.md"><code>mismatch</code></a></li>
+<li><a href="algorithm/none_of.md"><code>none_of</code></a></li>
+<li><a href="algorithm/reverse.md"><code>reverse</code></a></li>
+<li><a href="algorithm/sort.md"><code>sort</code></a></li>
+
+</ol>
+</details>
+
+### List
+
+<details><summary>View contents</summary>
+<ol>
+<li><a href="list/assign.md"><code>assign</code></a></li>
+<li><a href="list/back.md"><code>back</code></a></li>
+<li><a href="list/begin.md"><code>begin</code></a></li>
+<li><a href="list/cbegin.md"><code>cbegin</code></a></li>
+<li><a href="list/cend.md"><code>cend</code></a></li>
+<li><a href="list/clear.md"><code>clear</code></a></li>
+<li><a href="list/crbegin.md"><code>crbegin</code></a></li>
+<li><a href="list/crend.md"><code>crend</code></a></li>
+<li><a href="list/empty.md"><code>empty</code></a></li>
+<li><a href="list/end.md"><code>end</code></a></li>
+<li><a href="list/erase.md"><code>erase</code></a></li>
+<li><a href="list/front.md"><code>front</code></a></li>
+<li><a href="list/insert.md"><code>insert</code></a></li>
+<li><a href="list/merge.md"><code>merge</code></a></li>
+<li><a href="list/rbegin.md"><code>rbegin</code></a></li>
+<li><a href="list/remove.md"><code>remove</code></a></li>
+<li><a href="list/rend.md"><code>rend</code></a></li>
+<li><a href="list/resize.md"><code>resize</code></a></li>
+<li><a href="list/size.md"><code>size</code></a></li>
+<li><a href="list/sort.md"><code>sort</code></a></li>
+<li><a href="list/splice.md"><code>splice</code></a></li>
+<li><a href="list/swap.md"><code>swap</code></a></li>
+
+</ol>
+</details>
+
+### Map
+
+<details><summary>View contents</summary>
+<ol>
+
+</ol>
+</details>
+
+### Queue
+
+<details><summary>View contents</summary>
+<ol>
+<li><a href="queue/back.md"><code>back</code></a></li>
+<li><a href="queue/emplace.md"><code>emplace</code></a></li>
+<li><a href="queue/empty.md"><code>empty</code></a></li>
+<li><a href="queue/front.md"><code>front</code></a></li>
+<li><a href="queue/pop.md"><code>pop</code></a></li>
+<li><a href="queue/push.md"><code>push</code></a></li>
+<li><a href="queue/size.md"><code>size</code></a></li>
+<li><a href="queue/swap.md"><code>swap</code></a></li>
+
+</ol>
+</details>
+
+### Stack
+
+<details><summary>View contents</summary>
+<ol>
+<li><a href="stack/empty.md"><code>empty</code></a></li>
+<li><a href="stack/pop.md"><code>pop</code></a></li>
+<li><a href="stack/push.md"><code>push</code></a></li>
+<li><a href="stack/size.md"><code>size</code></a></li>
+<li><a href="stack/top.md"><code>top</code></a></li>
+
+</ol>
+</details>
+
+### Vector
+
+<details><summary>View contents</summary>
+<ol>
+<li><a href="vector/assign.md"><code>assign</code></a></li>
+<li><a href="vector/clear.md"><code>clear</code></a></li>
+<li><a href="vector/erase.md"><code>erase</code></a></li>
+<li><a href="vector/swap.md"><code>swap</code></a></li>
+
+</ol>
+</details>
 
 ## Community
 Join other C++ enthusiasts on 
@@ -90,4 +166,5 @@ This project is licensed under the MIT License. See the [LICENSE.md](LICENSE) fi
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests to us.
+Please read the *updated* [CONTRIBUTING.md](CONTRIBUTING.md) for the process for submitting pull requests to us.
+

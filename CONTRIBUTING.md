@@ -7,25 +7,36 @@
 3. Create [Branch](https://help.github.com/en/articles/about-branches) :herb: with your feature `<feature>`.
 4. [Push](https://help.github.com/en/articles/pushing-to-a-remote) changes.
 5. Submit [Pull Request](https://help.github.com/en/articles/about-pull-requests) :smile:.
-6. Enjoy contributing :yum:.
+6. Make PR(s) in either `snippets` directory or in one of the following :
+   - [algorithm](https://github.com/Bhupesh-V/30-Seconds-of-cpp/algorithm/)
+   - [list](https://github.com/Bhupesh-V/30-Seconds-of-cpp/list/)
+   - [stack](https://github.com/Bhupesh-V/30-Seconds-of-cpp/stack/)
+   - [map](https://github.com/Bhupesh-V/30-Seconds-of-cpp/map/)
+   - [vector](https://github.com/Bhupesh-V/30-Seconds-of-cpp/vector/)
+   - [queue](https://github.com/Bhupesh-V/30-Seconds-of-cpp/queue/)
+7. Enjoy contributing :yum:.
 
-For adding functions in **header.md** files, 
-use the following template (copy from raw format): 
+For adding functions in different directories, use the following template (copy from raw format): 
 
-```
+
+---
 # name
+
 **Description :**  < description >.
   
 **Example** :
 
 ```cpp
+    // YOUR CODE
     std::vector<int> v{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
  
     // determine how many integers in a std::vector match a target value.
     int target1 = 3;
     int num_items1 = count(v.begin(), v.end(), target1);
     cout << "number: " << target1 << " count: " << num_items1 << '\n';
- ```
+```
+**[See Sample code](snippets/vector/example.cpp)**
+**[Run Code](https://rextester.com/ABC)**
 
 ---
 
@@ -33,9 +44,10 @@ use the following template (copy from raw format):
 Follow this style guide to add sample programs:
 
 1. Naming Style: 
-    Name your program just the same as listed in the header.md file 
+   For example if you are demonstrating `erase` in `list` name your file **`erase.md`** and save it in the `list` directory.
 
-2. Comment Header:Add the following comment header in every program.The comment header should always be at the top of program.
+2. For adding Code Snippets in the [`snippets`](https://github.com/Bhupesh-V/30-Seconds-of-cpp/snippets/) directory.
+   Add the following comment header in every program. The comment header should always be at the top of program.
 ```cpp
 /*
     Author : this must be your name ;)
@@ -57,7 +69,8 @@ Follow this style guide to add sample programs:
                             // DO THIS.
     }
 ```
-4. Use **1 Tab** or **4 Spaces**. Be consistent with whatever you choose
+4. Indentation
+    Use **1 Tab** or **4 Spaces**. Be consistent with whatever you choose
     Use only one indenting format for the whole program.
 
 5. Add appropriate comments wherever necessary to explain the code.
@@ -68,7 +81,7 @@ Follow this style guide to add sample programs:
     galaxy=stars+asteroids          // DO NOT USE THIS FORMAT.
     galaxy = stars + asteroids      // USE THIS FORMAT.
 ```
-7. Always add braces in a for/while loop, even its a one-liner loop.
+7. Always add braces in a for/while loop, even if it's a one-liner.
 ```cpp    
     for(int i=0;i<45;i++)
         cout<<i<<" ";               // DO NOT DO THIS.
