@@ -47,6 +47,7 @@
 <li><a href="algorithm/find_if.md"><code>find_if</code></a></li>
 <li><a href="algorithm/find_if_not.md"><code>find_if_not</code></a></li>
 <li><a href="algorithm/for_each.md"><code>for_each</code></a></li>
+<li><a href="algorithm/for_each_n.md"><code>for_each_n</code></a></li>
 <li><a href="algorithm/generate.md"><code>generate</code></a></li>
 <li><a href="algorithm/mismatch.md"><code>mismatch</code></a></li>
 <li><a href="algorithm/none_of.md"><code>none_of</code></a></li>
