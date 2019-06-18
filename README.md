@@ -131,12 +131,12 @@
 </ol>
 </details>
 
-## Community
+## :speaking_head: Community
 Join other C++ enthusiasts on 
 - [Slack](https://join.slack.com/t/30-seconds-of-cpp/shared_invite/enQtNTU0MTYxMDk0MzQxLTlhY2Q1MWZmOTM0ODRmOWMwYTllYzVjMzM2ZDk5NjY3MDU2NDljNDlmMDQ5MTMyOGQyOTVlNzEwOTc0MmYwOWY)
 - [Discord](https://discord.gg/KAD3JZq)
 
-## 30 Seconds of Knowledge
+## :globe_with_meridians: 30 Seconds of Knowledge
 > Experience *30 Seconds of C++* as a [Web Extension](https://chrome.google.com/webstore/detail/30-seconds-of-knowledge/mmgplondnjekobonklacmemikcnhklla?hl=en) built by [Stefan Petrovic](https://github.com/petrovicstefanrs)
 
 ## Contributors :purple_heart: :tada:
@@ -152,14 +152,22 @@ Join other C++ enthusiasts on
 | Timothy Itodo | [itodotimothy6](https://github.com/itodotimothy6) |
 | Pankaj Raghav | [Panky-codes](https://github.com/Panky-codes) |
 
+## Author
+
+:bust_in_silhouette: **Bhupesh Varshney**
+
+- Twitter: [@bhupeshimself](https://twitter.com/bhupeshimself)
+- Github: [@Bhupesh-V](https://github.com/Bhupesh-V)
+
 ## Special Mention
+
 A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo :heart:
 
-## License
+## :memo: License
 
 This project is licensed under the MIT License. See the [LICENSE.md](LICENSE) file for details.
 
-## Contributing
+## :wave: Contributing
 
 Please read the *updated* [CONTRIBUTING.md](CONTRIBUTING.md) for the process for submitting pull requests to us.
 
