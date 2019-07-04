@@ -3,7 +3,7 @@
 
 <p align="center">
     <a href="https://github.com/Bhupesh-V/30-Seconds-of-cpp">
-        <img src="https://raw.githubusercontent.com/Bhupesh-V/30-seconds-of-cpp/master/logo/new_logo_2.jpg" height=auto weight=100%>
+        <img src="https://github.com/Bhupesh-V/30-seconds-of-cpp/blob/gh-pages/logo/new_logo_2.jpg" height=auto weight=100%>
     </a>
     <br>
     <hr>
