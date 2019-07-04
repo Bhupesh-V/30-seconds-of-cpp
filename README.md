@@ -3,7 +3,7 @@
 
 <p align="center">
     <a href="https://github.com/Bhupesh-V/30-Seconds-of-cpp">
-        <img src="https://raw.githubusercontent.com/Bhupesh-V/30-seconds-of-cpp/gh-pages/logo/new_logo_2.jpg" height=auto weight=100%>
+        <img src="https://raw.githubusercontent.com/Bhupesh-V/30-seconds-of-cpp/master/logo/new_logo_2.jpg" height=auto weight=100%>
     </a>
     <br>
     <hr>
@@ -140,17 +140,52 @@ Join other C++ enthusiasts on
 > Experience *30 Seconds of C++* as a [Web Extension](https://chrome.google.com/webstore/detail/30-seconds-of-knowledge/mmgplondnjekobonklacmemikcnhklla?hl=en) built by [Stefan Petrovic](https://github.com/petrovicstefanrs)
 
 ## Contributors 💜
-| Name          | Profile       |
-| ------------- |---------------|
-| TANIYA GUPTA    | [thetaniyagupta](https://github.com/thetaniyagupta) |
-| Saumya Agnihotri    | [saumyaagnihtori](https://github.com/saumyaagnihtori) |
-| shan7030    | [shan7030](https://github.com/shan7030) |
-| Sonkeng Maldini |[sdmg15](https://github.com/sdmg15) |
-| Pranav Khurana | [Pranav-Khurana](https://github.com/Pranav-Khurana) |
-| Rickey Patel | [rickey90](https://github.com/rickey90) |
-| Kyle Johnson | [kydojo](https://github.com/kydojo) |
-| Timothy Itodo | [itodotimothy6](https://github.com/itodotimothy6) |
-| Pankaj Raghav | [Panky-codes](https://github.com/Panky-codes) |
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th align="center">Profile</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TANIYA GUPTA</td>
+<td align="center"><a href="https://github.com/thetaniyagupta">thetaniyagupta</a></td>
+</tr>
+<tr>
+<td>Saumya Agnihotri</td>
+<td align="center"><a href="https://github.com/saumyaagnihtori">saumyaagnihtori</a></td>
+</tr>
+<tr>
+<td>shan7030</td>
+<td align="center"><a href="https://github.com/shan7030">shan7030</a></td>
+</tr>
+<tr>
+<td>Sonkeng Maldini</td>
+<td align="center"><a href="https://github.com/sdmg15">sdmg15</a></td>
+</tr>
+<tr>
+<td>Pranav Khurana</td>
+<td align="center"><a href="https://github.com/Pranav-Khurana">Pranav-Khurana</a></td>
+</tr>
+<tr>
+<td>Rickey Patel</td>
+<td align="center"><a href="https://github.com/rickey90">rickey90</a></td>
+</tr>
+<tr>
+<td>Kyle Johnson</td>
+<td align="center"><a href="https://github.com/kydojo">kydojo</a></td>
+</tr>
+<tr>
+<td>Timothy Itodo</td>
+<td align="center"><a href="https://github.com/itodotimothy6">itodotimothy6</a></td>
+</tr>
+<tr>
+<td>Pankaj Raghav</td>
+<td align="center"><a href="https://github.com/Panky-codes">Panky-codes</a></td>
+</tr>
+</tbody>
+</table>
 
 ## Author
 
