@@ -3,7 +3,7 @@
 
 <p align="center">
     <a href="https://github.com/Bhupesh-V/30-Seconds-of-cpp">
-        <img src="https://github.com/Bhupesh-V/30-Seconds-of-cpp/blob/master/logo/new_logo_2.jpg" height=auto weight=100%>
+        <img src="https://raw.githubusercontent.com/Bhupesh-V/30-seconds-of-cpp/gh-pages/logo/new_logo_2.jpg" height=auto weight=100%>
     </a>
     <br>
     <hr>
@@ -24,12 +24,12 @@
 
 ### Header Files
 
-* [algorithm](#algorithm) :sparkles:
-* [list](#list) :page_with_curl:
-* [map](#map) :world_map: 
-* [queue](#queue) :large_blue_circle:
-* [stack](#stack) :books:
-* [vector](#vector) :arrow_upper_right:
+* [algorithm](#algorithm) ✨
+* [list](#list) 📃
+* [map](#map) 🗺 
+* [queue](#queue) 🔵
+* [stack](#stack) 📚
+* [vector](#vector) 🔄
 
 ---
 
@@ -131,17 +131,17 @@
 </ol>
 </details>
 
-## :speaking_head: Community
+## 🗣 Community
 Join other C++ enthusiasts on 
 - [Slack](https://join.slack.com/t/30-seconds-of-cpp/shared_invite/enQtNTU0MTYxMDk0MzQxLTlhY2Q1MWZmOTM0ODRmOWMwYTllYzVjMzM2ZDk5NjY3MDU2NDljNDlmMDQ5MTMyOGQyOTVlNzEwOTc0MmYwOWY)
 - [Discord](https://discord.gg/KAD3JZq)
 
-## :globe_with_meridians: 30 Seconds of Knowledge
+## 🌐 30 Seconds of Knowledge
 > Experience *30 Seconds of C++* as a [Web Extension](https://chrome.google.com/webstore/detail/30-seconds-of-knowledge/mmgplondnjekobonklacmemikcnhklla?hl=en) built by [Stefan Petrovic](https://github.com/petrovicstefanrs)
 
-## Contributors :purple_heart: :tada:
+## Contributors 💜
 | Name          | Profile       |
-| ------------- |:-------------:|
+| ------------- |---------------|
 | TANIYA GUPTA    | [thetaniyagupta](https://github.com/thetaniyagupta) |
 | Saumya Agnihotri    | [saumyaagnihtori](https://github.com/saumyaagnihtori) |
 | shan7030    | [shan7030](https://github.com/shan7030) |
@@ -154,20 +154,20 @@ Join other C++ enthusiasts on
 
 ## Author
 
-:bust_in_silhouette: **Bhupesh Varshney**
+👥 **Bhupesh Varshney**
 
 - Twitter: [@bhupeshimself](https://twitter.com/bhupeshimself)
 - Github: [@Bhupesh-V](https://github.com/Bhupesh-V)
 
 ## Special Mention
 
-A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo :heart:
+A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo 💙
 
-## :memo: License
+## 📝License
 
 This project is licensed under the MIT License. See the [LICENSE.md](LICENSE) file for details.
 
-## :wave: Contributing
+## 👋 Contributing
 
 Please read the *updated* [CONTRIBUTING.md](CONTRIBUTING.md) for the process for submitting pull requests to us.
 
