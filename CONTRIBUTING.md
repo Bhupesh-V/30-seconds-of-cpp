@@ -14,7 +14,10 @@
    - [map](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/map)
    - [vector](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/vector)
    - [queue](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/queue)
-7. Enjoy contributing :yum:.
+7. If you are feeling confused on what to contribute, head over to [Projects](https://github.com/Bhupesh-V/30-seconds-of-cpp/projects), select the directory you want to contribute to for e.g choose `<algorithm>` & from the **Algorithms To Implement** column select any one method.You can either submit a small C++ code snippet demonstrating the same in the `snippets` directory or submit a overview of the choosen method in `<name_of_directory>` see for example [all_of.md](https://github.com/Bhupesh-V/30-seconds-of-cpp/blob/master/algorithm/all_of.md).
+8. Always follow the style guide(see below).
+9. Enjoy contributing :yum:.
+10. If you have any doubts, open a [issue](https://github.com/Bhupesh-V/30-seconds-of-cpp/issues/new). 
 
 For adding functions in different directories, use the following template (copy from raw format): 
 
@@ -69,7 +72,7 @@ Follow this style guide to add sample programs:
                             // DO THIS.
     }
 ```
-4. Indentation
+4. Indentation : 
     Use **1 Tab** or **4 Spaces**. Be consistent with whatever you choose
     Use only one indenting format for the whole program.
 
@@ -90,5 +93,5 @@ Follow this style guide to add sample programs:
         cout<<i<<" ";               // DO THIS.
     }
 ```
-
+8. When submitting markdown files of methods in different directories, name your file exactly as the function/method name. For example `push_back.md`, `swap.md` etc.
 
