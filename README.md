@@ -89,6 +89,10 @@
 ### Map 
 <details><summary>View contents</summary>
 <ol>
+<li><a href="map/begin.md"><code>begin</code></a></li>
+<li><a href="map/cbegin.md"><code>cbegin</code></a></li>
+<li><a href="map/cend.md"><code>cend</code></a></li>
+<li><a href="map/end.md"><code>end</code></a></li>
 
 </ol>
 </details>
