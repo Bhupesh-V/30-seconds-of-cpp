@@ -93,6 +93,7 @@
 <li><a href="map/cbegin.md"><code>cbegin</code></a></li>
 <li><a href="map/cend.md"><code>cend</code></a></li>
 <li><a href="map/end.md"><code>end</code></a></li>
+<li><a href="map/rbegin.md"><code>rbegin</code></a></li>
 
 </ol>
 </details>
