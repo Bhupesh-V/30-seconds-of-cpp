@@ -21,8 +21,8 @@
   
     // check again if vector is empty 
     if (example.empty()) 
-        cout << "Empty Vector\n"; 
+        std::cout << "Empty Vector\n"; 
     else
-        cout << "Not Empty\n"; 
+        std::cout << "Not Empty\n"; 
          
 ```
