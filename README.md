@@ -132,6 +132,7 @@
 <li><a href="vector/clear.md"><code>clear</code></a></li>
 <li><a href="vector/erase.md"><code>erase</code></a></li>
 <li><a href="vector/push_back.md"><code>push_back</code></a></li>
+<li><a href="vector/size.md"><code>size</code></a></li>
 <li><a href="vector/swap.md"><code>swap</code></a></li>
 
 </ol>
