@@ -15,8 +15,9 @@
     for (int i = 0; i < 5; i++)
     {
 	    std::cout << myVector.at(i) << " ";
-	}
+    }
 
 ```
-**[See Sample code](../snippets/vector/push_back.cpp)**
+**[See Sample code](../snippets/vector/at.cpp)**
+
 **[Run Code](https://rextester.com/ZGMP1944)**
