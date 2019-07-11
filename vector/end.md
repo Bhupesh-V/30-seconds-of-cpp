@@ -3,8 +3,6 @@
 **Description** : 
 - Returns an iterator referring to the past-the-end (next to last element) element in the vector container.
 
-				
-
 **Example**:
 ```cpp
 	// Iterate over myVector using iterators
