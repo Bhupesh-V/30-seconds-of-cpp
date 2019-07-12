@@ -129,8 +129,13 @@
 <details><summary>View contents</summary>
 <ol>
 <li><a href="vector/assign.md"><code>assign</code></a></li>
+<li><a href="vector/at.md"><code>at</code></a></li>
+<li><a href="vector/begin.md"><code>begin</code></a></li>
 <li><a href="vector/clear.md"><code>clear</code></a></li>
+<li><a href="vector/empty.md"><code>empty</code></a></li>
+<li><a href="vector/end.md"><code>end</code></a></li>
 <li><a href="vector/erase.md"><code>erase</code></a></li>
+<li><a href="vector/front.md"><code>front</code></a></li>
 <li><a href="vector/push_back.md"><code>push_back</code></a></li>
 <li><a href="vector/size.md"><code>size</code></a></li>
 <li><a href="vector/swap.md"><code>swap</code></a></li>
