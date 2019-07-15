@@ -14,7 +14,9 @@ EMOJIS = {
   "map": ':world_map: ',
   "string": ':red_circle:',
   "list": ':page_with_curl:',
-  "vector": ':arrow_upper_right:'
+  "vector": ':arrow_upper_right:',
+  "implemented":':heavy_check_mark:',
+  "not_implemented":':x:'
 }
 
 HEADER = '''# 30 Seconds of C++
@@ -156,6 +158,23 @@ def print_file(category_names, count, categories):
 
         file_.write(FOOTER)
 
+def print_subfile(category):
+    ''' Print out the correct information to the README inside of a category'''
+    not_implemented_functions = []
+    implemented_functions = map(lambda entry: entry[0], get_functions(category))
+    with open(category + '/todo.txt', 'r') as file_:
+        lines = file_.readlines()
+    with open(category + '/todo.txt', 'w') as file_:
+        for function in lines:
+            if function.strip('\n') not in implemented_functions:
+                not_implemented_functions.append(function.strip('\n'))
+                file_.write(function)
+    with open(category + '/README.md', 'w') as file_:
+        file_.write('# `<{0}>`\n'.format(category))
+        for function in sorted(implemented_functions):
+            file_.write('{0} [{1}]({2})  \n'.format(EMOJIS["implemented"],function, function+'.md'))
+        for function in sorted(not_implemented_functions):
+            file_.write('{0} {1}  \n'.format(EMOJIS["not_implemented"],function))
 
 def create_readme():
     ''' Create a 30C++ README.md file with a nice index for using it directly
@@ -164,6 +183,13 @@ def create_readme():
     count, categories = get_category_dict(category_names)
     print_file(category_names, count, categories)
 
+def create_subreadmes():
+    ''' Create all 30C++ README.md files for all subcategories '''
+    category_names = get_list_of_categories()
+    for category in category_names:
+        print_subfile(category)
+
 if __name__ == '__main__':
     create_readme()
+    create_subreadmes()
     os.system('git add README.md')
