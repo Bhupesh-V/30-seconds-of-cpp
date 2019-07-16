@@ -1,19 +1,11 @@
-# All Functions
-
-### ``<queue>``
-  
-<details>
-<summary>View contents</summary>
-<ol>
-    <li><a href="#pop"><code>pop</code></a></li>
-    <li><a href="#back"><code>back</code></a></li>
-    <li><a href="#push"><code>push</code></a></li>
-    <li><a href="#size"><code>size</code></a></li>
-    <li><a href="#swap"><code>swap</code></a></li>
-    <li><a href="#empty"><code>empty</code></a></li>
-    <li><a href="#front"><code>front</code></a></li>
-    <li><a href="#emplace"><code>emplace</code></a></li>
-    <li><a href="#queue"><code>queue</code></a></li>
-    <li><a href="#~queue"><code>~queue</code></a>
-</ol>
-</details>
+# `<queue>`
+:heavy_check_mark: [back](back.md)  
+:heavy_check_mark: [emplace](emplace.md)  
+:heavy_check_mark: [empty](empty.md)  
+:heavy_check_mark: [front](front.md)  
+:heavy_check_mark: [pop](pop.md)  
+:heavy_check_mark: [push](push.md)  
+:heavy_check_mark: [size](size.md)  
+:heavy_check_mark: [swap](swap.md)  
+:x: queue  
+:x: ~queue  
