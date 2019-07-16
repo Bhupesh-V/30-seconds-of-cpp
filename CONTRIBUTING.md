@@ -65,13 +65,14 @@ Follow this style guide to add sample programs:
 ```cpp
     int main()
     {
-                            // DO NOT DO THIS    
+                            // ❌
     }
 
     int main(){
-                            // DO THIS.
+                            // ✅.
     }
 ```
+
 4. Indentation : 
     Use **1 Tab** or **4 Spaces**. Be consistent with whatever you choose
     Use only one indenting format for the whole program.
@@ -81,17 +82,20 @@ Follow this style guide to add sample programs:
 
 6. Expression should be readable, Use 1 space between different TOKENS.
 ```cpp 
-    galaxy=stars+asteroids          // DO NOT USE THIS FORMAT.
-    galaxy = stars + asteroids      // USE THIS FORMAT.
+    galaxy=stars+asteroids          // ❌
+    galaxy = stars + asteroids      // ✅.
 ```
+
 7. Always add braces in a for/while loop, even if it's a one-liner.
 ```cpp    
     for(int i=0;i<45;i++)
-        cout<<i<<" ";               // DO NOT DO THIS.
+        cout<<i<<" ";               // ❌
     
     for(int i=0;i<45;i++){
-        cout<<i<<" ";               // DO THIS.
+        cout<<i<<" ";               // ✅.
     }
 ```
-8. When submitting markdown files of methods in different directories, name your file exactly as the function/method name. For example `push_back.md`, `swap.md` etc.
+8. Always use pre-increment(++i) while looping instead of post-increment(i++).
+
+9. When submitting `markdown` files of methods in different directories, name your file exactly as the function/method name. For example `push_back.md`, `swap.md` etc.
 
