@@ -4,7 +4,7 @@
  
 **Example :**
 ```cpp
-       class {
+       class Display{
         public: 
             void operator() (int i){ 
             std::cout << i << " ";
