@@ -5,15 +5,16 @@
 **Example**:
 ```cpp
     // declaration of list 
-    list<int> lis = { 15, 26, 37, 48, 59 }; 
+    std::list<int> lis = { 15, 26, 37, 48, 59 }; 
   
     // Prints the first element 
-    cout << "The first element is: " << *lis.cbegin(); 
+    std::cout << "The first element is: " << *lis.cbegin(); 
   
     // printing list elements 
-    cout << "\nList: "; 
+    std::cout << "\nList: "; 
   
     for (auto it = lis.cbegin(); it != lis.end(); ++it) 
-        cout << *it << " "; 
+        std::cout << *it << " "; 
  
 ```
+**[Run Code](https://rextester.com/NEDW55378)**

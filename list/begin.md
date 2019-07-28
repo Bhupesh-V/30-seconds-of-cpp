@@ -5,10 +5,11 @@
 **Example**:
 ```cpp
     // declaration of list container 
-    list<int> mylist{ 1, 2, 3, 4, 5 }; 
+    std::list<int> mylist{ 1, 2, 3, 4, 5 }; 
   
     // using begin() to print list 
     for (auto it = mylist.begin(); it != mylist.end(); ++it) 
-        cout << ' ' << *it; 
+        std::cout << ' ' << *it; 
 
 ```
+**[Run Code](https://rextester.com/OLYXB49722)**

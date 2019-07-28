@@ -5,13 +5,14 @@
 **Example**:
 ```cpp
     // declaration of the list 
-    list<int> lis = { 109, 207, 305, 403, 501 }; 
+    std::list<int> lis = { 109, 207, 305, 403, 501 }; 
   
     // prints the last element 
-    cout << "The last element is: " << *lis.crbegin(); 
-    cout << "\nList: "; 
+    std::cout << "The last element is: " << *lis.crbegin(); 
+    std::cout << "\nList: "; 
   
     for (auto it = lis.crbegin(); it != lis.crend(); ++it) 
-        cout << *it << " "; 
+        std::cout << *it << " "; 
 
 ```
+**[Run Code](https://rextester.com/XVFTEG19372)**
