@@ -5,13 +5,14 @@
 **Example**:
 ```cpp
 
-    list<int> mylist{ 1, 2, 3, 4, 5 }; 
+    std::list<int> mylist{ 1, 2, 3, 4, 5 }; 
   
     mylist.clear(); 
     // List becomes empty 
   
     // Printing the list 
     for (auto it = mylist.begin(); it != mylist.end(); ++it) 
-        cout << ' ' << *it; 
+        std::cout << ' ' << *it; 
  
 ```
+**[Run Code](https://rextester.com/IKAFZ38505)**

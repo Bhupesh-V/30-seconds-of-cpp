@@ -5,12 +5,13 @@
 **Example**:
 ```cpp
     // declaration of list 
-    list<int> lis = { 100, 200, 300, 400, 500 }; 
+    std::list<int> lis = { 100, 200, 300, 400, 500 }; 
   
     // printing list elements 
-    cout << "List: " << endl; 
+    std::cout << "List: " << std::endl; 
   
     for (auto it = lis.cbegin(); it != lis.cend(); ++it) 
-        cout << *it << " "; 
+        std::cout << *it << " "; 
 
 ```
+**[Run Code](https://rextester.com/QTRH25197)**

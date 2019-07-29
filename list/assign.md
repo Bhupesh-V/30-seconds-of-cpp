@@ -5,7 +5,7 @@
 **Example**:
 ```cpp
     // Initialization of list 
-    list<int> demo_list; 
+    std::list<int> demo_list; 
   
     // Assigning the value 100, 5 times 
     // to the list, list_demo. 
@@ -13,7 +13,8 @@
   
     // Displaying the list 
     for (int itr : demo_list) { 
-        cout << itr << " "; 
+        std::cout << itr << " "; 
     } 
 
 ```
+**[Run Code](https://rextester.com/UMFNZM11115)**
