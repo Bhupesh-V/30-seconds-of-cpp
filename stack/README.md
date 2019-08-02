@@ -4,5 +4,5 @@
 :heavy_check_mark: [push](push.md)  
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [top](top.md)  
-:x: emplace  
+:heavy_check_mark: [emplace](emplace.md)  
 :x: swap  
