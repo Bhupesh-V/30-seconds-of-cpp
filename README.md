@@ -116,6 +116,7 @@
 ### Stack 
 <details><summary>View contents</summary>
 <ol>
+<li><a href="stack/emplace.md"><code>emplace</code></a></li>
 <li><a href="stack/empty.md"><code>empty</code></a></li>
 <li><a href="stack/pop.md"><code>pop</code></a></li>
 <li><a href="stack/push.md"><code>push</code></a></li>
