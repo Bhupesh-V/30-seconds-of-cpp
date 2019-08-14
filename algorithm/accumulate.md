@@ -1,4 +1,3 @@
-// Style Guide => https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/CONTRIBUTING.md/#Style Guide
 /*
  Author : Harsh Raj
  Date : 15/08/2019
