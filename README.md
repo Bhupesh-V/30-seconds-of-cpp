@@ -36,6 +36,7 @@
 ### Algorithm 
 <details><summary>View contents</summary>
 <ol>
+<li><a href="algorithm/accumulate.md"><code>accumulate</code></a></li>
 <li><a href="algorithm/adjacent_find.md"><code>adjacent_find</code></a></li>
 <li><a href="algorithm/all_of.md"><code>all_of</code></a></li>
 <li><a href="algorithm/any_of.md"><code>any_of</code></a></li>

@@ -1,4 +1,5 @@
 # `<algorithm>`
+:heavy_check_mark: [accumulate](accumulate.md)  
 :heavy_check_mark: [adjacent_find](adjacent_find.md)  
 :heavy_check_mark: [all_of](all_of.md)  
 :heavy_check_mark: [any_of](any_of.md)  
@@ -16,7 +17,6 @@
 :heavy_check_mark: [none_of](none_of.md)  
 :heavy_check_mark: [reverse](reverse.md)  
 :heavy_check_mark: [sort](sort.md)  
-:x: accumulate  
 :x: adjacent_difference  
 :x: clamp  
 :x: copy  
