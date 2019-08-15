@@ -32,5 +32,4 @@ int main(){
     // Print the product of all elements of vector multiplied to 1
     
     std::cout<< accumulate(myVector.begin(),myVector.end(),1,myFunction)<<std::endl;
-
 }
