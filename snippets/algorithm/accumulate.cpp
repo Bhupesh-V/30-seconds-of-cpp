@@ -5,8 +5,9 @@
  Date : 15/08/2019
  Time : 12:30 AM
 
- Description : accumulate() function is used to perform certain operations on the range of iterators. The function is overloaded
- with first type returning sum of all elements that can be iterated using the given iterators while the second type performing certain operations on pair of elements pointed by the iterators.
+ Description : accumulate() function is used to perform certain operations on the range of iterators provided. It takes two iterators and initial value as parameters.
+ The function is overloaded with first type accepting only these three arguments and returning sum of all elements that can be iterated using the given iterators while
+ the second type takes a binary operation function as additional parameter and performs certain user defined operations on pair of elements pointed by the iterators.
 
  */
 
