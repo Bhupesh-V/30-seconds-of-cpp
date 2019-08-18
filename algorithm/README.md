@@ -13,6 +13,7 @@
 :heavy_check_mark: [for_each](for_each.md)  
 :heavy_check_mark: [for_each_n](for_each_n.md)  
 :heavy_check_mark: [generate](generate.md)  
+:heavy_check_mark: [iota](iota.md)  
 :heavy_check_mark: [mismatch](mismatch.md)  
 :heavy_check_mark: [none_of](none_of.md)  
 :heavy_check_mark: [reverse](reverse.md)  
@@ -35,7 +36,6 @@
 :x: inclusive_scan  
 :x: inner_product  
 :x: inplace_merge  
-:x: iota  
 :x: is_heap  
 :x: is_heap_until  
 :x: is_partitioned  

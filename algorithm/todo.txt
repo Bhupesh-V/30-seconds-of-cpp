@@ -76,7 +76,6 @@ uninitialized_fill
 uninitialized_move
 uninitialized_default_construct
 uninitialized_value_construct
-iota
 partial_sum
 inclusive_scan
 exclusive_scan

@@ -50,6 +50,7 @@
 <li><a href="algorithm/for_each.md"><code>for_each</code></a></li>
 <li><a href="algorithm/for_each_n.md"><code>for_each_n</code></a></li>
 <li><a href="algorithm/generate.md"><code>generate</code></a></li>
+<li><a href="algorithm/iota.md"><code>iota</code></a></li>
 <li><a href="algorithm/mismatch.md"><code>mismatch</code></a></li>
 <li><a href="algorithm/none_of.md"><code>none_of</code></a></li>
 <li><a href="algorithm/reverse.md"><code>reverse</code></a></li>
