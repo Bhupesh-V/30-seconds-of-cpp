@@ -94,7 +94,9 @@
 <li><a href="map/begin.md"><code>begin</code></a></li>
 <li><a href="map/cbegin.md"><code>cbegin</code></a></li>
 <li><a href="map/cend.md"><code>cend</code></a></li>
+<li><a href="map/count.md"><code>count</code></a></li>
 <li><a href="map/end.md"><code>end</code></a></li>
+<li><a href="map/insert.md"><code>insert</code></a></li>
 <li><a href="map/rbegin.md"><code>rbegin</code></a></li>
 
 </ol>

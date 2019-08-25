@@ -2,11 +2,12 @@
 :heavy_check_mark: [begin](begin.md)  
 :heavy_check_mark: [cbegin](cbegin.md)  
 :heavy_check_mark: [cend](cend.md)  
+:heavy_check_mark: [count](count.md)  
 :heavy_check_mark: [end](end.md)  
+:heavy_check_mark: [insert](insert.md)  
 :heavy_check_mark: [rbegin](rbegin.md)  
 :x: clear  
 :x: contains  
-:x: count  
 :x: crbegin  
 :x: crend  
 :x: emplace  
@@ -16,7 +17,6 @@
 :x: erase  
 :x: extract  
 :x: find  
-:x: insert  
 :x: insert_or_assign  
 :x: key_comp  
 :x: lower_bound  
