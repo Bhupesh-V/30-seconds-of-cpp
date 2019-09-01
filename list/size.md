@@ -5,7 +5,7 @@
 **Example** :
 ```cpp
     // Creating a list 
-    list<int> demoList; 
+    std::list<int> demoList; 
   
     // Add elements to the List 
     demoList.push_back(10); 
@@ -16,6 +16,6 @@
     // getting size of the list 
     int size = demoList.size(); 
   
-    cout << "The list contains " << size << " elements"; 
+    std::cout << "The list contains " << size << " elements"; 
 
 ```

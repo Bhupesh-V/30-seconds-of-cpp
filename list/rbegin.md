@@ -5,11 +5,11 @@
 **Example** :
 ```cpp
 
-    list<int> lis = { 105, 207, 309, 401, 503 }; 
+    std::list<int> lis = { 105, 207, 309, 401, 503 }; 
   
-    cout << "The list in reverse order: "; 
+    std::cout << "The list in reverse order: "; 
   
     for (auto it = lis.rbegin(); it != lis.rend(); ++it) 
-        cout << *it << " "; 
+        std::cout << *it << " "; 
 
 ```
