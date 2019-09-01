@@ -8,11 +8,10 @@
 // C++ Program to illustrate map::rbegin() method 
 #include <iostream> 
 #include <map> 
-using namespace std; 
   
 int main() { 
   
-    map<char, int> mp = { 
+    std::map<char, int> mp = { 
         { 'a', 1 }, 
         { 'b', 2 }, 
         { 'c', 3 }, 
@@ -20,12 +19,12 @@ int main() {
         { 'e', 5 }, 
     }; 
   
-    cout << "Map contains following elements in reverse order"<< endl; 
+    std::cout << "Map contains following elements in reverse order"<< std::endl; 
     //rbegin 
     for (auto i = mp.rbegin(); i != mp.rend(); ++i) 
-        cout << i->first 
+        std::cout << i->first 
              << " = " << i->second 
-             << endl; 
+             << std::endl; 
   
     return 0; 
 } 
