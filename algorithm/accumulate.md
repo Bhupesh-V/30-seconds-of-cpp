@@ -14,7 +14,10 @@ int main() {
 
 	std::vector<int> v{10, 2, 4, 6}; 
 	
-	std::cout<<"The sum of elements of v is : "<<accumulate(v.begin(), v.end(),0)<<" and GCD of all elements is : "<<accumulate(v.begin(), v.end(),0,GCD)<<std::endl;
+	std::cout << "The sum of elements of v is : " << 
+                 std::accumulate(v.begin(), v.end(), 0) << 
+		 		 " and GCD of all elements is : " << 
+				 std::accumulate(v.begin(), v.end(), 0, GCD) << std::endl;
 }
 ```
 **[Run Code](https://ideone.com/Gf2d0G)**
