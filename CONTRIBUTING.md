@@ -37,7 +37,7 @@ For adding functions in different directories, use the following template (copy 
     // determine how many integers in a std::vector match a target value.
     int target1 = 3;
     int num_items1 = count(v.begin(), v.end(), target1);
-    cout << "number: " << target1 << " count: " << num_items1 << '\n';
+    std::cout << "number: " << target1 << " count: " << num_items1 << '\n';
 ```
 **[See Sample code](snippets/vector/example.cpp)**<br>
 **[Run Code](https://rextester.com/ABC)**
@@ -99,4 +99,14 @@ Follow this style guide to add sample programs:
 8. Always use pre-increment(++i) while looping instead of post-increment(i++).
 
 9. When submitting `markdown` files of methods in different directories, name your file exactly as the function/method name. For example `push_back.md`, `swap.md` etc.
+
+10. Always use prefix ```std::``` for functions and types from the std namespace, either on the `markdown` files and on the snippets files.
+```cpp 
+    using namespace std; 
+    vector<int> ...;       // ❌
+    cout << ...;           // ❌
+
+    std::vector<int> ...;  // ✅
+    std::cout << ...;      // ✅
+```
 

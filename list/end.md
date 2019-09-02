@@ -5,7 +5,7 @@
 **Example**:
 ```cpp
     // Creating a list 
-    list<int> demoList; 
+    std::list<int> demoList; 
   
     // Add elements to the List 
     demoList.push_back(10); 
@@ -15,16 +15,16 @@
   
     // using end() to get iterator  
     // to past the last element 
-    list<int>::iterator it = demoList.end(); 
+    std::list<int>::iterator it = demoList.end(); 
   
     // This will not print the last element 
-    cout << "Returned iterator points to : " << *it << endl; 
+    std::cout << "Returned iterator points to : " << *it << std::endl; 
   
     // Using end() with begin() as a range to 
     // print all of the list elements 
     for (auto itr = demoList.begin(); 
          itr != demoList.end(); itr++) { 
-        cout << *itr << " "; 
+        std::cout << *itr << " "; 
     } 
 
 ```

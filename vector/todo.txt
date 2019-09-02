@@ -6,7 +6,6 @@ crend
 cbegin
 insert
 rbegin
-resize
 vector
 crbegin
 emplace

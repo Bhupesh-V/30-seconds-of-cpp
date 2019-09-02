@@ -4,6 +4,10 @@
 :heavy_check_mark: [all_of](all_of.md)  
 :heavy_check_mark: [any_of](any_of.md)  
 :heavy_check_mark: [binary_search](binary_search.md)  
+:heavy_check_mark: [copy](copy.md)  
+:heavy_check_mark: [copy_backward](copy_backward.md)  
+:heavy_check_mark: [copy_if](copy_if.md)  
+:heavy_check_mark: [copy_n](copy_n.md)  
 :heavy_check_mark: [count](count.md)  
 :heavy_check_mark: [count_if](count_if.md)  
 :heavy_check_mark: [find](find.md)  
@@ -20,10 +24,6 @@
 :heavy_check_mark: [sort](sort.md)  
 :x: adjacent_difference  
 :x: clamp  
-:x: copy  
-:x: copy_backward  
-:x: copy_if  
-:x: copy_n  
 :x: destroy  
 :x: equal  
 :x: equal_range  

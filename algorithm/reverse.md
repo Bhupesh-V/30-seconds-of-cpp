@@ -6,13 +6,13 @@
 ```cpp
  int main() { 
           int i; 
-          vector<int> v1{1,2,3,4};
+          std::vector<int> v1{1,2,3,4};
           
-          reverse(v1.begin(),v1.end());
+          std::reverse(v1.begin(),v1.end());
 
-          vector<int>::iterator i1; 
+          std::vector<int>::iterator i1; 
           for (i1 = v1.begin(); i1 != v1.end(); ++i1) { 
-              cout << *i1 << " "; 
+              std::cout << *i1 << " "; 
           } 
           return 0; 
       } 
