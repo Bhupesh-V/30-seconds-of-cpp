@@ -14,7 +14,7 @@ int main()
     std::vector<int> origin {1, 2, 3};
     std::vector<int> destination;
 
-    //// Will copy from origin [begin, end), to destination
+    // Will copy from origin [begin, end), to destination
     std::copy(origin.begin(), origin.end(), std::back_inserter(destination));
     
     // destination is now {1, 2, 3}
