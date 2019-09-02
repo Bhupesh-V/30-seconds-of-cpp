@@ -5,7 +5,7 @@
 **Example**:
 ```cpp
     // Empty queue
-    queue<int> myqueue; 
+    std::queue<int> myqueue; 
 
     // pushing elements into queue using push()
     myqueue.push(0); 
@@ -18,7 +18,7 @@
   
     // print contents of queue
     while (!myqueue.empty()){ 
-        cout << ' ' << myqueue.front(); 
+        std::cout << ' ' << myqueue.front(); 
         myqueue.pop(); 
     } 
 ```

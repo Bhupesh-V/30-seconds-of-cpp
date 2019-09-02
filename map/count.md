@@ -9,19 +9,18 @@ Syntax: map_name.count(key k);
 // Demonstrates count() 
 #include <iostream>
 #include <map> 
-using namespace std; 
   
 int main() { 
     // declaration of map container
-    map<char, int> mymap; 
+    std::map<char, int> mymap; 
     mymap['a'] = 1; 
     mymap['b'] = 2; 
     mymap['c'] = 3; 
 
     // using count() function
-    cout<<mymap.count('a')<<endl;
-    cout<<mymap.count('b')<<endl;
-    cout<<mymap.count('d')<<endl;
+    std::cout<<mymap.count('a')<<endl;
+    std::cout<<mymap.count('b')<<endl;
+    std::cout<<mymap.count('d')<<endl;
 
     return 0; 
 } 

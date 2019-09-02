@@ -13,7 +13,7 @@
        
       std::vector<int> a{3,2,3,9};
       // Applying the function object Display to each element of a 
-      std::for_each(a.begin(),a.end(), Display()); // Will output, 3 2 3 9
+      std::for_each(a.begin(), a.end(), Display()); // Will output, 3 2 3 9
       
 ```
 **[Run Code](https://rextester.com/BNHGL9456)**

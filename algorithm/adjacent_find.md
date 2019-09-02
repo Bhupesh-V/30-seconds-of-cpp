@@ -10,6 +10,6 @@
     // Binary function which returns first adjacent element pairs based on certain condition (as third argument) . 
     // Default condition checks equality.
     auto i  = std::adjacent_find (v.begin(), v.end());
-    std::cout <<"The first pair of repeated elements are: "<< *i <<'\n';
+    std::cout << "The first pair of repeated elements are: " << *i <<'\n';
 ```
 **[Run Code](https://rextester.com/HBWU15163)**

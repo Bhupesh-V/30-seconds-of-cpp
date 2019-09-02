@@ -13,14 +13,14 @@ using namespace std;
   
 int main() { 
     // declaration of map container and inserting elements
-    map<char, int> mymap; 
+    std::map<char, int> mymap; 
     mymap.insert({'a',1});
     mymap.insert({'b',2});
     mymap.insert({'c',3});
 
     // printing the contents of the map
     for (auto it = mymap.begin(); it != mymap.end(); ++it) 
-        cout << it->first << " = "
+        std::cout << it->first << " = "
              << it->second << '\n'; 
     return 0; 
 } 

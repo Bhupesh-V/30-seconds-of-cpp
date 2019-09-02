@@ -5,7 +5,7 @@
 **Example**:
 ```cpp
     // Empty stack 
-    stack<int> mystack; 
+    std::stack<int> mystack; 
     //pushing elements using push()
     mystack.push(0); 
     mystack.push(1); 
@@ -13,7 +13,7 @@
   
     while (!mystack.empty()) { 
         //deleting elements using pop()
-        cout << ' ' << mystack.top(); 
+        std::cout << ' ' << mystack.top(); 
         mystack.pop(); 
     } 
 ```
