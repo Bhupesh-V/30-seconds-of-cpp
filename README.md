@@ -41,6 +41,10 @@
 <li><a href="algorithm/all_of.md"><code>all_of</code></a></li>
 <li><a href="algorithm/any_of.md"><code>any_of</code></a></li>
 <li><a href="algorithm/binary_search.md"><code>binary_search</code></a></li>
+<li><a href="algorithm/copy.md"><code>copy</code></a></li>
+<li><a href="algorithm/copy_backward.md"><code>copy_backward</code></a></li>
+<li><a href="algorithm/copy_if.md"><code>copy_if</code></a></li>
+<li><a href="algorithm/copy_n.md"><code>copy_n</code></a></li>
 <li><a href="algorithm/count.md"><code>count</code></a></li>
 <li><a href="algorithm/count_if.md"><code>count_if</code></a></li>
 <li><a href="algorithm/find.md"><code>find</code></a></li>
@@ -142,6 +146,7 @@
 <li><a href="vector/erase.md"><code>erase</code></a></li>
 <li><a href="vector/front.md"><code>front</code></a></li>
 <li><a href="vector/push_back.md"><code>push_back</code></a></li>
+<li><a href="vector/resize.md"><code>resize</code></a></li>
 <li><a href="vector/size.md"><code>size</code></a></li>
 <li><a href="vector/swap.md"><code>swap</code></a></li>
 
