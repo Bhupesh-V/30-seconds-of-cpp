@@ -8,12 +8,12 @@
     std::queue<int> queue1, queue2;
     
     // Fill queue1 with { 1, 2, 3, 4 }
-    for(int i=1; i<5; i++){
+    for (int i=1; i<5; i++) {
         queue1.push(i);
     }
     
     // Fill queue2 with { 10, 9, 8, 7, 6, 5 }
-    for(int i=10; i>4; i--){
+    for (int i=10; i>4; i--) {
         queue2.push(i);
     }
     
@@ -22,14 +22,14 @@
     
     // Print the first queue
     std::cout << "queue1 = ";
-    while (!queue1.empty()){
+    while (!queue1.empty()) {
         std::cout << queue1.front() << " ";
         queue1.pop();
     }
     
     // Print the second queue
     std::cout <<"\nqueue2 = ";
-    while (!queue2.empty()){
+    while (!queue2.empty()) {
         std::cout << queue2.front() << " ";
         queue2.pop();
     }

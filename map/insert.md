@@ -19,9 +19,9 @@ int main() {
     mymap.insert({'c',3});
 
     // printing the contents of the map
-    for (auto it = mymap.begin(); it != mymap.end(); ++it) 
-        cout << it->first << " = "
-             << it->second << '\n'; 
+    for (auto key2Value : mymap) {
+        std::cout << key2Value.first << " = " << key2Value.second << '\n';  
+    }
     return 0; 
 } 
 ```

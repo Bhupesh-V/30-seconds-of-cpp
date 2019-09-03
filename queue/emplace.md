@@ -13,7 +13,7 @@
     myqueue.emplace(2);
     
     // print contents of queue
-    while (!myqueue.empty()){
+    while (!myqueue.empty()) {
         std::cout << ' ' << myqueue.front();
         myqueue.pop();
     }

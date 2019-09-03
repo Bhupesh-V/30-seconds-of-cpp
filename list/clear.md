@@ -11,8 +11,9 @@
     // List becomes empty 
   
     // Printing the list 
-    for (auto it = mylist.begin(); it != mylist.end(); ++it) 
-        std::cout << ' ' << *it; 
+    for (auto value : mylist) {
+        std::cout << ' ' << value;  
+    }
  
 ```
 **[Run Code](https://rextester.com/IKAFZ38505)**

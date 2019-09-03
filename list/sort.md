@@ -12,7 +12,8 @@
     mylist.sort(); 
   
     // printing the list after sort 
-    for (auto it = mylist.begin(); it != mylist.end(); ++it) 
-        cout << ' ' << *it; 
+    for (auto value : mylist) {
+        std::cout << value << " "; 
+    }
 
 ```

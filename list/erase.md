@@ -17,10 +17,9 @@
     // Printing elements of list before deleting 
     // first element 
     cout << "List before deleting first element: "; 
-    for (auto itr = demoList.begin(); 
-         itr != demoList.end(); itr++) { 
-        cout << *itr << " "; 
-    } 
+    for (auto value : demoList) {
+        std::cout << ' ' << value;  
+    }
   
     // Creating iterator to point to first 
     // element in the list 
@@ -32,9 +31,8 @@
     // Printing elements of list after deleting 
     // first element 
     cout << "\nList after deleting first element:"; 
-    for (auto itr = demoList.begin(); 
-        itr != demoList.end(); itr++) { 
-        cout << *itr << " "; 
-    } 
+    for (auto value : demoList) {
+        std::cout << ' ' << value;  
+    }
 
 ```

@@ -14,6 +14,9 @@
           for (i1 = v1.begin(); i1 != v1.end(); ++i1) { 
               cout << *i1 << " "; 
           } 
+          for (auto value : v1) {
+              std::cout << value << " ";
+          }
           return 0; 
       } 
 ```

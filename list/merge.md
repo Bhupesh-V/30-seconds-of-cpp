@@ -14,7 +14,8 @@
   
     cout << "List:  "; 
   
-    for (auto it = list2.begin(); it != list2.end(); ++it) 
-        cout << *it << " "; 
+    for (auto value : list2) {
+        std::cout << value << " "; 
+    }
 
 ```

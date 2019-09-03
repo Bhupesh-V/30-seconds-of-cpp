@@ -14,15 +14,17 @@
   
     // at the beginning of l1 
     cout << "list l1 after splice operation" << endl; 
-    for (auto x : l1) 
+    for (auto x : l1) {
         cout << x << " "; 
+    }
   
     // transfer all the elements of l1 
     l3.splice(l3.begin(), l1); 
   
     // at the end of l3 
     cout << "\nlist l3 after splice operation" << endl; 
-    for (auto x : l3) 
+    for (auto x : l3) {
         cout << x << " "; 
+    }
 
 ```
