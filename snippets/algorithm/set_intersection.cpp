@@ -2,7 +2,7 @@
     Author : Thamara Andrade
     Date : Date format 02/09/2019
     Time : Time format 02:00
-    Description : Checks if a range is included in another range.
+    Description : Computes the intersection of two ranges.
 */
 
 #include <iostream>
