@@ -13,5 +13,5 @@
     std::cout << "The lower bound element is " << *upperBoundIt << '\n';
 
 ```
-**[See Sample code](snippets/vector/upper_bound.cpp)**
+**[See Sample code](snippets/algorithm/upper_bound.cpp)**
 **[Run Code](https://rextester.com/DAN7877)**

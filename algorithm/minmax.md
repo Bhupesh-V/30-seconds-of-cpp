@@ -17,5 +17,5 @@
                  " Max is " << minMax2.second << std::endl;
 
 ```
-**[See Sample code](snippets/vector/minmax.cpp)**
+**[See Sample code](snippets/algorithm/minmax.cpp)**
 **[Run Code](https://rextester.com/AYBQP34022)**

@@ -11,5 +11,5 @@
     std::cout << "The greatest element is " << *greatestIt << '\n';
 
 ```
-**[See Sample code](snippets/vector/max_element.cpp)**
+**[See Sample code](snippets/algorithm/max_element.cpp)**
 **[Run Code](https://rextester.com/MYCU8700)**

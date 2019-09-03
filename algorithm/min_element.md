@@ -11,5 +11,5 @@
     std::cout << "The smallest element is " << *smallestIt << '\n';
 
 ```
-**[See Sample code](snippets/vector/min_element.cpp)**
+**[See Sample code](snippets/algorithm/min_element.cpp)**
 **[Run Code](https://rextester.com/ZVBA46979)**
