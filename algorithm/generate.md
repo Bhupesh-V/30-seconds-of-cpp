@@ -11,13 +11,14 @@ The generator function has to be defined by the user, and it is called successiv
   
     int main() { 
         int i; 
-        vector<int> v1(10); 
+        std::vector<int> v1(10); 
   
         std::generate(v1.begin(), v1.end(), gen); 
   
         for (auto value : v1) {
             std::cout << value << " ";
         }
+
         return 0; 
     } 
 ```

@@ -5,13 +5,13 @@
 **Example** :
 ```cpp
     // Creating a list 
-    list<int> demoList; 
+    std::list<int> demoList; 
   
     // check if list is empty 
     if (demoList.empty()) 
-        cout << "Empty List\n"; 
+        std::cout << "Empty List\n"; 
     else
-        cout << "Not Empty\n"; 
+        std::cout << "Not Empty\n"; 
   
     // Add elements to the List 
     demoList.push_back(10); 
@@ -21,8 +21,8 @@
   
     // check again if list is empty 
     if (demoList.empty()) 
-        cout << "Empty List\n"; 
+        std::cout << "Empty List\n"; 
     else
-        cout << "Not Empty\n"; 
+        std::cout << "Not Empty\n"; 
          
 ```

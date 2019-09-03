@@ -9,32 +9,32 @@ binary_search(startaddress, endaddress, valuetofind)
 ```cpp
     void show(int a[], int arraysize) { 
         for (int i = 0; i < arraysize; ++i) { 
-            cout << a[i] << " "; 
+            std::cout << a[i] << " "; 
 	}
     } 
   
 int main() { 
     int a[] = { 1, 5, 8, 9, 6, 7, 3, 4, 2, 0 }; 
     int asize = sizeof(a) / sizeof(a[0]); 
-    cout << "\n The array is : "; 
+    std::cout << "\n The array is : "; 
     show(a, asize); 
   
-    cout << "\n\nLet's say we want to search for 2 in the array"; 
-    cout << "\n So, we first sort the array"; 
-    sort(a, a + asize); 
-    cout << "\n\n The array after sorting is : "; 
+    std::cout << "\n\nLet's say we want to search for 2 in the array"; 
+    std::cout << "\n So, we first sort the array"; 
+    std::sort(a, a + asize); 
+    std::cout << "\n\n The array after sorting is : "; 
     show(a, asize); 
-    cout << "\n\nNow, we do the binary search"; 
-    if (binary_search(a, a + 10, 2)) 
-        cout << "\nElement found in the array"; 
+    std::cout << "\n\nNow, we do the binary search"; 
+    if (std::binary_search(a, a + 10, 2)) 
+        std::cout << "\nElement found in the array"; 
     else
-        cout << "\nElement not found in the array"; 
+        std::cout << "\nElement not found in the array"; 
   
-    cout << "\n\nNow, say we want to search for 10"; 
-    if (binary_search(a, a + 10, 10)) 
-    cout << "\nElement found in the array"; 
+    std::cout << "\n\nNow, say we want to search for 10"; 
+    if (std::binary_search(a, a + 10, 10)) 
+        std::cout << "\nElement found in the array"; 
     else
-        cout << "\nElement not found in the array"; 
+        std::cout << "\nElement not found in the array"; 
   
     return 0; 
 } 

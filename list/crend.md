@@ -5,11 +5,11 @@
 **Example** :
 ```cpp
     // declaration of the list 
-    list<int> lis = { 27, 46, 65, 84, 30, 22 }; 
+    std::list<int> lis = { 27, 46, 65, 84, 30, 22 }; 
   
-    cout << "List: " << endl; 
+    std::cout << "List: " << std::endl; 
   
     for (auto it = lis.crbegin(); it != lis.crend(); ++it) 
-        cout << *it << " "; 
+        std::cout << *it << " "; 
 
 ```

@@ -7,12 +7,11 @@
 ```cpp
 // C++ program to illustrate the map::cbegin() function 
 #include <bits/stdc++.h> 
-using namespace std; 
   
 int main() { 
   
     // initialize container 
-    map<int, int> mp; 
+    std::map<int, int> mp; 
   
     // insert elements in random order 
     mp.insert({ 2, 30 }); 
@@ -23,15 +22,15 @@ int main() {
   
     auto ite = mp.cbegin(); //cbegin() 
   
-    cout << "The first element is: "; 
-    cout << "{" << ite->first << ", "
+    std::cout << "The first element is: "; 
+    std::cout << "{" << ite->first << ", "
          << ite->second << "}\n"; 
   
     // prints the elements 
-    cout << "\nThe map is : \n"; 
-    cout << "KEY\tELEMENT\n"; 
+    std::cout << "\nThe map is : \n"; 
+    std::cout << "KEY\tELEMENT\n"; 
     for (auto itr = mp.cbegin(); itr != mp.cend(); ++itr) { 
-        cout << itr->first << '\t' << itr->second << '\n'; 
+        std::cout << itr->first << '\t' << itr->second << '\n'; 
     } 
     return 0; 
 } 

@@ -8,6 +8,7 @@
 :heavy_check_mark: [erase](erase.md)  
 :heavy_check_mark: [front](front.md)  
 :heavy_check_mark: [push_back](push_back.md)  
+:heavy_check_mark: [resize](resize.md)  
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [swap](swap.md)  
 :x: back  
@@ -26,7 +27,6 @@
 :x: rbegin  
 :x: rend  
 :x: reserve  
-:x: resize  
 :x: shrink_to_fit  
 :x: vector  
 :x: ~vector  

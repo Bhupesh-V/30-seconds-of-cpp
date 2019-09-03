@@ -3,10 +3,6 @@ find_end
 adjacent_difference
 search
 search_n
-copy
-copy_if
-copy_n
-copy_backward
 move
 move_backward
 fill

@@ -5,7 +5,7 @@
 **Example**:
 ```cpp
     // Creating a list 
-    list<int> demoList; 
+    std::list<int> demoList; 
   
     // Add elements to the List 
     demoList.push_back(10); 
@@ -17,6 +17,6 @@
     int ele = demoList.front(); 
   
     // Print the first element 
-    cout << ele; 
+    std::cout << ele; 
  
 ```

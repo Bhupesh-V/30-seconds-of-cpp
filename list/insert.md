@@ -5,14 +5,14 @@
 **Example**:
 ```cpp
     // declaring list 
-    list<int> list1; 
+    std::list<int> list1; 
   
     // using assign() to insert multiple numbers 
     // creates 3 occurrences of "2" 
     list1.assign(3, 2); 
   
     // initializing list iterator to beginning 
-    list<int>::iterator it = list1.begin(); 
+    std::list<int>::iterator it = list1.begin(); 
   
     // iterator to point to 3rd position 
     advance(it, 2); 
@@ -23,10 +23,10 @@
   
     // Printing the new list 
     std::cout << "The list after inserting" << " 1 element using insert() is : "; 
-     for (auto value : list1) {
-         std::cout << value << " "; 
-     }
+    for (auto value : list1) {
+        std::cout << value << " "; 
+    }
   
-    cout << endl; 
+    std::cout << std::endl; 
     
 ```

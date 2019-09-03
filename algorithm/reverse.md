@@ -6,9 +6,9 @@
 ```cpp
  int main() { 
           int i; 
-          vector<int> v1{1,2,3,4};
+          std::vector<int> v1{1,2,3,4};
           
-          reverse(v1.begin(),v1.end());
+          std::reverse(v1.begin(),v1.end());
 
           for (auto value : v1) {
               std::cout << value << " ";

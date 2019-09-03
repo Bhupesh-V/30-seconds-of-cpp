@@ -5,15 +5,15 @@
 **Example**:
 ```cpp
     // list container declaration 
-    list<int> mylist1{ 1, 2, 3, 4 }; 
-    list<int> mylist2{ 3, 5, 7, 9 }; 
+    std::list<int> mylist1{ 1, 2, 3, 4 }; 
+    std::list<int> mylist2{ 3, 5, 7, 9 }; 
   
     // using swap() function to  
     //swap elements of lists 
     mylist1.swap(mylist2); 
   
     // printing the first list 
-    cout << "mylist1 = "; 
+    std::cout << "mylist1 = "; 
     for (auto value : mylist1) {
         std::cout << ' ' << value; 
     }

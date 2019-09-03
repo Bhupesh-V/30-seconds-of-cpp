@@ -5,15 +5,15 @@
 **Example** :
 ```cpp
     // initializing lists 
-    list<int> l1 = { 1, 2, 3 }; 
-    list<int> l2 = { 4, 5 }; 
-    list<int> l3 = { 6, 7, 8 }; 
+    std::list<int> l1 = { 1, 2, 3 }; 
+    std::list<int> l2 = { 4, 5 }; 
+    std::list<int> l3 = { 6, 7, 8 }; 
   
     // transfer all the elements of l2 
     l1.splice(l1.begin(), l2); 
   
     // at the beginning of l1 
-    cout << "list l1 after splice operation" << endl; 
+    std::cout << "list l1 after splice operation" << endl; 
     for (auto x : l1) {
         cout << x << " "; 
     }
@@ -22,7 +22,7 @@
     l3.splice(l3.begin(), l1); 
   
     // at the end of l3 
-    cout << "\nlist l3 after splice operation" << endl; 
+    std::cout << "\nlist l3 after splice operation" << endl; 
     for (auto x : l3) {
         cout << x << " "; 
     }

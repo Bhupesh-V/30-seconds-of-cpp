@@ -13,7 +13,7 @@ using namespace std;
   
 int main() { 
     // declaration of map container and inserting elements
-    map<char, int> mymap; 
+    std::map<char, int> mymap; 
     mymap.insert({'a',1});
     mymap.insert({'b',2});
     mymap.insert({'c',3});
