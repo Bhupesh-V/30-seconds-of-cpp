@@ -8,7 +8,7 @@ Returns a reference to the last element in the vector
 
 ```cpp
     // Initialize int vector
-    vector<int> myVector = {1, 2, 3, 4, 5}; 
+    std::vector<int> myVector = {1, 2, 3, 4, 5}; 
     
     // Save reference to the last element
     int& lastEle = myVector.back();
