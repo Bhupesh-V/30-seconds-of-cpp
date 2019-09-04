@@ -15,5 +15,5 @@
         std::cout << value << " "; 
     }
 ```
-**[See Sample code](snippets/algorithm/copy.cpp)**
+**[See Sample code](../snippets/algorithm/copy.cpp)**
 **[Run Code](https://rextester.com/DPG88459)**

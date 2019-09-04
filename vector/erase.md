@@ -28,5 +28,5 @@ Two variations:
     vector2.erase( std::remove(vector2.begin(),vector2.end(),valueToRemove),vector2.end());
 
 ```
-**[See Sample code](snippets/vector/erase.cpp)**
+**[See Sample code](../snippets/vector/erase.cpp)**
 **[Run Code](https://rextester.com/XWYI46957)**

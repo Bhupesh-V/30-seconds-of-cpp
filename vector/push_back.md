@@ -12,5 +12,5 @@
     vector1.push_back(2);
 
 ```
-**[See Sample code](snippets/vector/push_back.cpp)**
+**[See Sample code](../snippets/vector/push_back.cpp)**
 **[Run Code](https://rextester.com/JBQCG9959)**

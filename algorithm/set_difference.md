@@ -28,5 +28,5 @@
     }
    
 ```
-**[See Sample code](snippets/algorithm/set_difference.cpp)**
+**[See Sample code](../snippets/algorithm/set_difference.cpp)**
 **[Run Code](https://rextester.com/QWJK9322)**

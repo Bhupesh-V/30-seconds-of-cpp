@@ -28,5 +28,5 @@
     }
    
 ```
-**[See Sample code](snippets/algorithm/set_intersecton.cpp)**
+**[See Sample code](../snippets/algorithm/set_intersection.cpp)**
 **[Run Code](https://rextester.com/LEHJ94279)**

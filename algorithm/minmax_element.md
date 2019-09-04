@@ -12,5 +12,5 @@
                  " Max is " << *minMaxPair.second << std::endl;
 
 ```
-**[See Sample code](snippets/algorithm/minmax_element.cpp)**
+**[See Sample code](../snippets/algorithm/minmax_element.cpp)**
 **[Run Code](https://rextester.com/NSPL12489)**

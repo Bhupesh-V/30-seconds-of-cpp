@@ -29,5 +29,5 @@ Two variations:
     example.assign(3, 0);
     // example is now: { 0, 0, 0 }
 ```
-**[See Sample code](snippets/vector/assign.cpp)**
+**[See Sample code](../snippets/vector/assign.cpp)**
 **[Run Code](https://rextester.com/LWBW83885)**

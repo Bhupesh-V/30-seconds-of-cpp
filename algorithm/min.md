@@ -9,5 +9,5 @@
     // prints 3
     std::cout << smallest << " "; 
 ```
-**[See Sample code](snippets/algorithm/min.cpp)**
+**[See Sample code](../snippets/algorithm/min.cpp)**
 **[Run Code](https://rextester.com/RCHUQA23545)**
