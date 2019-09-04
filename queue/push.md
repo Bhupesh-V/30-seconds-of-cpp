@@ -14,7 +14,7 @@
   
     // print contents of queue
     while (!myqueue.empty()) {
-        cout << ' ' << myqueue.front(); 
+        std::cout << ' ' << myqueue.front(); 
         myqueue.pop(); 
     } 
 ```
