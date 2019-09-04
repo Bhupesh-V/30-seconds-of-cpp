@@ -7,7 +7,7 @@
     // Empty queue
     std::queue<int> myqueue;
     
-    if(myqueue.empty()){
+    if (myqueue.empty()){
         std::cout << "My queue is empty";
     }
     else{

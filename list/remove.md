@@ -16,19 +16,17 @@
   
     // List before removing elements 
     std::cout << "List before removing elements: "; 
-    for (auto itr = demoList.begin(); 
-         itr != demoList.end(); itr++) { 
-        std::cout << *itr << " "; 
-    } 
+    for (auto value : demoList) {
+        std::cout << value << " "; 
+    }
   
     // delete all elements with value 20 
     demoList.remove(20); 
 
     // List after removing elements 
     std::cout << "\nList after removing elements: "; 
-    for (auto itr = demoList.begin(); 
-        itr != demoList.end(); itr++) { 
-        std::cout << *itr << " "; 
-    } 
+    for (auto value : demoList) {
+        std::cout << value << " "; 
+    }
  
 ```

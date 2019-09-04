@@ -10,10 +10,9 @@
           
           std::reverse(v1.begin(),v1.end());
 
-          std::vector<int>::iterator i1; 
-          for (i1 = v1.begin(); i1 != v1.end(); ++i1) { 
-              std::cout << *i1 << " "; 
-          } 
+          for (auto value : v1) {
+              std::cout << value << " ";
+          }
           return 0; 
       } 
 ```

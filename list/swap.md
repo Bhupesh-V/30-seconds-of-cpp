@@ -14,15 +14,14 @@
   
     // printing the first list 
     std::cout << "mylist1 = "; 
-    for (auto it = mylist1.begin(); 
-              it != mylist1.end(); ++it) 
-        std::cout << ' ' << *it; 
+    for (auto value : mylist1) {
+        std::cout << ' ' << value; 
+    }
   
     // printing the second list 
-    std::cout << std::endl 
-        << "mylist2 = "; 
-    for (auto it = mylist2.begin(); 
-              it != mylist2.end(); ++it) 
-        std::cout << ' ' << *it; 
+    std::cout << std::endl << "mylist2 = "; 
+    for (auto value : mylist2) {
+        std::cout << ' ' << value; 
+    }
 
 ```

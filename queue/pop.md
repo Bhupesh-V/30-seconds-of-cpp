@@ -17,7 +17,7 @@
     myqueue.pop(); // pops 1 from queue
   
     // print contents of queue
-    while (!myqueue.empty()){ 
+    while (!myqueue.empty()) { 
         std::cout << ' ' << myqueue.front(); 
         myqueue.pop(); 
     } 

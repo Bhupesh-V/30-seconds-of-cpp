@@ -22,12 +22,10 @@
     list1.insert(it, 5); 
   
     // Printing the new list 
-    std::cout << "The list after inserting"
-         << " 1 element using insert() is : "; 
-    for (std::list<int>::iterator i = list1.begin(); 
-         i != list1.end(); 
-         i++) 
-        std::cout << *i << " "; 
+    std::cout << "The list after inserting" << " 1 element using insert() is : "; 
+    for (auto value : list1) {
+        std::cout << value << " "; 
+    }
   
     std::cout << std::endl; 
     

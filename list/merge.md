@@ -13,8 +13,8 @@
     list2.merge(list1); 
   
     std::cout << "List:  "; 
-  
-    for (auto it = list2.begin(); it != list2.end(); ++it) 
-        std::cout << *it << " "; 
+    for (auto value : list2) {
+        std::cout << value << " "; 
+    }
 
 ```

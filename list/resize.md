@@ -15,26 +15,30 @@
   
     // Initial list: 
     std::cout << "Initial List: "; 
-    for (auto itr = demoList.begin(); itr != demoList.end(); itr++) 
-        std::cout << *itr << " "; 
+    for (auto value : demoList) {
+        std::cout << value << " "; 
+    }
   
     // Resize list to contain less elements 
     demoList.resize(2); 
     std::cout << "\n\nList after first resize: "; 
-    for (auto itr = demoList.begin(); itr != demoList.end(); itr++) 
-        std::cout << *itr << " "; 
+    for (auto value : demoList) {
+        std::cout << value << " "; 
+    }
   
     // Resize list to contain more elements 
     demoList.resize(4); 
     std::cout << "\n\nList after second resize: "; 
-    for (auto itr = demoList.begin(); itr != demoList.end(); itr++) 
-        std::cout << *itr << " "; 
+    for (auto value : demoList) {
+        std::cout << value << " "; 
+    }
   
     // resize list to contain more elements 
     // with a specified value 
     demoList.resize(5, 50); 
     std::cout << "\n\nList after third resize: "; 
-    for (auto itr = demoList.begin(); itr != demoList.end(); itr++) 
-        std::cout << *itr << " "; 
+    for (auto value : demoList) {
+        std::cout << value << " "; 
+    }
 
 ```

@@ -9,18 +9,17 @@ The generator function has to be defined by the user, and it is called successiv
         return ++i; 
     } 
   
-    using namespace std; 
     int main() { 
         int i; 
         std::vector<int> v1(10); 
   
         std::generate(v1.begin(), v1.end(), gen); 
   
-        std::vector<int>::iterator i1; 
-        for (i1 = v1.begin(); i1 != v1.end(); ++i1) { 
-            std::cout << *i1 << " "; 
-        } 
+        for (auto value : v1) {
+            std::cout << value << " ";
+        }
+
         return 0; 
     } 
 ```
-**[Run Code](https://rextester.com/PZAMR64880)**
+**[Run Code](https://rextester.com/UVF27948)**
