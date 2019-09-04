@@ -19,5 +19,5 @@
         std::cout << value << " "; 
     }
 ```
-**[See Sample code](snippets/vector/copy_if.cpp)**
+**[See Sample code](snippets/algorithm/copy_if.cpp)**
 **[Run Code](https://rextester.com/OMC23438)**
