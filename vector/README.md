@@ -1,6 +1,7 @@
 # `<vector>`
 :heavy_check_mark: [assign](assign.md)  
 :heavy_check_mark: [at](at.md)  
+:heavy_check_mark: [back](back.md)  
 :heavy_check_mark: [begin](begin.md)  
 :heavy_check_mark: [clear](clear.md)  
 :heavy_check_mark: [empty](empty.md)  
@@ -11,7 +12,6 @@
 :heavy_check_mark: [resize](resize.md)  
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [swap](swap.md)  
-:x: back  
 :x: capacity  
 :x: cbegin  
 :x: cend  

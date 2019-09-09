@@ -54,11 +54,25 @@
 <li><a href="algorithm/for_each.md"><code>for_each</code></a></li>
 <li><a href="algorithm/for_each_n.md"><code>for_each_n</code></a></li>
 <li><a href="algorithm/generate.md"><code>generate</code></a></li>
+<li><a href="algorithm/includes.md"><code>includes</code></a></li>
 <li><a href="algorithm/iota.md"><code>iota</code></a></li>
+<li><a href="algorithm/equal_range.md"><code>lower_bound</code></a></li>
+<li><a href="algorithm/lower_bound.md"><code>lower_bound</code></a></li>
+<li><a href="algorithm/max.md"><code>max</code></a></li>
+<li><a href="algorithm/max_element.md"><code>max_element</code></a></li>
+<li><a href="algorithm/merge.md"><code>merge</code></a></li>
+<li><a href="algorithm/min.md"><code>min</code></a></li>
+<li><a href="algorithm/min_element.md"><code>min_element</code></a></li>
+<li><a href="algorithm/minmax.md"><code>minmax</code></a></li>
+<li><a href="algorithm/minmax_element.md"><code>minmax_element</code></a></li>
 <li><a href="algorithm/mismatch.md"><code>mismatch</code></a></li>
 <li><a href="algorithm/none_of.md"><code>none_of</code></a></li>
 <li><a href="algorithm/reverse.md"><code>reverse</code></a></li>
+<li><a href="algorithm/set_difference.md"><code>set_difference</code></a></li>
+<li><a href="algorithm/set_intersection.md"><code>set_intersection</code></a></li>
+<li><a href="algorithm/set_union.md"><code>set_union</code></a></li>
 <li><a href="algorithm/sort.md"><code>sort</code></a></li>
+<li><a href="algorithm/upper_bound.md"><code>upper_bound</code></a></li>
 
 </ol>
 </details>
@@ -139,6 +153,7 @@
 <ol>
 <li><a href="vector/assign.md"><code>assign</code></a></li>
 <li><a href="vector/at.md"><code>at</code></a></li>
+<li><a href="vector/back.md"><code>back</code></a></li>
 <li><a href="vector/begin.md"><code>begin</code></a></li>
 <li><a href="vector/clear.md"><code>clear</code></a></li>
 <li><a href="vector/empty.md"><code>empty</code></a></li>

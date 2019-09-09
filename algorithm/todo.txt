@@ -38,16 +38,9 @@ partial_sort
 partial_sort_copy
 stable_sort
 nth_element
-lower_bound
-upper_bound
 equal_range
-merge
 inplace_merge
-includes
-set_difference
-set_intersection
 set_symmetric_difference
-set_union
 is_heap
 is_heap_until
 make_heap
@@ -55,10 +48,6 @@ push_heap
 pop_heap
 sort_heap
 clamp
-max
-max_element
-min
-min_element
 minimax
 minimax_element
 lexicographical_compare
