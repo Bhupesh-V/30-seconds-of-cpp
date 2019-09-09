@@ -22,5 +22,5 @@
         std::cout << value << " "; 
     }
 ```
-**[See Sample code](snippets/algorithm/merge.cpp)**
+**[See Sample code](../snippets/algorithm/merge.cpp)**
 **[Run Code](https://rextester.com/TPXUS57604)**

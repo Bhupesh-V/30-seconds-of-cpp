@@ -9,5 +9,5 @@
     // prints 7
     std::cout << smallest << " "; 
 ```
-**[See Sample code](snippets/algorithm/max.cpp)**
+**[See Sample code](../snippets/algorithm/max.cpp)**
 **[Run Code](https://rextester.com/RCHUQA23545)**

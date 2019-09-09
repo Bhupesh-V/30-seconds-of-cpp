@@ -17,5 +17,5 @@ Elements are copied in reverse order (last element is copied first), but the rel
         std::cout << value << " "; 
     }
 ```
-**[See Sample code](snippets/algorithm/copy_backward.cpp)**
+**[See Sample code](../snippets/algorithm/copy_backward.cpp)**
 **[Run Code](https://rextester.com/INZK42877)**

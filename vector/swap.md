@@ -12,5 +12,5 @@
     vector1.swap(vector2);
 
 ```
-**[See Sample code](snippets/vector/swap.cpp)**
+**[See Sample code](../snippets/vector/swap.cpp)**
 **[Run Code](https://rextester.com/PNR78595)**

@@ -17,5 +17,5 @@
     }
 
 ```
-**[See Sample code](snippets/algorithm/equal_range.cpp)**
+**[See Sample code](../snippets/algorithm/equal_range.cpp)**
 **[Run Code](https://rextester.com/ZYGGE30271)**

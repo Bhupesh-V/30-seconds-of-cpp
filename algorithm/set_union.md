@@ -28,5 +28,5 @@
     }
    
 ```
-**[See Sample code](snippets/algorithm/set_union.cpp)**
+**[See Sample code](../snippets/algorithm/set_union.cpp)**
 **[Run Code](https://rextester.com/LFXB93097)**

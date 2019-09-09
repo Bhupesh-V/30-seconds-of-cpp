@@ -24,5 +24,5 @@
     std::cout << " v1 contains v3? " << v1ContainsV3 << std::endl;
    
 ```
-**[See Sample code](snippets/algorithm/includes.cpp)**
+**[See Sample code](../snippets/algorithm/includes.cpp)**
 **[Run Code](https://rextester.com/MMPQ67900)**
