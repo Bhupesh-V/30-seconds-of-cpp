@@ -196,23 +196,25 @@ Join other C++ enthusiasts on
 | Kyle Johnson | [kydojo](https://github.com/kydojo) |
 | Timothy Itodo | [itodotimothy6](https://github.com/itodotimothy6) |
 | Pankaj Raghav | [Panky-codes](https://github.com/Panky-codes) |
+| Thamara Andrade | [thamara](https://github.com/thamara) |
+| darksider3 | [Darksider3](https://github.com/Darksider3) |
+| Harsh Raj | [harshraj22](https://github.com/harshraj22) |
+| samuels96 | [samuels96](https://github.com/samuels96) |
+
+- A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo :heart:
 
 ## Author
 
 :bust_in_silhouette: **Bhupesh Varshney**
 
 - Twitter: [@bhupeshimself](https://twitter.com/bhupeshimself)
-- Github: [@Bhupesh-V](https://github.com/Bhupesh-V)
-
-## Special Mention
-
-A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo :heart:
+- DEV: [bhupesh](https://dev.to/bhupesh)
 
 ## :memo: License
 
-This project is licensed under the MIT License. See the [LICENSE.md](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## :wave: Contributing
 
-Please read the *updated* [CONTRIBUTING.md](CONTRIBUTING.md) for the process for submitting pull requests to us.
+Please read the *updated* [CONTRIBUTING](CONTRIBUTING.md) for the process for submitting pull requests to us.
 
