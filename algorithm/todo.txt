@@ -9,14 +9,6 @@ fill
 fill_n
 transform
 generate_n
-remove
-remove_if
-remove_copy
-remove_copy_if
-replace
-replace_if
-replace_copy
-replace_copy_if
 swap
 swap_ranges
 iter_swap

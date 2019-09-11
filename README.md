@@ -67,6 +67,14 @@
 <li><a href="algorithm/minmax_element.md"><code>minmax_element</code></a></li>
 <li><a href="algorithm/mismatch.md"><code>mismatch</code></a></li>
 <li><a href="algorithm/none_of.md"><code>none_of</code></a></li>
+<li><a href="algorithm/remove.md"><code>remove</code></a></li>
+<li><a href="algorithm/remove_copy.md"><code>remove_copy</code></a></li>
+<li><a href="algorithm/remove_copy_if.md"><code>remove_copy_if</code></a></li>
+<li><a href="algorithm/remove_if.md"><code>remove_if</code></a></li>
+<li><a href="algorithm/replace.md"><code>replace</code></a></li>
+<li><a href="algorithm/replace_copy.md"><code>replace_copy</code></a></li>
+<li><a href="algorithm/replace_copy_if.md"><code>replace_copy_if</code></a></li>
+<li><a href="algorithm/replace_if.md"><code>replace_if</code></a></li>
 <li><a href="algorithm/reverse.md"><code>reverse</code></a></li>
 <li><a href="algorithm/set_difference.md"><code>set_difference</code></a></li>
 <li><a href="algorithm/set_intersection.md"><code>set_intersection</code></a></li>
