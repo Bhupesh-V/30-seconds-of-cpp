@@ -15,6 +15,7 @@ EMOJIS = {
   "string": ':red_circle:',
   "list": ':page_with_curl:',
   "vector": ':arrow_upper_right:',
+  "set": ":zap:",
   "implemented":':heavy_check_mark:',
   "not_implemented":':x:'
 }

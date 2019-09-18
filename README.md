@@ -28,6 +28,7 @@
 * [list](#list) :page_with_curl:
 * [map](#map) :world_map: 
 * [queue](#queue) :large_blue_circle:
+* [set](#set) :zap:
 * [stack](#stack) :books:
 * [vector](#vector) :arrow_upper_right:
 
@@ -139,6 +140,13 @@
 <li><a href="queue/push.md"><code>push</code></a></li>
 <li><a href="queue/size.md"><code>size</code></a></li>
 <li><a href="queue/swap.md"><code>swap</code></a></li>
+
+</ol>
+</details>
+
+### Set 
+<details><summary>View contents</summary>
+<ol>
 
 </ol>
 </details>
