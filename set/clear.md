@@ -11,7 +11,7 @@
 
 int main(){
     // Create a set object holding integers
-    set<int> myset {1,2,3,4,5};
+    std::set<int> myset {1,2,3,4,5};
     myset.clear()
     std::cout << "Size of my set is : " << myset.size() << std::endl;
 
