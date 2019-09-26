@@ -20,4 +20,3 @@ int main(){
 
 ```
 
-**[Run Code](https://ideone.com/guEojH)**
