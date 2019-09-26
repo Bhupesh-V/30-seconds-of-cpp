@@ -8,7 +8,7 @@
 #include <iostream>
 #include <vector>
 
-void print(const std::vector<int> vec)
+void print(const std::vector<int> &vec)
 {
         for(auto elem : vec) //auto automatically assigns variable type to elem; here, elem becomes an integer type as vec is a vector of arrays
                 std::cout << elem << " ";
