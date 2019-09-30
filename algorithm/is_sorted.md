@@ -1,6 +1,6 @@
 # is_sorted
 
-**Description :** The C++ function std::is_sorted checks if the elements in range [first, last] are sorted in ascending order. If the elements are sorted in ascending order, the function returns true, else returns false.
+**Description :** The C++ function std::is_sorted checks if the elements in range `[first, last]` are sorted in ascending order. If the elements are sorted in ascending order, the function returns true, else returns false.
 
 **Example :**
 
