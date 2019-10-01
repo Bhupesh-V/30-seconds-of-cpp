@@ -22,9 +22,6 @@
 :x: merge  
 :x: rbegin  
 :x: rend  
-<<<<<<< HEAD
 :x: size
-=======
->>>>>>> 18ec9cd... merge #121
 :x: swap  
 :x: upper_bound  
