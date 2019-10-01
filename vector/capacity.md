@@ -1,17 +1,18 @@
 # capacity
 
-**Description** : capacity() function is a built-in function which returns the size of the storage space currently allocated for the vector, expressed in terms of elements.
+**Description** :
+- Returns the storage space currently allocated to vector
 
-**Example**:
+-The size returned is greater than or equal to vector size, the extra space is to accommodate expansion without the need to relocate vector each time
+
+**Example**
 ```cpp
-    std::vector<int> v; 
+   //Declare the vector
+   std::vector<int> myvector{1,2,3,4,5};
 
-	// inserts elements 
-	for (int i = 0; i < 100; i++) { 
-		v.push_back(i * 10); 
-	} 
+   //when capacity is exhausted, vector automatically expands
+   std::cout<<"The maximum capacity of the vector is: "<< myvector.capacity();
 
-	std::cout << "The size of vector is " << v.size() << std::endl; 
-	std::cout << "The maximum capacity is " << v.capacity() << std::endl; 
 ```
-**[Run Code](https://rextester.com/DBXG13125)**
+**[See Sample code](../snippets/vector/capacity.cpp)**
+**[Run Code](https://rextester.com/ZVN24902)**
