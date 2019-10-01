@@ -17,5 +17,5 @@
 	std::cout<<"After: "<<"a = "<<a<<" and b = "<<b;
 
 ```
-**[See Sample code](../snippets/vector/swap.cpp)**
+**[See Sample code](../snippets/algorithm/swap.cpp)**
 **[Run Code](https://rextester.com/TYQP43703)**
