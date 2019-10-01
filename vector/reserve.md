@@ -2,7 +2,6 @@
 
 **Description** :
 - Helps specify the minimum size of a vector
-
 - Useful to know how many elements the vector will ultimately hold
 
 **Example**:

@@ -2,7 +2,6 @@
 
 **Description** :
 - Returns the maximum number of elements that a vector can hold.
-
 - Depends on the limitations of the system on which program is running.
 
 **Example**:
