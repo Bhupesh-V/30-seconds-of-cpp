@@ -37,4 +37,5 @@
 		stackTwo.pop(); 
 	} 
 ```
+**[See Sample Code](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/snippets/stack/swap.cpp)**
 **[Run Code](https://rextester.com/VYG27335)**
