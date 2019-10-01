@@ -1,7 +1,7 @@
 /*
     Author : jordanchristine
-    Date : Date format 01/10/2019
-    Time : Time format 08:07
+    Date : 01/10/2019
+    Time : 08:07
     Description : Attempting to try out pop_front() from the list class
      for 30 seconds of C++.
 */
