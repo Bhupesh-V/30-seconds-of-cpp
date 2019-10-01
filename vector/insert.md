@@ -15,4 +15,5 @@
 		std::cout << *it << " "; 
 	std::cout << std::endl;
 ```
+**[See Sample code](../snippets/vector/insert.cpp)**
 **[Run Code](https://rextester.com/AHENR90238)**
