@@ -5,7 +5,7 @@
 
 **Example :**
 ```cpp
-//Run Code To Demonstrate use of set.size()
+//Run Code To Demonstrate use of set.clear()
 #include<iostream>
 #include<set>
 
