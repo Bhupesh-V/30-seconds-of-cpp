@@ -9,7 +9,6 @@
 #include <vector>
 
 void print(const std::vector<int> &vec){
-	
 	for(auto num : vec){
 		std::cout << num << " ";
 	}
