@@ -1,5 +1,4 @@
 # `<set>`
-:heavy_check_mark: [size](size.md)  
 :x: begin  
 :x: cbegin  
 :x: cend  
@@ -22,5 +21,6 @@
 :x: merge  
 :x: rbegin  
 :x: rend  
+:x: size
 :x: swap  
 :x: upper_bound  

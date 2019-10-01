@@ -147,7 +147,6 @@
 ### Set 
 <details><summary>View contents</summary>
 <ol>
-<li><a href="set/size.md"><code>size</code></a></li>
 
 </ol>
 </details>
