@@ -8,8 +8,7 @@
 #include <iostream>
 #include <vector>
 
-int main()
-{
+int main(){
 	//create two vectors, one empty and one having 6 elements
 	std::vector<int> vector1{10, 20, 30, 40, 50, 60};
 	std::vector<int> vector2;

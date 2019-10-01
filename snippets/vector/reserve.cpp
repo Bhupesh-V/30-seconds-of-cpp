@@ -8,8 +8,7 @@ Description : Helps specify the minimum size of a vector
 #include <iostream>
 #include <vector>
 
-int main()
-{
+int main(){
 	//create an empty vector
 	std::vector<int> myvector;
 
