@@ -1,3 +1,4 @@
+// Style Guide => https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/CONTRIBUTING.md/#Style Guide
 /*
     Author : Y. Sai Sriram
     Date   : 28/09/2019
@@ -23,3 +24,4 @@ int main()
 
 	return 0;
 }
+

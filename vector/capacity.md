@@ -16,7 +16,3 @@
 ```
 **[See Sample code](../snippets/vector/capacity.cpp)**
 **[Run Code](https://rextester.com/ZVN24902)**
-
-	
-
-
