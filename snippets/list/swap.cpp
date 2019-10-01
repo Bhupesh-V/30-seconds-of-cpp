@@ -10,7 +10,6 @@
 #include<list>
 
 int main(){
-	
 	// list container declaration
 	std::list<int> mylist1{1, 2, 3, 4};
 	std::list<int> mylist2{3, 5, 7, 9};
