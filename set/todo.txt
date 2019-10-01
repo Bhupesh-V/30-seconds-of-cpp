@@ -16,7 +16,6 @@ erase
 swap
 extract
 merge
-count
 find
 contains
 equal_range
