@@ -25,3 +25,6 @@
     }
 
 ```
+
+**[See Sample Code](../snippets/list/swap.cpp)**
+**[Run Code](https://rextester.com/YBG44941)**
