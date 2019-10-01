@@ -13,10 +13,10 @@ int main(){
 	int a = 60, b = 50;
 
 	//a:60 and b:50
-	std::cout<<"Before : a = "<< a <<" and b = "<< b <<"\n";
+	std::cout << "Before : a = " << a << " and b = " << b << "\n";
 
 	std::swap(a,b); 	
 
 	//a:50 and b:60, after swap
-	std::cout<<"After  : a = "<< a <<" and b = "<< b ;
+	std::cout << "After  : a = " << a << " and b = " << b;
 }
