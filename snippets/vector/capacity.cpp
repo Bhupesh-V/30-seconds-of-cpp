@@ -15,8 +15,9 @@ int main (){
     std::vector<int> vector1;
 
     // Assign some vaues in the vector:
-    for (int i=0; i<100; i++) 
+    for (int i=0; i<100; ++i) {
         vector1.push_back(i);
+    }
 
     // See the amount of current element (size) and the capacity currently used (capacity)
     std::cout << "Size: " << (int) vector1.size() << '\n';
