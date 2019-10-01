@@ -14,4 +14,4 @@ int main()
 	cout << "After Swapping: x =" << x << ", y=" << y; 
 } 
 
-// This code is contributed by mohit kumar. 
+// This code is contributed by Debasish Mahana. 
