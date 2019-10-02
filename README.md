@@ -149,6 +149,7 @@
 <ol>
 <li><a href="set/size.md"><code>size</code></a></li>
 <li><a href="set/count.md"><code>count</code></a></li>
+<li><a href="set/merge.md"><code>merge</code></a></li>
 
 </ol>
 </details>

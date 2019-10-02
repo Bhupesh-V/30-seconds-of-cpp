@@ -1,6 +1,7 @@
 # `<set>`
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [count](count.md)  
+:heavy_check_mark: [merge](merge.md)  
 :x: begin  
 :x: cbegin  
 :x: cend  
@@ -19,7 +20,6 @@
 :x: insert  
 :x: lower_bound  
 :x: max_size  
-:x: merge  
 :x: rbegin  
 :x: rend  
 :x: swap  
