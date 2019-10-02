@@ -1,22 +1,22 @@
 # `<set>`
 :heavy_check_mark: [size](size.md)  
-:x: begin  
+:heavy_check_mark: [begin] (begin.md)  
 :x: cbegin  
 :x: cend  
-:x: clear  
+:heavy_check_mark: [clear](clear.md)  
 :x: contains  
 :x: count  
 :x: crbegin  
 :x: crend  
-:x: emplace  
+:heavy_check_mark: [emplace](emplace.md)  
 :x: emplace_hint  
-:x: empty  
+:heavy_check_mark: [empty](empty.md)  
 :x: end  
 :x: equal_range  
 :x: erase  
 :x: extract  
 :x: find  
-:x: insert  
+:heavy_check_mark: [insert](insert.md)  
 :x: lower_bound  
 :x: max_size  
 :x: merge  
