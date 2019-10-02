@@ -6,7 +6,7 @@
 */
 #include<iostream.h>
 void main(){
-	int n, i, arr[50], search, first, last, middle;
+	std::int n, i, arr[50], search, first, last, middle;
 	std::cout<<"Enter total number of elements :";
 	std::cin>>n;
 	std::cout<<"Enter "<<n<<" number :";
