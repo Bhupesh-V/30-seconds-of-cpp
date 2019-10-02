@@ -13,7 +13,6 @@ swap
 extract
 merge
 count
-find
 contains
 equal_range
 lower_bound

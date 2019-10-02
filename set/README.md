@@ -15,7 +15,7 @@
 :x: equal_range  
 :x: erase  
 :x: extract  
-:x: find  
+:heavy_check_mark: [find](find.md)
 :x: insert  
 :x: lower_bound  
 :x: max_size  
