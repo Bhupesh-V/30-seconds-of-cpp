@@ -149,7 +149,11 @@
 <ol>
 <li><a href="set/size.md"><code>size</code></a></li>
 <li><a href="set/begin.md"><code>begin</code></a></li>
-
+<li><a href="set/cbegin.md"><code>cbegin</code></a></li>
+<li><a href="set/cend.md"><code>cend</code></a></li>
+<li><a href="set/end.md"><code>end</code></a></li>
+<li><a href="set/find.md"><code>find</code></a></li>
+    
 </ol>
 </details>
 
