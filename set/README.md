@@ -1,7 +1,7 @@
 # `<set>`
 :heavy_check_mark: [size](size.md)  
-:x: begin  
-:x: cbegin  
+:heavy_check_mark: [begin](begin.md)  
+:heavy_check_mark: [cbegin](cbegin.md)  
 :x: cend  
 :x: clear  
 :x: contains  

@@ -148,6 +148,7 @@
 <details><summary>View contents</summary>
 <ol>
 <li><a href="set/size.md"><code>size</code></a></li>
+<li><a href="set/begin.md"><code>begin</code></a></li>
 
 </ol>
 </details>
