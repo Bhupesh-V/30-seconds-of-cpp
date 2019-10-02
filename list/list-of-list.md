@@ -13,3 +13,5 @@ your_hash_function()
 //and insert your data in the linked list of your desired index
 }
 
+//HOPE THIS HELPS
+
