@@ -1,7 +1,7 @@
 /*
     Author : jordanchristine
-    Date : Date format 01/10/2019
-    Time : Time format 16:54
+    Date : 01/10/2019
+    Time : 16:54
     Description : trying out unique() from the list class for 30 seconds of C++.
 */
 
