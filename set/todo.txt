@@ -1,7 +1,4 @@
-begin
-cbegin
 end
-cend
 rbegin
 crbegin
 rend
