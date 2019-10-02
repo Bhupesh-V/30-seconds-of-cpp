@@ -1,45 +1,41 @@
 /*
-    Author : deeksha daga
+    Author : Deeksha Daga
     Date : 02/10/2019
-    Time : 12:47
-    Description : to perform binary search
+    Time : 14:27 
+    Description : search an element using binary search algorithm.
 */
-
-
-// C++ program to implement recursive Binary Search 
-#include <iostream>
-
-// A recursive binary search function. It returns 
-// location of x in given array arr[l..r] is present, 
-// otherwise -1
-int binarySearch(int arr[], int l, int r, int x) {
-	if (r >= l) {
-		int mid = l + (r - l) / 2; 
-		// If the element is present at the middle 
-        	// itself 
-        	if (arr[mid] == x) { 
-            		return mid; 
+#include<iostream.h>
+void main(){
+	int n, i, arr[50], search, first, last, middle;
+	std::cout<<"Enter total number of elements :";
+	std::cin>>n;
+	std::cout<<"Enter "<<n<<" number :";
+	for (i=0; i<n; i++){
+		std::cin>>arr[i];
+	}
+	std::cout<<"Enter a number to find :";
+	std::cin>>search;
+	first = 0;
+	last = n-1;
+	middle = (first+last)/2;
+	while (first <= last){
+		// If element is greater than mid, then it can only be present in right subarray
+		if(arr[middle] < search){
+			first = middle + 1;
 		}
-        	// If element is smaller than mid, then 
-        	// it can only be present in left subarray 
-        	if (arr[mid] > x) { 
-            		return binarySearch(arr, l, mid - 1, x); 
- 		}
-        	// Else the element can only be present 
-        	// in right subarray 
-        	return binarySearch(arr, mid + 1, r, x); 
-    	}	 
-    	// We reach here when element is not 
-    	// present in array 
-    	return -1; 
-} 
-  
-int main(void){
-	int arr[] = { 2, 3, 4, 10, 40 }; 
-	int x = 10; 
-	int n = sizeof(arr) / sizeof(arr[0]); 
-	int result = binarySearch(arr, 0, n - 1, x); 
-	(result == -1) ? std::cout << "Element is not present in array" : std::cout << "Element is present at index " << result; 
-	return 0; 
+		// If the element is present at the middle itself 
+		else if(arr[middle] == search){
+			std::cout << search << " found at location " << middle+1 << "\n";
+			break;
+		}
+		// If element is smaller than mid, then it can only be present in left subarray 
+		else{
+			 last = middle - 1;
+		}
+		middle = (first + last)/2;
+	}
+    	// We reach here when element is not present in array
+	if(first > last){
+		std::cout << "Not found! "<<search<<" is not present in the list.";
+	}
 }
-
