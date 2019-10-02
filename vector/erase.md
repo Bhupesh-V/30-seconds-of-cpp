@@ -4,8 +4,8 @@
 
 Two variations:
 
-1. Removes the element at position.
-2. Removes the elements in the range [first, last).
+i. Removes the element at position.
+ii. Removes the elements in the range [first, last).
 
 **Example**:
 ```cpp
@@ -14,8 +14,8 @@ Two variations:
     vector1 = {1,2,3,4,5,6,7,8,9};
     // print(vector1);
 
-    // Remove 1st Element
-    vector1.erase(vector1.begin());
+    // Remove 2nd Element
+    vector1.erase(vector1.begin()+1);
 
     // Remove range of elements
     vector1.erase(vector1.begin()+2,vector1.begin()+5);
