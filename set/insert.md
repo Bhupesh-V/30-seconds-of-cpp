@@ -1,11 +1,12 @@
 # insert
 
 **Description :**
-    This method is used to insert elements in std::set.
+This method is used to insert elements in std::set.
 
 **Example :**
+
 ```cpp
-//Run Code To Demonstrate use of set.size()
+//Run Code To Demonstrate use of set.insert()
 #include<iostream>
 #include<set>
 
