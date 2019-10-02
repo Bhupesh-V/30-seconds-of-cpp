@@ -13,7 +13,7 @@
 // location of x in given array arr[l..r] if present, 
 // otherwise -1 
 
-int binarySearch(int arr[], int l, int r, int x) { 
+std::int binarySearch(int arr[], int l, int r, int x) { 
 	while (l <= r) { 
 		int m = l + (r - l) / 2; 
 		// Check if x is present at mid 
