@@ -2,7 +2,7 @@
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [begin](begin.md)  
 :heavy_check_mark: [cbegin](cbegin.md)  
-:x: cend  
+:heavy_check_mark: [cend](cend.md)
 :x: clear  
 :x: contains  
 :x: count  
