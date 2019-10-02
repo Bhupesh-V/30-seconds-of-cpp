@@ -11,7 +11,7 @@
 :x: emplace  
 :x: emplace_hint  
 :x: empty  
-:x: end  
+:heavy_check_mark: [end](end.md)
 :x: equal_range  
 :x: erase  
 :x: extract  
