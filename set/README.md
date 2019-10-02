@@ -1,6 +1,7 @@
 # `<set>`
 :heavy_check_mark: [size](size.md)  
-:x: begin  
+:heavy_check_mark: [find](find.md)
+<br>:x: begin  
 :x: cbegin  
 :x: cend  
 :x: clear  
@@ -15,7 +16,6 @@
 :x: equal_range  
 :x: erase  
 :x: extract  
-:x: find  
 :x: insert  
 :x: lower_bound  
 :x: max_size  
