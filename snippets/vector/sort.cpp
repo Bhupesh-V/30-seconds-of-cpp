@@ -1,5 +1,5 @@
 /*
-    Author : Italo Vincius
+    Author : Italo Vinicius
     Date   : 01/10/2019
     Time   : 21:00 
     Description : Returns a ordered vector in increasing or decreasing order.
