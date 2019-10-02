@@ -1,11 +1,11 @@
 # `<set>`
 :heavy_check_mark: [size](size.md)  
+:heavy_check_mark: [count](count.md)  
 :x: begin  
 :x: cbegin  
 :x: cend  
 :x: clear  
 :x: contains  
-:x: count  
 :x: crbegin  
 :x: crend  
 :x: emplace  
