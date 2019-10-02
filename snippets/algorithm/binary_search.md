@@ -1,41 +1,45 @@
 /*
-    Author : Deeksha Daga
+    Author : deeksha daga
     Date : 02/10/2019
-    Time : 14:27 
-    Description : search an element using binary search algorithm.
+    Time : 12:47
+    Description : to search an element using binary search algorithm
 */
-#include<iostream.h>
-void main(){
-	std::int n, i, arr[50], search, first, last, middle;
-	std::cout<<"Enter total number of elements :";
-	std::cin>>n;
-	std::cout<<"Enter "<<n<<" number :";
-	for (i=0; i<n; i++){
-		std::cin>>arr[i];
-	}
-	std::cout<<"Enter a number to find :";
-	std::cin>>search;
-	first = 0;
-	last = n-1;
-	middle = (first+last)/2;
-	while (first <= last){
-		// If element is greater than mid, then it can only be present in right subarray
-		if(arr[middle] < search){
-			first = middle + 1;
+
+// C++ program to implement recursive Binary Search 
+
+#include <iostream> 
+
+// A iterative binary search function. It returns 
+// location of x in given array arr[l..r] if present, 
+// otherwise -1 
+
+int binarySearch(int arr[], int l, int r, int x) { 
+	while (l <= r) { 
+		int m = l + (r - l) / 2; 
+		// Check if x is present at mid 
+		if (arr[m] == x){ 
+			return m; 
 		}
-		// If the element is present at the middle itself 
-		else if(arr[middle] == search){
-			std::cout << search << " found at location " << middle+1 << "\n";
-			break;
+		// If x greater, ignore left half 
+		if (arr[m] < x){ 
+			l = m + 1;
 		}
-		// If element is smaller than mid, then it can only be present in left subarray 
+		// If x is smaller, ignore right half 
 		else{
-			 last = middle - 1;
-		}
-		middle = (first + last)/2;
-	}
-    	// We reach here when element is not present in array
-	if(first > last){
-		std::cout << "Not found! "<<search<<" is not present in the list.";
-	}
+			r = m - 1;
+		} 
+	} 
+	// if we reach here, then element was 
+	// not present 
+	return -1; 
 }
+  
+int main() {
+	int arr[] = { 2, 3, 4, 10, 40 }; 
+	int x = 10; 
+	int n = sizeof(arr) / sizeof(arr[0]); 
+	int result = binarySearch(arr, 0, n - 1, x);
+	(result == -1) ? std::cout << "Element is not present in array" : std::cout << "Element is present at index " << result; 
+	return 0;
+} 
+
