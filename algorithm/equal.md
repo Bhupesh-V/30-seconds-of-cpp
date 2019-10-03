@@ -23,3 +23,4 @@
         std::cout << "The contents of both sequences differ.\n";
     }
 ``` 
+**[Run Code](https://rextester.com/NMO59733)**
