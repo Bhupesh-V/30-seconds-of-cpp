@@ -3,6 +3,12 @@
 **Description** :
 - Exchange values of two objects
 
+**Pseudocode of swap** :
+swap(a,b)
+	temp=a
+	a=b
+	b=temp
+
 **Example**
 ```cpp
 	//Declare two example objects (same type)
