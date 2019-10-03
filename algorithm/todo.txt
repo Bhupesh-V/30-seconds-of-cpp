@@ -24,7 +24,6 @@ partition
 partition_copy
 stable_partition
 partition_point
-is_sorted
 is_sorted_until
 partial_sort
 partial_sort_copy
