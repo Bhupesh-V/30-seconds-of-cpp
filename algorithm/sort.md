@@ -2,6 +2,22 @@
 
 **Description :**  This function is implemented as Quick-sort. The complexity of it is O(N*log(N)).
 
+**Pseudocode for quick sort**
+quickSort(array, low, high)
+    if (low < high)
+        pi = partition(array, low, high);
+        quickSort(array, low, pi - 1);
+        quickSort(array, pi + 1, high);
+partition (array, low, high)
+    pivot = array[high];  
+    i = (low - 1)
+    for (j = low; j <= high- 1; j++)
+        if (array[j] < pivot)
+            i++;
+            swap array[i] and array[j]
+    swap array[i + 1] and array[high])
+    return (i + 1)
+
 **Example** :
 
 ```cpp   
