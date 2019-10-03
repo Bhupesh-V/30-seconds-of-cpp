@@ -3,11 +3,11 @@ Defination:-
 </h1>
 <p>
 A vector, once declared, has all its values initialized to zero.
-<br>eg-> vector<int> a(5); //a =  0 0 0 0 0<br>
+<br>eg-> std::vector<int> a(5); //a =  0 0 0 0 0<br>
 
 <br>
 What if we wish to initialize the vector to a specific value, say 1 ? For this, we can pass the value along with the size of the vector.
-<br>eg-> vector<int> a(5,1) // a = 1 1 1 1 1
+<br>eg-> std::vector<int> a(5,1) // a = 1 1 1 1 1
 <br>
 <br>
 What if we wish to initialize the first 2 values to say 10 and rest 3 values as 20?
@@ -30,22 +30,21 @@ Example code:-
 <p>
 <code>
 
-int main () 
+int main () { 
 
-{ 
- 
- vector <int> v(8);
- 
- fill(v.begin() + 2, v.end() - 1, 4); 
- 
- for (int i=0; i<v.size(); i++) 
- 
-    cout << v[i] << " "; 
+std::vector<int> v(8);
+
+std::fill(v.begin() + 2, v.end() - 1, 4); 
+
+for (int i=0; i<v.size(); ++i){ 
+
+  cout << v[i] << " "; 
+
+}
   
- return 0; 
- 
- }
- 
+return 0; 
+
+}
  </code>
  </p>
  
