@@ -11,7 +11,6 @@
 #include <set>
 
 int main(){
-
     std::set<int> A{21,10,6};  // 6,10,21
     std::set<int> B{56,11,34}; // 11,34,56
 
