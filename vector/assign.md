@@ -1,6 +1,6 @@
 # assign
 
-**Description** : Overwrites the contents of a vector.
+**Description** : Overwrites the contents of a vector. It can also modify size of vector if necessary.
 
 Two variations:
 
