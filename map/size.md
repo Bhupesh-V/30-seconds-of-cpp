@@ -1,4 +1,11 @@
-// Demonstrate map::size() function 
+# size
+
+**Description :** It returns an integer value which is equal to the number of elements map container have. It accepts no parameters.
+
+**Example** :
+
+```cpp
+// C++ program to Demonstrate map::size() function 
 #include <iostream>
 #include <map>
 using namespace std; 
@@ -18,5 +25,9 @@ int main() {
   
     // print the total number of elements in map
     std::cout << mp.size() ;
+    
     return 0; 
 } 
+```
+
+**[Run Code](https://rextester.com/EPVO2087)**
