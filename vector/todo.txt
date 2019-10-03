@@ -3,9 +3,16 @@ data
 rend
 crend
 cbegin
+insert
 rbegin
 vector
 crbegin
+emplace
+reserve
 ~vector
+capacity
+max_size
+pop_back
 emplace_back
 get_allocator
+shrink_to_fit
