@@ -24,10 +24,10 @@ int main() {
     mp.insert({ 5, 60 }); 
   
     // print the list in reverse order using itr iterator till itr != mp.crend()
-    cout << "\nThe map in reverse order is : \n"; 
-    cout << "KEY\tELEMENT\n"; 
+    std::cout << "\nThe map in reverse order is : \n"; 
+    std::cout << "KEY\tELEMENT\n"; 
     for (auto itr = mp.crbegin(); itr != mp.crend(); ++itr) { 
-        cout << itr->first 
+        std::cout << itr->first 
              << '\t' << itr->second << '\n'; 
     } 
     
@@ -35,4 +35,4 @@ int main() {
 } 
 ```
 
-**[Run Code](https://rextester.com/BPCRKT34905)**
+**[Run Code](https://rextester.com/FDPVP92421)**
