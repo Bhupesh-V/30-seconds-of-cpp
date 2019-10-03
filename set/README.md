@@ -22,5 +22,6 @@
 :x: merge  
 :x: rbegin  
 :x: rend  
+:x: size
 :x: swap  
 :x: upper_bound  
