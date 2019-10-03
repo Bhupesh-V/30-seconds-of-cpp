@@ -19,8 +19,8 @@ For N elements there would N!(factorial) permutations possible.
 Example Code:-
 </h3>
 <code>
-int main() 
-{  
+int main() {  
+    
     int a[] = { 1, 2, 3 }; 
     
     sort(a, a+3); 
