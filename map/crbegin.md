@@ -23,7 +23,7 @@ int main() {
     mp.insert({ 6, 50 }); 
     mp.insert({ 5, 60 }); 
   
-    // first store and then print the element return by cr.begin()
+    // first store and then print the element return by crbegin()
     auto it = mp.crbegin();
         std::cout << it->first 
              << '\t' << it->second << '\n'; 
