@@ -9,7 +9,7 @@
     std::set<int> B{11,34,56};
 
     // I want to swap set A with set B 
-    A.swap(B)
+    A.swap(B);
 
     // Print the content in set A
     for(std::set<int>::iterator i=A.begin(); i!=A.end(); ++i){
