@@ -1,7 +1,7 @@
 # Swap
 
 **Description :** The map::swap() function exchanges the content of two maps of same type, although the size may differ.
-Syntax: swap(first_map, second_map);
+Syntax: std::swap(first_map, second_map);
 
 **Example**:
 
