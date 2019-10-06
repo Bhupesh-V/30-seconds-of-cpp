@@ -11,10 +11,7 @@ int main() {
     std:: cout << "\nArray after sorting using "
             "default sort is : \n"; 
     for (int i = 0; i < n; ++i){
-
     	std::cout << arr[i] << " ";
     } 
-         
-  
     return 0; 
 } 
