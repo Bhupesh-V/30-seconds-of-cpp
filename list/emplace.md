@@ -5,7 +5,7 @@ The list::emplace() is a built-in function in C++ STL which extends list by inse
 
 **Example**
 ```cpp
-	int main() { 
+    int main() { 
     // declaration of list 
     list<int> lis = { 5, 6, 7, 8, 9, 10 }; 
   
