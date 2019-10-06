@@ -18,3 +18,6 @@
   
     std::cout << "The vector contains " << size << " elements"; 
 ```
+
+**[See Sample Code](../snippets/vector/size.cpp)** 
+**[Run Code](https://rextester.com/MWSFM68903)**
