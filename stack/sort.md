@@ -59,5 +59,5 @@ at the top of the stack
         }
     }
 ```
-**[See Sample Code](../snippets/stack/sort.cpp)**
+**[See Sample Code](../snippets/stack/sort.cpp)**\
 **[Run Code](https://rextester.com/XTDYF34782)**
