@@ -6,6 +6,7 @@ push_back() function is used to push elements into a list from the back. The new
 **Example**
 ```cpp
     int main() { 
+    // declaration of list container
     list<int> mylist{ 1, 2, 3, 4, 5 }; 
     mylist.push_back(6); 
   
