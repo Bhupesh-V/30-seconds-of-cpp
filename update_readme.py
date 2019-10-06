@@ -16,6 +16,7 @@ EMOJIS = {
   "list": ':page_with_curl:',
   "vector": ':arrow_upper_right:',
   "set": ":zap:",
+  "unordered_map": ':world_map:',
   "implemented":':heavy_check_mark:',
   "not_implemented":':x:'
 }
