@@ -5,15 +5,16 @@ pop_back() function is used to pop or remove elements from a list from the back.
 
 **Example**
 ```cpp
-	int main() { 
-	// declaration of list container
+    int main() { 
+    // declaration of list container
     list<int> mylist{ 1, 2, 3, 4, 5 }; 
     mylist.pop_back(); 
   
     // list becomes 1, 2, 3, 4 
   
-    for (auto it = mylist.begin(); it != mylist.end(); ++it) 
+    for (auto it = mylist.begin(); it != mylist.end(); ++it) {
         cout << ' ' << *it; //printing output
+    }
 } 
 
 ```
