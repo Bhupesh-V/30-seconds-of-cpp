@@ -12,7 +12,6 @@ int main(){
 	// defining two vector
 	std::vector<int> haystack { 10, 20, 30, 40, 50, 60, 70, 80, 90 };
 	int needle1[] = { 40, 50, 60, 70 };
-
 	std::vector<int>::iterator it;
 	//Will find needle1 in haystack
 	it = std::search (haystack.begin(), haystack.end(), needle1, needle1+4);
@@ -23,5 +22,4 @@ int main(){
 	else{
 		std::cout << "needle1 not found\n";
 	}
-
 }
