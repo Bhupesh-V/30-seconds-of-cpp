@@ -22,6 +22,8 @@
 :heavy_check_mark: [splice](splice.md)  
 :heavy_check_mark: [swap](swap.md)  
 :x: emplace  
+:x: null
+:x: terminate
 :x: emplace_back  
 :x: flip  
 :x: get_allocator  
