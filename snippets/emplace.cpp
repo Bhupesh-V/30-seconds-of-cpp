@@ -5,7 +5,7 @@
     Description : The function returns an iterator which points to the newly inserted element.
     
 */
-using namespace std; 
+ 
   
 int main() 
 { 
@@ -16,7 +16,7 @@ int main()
     auto it = vec.emplace(vec.begin(), 15); 
   
     // print the elements of the vector 
-cout << "The vector elements are: ";  
+std::cout << "The vector elements are: ";  
     for (auto it = vec.begin(); it != vec.end(); ++it) 
         cout << *it << " "; 
   
