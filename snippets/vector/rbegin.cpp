@@ -3,7 +3,6 @@
     Date   : 07/10/2019
     Time   : 19:30
     Description : Returns a reverse iterator pointing to the last element in the vector (i.e., its reverse beginning).
-                  Reverse iterators iterate backwards: increasing them moves them towards the beginning of the container.
 */
 
 #include <iostream>
