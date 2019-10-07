@@ -49,6 +49,8 @@
 :x: adjacent_difference  
 :x: clamp  
 :x: destroy  
+:x: terminate
+:x: null
 :x: equal  
 :x: equal_range  
 :x: exclusive_scan  
