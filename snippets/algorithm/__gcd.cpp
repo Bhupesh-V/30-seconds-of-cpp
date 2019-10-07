@@ -5,9 +5,7 @@
     Description : Finding gcd of two numbers, with only a function call
 */
 
-
-#include<iostream>
-#include<algorithm>
+#include<bits/stdc++.h>
 
 int main(){
     int num1 = 18;
