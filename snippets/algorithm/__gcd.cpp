@@ -10,7 +10,6 @@
 #include<algorithm>
 
 int main(){
-    
     int num1 = 18;
     int num2 = 4;
     
