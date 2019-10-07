@@ -19,5 +19,5 @@
     for (int& x: random) std::cout << ' ' << x;
     std::cout << '\n';
 ```
-**[See Sample code](../snippets/set/shuffle.cpp)**
+**[See Sample code](../snippets/algorithm/shuffle.cpp)**
 **[Run Code](https://rextester.com/NNI79837)**
