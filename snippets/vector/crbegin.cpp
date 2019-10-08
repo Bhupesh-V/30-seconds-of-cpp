@@ -23,7 +23,5 @@ int main (){
     std::cout << ' ' << *i;  
     }
     
-    std:: cout << '\n'; 
-
-
-} 
+    std:: cout << '\n';
+}
