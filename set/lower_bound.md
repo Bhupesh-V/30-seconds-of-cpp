@@ -8,7 +8,7 @@ Description:
  s.lower_bound(k);
  
 // C++ function for illustration
-// map::lower_bound() function
+// set::lower_bound() function
 #include <bits/stdc++.h>
 using namespace std;
 
