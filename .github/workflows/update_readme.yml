@@ -1,0 +1,21 @@
+name: Update README
+on: push # For testing
+#  push:
+#    branches: [master]
+jobs:
+  build:
+    - name: Checkout
+      uses: actions/checkout@v1
+      with:
+        fetch-depth: 1
+    - name: Setup Python
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.x
+        architecture: x64
+    - name: Update README
+      run: python update_readme.py
+    - name: Publish README
+      uses: mikeal/publish-to-github-action@4e60bca
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
