@@ -30,7 +30,7 @@ HEADER = '''# 30 Seconds of C++
     </a>
     <br>
     <hr>
-    <strong>A collection of C++ STL features (functions/libraries) which can be learned in 30 seconds or less</strong>
+    <strong>A collection of C++ STL features (functions/libraries) which can be learned in 30 seconds or less!</strong>
 </p>
 <hr>
 
@@ -68,8 +68,9 @@ Join other C++ enthusiasts on
 | darksider3 | [Darksider3](https://github.com/Darksider3) |
 | Harsh Raj | [harshraj22](https://github.com/harshraj22) |
 | samuels96 | [samuels96](https://github.com/samuels96) |
+| WHOISbinit | [WHOISbinit](https://twitter.com/WHOISbinit) |
 
-- A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo :heart:
+- A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo! :heart:
 
 ## Author
 
@@ -181,14 +182,14 @@ def print_subfile(category):
             file_.write('{0} {1}  \n'.format(EMOJIS["not_implemented"],function))
 
 def create_readme():
-    ''' Create a 30C++ README.md file with a nice index for using it directly
-        from github. '''
+    ''' Create a 30 C++ README.md file with a nice index for using it directly
+        from GitHub. '''
     category_names = get_list_of_categories()
     count, categories = get_category_dict(category_names)
     print_file(category_names, count, categories)
 
 def create_subreadmes():
-    ''' Create all 30C++ README.md files for all subcategories '''
+    ''' Create all 30 C++ README.md files for all subcategories '''
     category_names = get_list_of_categories()
     for category in category_names:
         print_subfile(category)
