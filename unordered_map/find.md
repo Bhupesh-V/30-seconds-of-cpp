@@ -8,10 +8,10 @@
 // Demonstrates find() 
 #include <iostream>
 #include <unordered_map>
-
+using namespace std;
 int main(){
     //declares an empty map. O(1)
-    std::unordered_map<char, int> mymap; 
+    unordered_map<char, int> mymap; 
     
     // inserting in to unordered_map with O(1) time on average
     mymap.insert({'A', 1});
@@ -20,18 +20,18 @@ int main(){
   
     //finding element in unordered_map O(1) average case. Rare worst case O(n)
     if(mymap.find('A') != mymap.end()){
-        std::cout << "A found and value is " <<mymap['A']<< '\n'; 
+        cout << "A found and value is " <<mymap['A']<< '\n'; 
     }
     else{
-        std::cout << "A not found"<< '\n';
+        cout << "A not found"<< '\n';
     }
 
      //finding element in unordered_map O(1) average case. Rare worst case O(n)
     if(mymap.find('d') != mymap.end()){
-        std::cout << "d found and value is " <<mymap['A']<< '\n'; 
+        cout << "d found and value is " <<mymap['A']<< '\n'; 
     }
     else{
-        std::cout << "d not found"<< '\n';
+        cout << "d not found"<< '\n';
     }
 
     return 0;
