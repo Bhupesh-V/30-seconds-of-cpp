@@ -1,4 +1,4 @@
-# includes
+# random_shuffle
 
 **Description** : It randomly rearrange elements in range [first, last).
 The function swaps the value of each element with some other randomly picked element. When provided, the function gen determines which element is picked in every case. Otherwise, the function uses some unspecified source of randomness.
