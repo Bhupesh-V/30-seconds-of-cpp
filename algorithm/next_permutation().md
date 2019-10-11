@@ -1,20 +1,16 @@
-Defination:-
+# next_permutation()
 
-Given N number like 1 2 3 4...., next_permutation() will produce the next lexicographically greater permutation.
-
-For example my arrray
-
-int a[]={1,2,3,4};
-
+**Defination**:- Given N number like 1 2 3 4...., next_permutation() will produce the next lexicographically greater permutation.For example my arrray
+int a[]={1,2,3,4}
 next_permutaion() function would produce 1,2,4,3
-
 For N elements there would N!(factorial) permutations possible.
-
 Syntax:- next_permutaion(first,last);
 
-Example Code:-
+**Example Code:-**
 
-    int main() {  
+```cpp
+
+    int main(){  
     
         int a[] = { 1, 2, 3 }; 
     
@@ -33,3 +29,4 @@ Example Code:-
         return 0; 
 
     }
+```
