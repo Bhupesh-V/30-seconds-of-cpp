@@ -14,7 +14,8 @@ The below example can also be done using the third argument of unigue() by evaul
 
 Example:-    
 
-        int main(){
+```cpp
+    int main(){
         
                 std::vector<int> v = { 1, 1, 2, 2, 4, 4, 6, 6, 3, 6, 8, 8,3 };
                 
