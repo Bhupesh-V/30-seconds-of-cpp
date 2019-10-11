@@ -1,4 +1,4 @@
-Defination:
+# unique
 
 **Description :** All Consecutive groups of element containing either the same value or evaluating true when passed to predefined function, collapsed into a single element.
 in other words, unique is used to remove duplicates of any element present consecutively in a range[first, last).
