@@ -1,4 +1,4 @@
-#clear
+# clear
 
 description:
 clear() function is used to remove all the elements from the map container and thus leaving it’s size 0.
