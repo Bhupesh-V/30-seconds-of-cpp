@@ -9,7 +9,6 @@ fill
 fill_n
 transform
 generate_n
-swap
 swap_ranges
 iter_swap
 reverse_copy

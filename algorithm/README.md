@@ -44,6 +44,7 @@
 :heavy_check_mark: [set_intersection](set_intersection.md)  
 :heavy_check_mark: [set_union](set_union.md)  
 :heavy_check_mark: [sort](sort.md)  
+:heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
 :x: adjacent_difference  
 :x: clamp  
@@ -94,7 +95,6 @@
 :x: sort_heap  
 :x: stable_partition  
 :x: stable_sort  
-:x: swap  
 :x: swap_ranges  
 :x: transform  
 :x: transform_exclusive_scan  

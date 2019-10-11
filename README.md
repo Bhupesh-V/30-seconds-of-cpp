@@ -83,6 +83,7 @@
 <li><a href="algorithm/set_intersection.md"><code>set_intersection</code></a></li>
 <li><a href="algorithm/set_union.md"><code>set_union</code></a></li>
 <li><a href="algorithm/sort.md"><code>sort</code></a></li>
+<li><a href="algorithm/swap.md"><code>swap</code></a></li>
 <li><a href="algorithm/upper_bound.md"><code>upper_bound</code></a></li>
 
 </ol>
@@ -151,6 +152,7 @@
 <ol>
 <li><a href="set/begin.md"><code>begin</code></a></li>
 <li><a href="set/clear.md"><code>clear</code></a></li>
+<li><a href="set/count.md"><code>count</code></a></li>
 <li><a href="set/emplace.md"><code>emplace</code></a></li>
 <li><a href="set/empty.md"><code>empty</code></a></li>
 <li><a href="set/insert.md"><code>insert</code></a></li>
@@ -193,6 +195,7 @@
 <li><a href="vector/begin.md"><code>begin</code></a></li>
 <li><a href="vector/capacity.md"><code>capacity</code></a></li>
 <li><a href="vector/cbegin.md"><code>cbgin</code></a></li>
+<li><a href="vector/cend.md"><code>cend</code></a></li>
 <li><a href="vector/clear.md"><code>clear</code></a></li>
 <li><a href="vector/emplace.md"><code>emplace</code></a></li>
 <li><a href="vector/empty.md"><code>empty</code></a></li>
@@ -207,6 +210,7 @@
 <li><a href="vector/resize.md"><code>resize</code></a></li>
 <li><a href="vector/shrink_to_fit.md"><code>shrink_to_fit</code></a></li>
 <li><a href="vector/size.md"><code>size</code></a></li>
+<li><a href="vector/sort.md"><code>sort</code></a></li>
 <li><a href="vector/swap.md"><code>swap</code></a></li>
 
 </ol>
