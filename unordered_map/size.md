@@ -8,13 +8,13 @@
 // Demonstrates size() 
 #include <iostream>
 #include <unordered_map>
-
+using namespace
 int main(){
     //declares an empty map. O(1)
-    std::unordered_map<char, int> mymap; 
+    unordered_map<char, int> mymap; 
 
     //print size of mymap before inserting key and value in unordered_map
-    std::cout << "mymap size is = " <<mymap.size()<< '\n';
+      cout << "mymap size is = " <<mymap.size()<< '\n';
     
     //inserting in to unordered_map with O(1) time on average
     mymap.insert({'A', 1});
@@ -22,7 +22,7 @@ int main(){
     mymap.insert({'c', 3});
   
     //print size of mymap After inserting key and value in unordered_map
-    std::cout << "mymap size is = " <<mymap.size()<< '\n';
+        cout << "mymap size is = " <<mymap.size()<< '\n';
 
     return 0;
 }
