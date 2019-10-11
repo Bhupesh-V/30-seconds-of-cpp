@@ -1,0 +1,33 @@
+#include <iostream>
+#include <stack>
+
+using namespace std;
+
+int main(void) {
+   stack<int> s1;
+   stack<int> s2;
+
+   for (int i = 0; i < 5; ++i) 
+      s1.push(i + 1);
+
+   for (int i = 0; i < 3; ++i)
+      s2.push(i + 100);
+
+   swap(s1, s2);
+
+   cout << "Contents of stack s1 after swap operation." << endl;
+   while (!s1.empty()) {
+      cout << s1.top() << endl;
+      s1.pop();
+   }
+
+   cout << endl;
+
+   cout << "Contents of stack s2 after swap operation." << endl;
+   while (!s2.empty()) {
+      cout << s2.top() << endl;
+      s2.pop();
+   }
+
+   return 0;
+}
