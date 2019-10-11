@@ -12,7 +12,7 @@ The below example can also be done using the third argument of unigue() by evaul
    pred => predifeined function
 
 
-Example:-    
+**Example** :
 
 ```cpp
     int main(){
