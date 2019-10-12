@@ -21,7 +21,7 @@ A heap is a data structure which points to highest( or lowest) element and makin
           cout << vi.front() << endl; 
           
           //printing the heap
-          for(i=0;i<vi.size();i++){
+          for(i=0;i<vi.size();++i){
           cout << vi[i] << endl;
           }
           
