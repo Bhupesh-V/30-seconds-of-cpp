@@ -11,13 +11,11 @@
 using namespace std;
 
 int main() {
-
     srand(unsigned(time(0)));
     vector<int> arr;
 
     // set some values:
     for (int j = 1; j < 10; ++j) {
-
         // 1 2 3 4 5 6 7 8 9
         arr.push_back(j);
     }
