@@ -46,14 +46,14 @@
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
+:heavy_check_mark: [fill](fill.md)  
+:heavy_check_mark:[fill_n](fill_n.md)  
 :x: adjacent_difference  
 :x: clamp  
 :x: destroy  
 :x: equal  
 :x: equal_range  
 :x: exclusive_scan  
-:x: fill  
-:x: fill_n  
 :x: find_end  
 :x: generate_n  
 :x: inclusive_scan  
