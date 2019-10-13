@@ -128,6 +128,8 @@
 <li><a href="map/end.md"><code>end</code></a></li>
 <li><a href="map/insert.md"><code>insert</code></a></li>
 <li><a href="map/rbegin.md"><code>rbegin</code></a></li>
+<li><a href="map/find.md"><code>find</code></a></li>
+<li><a href="map/clear.md"><code>clear</code></a></li>
 
 </ol>
 </details>
