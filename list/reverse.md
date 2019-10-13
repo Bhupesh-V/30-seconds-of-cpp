@@ -9,8 +9,7 @@
 			for( auto it = aList.begin() ; it != aList.end() ; it++)
 			{
 				std::cout<< *it <<"\t";
-			}
-			
+			}			
 		}
 	
 

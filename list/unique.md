@@ -10,7 +10,6 @@ void showList ( std::list<int> aList){
         {
             std::cout<< *it <<"\t";
         }
-
     }
 
 
