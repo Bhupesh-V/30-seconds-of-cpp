@@ -5,9 +5,9 @@
 :heavy_check_mark: [count](count.md)  
 :heavy_check_mark: [end](end.md)  
 :heavy_check_mark: [insert](insert.md)  
-:heavy_check_mark: [rbegin](rbegin.md) 
-:heavy_check_mark: [clear](clear.md)
-:heavy_check_mark: [find](find.md)
+:heavy_check_mark: [rbegin](rbegin.md)<br /> 
+:heavy_check_mark: [clear](clear.md)<br />
+:heavy_check_mark: [find](find.md)<br />
 :x: contains  
 :x: crbegin  
 :x: crend  
