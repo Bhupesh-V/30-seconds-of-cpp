@@ -14,3 +14,5 @@
 ```
 **[See Sample code](../snippets/vector/push_back.cpp)**
 **[Run Code](https://rextester.com/JBQCG9959)**
+ 
+**Time Complexity** : Constant (amortized)
