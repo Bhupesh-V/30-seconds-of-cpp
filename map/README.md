@@ -9,7 +9,7 @@
 :heavy_check_mark: [clear](clear.md)  
 :heavy_check_mark: [contains](contains.md)   
 :heavy_check_mark: [crbegin](crbegin.md)   
-:x: crend  
+:heavy_check_mark: [crend](crend.md)   
 :x: emplace  
 :x: emplace_hint  
 :x: empty  
