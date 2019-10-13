@@ -26,3 +26,5 @@
         std::cout << "Not Empty\n"; 
          
 ```
+
+**Time Complexity** : Constant
