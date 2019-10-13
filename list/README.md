@@ -17,10 +17,12 @@
 :heavy_check_mark: [remove](remove.md)  
 :heavy_check_mark: [rend](rend.md)  
 :heavy_check_mark: [resize](resize.md)  
+:heavy_check_mark: [reverse](reverse.md)  
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [splice](splice.md)  
 :heavy_check_mark: [swap](swap.md)  
+:heavy_check_mark: [unique](unique.md)  
 :x: emplace  
 :x: emplace_back  
 :x: flip  
@@ -28,7 +30,5 @@
 :x: max_size  
 :x: pop_back  
 :x: pop_front  
-:x: push_back  
-:x: reverse  
-:x: unique  
+:x: push_back   
 :x: ~list  
