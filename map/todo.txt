@@ -4,7 +4,6 @@ crend
 empty
 size
 max_size
-clear
 insert_or_assign
 emplace
 emplace_hint
@@ -13,7 +12,6 @@ erase
 swap
 extract
 merge
-find
 contains
 equal_range
 lower_bound
