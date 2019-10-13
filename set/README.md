@@ -1,11 +1,4 @@
 # `<set>`
-:heavy_check_mark: [begin](begin.md)  
-:heavy_check_mark: [clear](clear.md)  
-:heavy_check_mark: [count](count.md)  
-:heavy_check_mark: [emplace](emplace.md)  
-:heavy_check_mark: [empty](empty.md)  
-:heavy_check_mark: [insert](insert.md)  
-:heavy_check_mark: [size](size.md)  
 :x: cbegin  
 :x: cend  
 :x: contains  

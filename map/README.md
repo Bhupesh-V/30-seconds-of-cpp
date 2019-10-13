@@ -1,11 +1,4 @@
 # `<map>`
-:heavy_check_mark: [begin](begin.md)  
-:heavy_check_mark: [cbegin](cbegin.md)  
-:heavy_check_mark: [cend](cend.md)  
-:heavy_check_mark: [count](count.md)  
-:heavy_check_mark: [end](end.md)  
-:heavy_check_mark: [insert](insert.md)  
-:heavy_check_mark: [rbegin](rbegin.md)  
 :x: clear  
 :x: contains  
 :x: crbegin  

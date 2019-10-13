@@ -124,6 +124,7 @@
 <li><a href="map/begin.md"><code>begin</code></a></li>
 <li><a href="map/cbegin.md"><code>cbegin</code></a></li>
 <li><a href="map/cend.md"><code>cend</code></a></li>
+<li><a href="map/clear.md"><code>clear</code></a></li>
 <li><a href="map/count.md"><code>count</code></a></li>
 <li><a href="map/end.md"><code>end</code></a></li>
 <li><a href="map/insert.md"><code>insert</code></a></li>
@@ -156,6 +157,7 @@
 <li><a href="set/emplace.md"><code>emplace</code></a></li>
 <li><a href="set/empty.md"><code>empty</code></a></li>
 <li><a href="set/insert.md"><code>insert</code></a></li>
+<li><a href="set/lower_bound.md"><code>lower_bound</code></a></li>
 <li><a href="set/size.md"><code>size</code></a></li>
 
 </ol>
@@ -206,6 +208,7 @@
 <li><a href="vector/max_size.md"><code>max_size</code></a></li>
 <li><a href="vector/pop_back.md"><code>pop_back</code></a></li>
 <li><a href="vector/push_back.md"><code>push_back</code></a></li>
+<li><a href="vector/rbegin.md"><code>rbegin</code></a></li>
 <li><a href="vector/reserve.md"><code>reserve</code></a></li>
 <li><a href="vector/resize.md"><code>resize</code></a></li>
 <li><a href="vector/shrink_to_fit.md"><code>shrink_to_fit</code></a></li>
