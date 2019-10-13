@@ -1,42 +1,48 @@
-# binary_search 
+//C++ code to demonstrate binary_search
 
-**Description :** Binary search is a widely used searching algorithm that requires the array to be sorted before search is applied. The main idea behind this algorithm is to keep dividing the array in half (divide and conquer) until the element is found, or all the elements are exhausted.
-The prototype for binary search is :
-```
-binary_search(startaddress, endaddress, valuetofind)
-  ```
-**Example** :
-```cpp
-    void show(int a[], int arraysize) { 
-        for (int i = 0; i < arraysize; ++i) { 
-            std::cout << a[i] << " "; 
-	}
-    } 
+#include <iostream>
+#include <algorithm>
+
+using std::cout;
+using std::cin;
+using std::binary_search;
+using std::sort;
+
+
+void show(int a[], int arraysize) { 
+    for (int i = 0; i < arraysize; ++i) { 
+        cout << a[i] << " ";
+    }
+} 
   
 int main() { 
-    int a[] = { 1, 5, 8, 9, 6, 7, 3, 4, 2, 0 }; 
+    int num;
+    int a[] = { 1, 5, 8, 9, 6, 7, 3, 4, 2, 0 };
+    
     int asize = sizeof(a) / sizeof(a[0]); 
-    std::cout << "\n The array is : "; 
+    
+    cout << "\nThe array is : "; 
+    
     show(a, asize); 
   
-    std::cout << "\n\nLet's say we want to search for 2 in the array"; 
-    std::cout << "\n So, we first sort the array"; 
-    std::sort(a, a + asize); 
-    std::cout << "\n\n The array after sorting is : "; 
+    cout << "\nSo, we first sort the array"; 
+    
+    sort(a, a + asize); 
+    
+    cout << "\n\nThe array after sorting is : "; 
+    
     show(a, asize); 
-    std::cout << "\n\nNow, we do the binary search"; 
-    if (std::binary_search(a, a + 10, 2)) 
-        std::cout << "\nElement found in the array"; 
+    cout<< "\n Enter the element to search\n";
+    cin >> num;
+    
+    cout << "\n\nNow, we do the binary search"; 
+    
+    if (binary_search(a, a + 10, num))
+        cout << "\nElement found in the array"; 
+        
     else
-        std::cout << "\nElement not found in the array"; 
-  
-    std::cout << "\n\nNow, say we want to search for 10"; 
-    if (std::binary_search(a, a + 10, 10)) 
-        std::cout << "\nElement found in the array"; 
-    else
-        std::cout << "\nElement not found in the array"; 
-  
+        cout << "\nElement not found in the array"; 
+        
+    
     return 0; 
 } 
-```
-**[Run Code](https://rextester.com/NVMTV62786)**
