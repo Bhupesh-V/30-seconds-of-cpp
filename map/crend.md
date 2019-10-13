@@ -27,3 +27,8 @@ int main ()
   return 0;
 }
 ```
+**output**
+```
+mymap backwards: [c:300] [b:100] [a:200]
+
+```
