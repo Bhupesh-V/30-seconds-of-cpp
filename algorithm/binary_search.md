@@ -10,8 +10,8 @@ using std::sort;
 
 
 void show(int a[], int arraysize) { 
-    for (int i = 0; i < arraysize; ++i) { 
-        cout << a[i] << " ";
+    for (int i = 0; i < arraysize; i++) { 
+        cout << a[i];
     }
 } 
   
