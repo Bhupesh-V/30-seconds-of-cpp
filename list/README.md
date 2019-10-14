@@ -21,8 +21,8 @@
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [splice](splice.md)  
 :heavy_check_mark: [swap](swap.md)  
-:heavy_check_mark: [emplace](emplace.md)
-:x: emplace_back
+:heavy_check_mark: [emplace](emplace.md) 
+:x: emplace_back 
 :x: flip  
 :x: get_allocator  
 :x: max_size  
