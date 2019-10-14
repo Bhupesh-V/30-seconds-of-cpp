@@ -10,7 +10,6 @@
 #include <list>
 
 int main (){
-      
          // declaration of list 
          std::list< std::pair<int,char> > mylist;
     
