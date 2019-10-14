@@ -5,15 +5,15 @@ In fill_n(), we specify beginning position, number of elements to be filled and 
 
 int main() 
 { 
-    vector<int> vect(8);
+   std:: vector<int> vect(8);
   
     // calling fill to initialize first four values 
     // to 7 
-    fill_n(vect.begin(), 4, 7); 
+    std::fill_n(vect.begin(), 4, 7); 
   
     for (int i=0; i<vect.size(); i++) 
-        cout << ' ' << vect[i]; 
-    cout << '\n'; 
+       std:: cout << ' ' << vect[i]; 
+    std::cout << '\n'; 
     return 0;
 }
 output
