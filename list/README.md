@@ -21,7 +21,7 @@
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [splice](splice.md)  
 :heavy_check_mark: [swap](swap.md)  
-:x: emplace  
+:heavy_check_mark: [emplace](emplace.md)
 :x: emplace_back  
 :x: flip  
 :x: get_allocator  
