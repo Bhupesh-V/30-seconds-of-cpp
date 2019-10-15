@@ -9,10 +9,10 @@
 /// Demonstrates rbegin() 
 #include <iostream>
 #include <vector>
+using namespace std;
 
 int main(){
-    //declares an empty vector
-    std::vector<int> vec;
+    vector<int> vec; //declares an empty vector
     
     //inserting elements in vector
     vec.push_back(101);
@@ -21,13 +21,13 @@ int main(){
     vec.push_back(143);
   
     //Displaying elements of  vector from the end
-    std::cout << "Content of the vector \n";
+    cout << "Content of the vector \n";
     for (auto it = vec.rbegin(); it != vec.rend(); it++){ 
-        std::cout << *it << "\n";
+       cout << *it << "\n";
     }
     return 0;
 }
 
 ```
-**[Run Code](https://rextester.com/ZJPG53873)**
+**[Run and test Code](https://rextester.com/ZJPG53873)**
 
