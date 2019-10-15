@@ -12,5 +12,5 @@ int main()
     // list becomes 1, 2, 3, 4, 5, 6 
   
     for (auto it = mylist.begin(); it != mylist.end(); ++it) 
-        std::cout << '\n' << *it; 
+        std::cout <<*it; 
 } 
