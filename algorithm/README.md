@@ -39,7 +39,8 @@
 :heavy_check_mark: [replace_copy](replace_copy.md)  
 :heavy_check_mark: [replace_copy_if](replace_copy_if.md)  
 :heavy_check_mark: [replace_if](replace_if.md)  
-:heavy_check_mark: [reverse](reverse.md)  
+:heavy_check_mark: [reverse](reverse.md)
+:heavy_check_mark: [reverse](search_n.md) 
 :heavy_check_mark: [set_difference](set_difference.md)  
 :heavy_check_mark: [set_intersection](set_intersection.md)  
 :heavy_check_mark: [set_union](set_union.md)  
@@ -88,8 +89,7 @@
 :x: rotate  
 :x: rotate_copy  
 :x: sample  
-:x: search  
-:x: search_n  
+:x: search   
 :x: set_symmetric_difference  
 :x: shuffle  
 :x: sort_heap  
