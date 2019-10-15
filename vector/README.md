@@ -23,7 +23,7 @@
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [rbegin](rbegin.md)  
-:x: rend
+:x: rend  
 :x: cbegin  
 :x: crbegin  
 :x: crend  
