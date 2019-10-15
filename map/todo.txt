@@ -1,7 +1,6 @@
 crbegin
 rend
 crend
-empty
 size
 max_size
 clear
