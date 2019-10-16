@@ -1,7 +1,7 @@
 # erase
 
 **Description :**
-    This method is used to remove from the set container either a single element or a range of elements ([first,last]).
+    This method is used to remove from the set container either a single element or a range of elements ((first,last)).
 
 **Example :**
 ```cpp
