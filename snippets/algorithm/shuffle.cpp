@@ -12,7 +12,6 @@
 #include <chrono>
 
 int main() {
-
     std::vector<int> shuffleme {0,1,2,3,4,5,6,7,8,9};
     // get a time based seed
     unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();

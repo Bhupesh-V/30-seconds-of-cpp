@@ -18,6 +18,5 @@ The time complexity is linear.
     }
 ```
 **[See Sample code](../snippets/algorithm/shuffle.cpp)**
-
 **[Run Code](https://rextester.com/FSQZZG76463)**
 
