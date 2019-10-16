@@ -47,7 +47,9 @@
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
 :heavy_check_mark: [fill](fill.md)  
-:heavy_check_mark:[fill_n](fill_n.md)  
+:heavy_check_mark: [fill_n](fill_n.md) 
+:heavy_check_mark: [next_permutation](next_permutation.md)
+:heavy_check_mark: [prev_permutation](prev_permutation.md)
 :x: adjacent_difference  
 :x: clamp  
 :x: destroy  
@@ -70,8 +72,7 @@
 :x: minimax  
 :x: minimax_element  
 :x: move  
-:x: move_backward  
-:x: next_permutation  
+:x: move_backward   
 :x: nth_element  
 :x: partial_sort  
 :x: partial_sort_copy  
@@ -79,8 +80,7 @@
 :x: partition  
 :x: partition_copy  
 :x: partition_point  
-:x: pop_heap  
-:x: prev_permutation  
+:x: pop_heap    
 :x: push_heap  
 :x: random_shuffle  
 :x: reduce  

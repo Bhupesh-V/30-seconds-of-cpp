@@ -1,7 +1,5 @@
 # fill
 
-----
-
 **Description** : Assigns the given `value` to the elements in the range `[first, last)`. 
 
 **Example**:

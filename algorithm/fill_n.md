@@ -1,7 +1,5 @@
 # fill_n
 
-------
-
 **Description** : Assigns the given `value` to the first `count` elements in the range beginning at `first` if `count > 0`. Does nothing otherwise.
 
 **Example**:

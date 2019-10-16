@@ -5,8 +5,6 @@ search
 search_n
 move
 move_backward
-fill
-fill_n
 transform
 generate_n
 swap_ranges
@@ -42,8 +40,6 @@ minimax
 minimax_element
 lexicographical_compare
 is_permutation
-next_permutation
-prev_permutation
 sample
 destroy
 uninitialized_copy
