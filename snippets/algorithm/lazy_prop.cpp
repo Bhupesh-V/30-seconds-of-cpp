@@ -1,13 +1,3 @@
-/**
- * In this code we have a very large array called arr, and very large set of operations
- * Operation #1: Increment the elements within range [i, j] with value val
- * Operation #2: Get max element within range [i, j]
- * Build tree: build_tree(1, 0, N-1)
- * Update tree: update_tree(1, 0, N-1, i, j, value)
- * Query tree: query_tree(1, 0, N-1, i, j)
- * Actual space required by the tree = 2*2^ceil(log_2(n)) - 1
- */
-
 #include<iostream>
 #include<algorithm>
 using namespace std;
