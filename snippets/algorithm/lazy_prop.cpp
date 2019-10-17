@@ -43,9 +43,8 @@ void update_tree(int node, int a, int b, int i, int j, int value) {
     			lazy[node*2+1] += lazy[node]; // Mark child as lazy
 		}
 
-   		lazy[node] = 0; // Reset it
+   		lazy[node] = 0;
   	}
-  
 	if(a > b || a > j || b < i) // Current segment is not within range [i, j]
 		return;
     
@@ -80,10 +79,8 @@ int query_tree(int node, int a, int b, int i, int j) {
 			lazy[node*2] += lazy[node]; // Mark child as lazy
 			lazy[node*2+1] += lazy[node]; // Mark child as lazy
 		}
-
 		lazy[node] = 0; // Reset it
 	}
-
 	if(a >= i && b <= j) // Current segment is totally within range [i, j]
 		return tree[node];
 
