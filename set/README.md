@@ -4,9 +4,11 @@
 :heavy_check_mark: [count](count.md)  
 :heavy_check_mark: [emplace](emplace.md)  
 :heavy_check_mark: [empty](empty.md)  
+:heavy_check_mark: [erase](erase.md)  
 :heavy_check_mark: [insert](insert.md)  
 :heavy_check_mark: [lower_bound](lower_bound.md)  
 :heavy_check_mark: [size](size.md)  
+:heavy_check_mark: [upper_bound](upper_bound.md)  
 :x: cbegin  
 :x: cend  
 :x: contains  
@@ -15,7 +17,6 @@
 :x: emplace_hint  
 :x: end  
 :x: equal_range  
-:x: erase  
 :x: extract  
 :x: find  
 :x: max_size  
@@ -23,4 +24,3 @@
 :x: rbegin  
 :x: rend  
 :x: swap  
-:x: upper_bound  

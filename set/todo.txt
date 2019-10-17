@@ -7,11 +7,9 @@ rend
 crend
 max_size
 emplace_hint
-erase
 swap
 extract
 merge
 find
 contains
 equal_range
-upper_bound
