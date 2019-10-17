@@ -5,6 +5,7 @@
 :heavy_check_mark: [emplace](emplace.md)  
 :heavy_check_mark: [empty](empty.md)  
 :heavy_check_mark: [insert](insert.md)  
+:heavy_check_mark: [lower_bound](lower_bound.md)  
 :heavy_check_mark: [size](size.md)  
 :x: cbegin  
 :x: cend  
@@ -17,7 +18,6 @@
 :x: erase  
 :x: extract  
 :x: find  
-:x: lower_bound  
 :x: max_size  
 :x: merge  
 :x: rbegin  

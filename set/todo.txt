@@ -14,5 +14,4 @@ merge
 find
 contains
 equal_range
-lower_bound
 upper_bound

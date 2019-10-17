@@ -156,6 +156,7 @@
 <li><a href="set/emplace.md"><code>emplace</code></a></li>
 <li><a href="set/empty.md"><code>empty</code></a></li>
 <li><a href="set/insert.md"><code>insert</code></a></li>
+<li><a href="set/lower_bound.md"><code>lower_bound</code></a></li>
 <li><a href="set/size.md"><code>size</code></a></li>
 
 </ol>
