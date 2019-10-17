@@ -1,7 +1,7 @@
 /*
     Author : ferch5003
     Date   : 17/10/2019
-    Time   : 21:25
+    Time   : 14:31
 	Description : Remove consecutive items in a range[first, last)
 */
 
