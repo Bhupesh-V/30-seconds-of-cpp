@@ -1,12 +1,12 @@
 # erase
 
 **Description :**
-    Removes specified elements from a set.
-    Can be used in three ways:
+Removes specified elements from a set.
+Can be used in three ways:
 
-    - Removing an element from the set by its value.
-    - Removing an element from the set by its iterator.
-    - Removing a range of elements [first, last) using first and last's iterators.
+1. Removing an element from the set by its value.
+2. Removing an element from the set by its iterator.
+3. Removing a range of elements [first, last) using first and last's iterators.
 
 **Example :**
 ```cpp
