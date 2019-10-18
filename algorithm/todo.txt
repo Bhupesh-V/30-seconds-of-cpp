@@ -40,7 +40,6 @@ sort_heap
 clamp
 minimax
 minimax_element
-lexicographical_compare
 is_permutation
 next_permutation
 prev_permutation
