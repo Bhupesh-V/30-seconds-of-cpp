@@ -17,7 +17,7 @@ int main ()
   
   std::cout << "Number of students in different classes : " << std::endl;
   for (auto i = vNumn.crbegin() ;  i != vNumn.crend(); ++i) {
-    std::cout << "Class " << ++k << << " " << *i;
+    std::cout << "Class " << ++k << " " << *i;
     std::cout << std::endl;
   }
 
