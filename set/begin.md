@@ -5,23 +5,18 @@
 
 **Example :**
 ```cpp
-//Run Code To Demonstrate use of set.begin()
+//Run Code To Demonstrate use of set.empty()
 #include<iostream>
 #include<set>
 
-int main ()
-{
-int myints[] = {75,23,65,42,13};
-std::set<int> myset (myints,myints+5);
+int main(){
+    // Create a set object holding integers
+    std::set<int> mySet {1,2,3,4,-5};
 
-std::cout << "myset contains:";
-for (std::set<int>::iterator it=myset.begin(); it!=myset.end(); ++it)
-    std::cout << ' ' << *it;
-
-std::cout << '\n';
-
-return 0;
+    std::cout << *(mySet.begin()) <<std::endl;
+    return 0;
 }
 
 ```
-**[Run Code](https://rextester.com/ECB91272)**
+
+**[Run Code](https://ideone.com/MJWTsP)**
