@@ -1,6 +1,6 @@
 # sort
 
-**Description :**  This function is used delete the maximum element of the heap.
+**Description :**  This function is used to delete the maximum element of the heap.
 
 **Example** :
 
