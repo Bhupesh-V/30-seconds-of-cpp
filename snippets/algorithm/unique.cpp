@@ -13,7 +13,7 @@ using namespace std;
 int main(){
 	// Initializing vector that contain consecutive numbers
 	std::vector<int> v = {10, 10 ,30 ,10, 20, 50, 20, 20, 20, 50};
-
+     
     // Declaring an iterator that receives the returning value from unique function    
     std::vector<int>::iterator iter;
 
