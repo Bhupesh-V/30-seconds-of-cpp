@@ -20,7 +20,7 @@
 :heavy_check_mark: [includes](includes.md)  
 :heavy_check_mark: [iota](iota.md)  
 :heavy_check_mark: [is_sorted](is_sorted.md)  
-:heavy_check_mark: [lower_bound](lower_bound.md)  
+:heavy_check_mark: [lexicographical_compare](lexicographical_compare.md)
 :heavy_check_mark: [lower_bound](lower_bound.md)  
 :heavy_check_mark: [max](max.md)  
 :heavy_check_mark: [max_element](max_element.md)  
@@ -65,7 +65,6 @@
 :x: is_permutation  
 :x: is_sorted_until  
 :x: iter_swap  
-:x: lexicographical_compare  
 :x: make_heap  
 :x: minimax  
 :x: minimax_element  
