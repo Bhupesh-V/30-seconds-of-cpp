@@ -48,6 +48,7 @@
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
 :heavy_check_mark: [make_heap](make_heap.md)   
+:heavy_check_mark: [pop_heap](pop_heap.md)   
 :x: adjacent_difference  
 :x: clamp  
 :x: destroy  
@@ -80,7 +81,6 @@
 :x: partition  
 :x: partition_copy  
 :x: partition_point  
-:x: pop_heap  
 :x: prev_permutation  
 :x: push_heap  
 :x: random_shuffle  
