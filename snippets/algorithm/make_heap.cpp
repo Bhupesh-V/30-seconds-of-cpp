@@ -1,10 +1,8 @@
-# make_heap
+#include<iostream>
+#include<vector>
+#include<algorithm>
 
-**Description :** This function is used to convert a range in a container to a heap.
-
-**Example** :
-
-```cpp   
+int main(){
     //sample vector
     std::vector<int> v1 = {2,5,8,7,4,5};
     
@@ -14,9 +12,9 @@
     
     //transforming vector into heap with make_heap()
     make_heap(v1.begin(),v1.end());
-    
     //printing first element
     std::cout << "First element in heap : " << v1.front();
     //outputs 8
-```
-**[Run Code](https://rextester.com/RNUJP68869)**
+    
+    return 0;
+}
