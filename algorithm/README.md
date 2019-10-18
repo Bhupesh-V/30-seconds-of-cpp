@@ -46,7 +46,8 @@
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [stable_sort](stable_sort.md)  
 :heavy_check_mark: [swap](swap.md)  
-:heavy_check_mark: [upper_bound](upper_bound.md)   
+:heavy_check_mark: [upper_bound](upper_bound.md)  
+:heavy_check_mark: [make_heap](make_heap.md)   
 :x: adjacent_difference  
 :x: clamp  
 :x: destroy  
@@ -66,8 +67,7 @@
 :x: is_permutation  
 :x: is_sorted_until  
 :x: iter_swap  
-:x: lexicographical_compare  
-:x: make_heap  
+:x: lexicographical_compare    
 :x: minimax  
 :x: minimax_element  
 :x: move  
