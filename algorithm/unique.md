@@ -24,7 +24,7 @@
     // Resizing the vector so as to remove the undefined terms 
     v.resize(std::distance(v.begin(), iter)); 
   
-    std:cout << "Unique vector:";    
+    std::cout << "Unique vector:";    
     // Displaying the vector after applying std::unique 
     for (iter = v.begin(); iter != v.end(); ++iter) { 
         cout << *iter << " "; 
@@ -33,4 +33,4 @@
 
 ```
 **[See Sample code](../snippets/algorithm/unique.cpp)**
-**[Run Code](https://rextester.com/ZZJJO34217)**
+**[Run Code](https://rextester.com/DWZQ17784)**

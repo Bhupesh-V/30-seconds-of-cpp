@@ -1,7 +1,7 @@
 /*
     Author : ferch5003
     Date   : 17/10/2019
-    Time   : 14:31
+    Time   : 21:50
 	Description : Remove consecutive items in a range[first, last)
 */
 
@@ -30,7 +30,7 @@ int main(){
     // Resizing the vector so as to remove the undefined terms 
     v.resize(std::distance(v.begin(), iter)); 
   
-    std:cout << "Unique vector:";    
+    std::cout << "Unique vector:";    
     // Displaying the vector after applying std::unique 
     for (iter = v.begin(); iter != v.end(); ++iter) { 
         cout << *iter << " "; 
