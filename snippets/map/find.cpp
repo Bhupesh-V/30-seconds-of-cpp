@@ -38,5 +38,4 @@ int main(){
     else {
         std::cout << "Match was not found\n";
     }
-
 }
