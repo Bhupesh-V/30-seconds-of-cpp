@@ -68,6 +68,7 @@ Join other C++ enthusiasts on
 | darksider3 | [Darksider3](https://github.com/Darksider3) |
 | Harsh Raj | [harshraj22](https://github.com/harshraj22) |
 | samuels96 | [samuels96](https://github.com/samuels96) |
+| Akshat Mishra | [Akshat5673](https://github.com/Akshat5673)|
 
 - A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo :heart:
 
