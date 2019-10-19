@@ -18,7 +18,7 @@ int main()
     // list becomes 7, 89, 45, 6, 24, 58, 43 
    
   
-    for (auto it = mylist.begin(); it != mylist.end(); ++it) 
+    for (std::auto it = mylist.begin(); it != mylist.end(); ++it) 
         std::cout <<*it; 
         std::cout<<'\n';
 } 
