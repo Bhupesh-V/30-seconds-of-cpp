@@ -9,6 +9,11 @@
 	for (auto it = myVector.begin(); it != myVector.end(); it++) {
 	    std::cout << *it << " ";
 	}
+	// Another Method 
+	for(int ele: arr)
+    {
+        cout<<ele<<" ";
+    }
 ```
 **[See Sample code](../snippets/vector/begin.cpp)**
 **[Run Code](https://rextester.com/TNG69681)**
