@@ -21,7 +21,7 @@ int main()
   
     // Displaying the vector after applying std::unique 
     for (ip = v.begin(); ip != v.end(); ++ip) { 
-        cout << *ip << " "; 
+        cout << *ip; 
     } 
   
     return 0; 
