@@ -12,7 +12,7 @@ int main ()
  std:: fill(vect.begin() + 2, vect.end() - 1, 4); 
   
   for (int i=0; i<vect.size(); i++) 
-   std:: cout << vect[i]<<'\n';
+   std:: cout << vect[i];
   
   return 0; 
 }

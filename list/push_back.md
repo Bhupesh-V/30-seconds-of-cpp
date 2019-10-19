@@ -20,7 +20,6 @@ int main()
   
     for (std::auto it = mylist.begin(); it != mylist.end(); ++it) 
         std::cout <<*it; 
-        std::cout<<'\n';
 } 
 Output:
 

@@ -9,9 +9,8 @@ int main() {
   std::vec.push_back(42);
   std::vec.push_back(24024);
   {
-    int* arr = vec.data();
-    std::cout << arr << endl; /* output: 0x9bca028 */
-    std::cout << arr[3] << endl; /* output : 24024 */
+    int*arr=vec.data();
+    std::cout << arr;
   }
   
     return 0; 
