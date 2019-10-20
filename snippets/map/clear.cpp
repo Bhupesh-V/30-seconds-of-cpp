@@ -18,7 +18,6 @@ void printMap(std::map<char, int> &asciiMap){
   }
 
   std::cout << "Map Size: " << asciiMap.size() << std::endl;
-
 }
 
 int main() {
