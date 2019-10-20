@@ -22,7 +22,6 @@ void printMap(std::map<char, int> &asciiMap){
 }
 
 int main() {
-
   // creates a map that maps char and int
   std::map<char, int> asciiMap;
 
