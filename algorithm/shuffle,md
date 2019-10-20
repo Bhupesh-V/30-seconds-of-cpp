@@ -1,0 +1,19 @@
+int main () 
+{
+    // obtain a time-based seed:
+    unsigned seed = std::chrono::system_clock::now().time_since_epoch().count();
+    std::default_random_engine e(seed);
+
+    while(true)
+    {
+      std::vector<int> foo{1,2,3,4,5};
+
+      std::shuffle(foo.begin(), foo.end(), e);
+
+      std::cout << "shuffled elements:";
+      for (int& x: foo) std::cout << ' ' << x;
+      std::cout << '\n';
+    }
+
+    return 0;
+}
