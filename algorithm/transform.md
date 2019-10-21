@@ -14,7 +14,7 @@ int increment(int x) {
   
 int main() { 
 	int arr[] = {12, 42, 0, 41, 3, 9, 1}; 
-	int n = sizeof(arr)/sizeof(arr[0]); 
+	int n =*(&arr + 1) - arr;  
 	std::transform(arr, arr+n, arr, increment); 
   
 	for (int i=0; i<n; i++){ 
