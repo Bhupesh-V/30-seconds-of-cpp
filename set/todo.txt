@@ -1,9 +1,7 @@
 cbegin
 end
 cend
-rbegin
 crbegin
-rend
 crend
 max_size
 emplace_hint
