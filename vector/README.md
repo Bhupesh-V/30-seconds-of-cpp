@@ -24,7 +24,7 @@
 :heavy_check_mark: [swap](swap.md)  
 :x: cbegin  
 :heavy_check_mark: [crbegin](crbegin.md)  
-:x: crend  
+:heavy_check_mark: [crend](crend.md) 
 :x: data  
 :x: emplace_back  
 :x: get_allocator  
