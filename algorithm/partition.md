@@ -2,6 +2,22 @@
 ##### **Description** : input is two iterators (start and end of the array) and output is the iterator of the pivot where all elements before it are smaller then it while all elements after it are larger than it. assuming that the last element in input data is the pivot. 
 ##### **Example** :
 ```cpp
+template <typename T>
+T med_pivot(T s,T m,T e)
+{
+    if(*s<*e)
+    {
+        if(*m<*s)   return s;
+        if(*e<*m)   return e;
+
+        return m;
+    }
+    if(*m<*e)   return e;
+    if(*s<*m)   return s;
+
+    return m;
+}
+
 template <typename T>		// Given starting and ending iterator 
 T partition(T s,T e) 		// assuming pivot is the last element
 {
