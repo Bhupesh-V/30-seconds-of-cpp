@@ -1,4 +1,4 @@
-# fill()
+# fill
 
 **Defination:-** A vector, once declared, has all its values initialized to zero.eg-> std::vector<int>a(5) //a =  0 0 0 0 0.
 What if we wish to initialize the vector to a specific value, say 1 ? For this, we can pass the value along with the size of the vector.
