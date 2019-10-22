@@ -1,4 +1,4 @@
-# next_permutation()
+# next_permutation
 
 **Defination**:- Given N number like 1 2 3 4...., next_permutation() will produce the next lexicographically greater permutation.For example my arrray
 int a[]={1,2,3,4}
