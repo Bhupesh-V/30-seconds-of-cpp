@@ -13,18 +13,19 @@
     l1.splice(l1.begin(), l2); 
   
     // at the beginning of l1 
-    std::cout << "list l1 after splice operation" << endl; 
+    std::cout << "list l1 after splice operation" << std::endl; 
     for (auto x : l1) {
-        cout << x << " "; 
+        std::cout << x << " "; 
     }
   
     // transfer all the elements of l1 
     l3.splice(l3.begin(), l1); 
   
     // at the end of l3 
-    std::cout << "\nlist l3 after splice operation" << endl; 
+    std::cout << "\nlist l3 after splice operation" << std::endl; 
     for (auto x : l3) {
-        cout << x << " "; 
+        std::cout << x << " "; 
     }
 
 ```
+**[Run Code](https://rextester.com/OVG64622)**
