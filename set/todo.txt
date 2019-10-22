@@ -1,4 +1,3 @@
-begin
 cbegin
 end
 cend
@@ -6,17 +5,12 @@ rbegin
 crbegin
 rend
 crend
-empty
 max_size
-clear
-insert
-emplace
 emplace_hint
 erase
 swap
 extract
 merge
-count
 contains
 equal_range
 lower_bound
