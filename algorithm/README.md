@@ -45,9 +45,9 @@
 :heavy_check_mark: [set_union](set_union.md)  
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [swap](swap.md)  
-:heavy_check_mark: [upper_bound](upper_bound.md)  
-:x: adjacent_difference  
-:x: clamp  
+:heavy_check_mark: [upper_bound](upper_bound.md) 
+:heavy_check_mark: [clamp](clamp.md)  
+:x: adjacent_difference    
 :x: destroy  
 :x: equal  
 :x: equal_range  
