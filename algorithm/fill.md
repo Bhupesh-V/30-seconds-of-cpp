@@ -16,21 +16,11 @@ eg->
 **Example code:-**
 
 ```cpp
+    std::vector<int> v(8);
+    std::fill(v.begin() + 2, v.end() - 1, 4); 
 
-    int main (){ 
-      
-      std::vector<int> v(8);
-
-      std::fill(v.begin() + 2, v.end() - 1, 4); 
-
-      for(int i=0; i<v.size(); ++i){ 
-
-          cout << v[i] << " "; 
-
-      }
-  
-    return 0; 
-
+    for(int i=0; i<v.size(); ++i) {
+        std::cout << v[i] << " "; 
     }
- 
 ```
+**[Run Code](https://rextester.com/BYX91131)**
