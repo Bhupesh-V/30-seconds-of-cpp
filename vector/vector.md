@@ -25,4 +25,4 @@ int main(void)
 	return 0;
 }
 ```
-**[Run Code](https://rextester.com/l/cpp_online_compiler_gcc)**
+**[Run Code](https://rextester.com/ATPSZ75822)**
