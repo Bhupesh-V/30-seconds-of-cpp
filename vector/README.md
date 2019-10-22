@@ -22,6 +22,7 @@
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [swap](swap.md)  
+:heavy_check_mark: [vector](vector.md)  
 :x: cbegin  
 :x: crbegin  
 :x: crend  
@@ -30,5 +31,4 @@
 :x: get_allocator  
 :x: rbegin  
 :x: rend  
-:x: vector  
 :x: ~vector  
