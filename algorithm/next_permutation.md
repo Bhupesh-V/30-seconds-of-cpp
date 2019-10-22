@@ -9,24 +9,15 @@ Syntax:- next_permutaion(first,last);
 **Example Code:-**
 
 ```cpp
+    int a[] = { 1, 2, 3 };
 
-    int main(){  
+    std::sort(a, a+3);
+    std::cout << "The 3! possible permutations with 3 elements:\n";
     
-        int a[] = { 1, 2, 3 }; 
-    
-        sort(a, a+3); 
-    
-        cout << "The 3! possible permutations with 3 elements:\n"; 
-    
-        do { 
-        
-            cout << a[0] << " " << a[1] << " " << a[2] << "\n"; 
-        
-        }while(next_permutation(a, a+ 3)); 
-  
-        cout << "After loop: " << a[0] << ' ' << a[1] << ' ' << a[2] << '\n'; 
-    
-        return 0; 
+    do {
+        std::cout << a[0] << " " << a[1] << " " << a[2] << "\n";
+    } while(std::next_permutation(a, a+ 3)); 
 
-    }
+    std::cout << "After loop: " << a[0] << ' ' << a[1] << ' ' << a[2] << '\n'; 
 ```
+**[Run Code](https://rextester.com/HNRWWQ25345)**
