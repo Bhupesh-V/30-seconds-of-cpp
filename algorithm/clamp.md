@@ -15,8 +15,8 @@ std::max and std::min derive from the algoithm library
 #include <algorithm> 
 
 template<class T>
-const T& clamp(const T& value, const T& maxValue, const T& minValue) {
-	return std::max(maxValue, std::min(value, minValue));
+const T& clamp(const T& value, const T& minValue, const T& maxValue) {
+	return std::min(maxValue, std::max(value, minValue));
 }
 
 int main(void)
