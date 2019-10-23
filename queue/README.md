@@ -7,5 +7,5 @@
 :heavy_check_mark: [push](push.md)  
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [swap](swap.md)  
-:x: queue  
+:heavy_check_mark: [swap](queue.md)
 :x: ~queue  
