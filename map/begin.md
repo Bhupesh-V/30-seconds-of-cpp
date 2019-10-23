@@ -17,10 +17,12 @@ int main() {
     mymap['c'] = 3; 
   
     // using begin() to print map 
-    for (auto it = mymap.begin(); it != mymap.end(); ++it) 
+    std::map<char,int>::iterator it = mymap.begin(); //this is the verbose way of declaring an iterator to the map
+                                                     //alternately you could use auto it = mymap.begin();
+    for (it; it != mymap.end(); ++it) 
         std::cout << it->first << " = "
              << it->second << '\n'; 
     return 0; 
 } 
 ```
-**[Run Code](https://rextester.com/AUMIKR77967)**
+**[Run Code](https://rextester.com/SNK66848)**
