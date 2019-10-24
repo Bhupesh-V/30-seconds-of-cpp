@@ -1,6 +1,6 @@
 # push_back
 
-**Description** : This function is used to insert a new element to the end of the list.
+**Description** : This function is used to insert a new element to the end of the list container.
 **Syntax :** listname.push_back()
 
 **Example**:
