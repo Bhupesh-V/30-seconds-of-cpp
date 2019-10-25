@@ -1,0 +1,9 @@
+There are many types of loops in programming :
+1.While Loop
+  Repeats a statement or group of statements while a given condition is true. It tests the condition before executing the loop body.
+2.For Loop
+  Execute a sequence of statements multiple times and abbreviates the code that manages the loop variable.
+3.Do..While
+  Like a ‘while’ statement, except that it tests the condition at the end of the loop body.
+4.Nested Loops
+  You can use one or more loop inside any another ‘while’, ‘for’ or ‘do..while’ loop.
