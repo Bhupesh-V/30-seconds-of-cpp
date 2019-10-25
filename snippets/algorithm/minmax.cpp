@@ -1,24 +1,17 @@
- /*
-    Author : Thamara Andrade
-    Date : Date format 02/09/2019
+/*
+    Author : Guilherme de Morais Richter
+    Date : Date format 24/10/2019
     Time : Time format 23:00
-    Description : Retrieve min and max of values or from a list.
+    Description : Returns a pair with the smallest as first element, and the largest as second.
 */
 
-#include <iostream>
-#include <algorithm>
-#include <vector>
+#include <iostream>     
+#include <algorithm>    // library that contains the std::minmax function
 
-int main() {
-    int a = 7, b = 3;
-    
-    // returns pair <3, 7>
-    auto minMax1 = std::minmax(a, b);
-    std::cout << "Min is " << minMax1.first <<
-                 " Max is " << minMax1.second << std::endl;
+int main () {
+  auto result = std::minmax({3,2,1,5,4}); // put a list as argument in 'result' variable
 
-    // returns pair <-1, 10>
-    auto minMax2 = std::minmax({-1, 3, 10, 0});
-    std::cout << "Min is " << minMax2.first <<
-                 " Max is " << minMax2.second << std::endl;
+  std::cout << "minmax(): ";
+  std::cout << result.first << ' ' << result.second << '\n'; // returns the min (first) and the max (second) element from the list.
+  return 0;
 }
