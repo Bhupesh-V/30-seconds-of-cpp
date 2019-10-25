@@ -1,21 +1,14 @@
 # minmax
 
-**Description** : Compares values returning a pair of [smallest, greatest]. Can be used for values or containers.
+**Description** : Returns a pair with the smallest as first element, and the largest as second.
 
 **Example**:
 ```cpp
-    int a = 7, b = 3;
-    
-    // returns pair <3, 7>
-    auto minMax1 = std::minmax(a, b);
-    std::cout << "Min is " << minMax1.first <<
-                 " Max is " << minMax1.second << std::endl;
+    auto result = std::minmax({3,2,1,5,4}); // put a list as argument in 'result' variable
 
-    // returns pair <-1, 10>
-    auto minMax2 = std::minmax({-1, 3, 10, 0});
-    std::cout << "Min is " << minMax2.first <<
-                 " Max is " << minMax2.second << std::endl;
-
+    std::cout << "minmax(): ";
+    std::cout << result.first << ' ' << result.second << '\n'; // returns the min (first) and the max (second) element from the list.
+  
 ```
 **[See Sample code](../snippets/algorithm/minmax.cpp)**
-**[Run Code](https://rextester.com/AYBQP34022)**
+**[Run Code](https://rextester.com/MCGTZP42574)**
