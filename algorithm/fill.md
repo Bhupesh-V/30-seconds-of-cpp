@@ -1,36 +1,25 @@
 # fill
 
-**Defination:-** A vector, once declared, has all its values initialized to zero.eg-> std::vector<int>a(5) //a =  0 0 0 0 0.
-What if we wish to initialize the vector to a specific value, say 1 ? For this, we can pass the value along with the size of the vector.
-eg-> std::vector<int> a(5,1) // a = 1 1 1 1 1.
-What if we wish to initialize the first 2 values to say 10 and rest 3 values as 20?
-  
-**Fill():-** The ‘fill’ function assigns the value ‘val’ to all the elements in the range [begin, end), where ‘begin’ is the initial position and ‘end’ is the last position(not inclusive)
+**Description** : Assigns a value to all the elements in the range,
+where ‘begin’ is the initial position and ‘end’ is the last position.
 
-eg->  
-  std::vector<int> v(5); 
-  fill(v.begin() + 2, v.end() - 1, 4);
-  output => v = 0 0 4 4 0 
-**Syntax:- fill(first,last,value)**
-
-**Example code:-**
-
+**Example**:
 ```cpp
+    std::vector<int> myvector (10);  // creates the vector: {0,0,0,0,0,0,0,0,0,0}
 
-    int main (){ 
-      
-      std::vector<int> v(8);
+    std::fill (myvector.begin(),myvector.begin()+3,1);   // myvector: {1,1,1,0,0,0,0,0,0,0}
+    std::fill (myvector.begin()+3,myvector.end()-2,2);   // myvector: {1,1,1,2,2,2,2,2,2,2}
 
-      std::fill(v.begin() + 2, v.end() - 1, 4); 
+    /* Inside the parentheses, the first element indicates where the fill begins.
+    The second indicates where it stops, and the third indicates the value to fill.
+    */
 
-      for(int i=0; i<v.size(); ++i){ 
-
-          cout << v[i] << " "; 
-
-      }
-  
-    return 0; 
-
+    std::cout << "myvector contains:";
+    for (std::vector<int>::iterator it=myvector.begin(); it!=myvector.end(); ++it) {
+        std::cout << ' ' << *it;
     }
- 
+    std::cout << '\n';
+
 ```
+**[See Sample code](../snippets/algorithm/fill.cpp)**
+**[Run Code](https://rextester.com/URXP50505)**
