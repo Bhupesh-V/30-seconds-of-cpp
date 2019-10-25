@@ -59,7 +59,7 @@
 <li><a href="algorithm/includes.md"><code>includes</code></a></li>
 <li><a href="algorithm/iota.md"><code>iota</code></a></li>
 <li><a href="algorithm/is_sorted.md"><code>is_sorted</code></a></li>
-<li><a href="algorithm/equal_range.md"><code>lower_bound</code></a></li>
+<li><a href="algorithm/equal_range.md"><code>equal_range</code></a></li>
 <li><a href="algorithm/lower_bound.md"><code>lower_bound</code></a></li>
 <li><a href="algorithm/max.md"><code>max</code></a></li>
 <li><a href="algorithm/max_element.md"><code>max_element</code></a></li>
