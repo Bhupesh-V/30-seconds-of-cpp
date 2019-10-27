@@ -1,4 +1,4 @@
-# insert
+# find
 
 **Description :**
     This method is used to find a element in std::set.
