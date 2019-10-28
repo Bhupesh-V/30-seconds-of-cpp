@@ -11,7 +11,8 @@
     myqueue.push(0); 
     myqueue.push(1); 
     myqueue.push(2); 
-  
+    myqueue.push(9);
+    myqueue.push(10);
     // print contents of queue
     while (!myqueue.empty()) {
         std::cout << ' ' << myqueue.front(); 

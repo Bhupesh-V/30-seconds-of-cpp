@@ -14,6 +14,8 @@ a constructor that is placed at the top of the stack.
     st.emplace("Hello");
     std::cout << st.top();
     st.pop();
-    std::cout << ", " << st.top() << std::endl;
+    st.emplace("From github");
+    st.emplace("First PR"); 
+    std::cout << ", " << st.pop << std::endl;
 ```
 **[Run Code](https://rextester.com/TJAOH56215)**
