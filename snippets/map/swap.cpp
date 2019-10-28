@@ -8,7 +8,6 @@
 */
 
 int main(){
-
   std::map<int, char> map1;
   std::map<int, char> map2;
 
@@ -47,5 +46,4 @@ int main(){
   for (std::map<int, char>::iterator it = map2.begin(); it != map2.end(); ++it){
     std::cout << it->first << " : " << it->second << std::endl;
   }
-
 }
