@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+#include<bits/stdc++.h>
+#define ll long long
+#define lld long long double
+#define pb push_back
+#define mp make_pair
+using namespace std;
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+
+    }
+	return 0;
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gfg</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
