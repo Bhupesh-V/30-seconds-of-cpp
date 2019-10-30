@@ -2,6 +2,7 @@
 
 **Description :**
     This method is used to swap two sets having same types, irrespective of their size.
+    
 **Example :**
 ```cpp
 //Run Code To Demonstrate use of set1.swap(set2)
@@ -33,5 +34,4 @@ int main()
 
 }
 
-```
-**[Run Code](https://ideone.com/14Ccn)**
+
