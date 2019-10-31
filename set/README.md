@@ -15,8 +15,8 @@
 :x: end  
 :x: equal_range  
 :x: erase  
-:x: extract  
-:x: lower_bound  
+:x: extract 
+:x: lower_bound 
 :x: max_size  
 :x: merge  
 :x: rbegin  
