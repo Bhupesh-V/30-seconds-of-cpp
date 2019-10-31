@@ -14,7 +14,7 @@ on the object it is called on.
 int main(){
 	std::set<int> myset = {10,20,40,27,60};
 	std::cout << " myset contains : ";
-	for(auto i = myset.cbegin();i != myset.cend(); i++){
+	for(auto i = myset.cbegin(); i != myset.cend(); i++){
   		std::cout<< ' ' << *i;
 	}
 	std::cout<<std::endl;
