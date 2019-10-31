@@ -151,6 +151,7 @@
 <details><summary>View contents</summary>
 <ol>
 <li><a href="set/begin.md"><code>begin</code></a></li>
+<li><a href="set/cbegin.md"><code>cbegin</code></a></li>
 <li><a href="set/clear.md"><code>clear</code></a></li>
 <li><a href="set/count.md"><code>count</code></a></li>
 <li><a href="set/emplace.md"><code>emplace</code></a></li>
