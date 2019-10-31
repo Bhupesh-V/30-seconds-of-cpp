@@ -24,4 +24,4 @@ int main(){
     return 0;
 }
 ```
-**[Run Code](https://rextester.com/ESNCC45437)**
+
