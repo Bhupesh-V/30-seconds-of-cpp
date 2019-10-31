@@ -6,7 +6,7 @@
 :heavy_check_mark: [end](end.md)  
 :heavy_check_mark: [insert](insert.md)  
 :heavy_check_mark: [rbegin](rbegin.md)  
-:heavy_check_mark: [empty](empty.md)
+:heavy_check_mark: [empty](empty.md)  
 :x: clear  
 :x: contains  
 :x: crbegin  
