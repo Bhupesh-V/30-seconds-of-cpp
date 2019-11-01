@@ -49,6 +49,7 @@
 <li><a href="algorithm/copy_n.md"><code>copy_n</code></a></li>
 <li><a href="algorithm/count.md"><code>count</code></a></li>
 <li><a href="algorithm/count_if.md"><code>count_if</code></a></li>
+<li><a href="algorithm/equal_range.md"><code>equal_range</code></a></li>
 <li><a href="algorithm/find.md"><code>find</code></a></li>
 <li><a href="algorithm/find_first_of.md"><code>find_first_of</code></a></li>
 <li><a href="algorithm/find_if.md"><code>find_if</code></a></li>
@@ -59,7 +60,6 @@
 <li><a href="algorithm/includes.md"><code>includes</code></a></li>
 <li><a href="algorithm/iota.md"><code>iota</code></a></li>
 <li><a href="algorithm/is_sorted.md"><code>is_sorted</code></a></li>
-<li><a href="algorithm/equal_range.md"><code>equal_range</code></a></li>
 <li><a href="algorithm/lower_bound.md"><code>lower_bound</code></a></li>
 <li><a href="algorithm/max.md"><code>max</code></a></li>
 <li><a href="algorithm/max_element.md"><code>max_element</code></a></li>
