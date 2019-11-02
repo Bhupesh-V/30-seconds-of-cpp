@@ -4,7 +4,6 @@ crend
 empty
 size
 max_size
-clear
 insert_or_assign
 emplace
 emplace_hint
