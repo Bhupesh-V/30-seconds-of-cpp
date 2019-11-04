@@ -19,6 +19,7 @@
 :heavy_check_mark: [generate](generate.md)  
 :heavy_check_mark: [includes](includes.md)  
 :heavy_check_mark: [iota](iota.md)  
+:heavy_check_mark: [is_sorted](is_sorted.md)  
 :heavy_check_mark: [lower_bound](lower_bound.md)  
 :heavy_check_mark: [lower_bound](lower_bound.md)  
 :heavy_check_mark: [max](max.md)  
@@ -43,6 +44,7 @@
 :heavy_check_mark: [set_intersection](set_intersection.md)  
 :heavy_check_mark: [set_union](set_union.md)  
 :heavy_check_mark: [sort](sort.md)  
+:heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
 :x: adjacent_difference  
 :x: clamp  
@@ -61,7 +63,6 @@
 :x: is_heap_until  
 :x: is_partitioned  
 :x: is_permutation  
-:x: is_sorted  
 :x: is_sorted_until  
 :x: iter_swap  
 :x: lexicographical_compare  
@@ -94,7 +95,6 @@
 :x: sort_heap  
 :x: stable_partition  
 :x: stable_sort  
-:x: swap  
 :x: swap_ranges  
 :x: transform  
 :x: transform_exclusive_scan  
