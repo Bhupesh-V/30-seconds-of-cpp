@@ -16,7 +16,6 @@
 :x: equal_range  
 :x: erase  
 :x: extract  
-:x: find  
 :x: lower_bound  
 :x: max_size  
 :x: merge  
