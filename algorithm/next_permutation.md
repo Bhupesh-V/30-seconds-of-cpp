@@ -1,32 +1,25 @@
 # next_permutation
 
-**Defination**:- Given N number like 1 2 3 4...., next_permutation() will produce the next lexicographically greater permutation.For example my arrray
-int a[]={1,2,3,4}
-next_permutaion() function would produce 1,2,4,3
-For N elements there would N!(factorial) permutations possible.
-Syntax:- next_permutaion(first,last);
+**Description :** It is used to rearrange the elements in the range [first, last) into the next "lexicographically greater" permutation. If the range could not be rearranged in a way that it produces a new lexicographically greater one it will return false even though there is a possible rearrangement. That is why it is preferable to sort elements. For N elements there would N!(factorial) permutations possible..
 
-**Example Code:-**
+**Example** :
 
 ```cpp
+#include <iostream>     // std::cout
+#include <algorithm>    // std::next_permutation, std::sort
 
-    int main(){  
-    
-        int a[] = { 1, 2, 3 }; 
-    
-        sort(a, a+3); 
-    
-        cout << "The 3! possible permutations with 3 elements:\n"; 
-    
-        do { 
-        
-            cout << a[0] << " " << a[1] << " " << a[2] << "\n"; 
-        
-        }while(next_permutation(a, a+ 3)); 
-  
-        cout << "After loop: " << a[0] << ' ' << a[1] << ' ' << a[2] << '\n'; 
-    
-        return 0; 
+int main () {
+  int integers[] = {1,2,3,4};
+  std::sort(integers, integers + 4);
+  std::cout<< "Before loop: "<< integers[0] << ' ' << integers[1] << ' ' << integers[2] << ' ' << integers[3] << '\n';
+  std::cout << "showing all 4! permutations: \n";
+  do {
+    std::cout << integers[0] << ' ' << integers[1] << ' ' << integers[2] << ' ' << integers[3] << '\n';
+  } while ( std::next_permutation(integers,integers+4) );
 
-    }
+  std::cout << "After loop: " << integers[0] << ' ' << integers[1] << ' ' << integers[2] << ' ' << integers[3] << '\n';
+
+  return 0;
+} 
 ```
+**[Run Code](https://rextester.com/QNZC30195)**
