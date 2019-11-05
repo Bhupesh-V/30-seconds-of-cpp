@@ -1,40 +1,27 @@
 # clear
 
-**Description :** It removes all the elements from the map container and changes it’s size to 0. It accepts no parameters.
+**Description :** This function removes all elements from the map container (which are destroyed), leaving the container with a size of 0.
 
 **Example** :
 
 ```cpp
-// C++ program to Demonstrate map::clear() function 
-#include <iostream>
-#include <map>
-using namespace std; 
-  
-int main() { 
+#include<iostream>
+#include<map>
+using namespace std;
 
-    // initialize container 
-    std::map<int, int> mp; 
-  
-    // insert elements in random order 
-    mp.insert({ 1, 10 }); 
-    mp.insert({ 2, 20 }); 
-    mp.insert({ 3, 30 }); 
-    mp.insert({ 4, 40 }); 
-    mp.insert({ 5, 50 }); 
-    mp.insert({ 6, 60 }); 
-  
-    // print the total number of elements in map
-    std::cout<< "Map size initially : "; 
-    std::cout << mp.size() << endl;
+int main(){
+    map<char,int> m;
+    //Suppose we add some entries in the map,example
+    m['a'] = 14;
+    m['d'] = 23;
+    m['s'] = 16;
+    m['f'] = 10;
+    cout<<"This is the initial size of map : "<<m.size()<<endl;   //this will tell us the current size of the map
+    m.clear();
+    //Now again try to print the size of map after using clear()
+    cout<<"This is the size after using clear() : "<<m.size(); //this should be 0 now,as we have cleared all of the elements from the map
     
-    mp.clear();
-    
-    //print the size of map after using clear() STL
-    std::cout<< "Map size finally after using clear() : "; 
-    std::cout << mp.size() << endl;
-    
-    return 0; 
-} 
+    return 0;
+}
 ```
-
-**[Run Code](https://rextester.com/YFADJ46350)**
+**[Run Code](https://rextester.com/ESNCC45437)**
