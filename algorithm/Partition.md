@@ -2,6 +2,7 @@
 
 **Description :** This function is used to partition the elements on basis of condition mentioned in its arguments. 
 
+**Example**:
 ```cpp
 
     // Possible implementation of partition
