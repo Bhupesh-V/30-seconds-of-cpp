@@ -1,4 +1,4 @@
-# clear
+# erase
 
 **Description :**
     This method is used to delete some elements from the set and make its size less than it's previous size.
