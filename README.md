@@ -30,6 +30,7 @@
 * [queue](#queue) :large_blue_circle:
 * [set](#set) :zap:
 * [stack](#stack) :books:
+* [unordered_map](#unordered_map) :world_map:
 * [vector](#vector) :arrow_upper_right:
 
 ---
@@ -57,6 +58,7 @@
 <li><a href="algorithm/generate.md"><code>generate</code></a></li>
 <li><a href="algorithm/includes.md"><code>includes</code></a></li>
 <li><a href="algorithm/iota.md"><code>iota</code></a></li>
+<li><a href="algorithm/is_sorted.md"><code>is_sorted</code></a></li>
 <li><a href="algorithm/equal_range.md"><code>lower_bound</code></a></li>
 <li><a href="algorithm/lower_bound.md"><code>lower_bound</code></a></li>
 <li><a href="algorithm/max.md"><code>max</code></a></li>
@@ -81,6 +83,7 @@
 <li><a href="algorithm/set_intersection.md"><code>set_intersection</code></a></li>
 <li><a href="algorithm/set_union.md"><code>set_union</code></a></li>
 <li><a href="algorithm/sort.md"><code>sort</code></a></li>
+<li><a href="algorithm/swap.md"><code>swap</code></a></li>
 <li><a href="algorithm/upper_bound.md"><code>upper_bound</code></a></li>
 
 </ol>
@@ -147,7 +150,14 @@
 ### Set 
 <details><summary>View contents</summary>
 <ol>
+<li><a href="set/begin.md"><code>begin</code></a></li>
+<li><a href="set/clear.md"><code>clear</code></a></li>
+<li><a href="set/count.md"><code>count</code></a></li>
+<li><a href="set/emplace.md"><code>emplace</code></a></li>
+<li><a href="set/empty.md"><code>empty</code></a></li>
+<li><a href="set/insert.md"><code>insert</code></a></li>
 <li><a href="set/size.md"><code>size</code></a></li>
+<li><a href="set/find.md"><code>find</code></a></li>
 
 </ol>
 </details>
@@ -160,7 +170,19 @@
 <li><a href="stack/pop.md"><code>pop</code></a></li>
 <li><a href="stack/push.md"><code>push</code></a></li>
 <li><a href="stack/size.md"><code>size</code></a></li>
+<li><a href="stack/swap.md"><code>swap</code></a></li>
 <li><a href="stack/top.md"><code>top</code></a></li>
+
+</ol>
+</details>
+
+### Unordered_map 
+<details><summary>View contents</summary>
+<ol>
+<li><a href="unordered_map/erase.md"><code>erase</code></a></li>
+<li><a href="unordered_map/find.md"><code>find</code></a></li>
+<li><a href="unordered_map/insert.md"><code>insert</code></a></li>
+<li><a href="unordered_map/size.md"><code>size</code></a></li>
 
 </ol>
 </details>
@@ -172,14 +194,24 @@
 <li><a href="vector/at.md"><code>at</code></a></li>
 <li><a href="vector/back.md"><code>back</code></a></li>
 <li><a href="vector/begin.md"><code>begin</code></a></li>
+<li><a href="vector/capacity.md"><code>capacity</code></a></li>
+<li><a href="vector/cbegin.md"><code>cbgin</code></a></li>
+<li><a href="vector/cend.md"><code>cend</code></a></li>
 <li><a href="vector/clear.md"><code>clear</code></a></li>
+<li><a href="vector/emplace.md"><code>emplace</code></a></li>
 <li><a href="vector/empty.md"><code>empty</code></a></li>
 <li><a href="vector/end.md"><code>end</code></a></li>
 <li><a href="vector/erase.md"><code>erase</code></a></li>
 <li><a href="vector/front.md"><code>front</code></a></li>
+<li><a href="vector/insert.md"><code>insert</code></a></li>
+<li><a href="vector/max_size.md"><code>max_size</code></a></li>
+<li><a href="vector/pop_back.md"><code>pop_back</code></a></li>
 <li><a href="vector/push_back.md"><code>push_back</code></a></li>
+<li><a href="vector/reserve.md"><code>reserve</code></a></li>
 <li><a href="vector/resize.md"><code>resize</code></a></li>
+<li><a href="vector/shrink_to_fit.md"><code>shrink_to_fit</code></a></li>
 <li><a href="vector/size.md"><code>size</code></a></li>
+<li><a href="vector/sort.md"><code>sort</code></a></li>
 <li><a href="vector/swap.md"><code>swap</code></a></li>
 
 </ol>

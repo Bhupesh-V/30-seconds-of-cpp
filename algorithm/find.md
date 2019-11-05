@@ -8,7 +8,7 @@
 
     int searchme = 4;
     if(std::find(std::begin(v), std::end(v), searchme) != std::end(v)){
-        std::cout <<"\n v contains 3";
+        std::cout <<"\n v contains 4";
     }
     else
         std::cout<<"No match !!";

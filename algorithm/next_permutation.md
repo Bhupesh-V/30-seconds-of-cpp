@@ -1,6 +1,6 @@
 # next_permutation
 
-**Description :** It is used to rearrange the elements in the range [first, last) into the next "lexicographically greater" permutation. If the range could not be rearange in a way that it produces a new lexicographically greater one it will return false eventhough there is a possible rearangement. That is why it is preferable to sort elements.
+**Description :** It is used to rearrange the elements in the range [first, last) into the next "lexicographically greater" permutation. If the range could not be rearranged in a way that it produces a new lexicographically greater one it will return false even though there is a possible rearrangement. That is why it is preferable to sort elements. For N elements there would N!(factorial) permutations possible..
 
 **Example** :
 
