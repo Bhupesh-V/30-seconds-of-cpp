@@ -1,48 +1,58 @@
 # erase
 
-**Description :** It is used to erase element from the container. The function accepts one mandatory parameter key which specifies the key to be erased in the map container.
+**Description :** map::erase() is a built-in function in C++ STL which is used to erase element from the container. It can be used to erase keys, elements at any specified position or a given range. 
 
-**Example** :
+**Example**:
 
 ```cpp
-// C++ program to Demonstrate map::erase() function 
+//Demonstrates erase()
 #include <iostream>
 #include <map>
-using namespace std; 
-  
-int main() { 
 
+int main(){
+  
     // initialize container 
-    std::map<int, int> mp; 
+    std::map<char, int> mymap; 
   
     // insert elements in random order 
-    mp.insert({ 1, 10 }); 
-    mp.insert({ 2, 20 }); 
-    mp.insert({ 3, 30 }); 
-    mp.insert({ 4, 40 }); 
-    mp.insert({ 5, 50 }); 
-    mp.insert({ 6, 60 }); 
-  
-    // prints the elements 
-    std::cout << "The map before using erase() is : \n" ; 
+    mymap.insert({ 'a', 30 }); 
+    mymap.insert({ 'b', 40 }); 
+    mymap.insert({ 'c', 60 }); 
+    mymap.insert({ 'd', 50 }); 
+    mymap.insert({ 'e', 70 }); 
+    mymap.insert({ 'f', 20 }); 
+    
+    //The map before using erase()
+    std::cout << "The map before using erase() is : \n"; 
     std::cout << "KEY\tELEMENT\n"; 
-    for (auto itr = mp.begin(); itr != mp.end(); ++itr) { 
-        cout << itr->first 
+    for (auto itr = mymap.begin(); itr != mymap.end(); ++itr) { 
+        std::cout << itr->first 
              << '\t' << itr->second << '\n'; 
     } 
     
-    mp.erase(4);
+    // function to erase given keys 
+    mymap.erase('e');
     
-    // prints the elements 
+    // function to erase given position  
+    auto it = mymap.find('d');
+    mymap.erase(it);
+    
+    // function to erase in given range
+    auto it1 = mymap.find('a');
+    auto it2 = mymap.find('c');
+    mymap.erase(it1, it2);
+    
+    //The map after applying erase()
     std::cout << "\nThe map after applying erase() is : \n"; 
     std::cout << "KEY\tELEMENT\n"; 
-    for (auto itr = mp.begin(); itr != mp.end(); ++itr) { 
-        cout << itr->first 
+    for (auto itr = mymap.begin(); itr != mymap.end(); ++itr) { 
+        std::cout << itr->first 
              << '\t' << itr->second << '\n'; 
     } 
     
-    return 0; 
-} 
+    return 0;
+}
 ```
 
-**[Run Code](https://rextester.com/PZRP3593)**
+**[Run Code](https://rextester.com/NZZSKF89749)**
+
