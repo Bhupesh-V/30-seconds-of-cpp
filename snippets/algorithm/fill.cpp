@@ -1,20 +1,32 @@
-// fill algorithm example
+/*
+    Author : Italo Vinicius
+    Date   : 01/10/2019
+    Time   : 22:00 
+    Description : Can fill in specific positions a specific number.
+*/
+
 #include <iostream>
 #include <algorithm>
+#include <vector>
 
-using std::cout;
-using std::vector;
+int main() {
+    std::vector<int> v(10);
 
-int main()
-{
-    std::vector<int> myvector(8); // myvector: 0 0 0 0 0 0 0 0
+    //Lets print what we have in the vector
+    for(int i = 0;i<10;i++){
+        std::cout<< v[i] << " ";
+    }
+    std::cout<< "\n";
 
-    std::fill(myvector.begin(), myvector.begin() + 4, 5);   // myvector: 5 5 5 5 0 0 0 0
-    std::fill(myvector.begin() + 3, myvector.end() - 2, 8); // myvector: 5 5 5 8 8 8 0 0
+    //But i want to put number 8 five times starting in the fourth position
+    std::fill(v.begin()+3, v.end() - 1, 8);
 
-    for (int i = 0; i < 10; i++)
-        cout << myvector[i] << " ";
-    std::cout << '\n';
+    //Print the changes in the vector
 
-    return 0;
+    for(int i = 0;i<10;i++){
+        std::cout<< v[i] << " ";
+    }
+    std::cout<< "\n";
+
+	return 0;
 }

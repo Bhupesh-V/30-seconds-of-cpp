@@ -5,6 +5,7 @@
 :heavy_check_mark: [begin](begin.md)  
 :heavy_check_mark: [capacity](capacity.md)  
 :heavy_check_mark: [cbgin](cbgin.md)  
+:heavy_check_mark: [cend](cend.md)  
 :heavy_check_mark: [clear](clear.md)  
 :heavy_check_mark: [emplace](emplace.md)  
 :heavy_check_mark: [empty](empty.md)  
@@ -19,9 +20,9 @@
 :heavy_check_mark: [resize](resize.md)  
 :heavy_check_mark: [shrink_to_fit](shrink_to_fit.md)  
 :heavy_check_mark: [size](size.md)  
+:heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [swap](swap.md)  
 :x: cbegin  
-:x: cend  
 :x: crbegin  
 :x: crend  
 :x: data  
