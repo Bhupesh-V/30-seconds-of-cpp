@@ -1,7 +1,7 @@
-# rbegin
+# rend
 
 **Description** : 
-- Returns a reverse iterator pointing to the last element in the vector (i.e., its reverse beginning).
+- Returns a reverse iterator pointing to the theoretical element preceding the first element in the vector (which is considered its reverse end).
 - Reverse iterators iterate backwards: increasing them moves them towards the beginning of the container.
 
 **Example**:
@@ -11,5 +11,5 @@
 		std::cout << *it << " ";
 	}
 ```
-**[See Sample code](../snippets/vector/rbegin.cpp)**
+**[See Sample code](../snippets/vector/rend.cpp)**
 **[Run Code](https://rextester.com/XGWC54800)**
