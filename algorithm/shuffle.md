@@ -1,4 +1,4 @@
-# swap
+# shuffle
 
 **Description** :This function can rearranges the elements in the range randomly
 
