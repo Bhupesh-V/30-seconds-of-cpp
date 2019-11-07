@@ -79,6 +79,7 @@
 <li><a href="algorithm/replace_copy_if.md"><code>replace_copy_if</code></a></li>
 <li><a href="algorithm/replace_if.md"><code>replace_if</code></a></li>
 <li><a href="algorithm/reverse.md"><code>reverse</code></a></li>
+<li><a href="algorithm/search.md"><code>search</code></a></li>
 <li><a href="algorithm/set_difference.md"><code>set_difference</code></a></li>
 <li><a href="algorithm/set_intersection.md"><code>set_intersection</code></a></li>
 <li><a href="algorithm/set_union.md"><code>set_union</code></a></li>
