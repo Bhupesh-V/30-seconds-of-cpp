@@ -1,9 +1,7 @@
 # rotate 
 
 **Description :** It rotates the order of the elements in the range `[first,last]`, in such a way that the element pointed by middle becomes the new first element.
-```
-void rotate(ForwardIterator first, ForwardIterator middle, ForwardIterator last)
-  ```
+
 **Example** :
 ```cpp
     int main(){
