@@ -1,10 +1,7 @@
-# Unique 
+# unique
 
-**Description :** Unique is used to remove the redundant data, if they are in continuoous address of any data structure. It doesnot delete the data, it just replace it with other element. It doesnot effect the size of data structure.. 
-The prototype for unique is :
-```
-iterator = unique(startaddress, endaddress)
-  ```
+**Description :** Unique is used to remove the redundant data, if they are in continuoous address of any data structure. It does not delete the data, it just replace it with other element. It does not effect the size of data structure.
+
 **Example** :
 ```cpp
     	#include <iostream>
