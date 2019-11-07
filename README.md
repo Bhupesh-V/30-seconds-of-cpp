@@ -157,6 +157,7 @@
 <li><a href="set/empty.md"><code>empty</code></a></li>
 <li><a href="set/insert.md"><code>insert</code></a></li>
 <li><a href="set/size.md"><code>size</code></a></li>
+<li><a href="set/find.md"><code>find</code></a></li>
 
 </ol>
 </details>
