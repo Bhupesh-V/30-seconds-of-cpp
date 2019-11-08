@@ -13,3 +13,5 @@
 ```
 **[See Sample code](../snippets/vector/pop_back.cpp)**
 **[Run Code](https://rextester.com/PZCE91278)**
+
+**Time Complexity** : Constant
