@@ -1,45 +1,33 @@
 # random_shuffle
 
-**Description**: random_shuffle() is used to generate random permutations of an array/vector passed as a parameter. It does not return anything.
+**Description** : It randomly rearrange elements in range [first, last).
+The function swaps the value of each element with some other randomly picked element. When provided, the function gen determines which element is picked in every case. Otherwise, the function uses some unspecified source of randomness.
 
 **Example**:
 ```cpp
-void using_random_shuffle()
-{
-    srand(time(0));	///FOR GENERATING RANDOM SEED
 
-    ///USING random_shuffle function with an array
-    int arr[5];
-    for(int i=0;i<5;i++)
-    	arr[i]=i;
+      srand(unsigned(time(0)));
+      vector<int> arr;
 
-    ///USING random_shuffle(arr,arr+N)
-    random_shuffle(arr,arr+5);
+      // set some values:
+      for (int j = 1; j < 10; ++j)
 
-    for(int i=0;i<5;i++)
-    	cout<<arr[i]<<" ";
-    cout<<endl;
-    /*
-    OUTPUT:
-    2 1 4 3 0 
-    */
+      arr.push_back(j);
 
-    ///USING random_shuffle function with a vector
-    vector<int> vec;
-    for(int i=0;i<5;i++)
-    	vec.push_back(i);
+      // using built-in random generator
+      random_shuffle(arr.begin(), arr.end());
 
-    ///USING random_shuffle(vec.begin(),vec.end())
-    random_shuffle(vec.begin(),vec.end());
+      // using randomfunc
+      random_shuffle(arr.begin(), arr.end(), randomfunc);
 
-    for(int i=0;i<5;i++)
-    	cout<<vec[i]<<" ";
-    cout<<endl;
+      // print out content:
+      cout << "arr contains:";
+      for (auto i = arr.begin(); i != arr.end(); ++i)
+      cout << ' ' << *i;
 
-    /*
-    OUTPUT:
-    3 0 4 2 1
-    */
+      cout << endl;
 
-}
+      return 0;
 ```
+**[See Sample code](../snippets/algorithm/random_shuffle.cpp)**
+**[Run Code](https://rextester.com/MMPQ67900)**
