@@ -1,9 +1,10 @@
-Description:-
+# get_allocator
 
-Returns a copy of the allocator object associated with the vector.
+**Description**: Returns a copy of the allocator object associated with the vector.
 
-Example:-
+**Example**:
 
+```cpp
 // vector::get_allocator
 #include <iostream>
 #include <vector>
@@ -22,5 +23,4 @@ int main (){
         myvector.get_allocator().deallocate(p,5);
         return 0;
 }
-
-//Compile and Run Code
+```
