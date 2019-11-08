@@ -4,10 +4,7 @@
 return it's index. But It is rarely used practically because other search algorithms such as the 
 [binary search](https://github.com/Bhupesh-V/30-seconds-of-cpp/blob/master/algorithm/binary_search.md)
 algorithm and hash tables allow significantly faster searching comparison to Linear search. 
-The prototype for linear search is :
-```
-linear_search(array, size, valueToFind)
-```
+
 **Example**
 ```cpp
 int linear_search(int arr[], int n, int x) 
