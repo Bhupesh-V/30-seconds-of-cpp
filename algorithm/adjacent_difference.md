@@ -15,5 +15,4 @@
 
 ```
 **[See Sample code](../snippets/algorithm/adjacent_difference.cpp)**
-**[Run Code](https://ideone.com/UJIyxi)**
 **[Run Code](https://rextester.com/MUMXYS97563)**
