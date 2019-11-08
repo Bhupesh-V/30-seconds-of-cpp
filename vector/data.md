@@ -1,13 +1,11 @@
 # data
 
-
 **Description** : The function returns a pointer to the first element in the array which is used internally by the vector. It doesn't accept any parameters.
 
 
 **Example**:
 
-
-
+```cpp
     int main(){
 
     //vector initialisation
@@ -23,3 +21,4 @@
   
     return 0;
     }
+```
