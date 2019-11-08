@@ -1,10 +1,12 @@
-DESCRIPTION:
-1. random_shuffle() is used to generate random permutations of an array/vector passed as a parameter.
-2. Does not return anything.
+# random_shuffle
 
+**Description**: random_shuffle() is used to generate random permutations of an array/vector passed as a parameter. It does not return anything.
+
+**Example**:
+```cpp
 void using_random_shuffle()
 {
-	  srand(time(0));	///FOR GENERATING RANDOM SEED
+    srand(time(0));	///FOR GENERATING RANDOM SEED
 
     ///USING random_shuffle function with an array
     int arr[5];
@@ -40,3 +42,4 @@ void using_random_shuffle()
     */
 
 }
+```
