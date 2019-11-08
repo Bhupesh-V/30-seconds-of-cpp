@@ -1,12 +1,9 @@
+# upper_bound
 
-Description:is a built-in function in C++ STL which returns an iterator pointing to the immediate next element which is just
-greater than k. If the key passed in the parameter exceeds the maximum key in the container, then the iterator returned points 
-to next of last element (which can be identified using set end() function) in the set container.
-Syntax:
-s.upper_bound(k);
+**Description**: upper_bound is a built-in function in C++ STL which returns an iterator pointing to the immediate next element which is just greater than k. If the key passed in the parameter exceeds the maximum key in the container, then the iterator returned points to next of last element (which can be identified using set end() function) in the set container.
 
-// C++ function for illustration
-// set::upper_bound() function
+**Example**:
+```cpp
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -39,4 +36,4 @@ int main()
     cout << (*it)<<endl;
     return 0;
 }
-
+```
