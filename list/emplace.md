@@ -25,5 +25,4 @@
   
   ```  
 
-**[See Sample Code](../snippets/list/emplace.cpp)**
 **[Run Code](https://rextester.com/VEBHW94625)**
