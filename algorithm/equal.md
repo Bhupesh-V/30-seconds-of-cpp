@@ -1,26 +1,28 @@
 # equal
 
-**Description** : Helps to compares the elements in a vector.
+**Description** : Compares the elements of a vector in a given range to the elements of another vector in the previously defined range. 
 
-**Example**:
-
+**Example** :
 ```cpp
-    int sequence[] = {20,40,60,80,100}; 
-    std::vector<int> avector(sequence,sequence+5);     //avector: 20, 40, 60, 80, 100
+    std::vector<int> v1 {3, 5, 3, 1, 2, 3};
+    std::vector<int> v2 {1, 2 ,3, 4, 5, 6};
+    std::vector<int> v3 {3, 5, 3, 1, 2, 3};
 
-    //using the function equal
-    if (std::equal(avector.begin(), avector.end(), sequence)) {
-        std::cout << "The contents of both sequences are equal.\n";
-    } else {
-        std::cout << "The contents of both sequences differ.\n";
+    // Compare two equal vectors
+    if(std::equal(v1.begin(),v1.end(),v3)){
+        std::cout << "Vectors are equa!";
+    }
+    else {
+        std::cout << "Vectors are not equal";
     }
 
-    avector[3] = 81;                                 //avector: 20, 40, 60, 81, 100
-
-    if (std::equal(avector.begin(), avector.end(), sequence)) {
-        std::cout << "The contents of both sequences are equal.\n";
-    } else {
-        std::cout << "The contents of both sequences differ.\n";
+    // Compare two unequal vectors
+        if(std::equal(v1.begin(),v1.end(),v2)){
+        std::cout << "Vectors are equa!";
     }
-``` 
-**[Run Code](https://rextester.com/NMO59733)**
+    else {
+        std::cout << "Vectors are not equal";
+    }
+```
+**[See Sample Code](snippets/algorithm/equal.cpp)**
+**[Run Code](https://rextester.com/RXRNU59365)**
