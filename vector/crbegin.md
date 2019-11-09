@@ -1,11 +1,6 @@
-# cbgin
+# crbgin
 
-**Description** : The function returns an const_reverse_iterator pointing to the last element in the container (i.e., its reverse beginning).
-
-Notes:
-
-1. The iterator points to past-the-end element of the vector.
-2. Iterator cannot modify the contents of the vector.
+**Description** : The function returns an const_reverse_iterator pointing to the last element in the container (i.e., its reverse beginning). The iterator points to past-the-end element of the vector.
 
 **Example**:
 ```cpp
