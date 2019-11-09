@@ -89,8 +89,7 @@
 :x: reverse_copy  
 :x: rotate  
 :x: rotate_copy  
-:x: sample  
-:x: search_n  
+:x: sample
 :x: set_symmetric_difference  
 :x: shuffle  
 :x: sort_heap  
