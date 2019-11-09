@@ -45,8 +45,11 @@
 :heavy_check_mark: [set_intersection](set_intersection.md)  
 :heavy_check_mark: [set_union](set_union.md)  
 :heavy_check_mark: [sort](sort.md)  
+:heavy_check_mark: [stable_sort](stable_sort.md)  
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
+:heavy_check_mark: [make_heap](make_heap.md)   
+:heavy_check_mark: [pop_heap](pop_heap.md)   
 :x: adjacent_difference  
 :x: clamp  
 :x: destroy  
@@ -66,8 +69,7 @@
 :x: is_permutation  
 :x: is_sorted_until  
 :x: iter_swap  
-:x: lexicographical_compare  
-:x: make_heap  
+:x: lexicographical_compare    
 :x: minimax  
 :x: minimax_element  
 :x: move  
@@ -80,7 +82,6 @@
 :x: partition  
 :x: partition_copy  
 :x: partition_point  
-:x: pop_heap  
 :x: prev_permutation  
 :x: push_heap  
 :x: random_shuffle  
@@ -94,7 +95,6 @@
 :x: shuffle  
 :x: sort_heap  
 :x: stable_partition  
-:x: stable_sort  
 :x: swap_ranges  
 :x: transform  
 :x: transform_exclusive_scan  
