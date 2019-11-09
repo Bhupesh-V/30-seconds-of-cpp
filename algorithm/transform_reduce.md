@@ -1,8 +1,6 @@
-
 # transform_reduce
 
 **Description :**  Applies a functor, then reduces. The default functor is multiplication. Available in C++17 and above.
-
 
 **Example** :
 
