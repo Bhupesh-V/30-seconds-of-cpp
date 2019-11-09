@@ -5,7 +5,7 @@
 
 **Example :**
 ```cpp
-//Run Code To Demonstrate use of set.empty()
+//Run Code To Demonstrate use of set.begin()
 #include<iostream>
 #include<set>
 

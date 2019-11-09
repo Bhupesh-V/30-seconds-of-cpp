@@ -1,22 +1,31 @@
 # make_heap
 
-**Description :** This function is used to convert a range in a container to a heap.
+**Description :**  make_heap() is used to transform a given sequence into a heap.
+A heap is a data structure which points to highest( or lowest) element and making its access in O(1) time.
 
 **Example** :
-
-```cpp   
-    //sample vector
-    std::vector<int> v1 = {2,5,8,7,4,5};
-    
-    //printing first element
-    std::cout << "First element before making heap : " << v1.front() << std::endl;
-    //outputs 2
-    
-    //transforming vector into heap with make_heap()
-    make_heap(v1.begin(),v1.end());
-    
-    //printing first element
-    std::cout << "First element in heap : " << v1.front();
-    //outputs 8
+```cpp
+ int main() { 
+          int i;
+          // initializing vector; 
+          vector<int> vi = { 4, 6, 7, 9, 11, 4 }; 
+          
+          // using make_heap() to transform vector into 
+          // a max heap 
+          
+          make_heap(vi.begin(),vi.end()); 
+          
+          //checking if heap using  
+          // front() function 
+          cout << "The maximum element of heap is : "; 
+          cout << vi.front() << endl; 
+          
+          //printing the heap
+          for(i=0;i<vi.size();++i){
+          cout << vi[i] << endl;
+          }
+          
+          return 0; 
+      } 
 ```
-**[Run Code](https://rextester.com/RNUJP68869)**
+**[Run Code](https://rextester.com/ZTZW85691)**
