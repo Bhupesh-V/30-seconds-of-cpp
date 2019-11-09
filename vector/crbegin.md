@@ -1,4 +1,4 @@
-# crbgin
+# crbegin
 
 **Description** : The function returns an const_reverse_iterator pointing to the last element in the container (i.e., its reverse beginning). The iterator points to past-the-end element of the vector.
 
