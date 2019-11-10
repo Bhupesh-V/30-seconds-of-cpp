@@ -47,11 +47,11 @@
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [stable_sort](stable_sort.md)  
 :heavy_check_mark: [swap](swap.md)  
-:heavy_check_mark: [upper_bound](upper_bound.md)  
+:heavy_check_mark: [upper_bound](upper_bound.md) 
+:heavy_check_mark: [clamp](clamp.md)
 :heavy_check_mark: [make_heap](make_heap.md)   
 :heavy_check_mark: [pop_heap](pop_heap.md)   
 :x: adjacent_difference  
-:x: clamp  
 :x: destroy  
 :x: equal  
 :x: equal_range  
