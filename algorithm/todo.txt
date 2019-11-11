@@ -37,7 +37,6 @@ make_heap
 push_heap
 pop_heap
 sort_heap
-clamp
 minimax
 minimax_element
 lexicographical_compare

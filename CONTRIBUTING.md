@@ -18,7 +18,7 @@
 8. Always follow the style guide(see below).
 9. Do not update any `README` or `todo.txt` files (unless you find a typo :sweat_smile:)
 9. Enjoy contributing :yum:.
-10. If you have any doubts, open a [issue](https://github.com/Bhupesh-V/30-seconds-of-cpp/issues/new). 
+10. If you have any doubts, open an [issue](https://github.com/Bhupesh-V/30-seconds-of-cpp/issues/new). 
 
 For adding functions in different directories, use the following template (copy from raw format): 
 
