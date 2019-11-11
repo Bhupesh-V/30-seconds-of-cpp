@@ -35,5 +35,6 @@ int main()
 } 
     
 ```
-
+**[See Sample Code](../snippets/list/reverse.cpp)**
 **[Run Code](https://ideone.com/9DWs38)**
+
