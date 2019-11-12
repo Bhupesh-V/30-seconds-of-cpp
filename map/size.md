@@ -1,33 +1,27 @@
 # size
 
-**Description :** It returns an integer value which is equal to the number of elements map container have. It accepts no parameters.
+**Description** : size() function returns the number of elements in a map
 
-**Example** :
-
+**Example**:
 ```cpp
-// C++ program to Demonstrate map::size() function 
-#include <iostream>
-#include <map>
-using namespace std; 
-  
-int main() { 
+   // creates a map
+     std::map<char, int> asciiMap;
 
-    // initialize container 
-    std::map<int, int> mp; 
-  
-    // insert elements in random order 
-    mp.insert({ 1, 10 }); 
-    mp.insert({ 2, 20 }); 
-    mp.insert({ 3, 30 }); 
-    mp.insert({ 4, 40 }); 
-    mp.insert({ 5, 50 }); 
-    mp.insert({ 6, 60 }); 
-  
-    // print the total number of elements in map
-    std::cout << mp.size() ;
-    
-    return 0; 
-} 
+     // adds four elements in the map
+     asciiMap['A'] = 65;
+     asciiMap['B'] = 66;
+     asciiMap['C'] = 67;
+     asciiMap['D'] = 68;
+
+     // prints the size of the map
+     std::cout << "Size of map (asciiMap.size()): " << asciiMap.size() << std::endl;
+
+     // adds two elements in the map
+     asciiMap['E'] = 69;
+     asciiMap['F'] = 70;
+
+     std::cout << "\nAfter adding two more elements" << std::endl;
+     std::cout << "Size of map (asciiMap.size()): " << asciiMap.size() << std::endl;
 ```
-
-**[Run Code](https://rextester.com/EPVO2087)**
+**[See Sample Code](../snippets/map/size.cpp)**<br>
+**[Run Code](https://rextester.com/LSR13900)**
