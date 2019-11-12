@@ -1,6 +1,6 @@
 # queue
 
-**Description :** The Queue is a abstract data type that is a lnlo (last in last out) meaning that the first element that you [push](https://github.com/Ranner198/30-seconds-of-cpp/blob/master/queue/push.md) will be the first element to [pop](https://github.com/Ranner198/30-seconds-of-cpp/blob/master/queue/pop.md). Below are examples of Constructor's to inialize a queue
+**Description :** The Queue is a abstract data type that is a lnlo (last in last out) meaning that the first element that you [push](https://github.com/Bhupesh-V/30-seconds-of-cpp/blob/master/queue/push.md) will be the first element to [pop](https://github.com/Bhupesh-V/30-seconds-of-cpp/blob/master/queue/pop.md). Below are examples of Constructor's to inialize a queue
 **Example** :
 
 ```cpp
