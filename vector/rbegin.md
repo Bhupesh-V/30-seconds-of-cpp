@@ -1,33 +1,15 @@
 # rbegin
 
-**Description** : The function returns a reverse iterator pointing to the last element in the container.
-
-**Syntax :** vectorname.rbgin()
+**Description** : 
+- Returns a reverse iterator pointing to the last element in the vector (i.e., its reverse beginning).
+- Reverse iterators iterate backwards: increasing them moves them towards the beginning of the container.
 
 **Example**:
 ```cpp
-/// Demonstrates rbegin() 
-#include <iostream>
-#include <vector>
-
-int main(){
-    //declares an empty vector
-    std::vector<int> vec;
-    
-    //inserting elements in vector
-    vec.push_back(101);
-    vec.push_back(12);
-    vec.push_back(999);
-    vec.push_back(143);
-  
-    //Displaying elements of  vector from the end
-    std::cout << "Content of the vector \n";
-    for (auto it = vec.rbegin(); it != vec.rend(); it++){ 
-        std::cout << *it << "\n";
-    }
-    return 0;
-}
-
+	// Iterate backwards over myVector using reverse iterators
+	for (auto it = myVector.rbegin(); it != myVector.rend(); it++) {
+		std::cout << *it << " ";
+	}
 ```
-**[Run Code](https://rextester.com/ZJPG53873)**
-
+**[See Sample code](../snippets/vector/rbegin.cpp)**
+**[Run Code](https://rextester.com/XGWC54800)**

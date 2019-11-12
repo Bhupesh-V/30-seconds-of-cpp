@@ -1,6 +1,7 @@
 # size
 
 **Description** : size() function returns the number of elements in a map
+
 **Example**:
 ```cpp
    // creates a map
@@ -22,4 +23,5 @@
      std::cout << "\nAfter adding two more elements" << std::endl;
      std::cout << "Size of map (asciiMap.size()): " << asciiMap.size() << std::endl;
 ```
+**[See Sample Code](../snippets/map/size.cpp)**<br>
 **[Run Code](https://rextester.com/LSR13900)**
