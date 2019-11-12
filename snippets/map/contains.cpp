@@ -1,10 +1,14 @@
-# contains
+/*
+    Author : Liel Fridman
+    Date : 25/10/2019
+    Time : 16:13
+    Description : create a simple map and test for two keys: 1 and 2.
+*/
 
-**Description :**  Checks whether there is an element with a specified key in the container. Returns true if there is such an element, otherwise false. 
-  
-**Example** :
+#include <iostream>
+#include <map>
 
-```cpp
+int main() {
     /* Should print:
     2 found.
     1 not found. */
@@ -22,6 +26,5 @@
         std::cout << "1 not found." << std::endl;
     }
 
-```
-**[See Sample code](../snippets/vector/contains.cpp)**<br>
-**[Run Code](https://wandbox.org/permlink/JhoFq4AxExrtctY1)**
+    return 0;
+}
