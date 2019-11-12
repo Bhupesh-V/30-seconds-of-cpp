@@ -6,6 +6,7 @@
 :heavy_check_mark: [empty](empty.md)  
 :heavy_check_mark: [insert](insert.md)  
 :heavy_check_mark: [size](size.md)  
+:heavy_check_mark: [erase](erase.md)  
 :x: cbegin  
 :x: cend  
 :x: contains  
@@ -14,7 +15,6 @@
 :x: emplace_hint  
 :x: end  
 :x: equal_range  
-:x: erase  
 :x: extract  
 :x: lower_bound  
 :x: max_size  

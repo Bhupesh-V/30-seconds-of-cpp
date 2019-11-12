@@ -23,5 +23,5 @@
     }
 
 ```
-**[See Sample code](snippets/vector/contains.cpp)**<br>
+**[See Sample code](../snippets/vector/contains.cpp)**<br>
 **[Run Code](https://wandbox.org/permlink/JhoFq4AxExrtctY1)**

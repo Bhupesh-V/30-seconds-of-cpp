@@ -3,7 +3,6 @@ rend
 crend
 cbegin
 rbegin
-vector
 crbegin
 ~vector
 emplace_back
