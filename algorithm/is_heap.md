@@ -1,10 +1,7 @@
 # is_heap
 
 **Description :** The C++ function `std::is_heap` returns `true` if the elements in the range `[first, last)` form a _max heap_, such as is constructed by _make_heap_, and `false` otherwise.
-```cpp
-template <class RandomAccessIterator>
-bool is_heap (RandomAccessIterator first, RandomAccessIterator last);
-```
+
 **Example :**
 
 ```cpp
