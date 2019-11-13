@@ -13,5 +13,3 @@ ${OUT_PATH}/%: ${SRC_PATH}/%.cpp
 	${CXX} -std=c++2a $^ -o $@
 clean:
 	@rm -rf ${OUT_PATH}
-
-
