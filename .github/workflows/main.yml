@@ -1,0 +1,10 @@
+name: on-merge
+on: [push]
+jobs:
+  my-job:
+    name: Automate update_readme.py
+    runs-on: ubuntu-18.04
+    steps:
+  - name: Update Readme
+    run: python update_readme.py
+    shell: python        
