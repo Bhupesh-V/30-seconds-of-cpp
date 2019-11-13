@@ -1,15 +1,6 @@
-cbegin
-end
 cend
 crbegin
 crend
-max_size
-emplace_hint
-erase
-swap
 extract
 merge
 contains
-equal_range
-lower_bound
-upper_bound

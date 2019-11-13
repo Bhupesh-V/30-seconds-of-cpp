@@ -1,11 +1,6 @@
 flip
 ~list
-unique
-emplace
-reverse
 max_size
 pop_back
-pop_front
 push_back
-emplace_back
 get_allocator

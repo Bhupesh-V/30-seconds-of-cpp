@@ -1,9 +1,2 @@
-data
-rend
 crend
-cbegin
-rbegin
-crbegin
 ~vector
-emplace_back
-get_allocator

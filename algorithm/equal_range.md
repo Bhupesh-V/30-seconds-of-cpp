@@ -1,4 +1,4 @@
-# lower_bound
+# equal_range
 
 **Description** : Returns the bounds of the subrange that includes all the elements of the range `[first, last)` with values equivalent to passed value.
 

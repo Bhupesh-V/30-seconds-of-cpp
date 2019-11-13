@@ -1,4 +1,4 @@
-# sort
+# pop_heap
 
 **Description :**  This function is used to delete the maximum element of the heap.
 

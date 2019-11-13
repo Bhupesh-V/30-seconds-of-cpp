@@ -1,4 +1,4 @@
-# next_permutation
+# prev_permutation
 
 **Description :** It is used to rearrange the elements in the range [first, last) into the previous "lexicographically smaller" permutation. It returns ‘true’ if the function could rearrange the object as a lexicographically smaller permutation. Otherwise, it returns ‘false’.
 
