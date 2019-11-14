@@ -18,7 +18,7 @@
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
-:x: cend  
+:heavy_check_mark: [cend](cend.md)  
 :x: contains  
 :x: crbegin  
 :x: crend  
