@@ -1,6 +1,6 @@
 # insert
 
-**Description :** This function is used to insert elements with a particular key in the unordered_map container. This function increases container size by 1. This function does not insert duplicate entries. There are following variant of this function. All are overloaded functions..
+**Description :** This function is used to insert elements with a particular key in the unordered_map container, increases the container size by 1, and does not insert any duplicate entries. These are the following variants of this function. All of them are overloaded functions.
 
 **Example** :
 
