@@ -14,12 +14,12 @@ int main()
     mystack.push(2); 
     mystack.push(3); 
     // Printing stack content.
-    while (!demostack.empty()) { 
-        cout << demostack.top() << endl; 
+    while (!mystack.empty()) { 
+        cout << mystack.top() << endl; 
     }
     mystack.pop();
     // Stack after pop()
-    while (!demostack.empty()) { 
-        cout << demostack.top() << endl; 
+    while (!mystack.empty()) { 
+        cout << mystack.top() << endl; 
     }
 } 
