@@ -10,7 +10,7 @@ all: $(SRC_BIN)
 
 ${OUT_PATH}/%: ${SRC_PATH}/%.cpp
 	mkdir -p ${OUT_PATH}
-	${CXX} -std=c++2a $^ -o $@
+	${CXX} -std=c++17 $^ -o $@
 clean:
 	@rm -rf ${OUT_PATH}
 
