@@ -16,15 +16,16 @@
 :heavy_check_mark: [insert](insert.md)  
 :heavy_check_mark: [lower_bound](lower_bound.md)  
 :heavy_check_mark: [max_size](max_size.md)  
-:heavy_check_mark: [rbegin](rbegin.md)  
+:heavy_check_mark: [rbegin](rbegin.md) 
+:heavy_check_mark: [rend](rend.md)
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [swap](swap.md)  
-:heavy_check_mark: [upper_bound](upper_bound.md)  
+:heavy_check_mark: [upper_bound](upper_bound.md) 
+
 :x: equal_range  
 :x: extract  
 :x: insert_or_assign  
 :x: key_comp  
 :x: merge  
-:x: rend  
 :x: try_emplace  
 :x: value_comp  
