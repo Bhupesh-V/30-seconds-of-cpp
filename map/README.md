@@ -20,12 +20,11 @@
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
-:heavy_check_mark: [rend](rend.md)
-
 :x: equal_range  
 :x: extract  
 :x: insert_or_assign  
 :x: key_comp  
-:x: merge    
+:x: merge  
+:x: rend  
 :x: try_emplace  
-:x: value_comp  
+:x: value_comp
