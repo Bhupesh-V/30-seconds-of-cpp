@@ -17,7 +17,6 @@
 :heavy_check_mark: [lower_bound](lower_bound.md)  
 :heavy_check_mark: [max_size](max_size.md)  
 :heavy_check_mark: [rbegin](rbegin.md) 
-:heavy_check_mark: [rend](rend.md)
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md) 
