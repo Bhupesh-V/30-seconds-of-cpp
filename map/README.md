@@ -24,7 +24,6 @@
 :x: extract  
 :x: insert_or_assign  
 :x: key_comp  
-:x: merge  
-:x: rend  
+:x: merge    
 :x: try_emplace  
 :x: value_comp  
