@@ -35,7 +35,7 @@ int main() {
     std::cout << "The default inner_product result between x and y is: " <<
                 default_inner_product_result << std::endl;
 
-    /* Second case of inner_product: Calculate the acculumative difference
+    /* Second case of inner_product: Calculate the accumulative difference
        between x and y. */
     int custom_inner_product_result = std::inner_product(x.begin(), x.end(),
                             y.begin(), init_value, my_accumulator, my_product);

@@ -2,7 +2,7 @@
 
 **Description :** The function is used to perform the inner product of two ranges (i.e, vectors).
 
-Inner Product expanation for v1={1, 2} and v2={3,4}:
+Inner Product explanation for v1={1, 2} and v2={3,4}:
 
         Default Inner Product = v1[0]*v2[0] + v1[1]*v2[2]
 		                  = 1 * 3 + 2 * 4
@@ -18,7 +18,7 @@ In the coding example bellow we see the two different cases for inner_product fu
 
 **Example** :
 ``` cpp
-/* Custom accumultor behaviour for inner_product.
+/* Custom accumulator behaviour for inner_product.
  * In this example the custom accumulator function happens to have the same
  * behaviour with the default accumulator function of inner_product. */
 int my_accumulator(int a, int b) {
@@ -44,7 +44,7 @@ int main() {
     std::cout << "The default inner_product result between x and y is: " <<
                 default_inner_product_result << std::endl;
 
-    /* Second case of inner_product: Calculate the acculumative difference
+    /* Second case of inner_product: Calculate the accumulative difference
        between x and y. */
     int custom_inner_product_result = std::inner_product(x.begin(), x.end(),
                             y.begin(), init_value, my_accumulator, my_product);
