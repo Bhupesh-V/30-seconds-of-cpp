@@ -10,7 +10,7 @@ Inner Product explanation for v1={1, 2} and v2={3,4}:
 
 In the example above, the ranges are the two vectors (v1, v2).
 
-In that case, the function takes 4 arguments. The initial position of the first range (v1[0]) as an iterator, the final position of the first range (v1[1]) as an iterator, the initial position of the second range (v2[0]) as an iterator and an initial value for the accumulator (usually is 0). The implementation of the inner_product() is based on an accumulator and a product function which add and multiply two number respectively.
+In that case, the function takes 4 arguments. The initial position of the first range (v1\[0]) as an iterator, the final position of the first range (v1\[1]) as an iterator, the initial position of the second range (v2\[0]) as an iterator and an initial value for the accumulator (usually is 0). The implementation of the inner_product() is based on an accumulator and a product function which add and multiply two number respectively.
 
 Another usage of inner_product is to change the default behaviour of the accumulator (a+b) and the product (a*b). We can do that by calling the inner_product() with two extra arguments. These two extra arguments can define the custom behaviour of the accumulator and the product.
 
