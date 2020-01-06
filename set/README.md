@@ -1,6 +1,7 @@
 # `<set>`
 :heavy_check_mark: [begin](begin.md)  
 :heavy_check_mark: [cbegin](cbegin.md)  
+:heavy_check_mark: [cend](cend.md)  
 :heavy_check_mark: [clear](clear.md)  
 :heavy_check_mark: [count](count.md)  
 :heavy_check_mark: [emplace](emplace.md)  
@@ -18,7 +19,6 @@
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
-:heavy_check_mark: [cend](cend.md)  
 :x: contains  
 :x: crbegin  
 :x: crend  

@@ -1,10 +1,8 @@
 find_end
 move_backward
 fill_n
-transform
 generate_n
 swap_ranges
-reverse_copy
 rotate_copy
 unique_copy
 is_partitioned
@@ -14,13 +12,11 @@ partition_point
 is_sorted_until
 partial_sort
 partial_sort_copy
-nth_element
 inplace_merge
 set_symmetric_difference
 is_heap_until
 sort_heap
 minimax
-minimax_element
 sample
 destroy
 uninitialized_copy

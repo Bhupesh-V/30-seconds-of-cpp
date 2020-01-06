@@ -1,5 +1,5 @@
 # `<vector>`
-:heavy_check_mark: [Vector](vector.md)  
+:heavy_check_mark: [Vector](Vector.md)  
 :heavy_check_mark: [assign](assign.md)  
 :heavy_check_mark: [at](at.md)  
 :heavy_check_mark: [back](back.md)  

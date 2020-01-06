@@ -13,11 +13,12 @@
 
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/72e93df05bce4d7598f222676bfb511c)](https://app.codacy.com/app/Bhupesh-V/30-Seconds-Of-STL?utm_source=github.com&utm_medium=referral&utm_content=Bhupesh-V/30-Seconds-Of-STL&utm_campaign=Badge_Grade_Dashboard)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg)](https://github.com/Bhupesh-V/30-seconds-of-cpp/issues)
-[![GitHub license](https://img.shields.io/github/license/codeclassroom/CodeRunner)](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![LICENSE](https://img.shields.io/github/license/Bhupesh-V/30-seconds-of-cpp?color=blue)](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/Bhupesh-V/30-seconds-of-cpp.svg?branch=master)](https://travis-ci.org/Bhupesh-V/30-seconds-of-cpp)
 [![CodeFactor](https://www.codefactor.io/repository/github/bhupesh-v/30-seconds-of-cpp/badge)](https://www.codefactor.io/repository/github/bhupesh-v/30-seconds-of-cpp)
 [![Open Source Helpers](https://www.codetriage.com/bhupesh-v/30-seconds-of-cpp/badges/users.svg)](https://www.codetriage.com/bhupesh-v/30-seconds-of-cpp)
+[![GitHub contributors](https://img.shields.io/github/contributors/Bhupesh-V/30-seconds-of-cpp)](https://github.com/Bhupesh-V/30-seconds-of-cpp/graphs/contributors)
 <hr>
 
 
@@ -76,12 +77,14 @@
 <li><a href="algorithm/merge.md"><code>merge</code></a></li>
 <li><a href="algorithm/min.md"><code>min</code></a></li>
 <li><a href="algorithm/min_element.md"><code>min_element</code></a></li>
+<li><a href="algorithm/minimax_element.md"><code>minimax_element</code></a></li>
 <li><a href="algorithm/minmax.md"><code>minmax</code></a></li>
 <li><a href="algorithm/minmax_element.md"><code>minmax_element</code></a></li>
 <li><a href="algorithm/mismatch.md"><code>mismatch</code></a></li>
 <li><a href="algorithm/move.md"><code>move</code></a></li>
 <li><a href="algorithm/next_permutation.md"><code>next_permutation</code></a></li>
 <li><a href="algorithm/none_of.md"><code>none_of</code></a></li>
+<li><a href="algorithm/nth_element.md"><code>nth_element</code></a></li>
 <li><a href="algorithm/partition.md"><code>partition</code></a></li>
 <li><a href="algorithm/pop_heap.md"><code>pop_heap</code></a></li>
 <li><a href="algorithm/prev_permutation.md"><code>prev_permutation</code></a></li>
@@ -96,6 +99,7 @@
 <li><a href="algorithm/replace_copy_if.md"><code>replace_copy_if</code></a></li>
 <li><a href="algorithm/replace_if.md"><code>replace_if</code></a></li>
 <li><a href="algorithm/reverse.md"><code>reverse</code></a></li>
+<li><a href="algorithm/reverse_copy.md"><code>reverse_copy</code></a></li>
 <li><a href="algorithm/rotate.md"><code>rotate</code></a></li>
 <li><a href="algorithm/search.md"><code>search</code></a></li>
 <li><a href="algorithm/search_n.md"><code>search_n</code></a></li>
@@ -106,6 +110,7 @@
 <li><a href="algorithm/sort.md"><code>sort</code></a></li>
 <li><a href="algorithm/stable_sort.md"><code>stable_sort</code></a></li>
 <li><a href="algorithm/swap.md"><code>swap</code></a></li>
+<li><a href="algorithm/transform.md"><code>transform</code></a></li>
 <li><a href="algorithm/transform_reduce.md"><code>transform_reduce</code></a></li>
 <li><a href="algorithm/unique.md"><code>unique</code></a></li>
 <li><a href="algorithm/upper_bound.md"><code>upper_bound</code></a></li>
@@ -168,6 +173,7 @@
 <li><a href="map/lower_bound.md"><code>lower_bound</code></a></li>
 <li><a href="map/max_size.md"><code>max_size</code></a></li>
 <li><a href="map/rbegin.md"><code>rbegin</code></a></li>
+<li><a href="map/rend.md"><code>rend</code></a></li>
 <li><a href="map/size.md"><code>size</code></a></li>
 <li><a href="map/swap.md"><code>swap</code></a></li>
 <li><a href="map/upper_bound.md"><code>upper_bound</code></a></li>
@@ -184,6 +190,7 @@
 <li><a href="queue/front.md"><code>front</code></a></li>
 <li><a href="queue/pop.md"><code>pop</code></a></li>
 <li><a href="queue/push.md"><code>push</code></a></li>
+<li><a href="queue/queue.md"><code>queue</code></a></li>
 <li><a href="queue/size.md"><code>size</code></a></li>
 <li><a href="queue/swap.md"><code>swap</code></a></li>
 
@@ -195,6 +202,7 @@
 <ol>
 <li><a href="set/begin.md"><code>begin</code></a></li>
 <li><a href="set/cbegin.md"><code>cbegin</code></a></li>
+<li><a href="set/cend.md"><code>cend</code></a></li>
 <li><a href="set/clear.md"><code>clear</code></a></li>
 <li><a href="set/count.md"><code>count</code></a></li>
 <li><a href="set/emplace.md"><code>emplace</code></a></li>
@@ -233,6 +241,7 @@
 ### Unordered_map 
 <details><summary>View contents</summary>
 <ol>
+<li><a href="unordered_map/count.md"><code>count</code></a></li>
 <li><a href="unordered_map/erase.md"><code>erase</code></a></li>
 <li><a href="unordered_map/find.md"><code>find</code></a></li>
 <li><a href="unordered_map/insert.md"><code>insert</code></a></li>
@@ -280,29 +289,11 @@
 
 ## :speaking_head: Community
 Join other C++ enthusiasts on 
-
-- [Slack](https://join.slack.com/t/30-seconds-of-cpp/shared_invite/enQtNTU0MTYxMDk0MzQxLTk3ZDhiOGVjNTQ3YzdjNGMyMjViMWRmMDM4MThlYzdlM2RjODUyYjVkNWJjYzg4MGMyMjJhMzIwYTI4MTE1ZmU)
+- [Slack](https://join.slack.com/t/30-seconds-of-cpp/shared_invite/enQtNTU0MTYxMDk0MzQxLTlhY2Q1MWZmOTM0ODRmOWMwYTllYzVjMzM2ZDk5NjY3MDU2NDljNDlmMDQ5MTMyOGQyOTVlNzEwOTc0MmYwOWY)
 - [Discord](https://discord.gg/KAD3JZq)
 
 ## :globe_with_meridians: 30 Seconds of Knowledge
 > Experience *30 Seconds of C++* as a [Web Extension](https://chrome.google.com/webstore/detail/30-seconds-of-knowledge/mmgplondnjekobonklacmemikcnhklla?hl=en) built by [Stefan Petrovic](https://github.com/petrovicstefanrs)
-
-## Contributors :purple_heart: :tada:
-| Name          | Profile       |
-| ------------- |:-------------:|
-| TANIYA GUPTA    | [thetaniyagupta](https://github.com/thetaniyagupta) |
-| Saumya Agnihotri    | [saumyaagnihtori](https://github.com/saumyaagnihtori) |
-| shan7030    | [shan7030](https://github.com/shan7030) |
-| Sonkeng Maldini |[sdmg15](https://github.com/sdmg15) |
-| Pranav Khurana | [Pranav-Khurana](https://github.com/Pranav-Khurana) |
-| Rickey Patel | [rickey90](https://github.com/rickey90) |
-| Kyle Johnson | [kydojo](https://github.com/kydojo) |
-| Timothy Itodo | [itodotimothy6](https://github.com/itodotimothy6) |
-| Pankaj Raghav | [Panky-codes](https://github.com/Panky-codes) |
-| Thamara Andrade | [thamara](https://github.com/thamara) |
-| darksider3 | [Darksider3](https://github.com/Darksider3) |
-| Harsh Raj | [harshraj22](https://github.com/harshraj22) |
-| samuels96 | [samuels96](https://github.com/samuels96) |
 
 - A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo :heart:
 
