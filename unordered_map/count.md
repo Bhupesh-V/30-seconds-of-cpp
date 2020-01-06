@@ -1,4 +1,4 @@
-# Count
+# count
 
 **Description :** This function is used to determine if an element is in the map. It returns one if the element is in the map 
 else it returns zero.
