@@ -1,8 +1,8 @@
-cend
+# cend
 
-**Description**
-	This method is used to return a constant iterator pointing to the past-the-end element in the container
+**Description**: This method is used to return a constant iterator pointing to the past-the-end element in the container
 **Example**
+```cpp
 #include <iostream>
 #include <set>
 
@@ -15,4 +15,6 @@ int main(){
 	std::cout<<'\n';
 return 0;
 }
+```
+
 **[Run Code](https://rextester.com/KVCL27230)**
