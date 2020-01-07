@@ -1,7 +1,7 @@
 /*
     Author : Amr Akmal
-    Date : 07/m01m/2020
-    Time : 19:00
+    Date : 07/01/2020
+    Time : 19:35
     Description : clear in an unordered_map.
 */
 
@@ -22,6 +22,7 @@ int main(){
     my_unordered_map.insert({1, 2});
     my_unordered_map.insert({3, 4});
     my_unordered_map.insert({5, 6});
+    // Removing all the elements in the unordered_set, takes O(n) time
     my_unordered_map.clear();
     std::cout << "Size of my_unordered_map is : " << my_unordered_map.size() << std::endl;
 
@@ -29,5 +30,5 @@ int main(){
 }
 
 ```
-**[Run Code](https://ideone.com/14Ccn)**
+**[Run Code](https://ideone.com/j8Vhja)**
 
