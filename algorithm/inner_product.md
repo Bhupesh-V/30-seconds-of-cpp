@@ -1,4 +1,4 @@
-# inner product
+# inner_product
 
 **Description :** The function is used to perform the inner product of two ranges (i.e, vectors).
 
