@@ -28,6 +28,7 @@
 :heavy_check_mark: [is_permutation](is_permutation.md)  
 :heavy_check_mark: [is_sorted](is_sorted.md)  
 :heavy_check_mark: [iter_swap](iter_swap.md)  
+:heavy_check_mark: [inner_product](inner_product.md)  
 :heavy_check_mark: [lexicographical_compare](lexicographical_compare.md)  
 :heavy_check_mark: [linear_search](linear_search.md)  
 :heavy_check_mark: [lower_bound](lower_bound.md)  
