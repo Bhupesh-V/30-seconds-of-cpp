@@ -11,7 +11,6 @@
 using namespace std; 
 
 int main(){
-
     // Creating a list 
     std::list<int> demoList; 
   
