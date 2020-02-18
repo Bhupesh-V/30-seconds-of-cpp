@@ -15,6 +15,7 @@
 :heavy_check_mark: [equal](equal.md)  
 :heavy_check_mark: [equal_range](equal_range.md)  
 :heavy_check_mark: [fill](fill.md)  
+:heavy_check_mark: [fill_n](fill_n.md)
 :heavy_check_mark: [find](find.md)  
 :heavy_check_mark: [find_first_of](find_first_of.md)  
 :heavy_check_mark: [find_if](find_if.md)  
@@ -76,7 +77,6 @@
 :heavy_check_mark: [upper_bound](upper_bound.md)  
 :x: destroy  
 :x: exclusive_scan  
-:x: fill_n  
 :x: find_end  
 :x: generate_n  
 :x: inclusive_scan  
