@@ -3,6 +3,7 @@
 :heavy_check_mark: [cbegin](cbegin.md)  
 :heavy_check_mark: [cend](cend.md)  
 :heavy_check_mark: [clear](clear.md)  
+:heavy_check_mark: [contains](contains.md)  
 :heavy_check_mark: [count](count.md)  
 :heavy_check_mark: [emplace](emplace.md)  
 :heavy_check_mark: [emplace_hint](emplace_hint.md)  
@@ -19,7 +20,6 @@
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
-:x: contains  
 :x: crbegin  
 :x: crend  
 :x: extract  

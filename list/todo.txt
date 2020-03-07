@@ -1,6 +1,5 @@
 flip
 ~list
-max_size
 pop_back
 push_back
 get_allocator

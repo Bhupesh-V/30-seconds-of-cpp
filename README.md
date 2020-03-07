@@ -55,6 +55,7 @@
 <li><a href="algorithm/equal.md"><code>equal</code></a></li>
 <li><a href="algorithm/equal_range.md"><code>equal_range</code></a></li>
 <li><a href="algorithm/fill.md"><code>fill</code></a></li>
+<li><a href="algorithm/fill_n.md"><code>fill_n</code></a></li>
 <li><a href="algorithm/find.md"><code>find</code></a></li>
 <li><a href="algorithm/find_first_of.md"><code>find_first_of</code></a></li>
 <li><a href="algorithm/find_if.md"><code>find_if</code></a></li>
@@ -136,6 +137,7 @@
 <li><a href="list/erase.md"><code>erase</code></a></li>
 <li><a href="list/front.md"><code>front</code></a></li>
 <li><a href="list/insert.md"><code>insert</code></a></li>
+<li><a href="list/max_size.md"><code>max_size</code></a></li>
 <li><a href="list/merge.md"><code>merge</code></a></li>
 <li><a href="list/pop_front.md"><code>pop_front</code></a></li>
 <li><a href="list/rbegin.md"><code>rbegin</code></a></li>
@@ -204,6 +206,7 @@
 <li><a href="set/cbegin.md"><code>cbegin</code></a></li>
 <li><a href="set/cend.md"><code>cend</code></a></li>
 <li><a href="set/clear.md"><code>clear</code></a></li>
+<li><a href="set/contains.md"><code>contains</code></a></li>
 <li><a href="set/count.md"><code>count</code></a></li>
 <li><a href="set/emplace.md"><code>emplace</code></a></li>
 <li><a href="set/emplace_hint.md"><code>emplace_hint</code></a></li>

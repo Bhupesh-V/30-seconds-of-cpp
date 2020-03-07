@@ -14,6 +14,7 @@
 :heavy_check_mark: [erase](erase.md)  
 :heavy_check_mark: [front](front.md)  
 :heavy_check_mark: [insert](insert.md)  
+:heavy_check_mark: [max_size](max_size.md)  
 :heavy_check_mark: [merge](merge.md)  
 :heavy_check_mark: [pop_front](pop_front.md)  
 :heavy_check_mark: [rbegin](rbegin.md)  
@@ -28,7 +29,6 @@
 :heavy_check_mark: [unique](unique.md)  
 :x: flip  
 :x: get_allocator  
-:x: max_size  
 :x: pop_back  
 :x: push_back  
 :x: ~list  
