@@ -11,7 +11,7 @@
 
 int main(){
 	std::vector<int> sequence{ 13, 5, 2, };
-	std::vector<int> target{ 18, 11, 7, 13, 5, 2, 12, 5, 13, 5, 2};
+	std::vector<int> target{ 18, 11, 7, 13, 5, 2, 12, 5, 13, 5, 2 };
 	
 	// find the first element of the last occurrence of the given sequence
 	std::vector<int>::iterator result = std::find_end(target.begin(), target.end(), sequence.begin(), sequence.end());
