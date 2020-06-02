@@ -13,24 +13,24 @@
 
 int main ()
 {
-  int myints[]= {10,60,50,20};
-  std::vector<int> arr =  {1,2 3,4};
+  std::array<int, 4> myints = {10, 60, 50, 20};
+  std::vector<int> arr =  {1, 2, 3, 4};
   
   //empty queue
   std::priority_queue<int> first;
   
   //queue creation using array as input
-  std::priority_queue<int> second (myints,myints+4);
+  std::priority_queue<int> second (myints.begin(), myints.end());
   
   //queue creation from vector
-  std::priority_queue<int> third ( arr.begin(),arr.end());
+  std::priority_queue<int> third (arr.begin(), arr.end());
 
   // greater int is used to make this queue order in the opposite sense i.e the top element now is the smallest.
-  std::priority_queue<int, std::vector<int>, std::greater<int> > fourth (myints,myints+4);
+  std::priority_queue<int, std::vector<int>, std::greater<int> > fourth (myints.begin(), myints.end());
   
   return 0;
 }
 
 ```
 
-**[Run Code](https://rextester.com/NUT49351)
+**[Run Code](https://rextester.com/WNCHA7591)

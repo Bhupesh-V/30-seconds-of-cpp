@@ -22,13 +22,13 @@
     my.pop();
     
     // largest is 10 now as 20 is removed
-    std::cout<<my.top()<<"\n";
+    std::cout << my.top() << "\n";
     
     // removes largest values i.e 10
     my.pop();
 
     // largest is 4 now
-    std::cout<<my.top();
+    std::cout << my.top();
 
 ```
 
