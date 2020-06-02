@@ -11,15 +11,16 @@
   
 int main() { 
     // declaration of map container
-    std::map<int, int> mymap; 
+    std::map<int, int> mymap;
+    mymap[0] = 10;
     mymap[1] = 11; 
     mymap[2] = 12; 
     mymap[3] = 13; 
 
-    // using count() function
+    // using find() function
     auto itr = mymap.find(1);
-    std::cout<<itr->first<<"\t"<<itr->second<<"\n";
+    std::cout << "The value at position " << itr->first << " is " << itr->second << "\n";
     return 0; 
 } 
 ```
-**[Run Code](https://ideone.com/HbU667)**
+**[Run Code](https://rextester.com/TNMP46907)**
