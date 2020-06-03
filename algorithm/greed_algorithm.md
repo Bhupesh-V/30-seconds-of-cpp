@@ -10,26 +10,31 @@ However, the choice of an option does not consider additional subsequent options
             givenAmount -= 25;
         }
         while(givenAmount >= 10){
-            change[1] +=1;
+            change[1] += 1;
             givenAmount -= 10;
         }
-        while(givenAmount>=5){
+        while(givenAmount >= 5){
             change[2] += 1;
             givenAmount -= 5;
         }
-        while(givenAmount>=1){
+        while(givenAmount >= 1){
             change[3] += 1;
             givenAmount -= 1;
         }
     }
-    int main() {
+    int main(){
+        //Change[0] represents Quarters
+        //Change[1] represents Dimes
+        //Change[2] represents Nickels
+        //Change[3] represents Pennies
         int change[4] = {0,0,0,0};
+        
         MakeChange(96,change);
         
-        std::cout<<"Quarter: "<<change[0]<<std::endl;
-        std::cout<<"Dimes: "<<change[1]<<std::endl;
-        std::cout<<"Nickels: "<<change[2]<<std::endl;
-        std::cout<<"Pennies: "<<change[3]<<std::endl;
+        std::cout << "Quarter: " << change[0] << std::endl;
+        std::cout << "Dimes: " << change[1] << std::endl;
+        std::cout << "Nickels: " << change[2] << std::endl;
+        std::cout << "Pennies: " << change[3] << std::endl;
     }
 ```
 **[Run Code](http://cpp.sh/8haq5d)**
