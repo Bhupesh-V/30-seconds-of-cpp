@@ -1,4 +1,4 @@
-# greed_algorihtm
+# greed_algorithm
 **Description** : Function MakeChange repents the Greedy algorithm which, when presented with a list of options, chooses the option that is optimal at that point of time.
 However, the choice of an option does not consider additional subsequent options, and may or may not lead to an optimal solution. The function returns the total amount in change.
 
