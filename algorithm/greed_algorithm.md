@@ -3,7 +3,7 @@
 However, the choice of an option does not consider additional subsequent options, and may or may not lead to an optimal solution.
 
 **Example**
-``cpp
+```cpp
     void MakeChange(int givenAmount,int (&change)[4]){
         while(givenAmount >= 25){
             change[0] += 1;
@@ -31,6 +31,6 @@ However, the choice of an option does not consider additional subsequent options
         std::cout<<"Nickels: "<<change[2]<<std::endl;
         std::cout<<"Pennies: "<<change[3]<<std::endl;
     }
-``
+```
 **[Run Code](http://cpp.sh/8haq5d)**
 
