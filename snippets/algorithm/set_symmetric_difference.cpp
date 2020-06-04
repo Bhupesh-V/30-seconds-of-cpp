@@ -11,7 +11,6 @@
 
 
 int main() {
-
     //intialize arrays, must be sorted
     int firstArray[5] = { 0, 2, 4, 6, 8 };
     int secondArray[5] = { -4, -2 , 0, 2, 4 };
