@@ -14,7 +14,7 @@ int main ()
 
   std::cout << "myvector backwards:";
   for (auto a = myvector.crbegin(); a != myvector.crend(); ++a)
-    std::cout << *a <<" ";
+    std::cout << *a << " ";
   std::cout << '\n';
 
   return 0;
