@@ -16,7 +16,7 @@ int main() {
     int firstArray[5] = { 0, 2, 4, 6, 8 };
     int secondArray[5] = { -4, -2 , 0, 2, 4 };
 
-    //destination array must be large enough to hold values
+    //destination must be large enough to hold values
     std::vector<int> destination(10);
     std::vector<int>::iterator itr;
 
