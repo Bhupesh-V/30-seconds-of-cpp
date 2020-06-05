@@ -1,18 +1,9 @@
 # pop_back
 
-**Description :** pop_back() function removes an element from the back of a list container. When used, it decreases the size of the container by 1.
+**Description :** The pop_back() function removes an element from the back of a list container. When used, it decreases the size of the container by 1.
 
 **Example** :
-
 ```cpp
-/*
-    Author : Yvonne Marcinko
-    Date : 05/06/2020
-    Time : 17:53
-    Description : Demonstrates pop_back function in C++ STL, under the LIST header
-*/
-
-// Demonstrates pop_back()
 #include <iostream>
 #include <list>
 
@@ -29,6 +20,7 @@ int main(){
     //print elements of list
     std::cout << '\n'; //cosmetic
     std::cout << "  List elements; BEFORE pop from back \n";
+    
     //pre-increment counter per style guide
     for (auto it = mylist.begin(); it != mylist.end(); ++it){ 
         std::cout << "  " << *it << '\n'; 
@@ -47,6 +39,5 @@ int main(){
 
     return 0;
 }
-
 ```
 **[Run Code](https://rextester.com/FFW41893)**
