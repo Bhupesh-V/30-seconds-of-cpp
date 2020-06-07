@@ -9,7 +9,7 @@
 
 int main(){
     //declare an empty list
-    std::list<int>mylist; 
+    std::list<int> mylist; 
     
     //add elements at the back using push_back
     mylist.push_back(2);
@@ -22,9 +22,8 @@ int main(){
     std::cout << "  List elements; BEFORE pop from back \n";
     
     //pre-increment counter per style guide
-    for (auto it = mylist.begin(); it != mylist.end(); ++it){ 
-        std::cout << "  " << *it << '\n'; 
-    }
+    for (auto it : mylist) // using for range per teammate recommendation
+        std::cout << "  " << it << '\n';
 
     //pop element from back 
     mylist.pop_back();
@@ -32,12 +31,13 @@ int main(){
     //print elements of  list
     std::cout << '\n'; //cosmetic
     std::cout << "  List elements; AFTER pop from back \n";
-    for (auto it = mylist.begin(); it != mylist.end(); ++it){ 
-        std::cout << "  " << *it << '\n'; 
-    }
+    for (auto it : mylist) // using for range per teammate recommendation
+        std::cout << "  " << it << '\n';
+    
     std::cout << '\n'; //cosmetic
 
     return 0;
 }
 ```
+
 **[Run Code](https://rextester.com/FFW41893)**
