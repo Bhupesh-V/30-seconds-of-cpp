@@ -33,8 +33,6 @@ int main(){
     std::cout << "  List elements; AFTER pop from back \n";
     for (auto it : mylist) // using for range per teammate recommendation
         std::cout << "  " << it << '\n';
-    
-    std::cout << '\n'; //cosmetic
 
     return 0;
 }
