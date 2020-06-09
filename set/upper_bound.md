@@ -4,14 +4,13 @@
 
 **Example**:
 ```cpp
-#include <bits/stdc++.h>
-using namespace std;
+#include <iostream>
+#include <set>
 
 int main()
 {
-
     // initialize container
-    set<int>s;
+    std::set<int>s;
 
     // insert elements in random order
     s.insert(2);
@@ -21,19 +20,20 @@ int main()
 
     // when 1 is present
     auto it = s.upper_bound(1);
-    cout << "The lower bound of key 1 is ";
-    cout << (*it)<<endl;
+    std::cout << "The lower bound of key 1 is ";
+    std::cout << (*it) << std::endl;
 
     // when 3 is not present
     // points to next greater after 3
     it = s.upper_bound(3);
-    cout << "The lower bound of key 3 is ";
-    cout << (*it)<<endl;
+    std::cout << "The lower bound of key 3 is ";
+    std::cout << (*it) << std::endl;
 
     // when 6 exceeds
     it = s.upper_bound(6);
-    cout << "\nThe lower bound of key 6 is ";
-    cout << (*it)<<endl;
+    std::cout << "The lower bound of key 6 is ";
+    std::cout << (*it) << std::endl;
     return 0;
 }
 ```
+**[Run Code](https://rextester.com/MLAD68271)**
