@@ -9,8 +9,7 @@
 #include <vector>
 #include <algorithm>
 
-int main()
-{
+int main(){
     std::vector<int> origin {3, 5, 3, 1, 2, 3};
 
     // replaces 3 by 0

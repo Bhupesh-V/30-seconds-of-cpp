@@ -9,8 +9,7 @@
 #include <vector>
 #include <algorithm>
 
-int main()
-{
+int main(){
 	std::vector<int> vec1{1, 2, 3, 4, 5};
 
 	// Printing initial elements of vector: 1 2 3 4 5
