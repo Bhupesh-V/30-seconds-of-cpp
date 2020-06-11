@@ -2,7 +2,7 @@
     Author : Sang Nguyen
     Date : 12/06/2020
     Time : 12:20
-    Description : calculate inner product of 2 vectors
+    Description : calculate inner product on the given range
 */
 #include <vector>
 #include <numeric>
