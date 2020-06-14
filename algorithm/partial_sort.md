@@ -1,13 +1,12 @@
 # partial_sort
 
-**Description** : Is an STL algorithm which Rearranges elements such that the range [first, middle) contains the sorted middle - first smallest elements in the range [first, last).
+**Description** : Is an STL algorithm which rearranges elements such that the range [first, middle) contains the sorted middle - first smallest elements in the range [first, last).
 
 The order of equal elements is not guaranteed to be preserved. The order of the remaining elements in the range [middle, last) is unspecified.
 
 **Example**:
 ```cpp
 #include <algorithm>
-#include <functional>
 #include <vector>
 #include <iostream>
  

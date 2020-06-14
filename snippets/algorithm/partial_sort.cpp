@@ -5,7 +5,6 @@
     Description : move n smallest elements to the beginning of an array
 */
 #include <algorithm>
-#include <functional>
 #include <vector>
 #include <iostream>
  
