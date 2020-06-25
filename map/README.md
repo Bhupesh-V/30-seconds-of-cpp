@@ -21,10 +21,10 @@
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
-:x: equal_range  
-:x: extract  
-:x: insert_or_assign  
-:x: key_comp  
+:heavy_check_mark: equal_range  
+:heavy_check_mark: extract  
+:heavy_check_mark: insert_or_assign  
+:heavy_check_mark: key_comp  
 :x: merge  
-:x: try_emplace  
-:x: value_comp  
+:heavy_check_mark: try_emplace  
+:heavy_check_mark: value_comp  

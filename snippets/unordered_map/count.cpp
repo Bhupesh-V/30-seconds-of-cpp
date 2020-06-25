@@ -1,31 +1,31 @@
-//Demonstrate count()
-#include<iostream>
-#include<unordered_map>
+/*
+    Author : Kevin Demsich and Stacy Richmond
+    Date : 25/06/2020
+    Time : 00:12
+    Description : Demonstration of extracting a node from an STL map
+*/
+#include <iostream>
+#include <string>
+#include <unordered_map>
 
-using namespace std;
+int main() {
+	// create map
+	std::unordered_map<std::string, int> table;
+	table["ace"] = 2;
+	table["king"] = 1;
+	table["queen"] = 3;
+	table["jack"] = 2;
+	table["ten"] = 1;
 
-int main()
-{
-    // unordered map
-    unordered_map<string , int> umap;
-
-    // Inserting elements into the map
-    umap.insert(make_pair("car" , 1));
-    umap.insert(make_pair("truck" , 2));
-    umap.insert(make_pair("bike" , 1));
-    umap.insert(make_pair("auto" , 3));
-    umap.insert(make_pair("scooty" ,2));
-
-    // Check if element with key car is present using
-    // count() function
-    if(umap.count("car"))
-    {
-        cout<<"Element Found"<<endl;
-    }
-    else
-    {
-        cout<<"Element Not Found"<<endl;
-    }
-
-    return 0;
+	// loop through a set of keys to check if their count in the map is greater than zero
+	for (const auto& card : {"ace", "reverse", "blue eyes white dragon", "jack", "joker"}) {
+		if (table.count(card) > 0) {
+			std::cout << "There is a " << card << " on the table. There are " << table[card] << " of them.";
+		}
+		else {
+			std::cout << "There is no " << card << " on the table.";
+		}
+		std::cout << '\n';
+	}
+	return 0;
 }
