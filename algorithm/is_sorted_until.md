@@ -5,20 +5,20 @@
 **Example** :
          
 ```cpp  
-          #include <iostream> 
-         #include <algorithm> 
+     #include <iostream> 
+     #include <algorithm> 
 
-       using namespace std; 
-        int main() 
+     using namespace std; 
+     int main() 
      {    
-     int v[] = { 1, 2, 3, 4, 7, 10, 8, 9 }, i; 
+        int v[] = { 1, 2, 3, 4, 7, 10, 8, 9 }, i; 
   
-    int* ip; 
+         int* ip; 
   
-    // Using std::is_sorted_until 
-    ip = std::is_sorted_until(v, v + 8); 
+          // Using std::is_sorted_until 
+         ip = std::is_sorted_until(v, v + 8); 
   
-    cout << "There are " << (ip - v) << " sorted elements in "
+         cout << "There are " << (ip - v) << " sorted elements in "
          << "the list and the first unsorted element is " << *ip; 
              return 0; 
      } 
