@@ -3,7 +3,7 @@
 
 <h6>Example:</h6>
          
-         ,,,c+ 
+         ,,,cpp
           #include <iostream> 
          #include <algorithm> 
 
