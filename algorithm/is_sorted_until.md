@@ -6,7 +6,6 @@
   
     int* ip; 
   
-    // Using std::is_sorted_until 
     ip = std::is_sorted_until(v, v + 8); 
   
     cout << "There are " << (ip - v) << " sorted elements in "
