@@ -1,9 +1,10 @@
 <h1>is_sorted_until</h1>
 <p><strong>Description:</strong>std::is_sorted_until is used to find out the first unsorted element in the range [first, last). It returns an iterator to the first unsorted element in the range, so all the elements in between first and the iterator returned are sorted.</p>
 
-<h6>Example:</h6>
+
+**Example** :
          
-         ,,,cpp
+```cpp  
           #include <iostream> 
          #include <algorithm> 
 
@@ -21,7 +22,7 @@
          << "the list and the first unsorted element is " << *ip; 
              return 0; 
      } 
-     ,,,
+```
 
 <br>
 <h3><a href="https://rextester.com/NLRDYA45690">RUN CODE</a><h3>
