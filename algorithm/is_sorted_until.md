@@ -23,6 +23,4 @@
              return 0; 
      } 
 ```
-
-<br>
-<h3><a href="https://rextester.com/NLRDYA45690">RUN CODE</a><h3>
+**[Run Code](https://rextester.com/NLRDYA45690)**
