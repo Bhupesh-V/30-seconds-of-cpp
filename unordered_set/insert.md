@@ -32,17 +32,4 @@ int main ()
   return 0;
 }
 ```
-*Output* :
-```cpp
-myset contains: green blue reddish white yellow black red orange purple
-```
-**Complexity:**<br />
-Single element insertions:
-
- - Average case: constant.
- - Worst case: linear in container size.
-
-Multiple elements insertion:
-
- - Average case: linear in the number of elements inserted.<br />
- - Worst case: N*(size+1): number of elements inserted times the container size plus one. 
+[**Run Code**](https://rextester.com/AOKA56655)
