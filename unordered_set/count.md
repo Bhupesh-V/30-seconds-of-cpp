@@ -31,6 +31,6 @@ myset has no sunglasses
 myset has suit
 myset has no t-shirt
 ```
-**Complexity:**
+**Complexity:**<br />
 Average case: constant.<br />
 Worst case: linear in container size.
