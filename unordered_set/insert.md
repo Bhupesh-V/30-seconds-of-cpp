@@ -37,9 +37,12 @@ int main ()
 myset contains: green blue reddish white yellow black red orange purple
 ```
 **Complexity:**<br />
-Single element insertions:<br />
-    - Average case: constant.<br />
-    - Worst case: linear in container size.<br />
-Multiple elements insertion:<br />
+Single element insertions:
+
+    - Average case: constant.
+    - Worst case: linear in container size.
+
+Multiple elements insertion:
+
     - Average case: linear in the number of elements inserted.<br />
     - Worst case: N*(size+1): number of elements inserted times the container size plus one. 
