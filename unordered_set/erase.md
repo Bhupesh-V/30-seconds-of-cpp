@@ -26,10 +26,4 @@ int main ()
   return 0;
 }
 ```
-*Output* :
-```cpp
-myset contains: Canada USA Italy
-```
-**Complexity:**<br />
-Average case: Linear in the number of elements removed .<br />
-Worst case: Linear in the container size.
+[**Run Code**](https://rextester.com/KGWK62869)
