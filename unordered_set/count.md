@@ -24,13 +24,4 @@ int main ()
   return 0;
 }
 ```
-*Output* :
-```cpp
-myset has hat
-myset has no sunglasses
-myset has suit
-myset has no t-shirt
-```
-**Complexity:**<br />
-Average case: constant.<br />
-Worst case: linear in container size.
+[**Run Code**](https://rextester.com/HYDKZ71873)
