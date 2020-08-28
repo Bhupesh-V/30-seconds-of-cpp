@@ -25,13 +25,13 @@ int main() {
     std::cout << "\n\n The array after sorting is : "; 
     show(a, asize); 
     std::cout << "\n\nNow, we do the binary search"; 
-    if (std::binary_search(a, a + 10, 2)) 
+    if (std::binary_search(a, a + asize, 2)) 
         std::cout << "\nElement found in the array"; 
     else
         std::cout << "\nElement not found in the array"; 
   
     std::cout << "\n\nNow, say we want to search for 10"; 
-    if (std::binary_search(a, a + 10, 10)) 
+    if (std::binary_search(a, a + asize, 10)) 
         std::cout << "\nElement found in the array"; 
     else
         std::cout << "\nElement not found in the array"; 
