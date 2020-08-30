@@ -20,4 +20,7 @@ int main() {
 				 std::accumulate(v.begin(), v.end(), 0, GCD) << std::endl;
 }
 ```
-**[Run Code](https://ideone.com/Gf2d0G)**
+**Time Complexity :** This function has a time complexity of O(n*k) where n is the distance from first to last , O(k) is complexity of f function (in case of Binary folding)
+
+
+**[See Sample Code](../snippets/algorithm/accumulate.cpp)	[Run Code](https://ideone.com/Gf2d0G)**
