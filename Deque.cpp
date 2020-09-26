@@ -1,12 +1,11 @@
 #include<iostream>
 #include<deque>
-using namespace std;
-int main(){
+int main() {
     /*
      Declaration
      Deque is a container that allows insertion and deletion at both ends.
      */
-    deque <int> dq;
+    std :: deque <int> dq;
     /*
      Some main functionalities
      push_back , push_front
@@ -26,11 +25,10 @@ int main(){
     /*
      For printing contents simply use this:
      */
-    for(auto it : dq){
-        cout << it << " ";
+    for(auto it : dq) {
+        std :: cout << it << " ";
     }
     /*
      Output : 1 3
      */
 }
-
