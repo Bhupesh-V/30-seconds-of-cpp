@@ -1,16 +1,19 @@
 # minmax_element
 
-**Description** : Compares values in a range defined by `[first, last)` returning a pair of [smallest, greatest]. 
+**Description** : Returns a pair with an iterator pointing to the element with the smallest
+value in the range as first element, and the largest as second.
 
 **Example**:
 ```cpp
-    std::vector<int> vec = {3, -1, 2, 10, 4};
+    std::array<int,5> myarray {3,2,1,5,4}; // define myarray for manipulation
 
-    auto minMaxPair = std::minmax_element(vec.begin(), vec.end()); 
-    // returns pair <-1, 10>
-    std::cout << "Min is " << *minMaxPair.first <<
-                 " Max is " << *minMaxPair.second << std::endl;
+    auto result = std::minmax_element (myarray.begin(),myarray.end());
 
+    std::cout << "min is " << *result.first; // returns the min element from the pair
+    std::cout << ", at position " << (result.first-myarray.begin()) << '\n'; // returns the position of the min element
+    std::cout << "max is " << *result.second; // returns the max element from the pair
+    std::cout << ", at position " << (result.second-myarray.begin()) << '\n'; // returns the position of the max element
+  
 ```
 **[See Sample code](../snippets/algorithm/minmax_element.cpp)**
-**[Run Code](https://rextester.com/NSPL12489)**
+**[Run Code](https://rextester.com/WZHNI30832)**

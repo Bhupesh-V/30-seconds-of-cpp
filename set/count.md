@@ -1,7 +1,7 @@
 # count
 
 **Description :**
-    This method is used to know if value exits an set. If a value is element of set the method return 1, and otherwise return 0.
+    This method is used to know if value exits in a set. It returns `1` if the value is a element of set, otherwise `0`. It is mostly used in conditional statements.
 
 **Example :**
 ```cpp
@@ -9,17 +9,20 @@
 #include<iostream>
 #include<set>
 
-int main(){
+int main() {
     // Create a set object holding integers
     std::set<int> mySet {1,2,3,4,-5};
-    if(mySet.count(1)!=0){
+    
+    if (mySet.count(1) != 0) {
         std::cout << "1 : is not an element of myset" << std::endl;   
-    }else{
+    }
+    else {
         std::cout << "1 : is a element of mySet" << std::endl;
     }
-    if(mySet.count(12)!=0){
+    if (mySet.count(12) != 0) {
         std::cout << "12 : is not an element of myset" << std::endl;   
-    }else{
+    }
+    else {
         std::cout << "12 : is a element of mySet" << std::endl;
     }
 
@@ -28,4 +31,4 @@ int main(){
 
 ```
 
-**[Run Code](https://ideone.com/s0eiPx)**
+**[Run Code](https://ideone.com/1F5j3h)**
