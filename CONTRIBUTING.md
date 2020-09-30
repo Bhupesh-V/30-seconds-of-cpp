@@ -69,7 +69,7 @@ Follow this style guide to add sample programs:
                             // ❌
     }
 
-    int main(){
+    int main() {
                             // ✅.
     }
 ```
@@ -89,11 +89,11 @@ Follow this style guide to add sample programs:
 
 7. Always add braces in a for/while loop, even if it's a one-liner.
 ```cpp    
-    for(int i=0;i<45;i++)
-        cout<<i<<" ";               // ❌
+    for (int i = 0; i < 45 ; i++)
+        std::cout << i << " ";               // ❌
     
-    for(int i=0;i<45;i++){
-        cout<<i<<" ";               // ✅.
+    for (int i = 0;i < 45; ++i){
+        std::cout << i <<" ";               // ✅.
     }
 ```
 8. Always use pre-increment(++i) while looping instead of post-increment(i++).
