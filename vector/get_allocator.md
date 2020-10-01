@@ -37,4 +37,5 @@ int main (){
         return 0;
 }
 ```
+**[See Sample code](../snippets/vector/get_allocator.cpp)**
 **[Run Code](https://rextester.com/QNCW99134)**
