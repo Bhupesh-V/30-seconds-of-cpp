@@ -14,7 +14,7 @@ int main() {
     std::vector<int>::iterator ip; 
   
     // Using std::partial_sort just in 4 first numbers
-    std::partial_sort(v.begin(), v.begin() + 3, v.end()); 
+    std::partial_sort(v.begin(), v.begin() + 4, v.end()); 
   
     // Displaying the vector after applying 
     // std::partial_sort 
