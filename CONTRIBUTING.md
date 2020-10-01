@@ -102,7 +102,7 @@ Follow this style guide to add sample programs:
 
 10. Always use prefix ```std::``` for functions and types from the std namespace, either on the `markdown` files and on the snippets files.
 ```cpp 
-    using namespace std; 
+    using namespace std;   // ❌ 
     vector<int> ...;       // ❌
     cout << ...;           // ❌
 
