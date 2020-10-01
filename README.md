@@ -7,7 +7,8 @@
     </a>
     <br>
     <hr>
-    <strong>A collection of C++ STL features (functions/libraries) which can be learned in 30 seconds or less</strong>
+    <strong>A collection of C++ STL features (functions/libraries) which can be learned in 30 seconds or less. </strong>
+   <strong> C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language</strong>
 </p>
 <hr>
 
