@@ -18,7 +18,7 @@
 8. Always follow the style guide(see below).
 9. Do not update any `README` or `todo.txt` files (unless you find a typo :sweat_smile:)
 9. Enjoy contributing :yum:.
-10. If you have any doubts, open a [issue](https://github.com/Bhupesh-V/30-seconds-of-cpp/issues/new). 
+10. If you have any doubts, open an [issue](https://github.com/Bhupesh-V/30-seconds-of-cpp/issues/new). 
 
 For adding functions in different directories, use the following template (copy from raw format): 
 
@@ -69,7 +69,7 @@ Follow this style guide to add sample programs:
                             // ❌
     }
 
-    int main(){
+    int main() {
                             // ✅.
     }
 ```
@@ -89,11 +89,11 @@ Follow this style guide to add sample programs:
 
 7. Always add braces in a for/while loop, even if it's a one-liner.
 ```cpp    
-    for(int i=0;i<45;i++)
-        cout<<i<<" ";               // ❌
+    for (int i = 0; i < 45 ; i++)
+        std::cout << i << " ";               // ❌
     
-    for(int i=0;i<45;i++){
-        cout<<i<<" ";               // ✅.
+    for (int i = 0;i < 45; ++i){
+        std::cout << i <<" ";               // ✅.
     }
 ```
 8. Always use pre-increment(++i) while looping instead of post-increment(i++).
@@ -102,7 +102,7 @@ Follow this style guide to add sample programs:
 
 10. Always use prefix ```std::``` for functions and types from the std namespace, either on the `markdown` files and on the snippets files.
 ```cpp 
-    using namespace std; 
+    using namespace std;   // ❌ 
     vector<int> ...;       // ❌
     cout << ...;           // ❌
 

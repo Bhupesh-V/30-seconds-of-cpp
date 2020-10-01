@@ -14,9 +14,10 @@
     example.push_back(40); 
   
     // get the first element using front() 
-    int & ele = demoList.front(); 
+    int & ele = example.front(); 
   
     // Print the first element 
     std::cout << ele; 
  
 ```
+**[Run Code](https://rextester.com/WASUB54049)**

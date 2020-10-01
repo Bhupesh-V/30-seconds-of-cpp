@@ -16,6 +16,7 @@ EMOJIS = {
   "list": ':page_with_curl:',
   "vector": ':arrow_upper_right:',
   "set": ":zap:",
+  "unordered_map": ':world_map:',
   "implemented":':heavy_check_mark:',
   "not_implemented":':x:'
 }
@@ -36,10 +37,11 @@ HEADER = '''# 30 Seconds of C++
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/72e93df05bce4d7598f222676bfb511c)](https://app.codacy.com/app/Bhupesh-V/30-Seconds-Of-STL?utm_source=github.com&utm_medium=referral&utm_content=Bhupesh-V/30-Seconds-Of-STL&utm_campaign=Badge_Grade_Dashboard)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![license](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/Bhupesh-V/30-seconds-of-cpp?color=blue)](https://github.com/Bhupesh-V/30-Seconds-Of-STL/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/Bhupesh-V/30-seconds-of-cpp.svg?branch=master)](https://travis-ci.org/Bhupesh-V/30-seconds-of-cpp)
 [![CodeFactor](https://www.codefactor.io/repository/github/bhupesh-v/30-seconds-of-cpp/badge)](https://www.codefactor.io/repository/github/bhupesh-v/30-seconds-of-cpp)
 [![Open Source Helpers](https://www.codetriage.com/bhupesh-v/30-seconds-of-cpp/badges/users.svg)](https://www.codetriage.com/bhupesh-v/30-seconds-of-cpp)
+[![GitHub contributors](https://img.shields.io/github/contributors/Bhupesh-V/30-seconds-of-cpp)](https://github.com/Bhupesh-V/30-seconds-of-cpp/graphs/contributors)
 <hr>
 '''
 
@@ -50,23 +52,6 @@ Join other C++ enthusiasts on
 
 ## :globe_with_meridians: 30 Seconds of Knowledge
 > Experience *30 Seconds of C++* as a [Web Extension](https://chrome.google.com/webstore/detail/30-seconds-of-knowledge/mmgplondnjekobonklacmemikcnhklla?hl=en) built by [Stefan Petrovic](https://github.com/petrovicstefanrs)
-
-## Contributors :purple_heart: :tada:
-| Name          | Profile       |
-| ------------- |:-------------:|
-| TANIYA GUPTA    | [thetaniyagupta](https://github.com/thetaniyagupta) |
-| Saumya Agnihotri    | [saumyaagnihtori](https://github.com/saumyaagnihtori) |
-| shan7030    | [shan7030](https://github.com/shan7030) |
-| Sonkeng Maldini |[sdmg15](https://github.com/sdmg15) |
-| Pranav Khurana | [Pranav-Khurana](https://github.com/Pranav-Khurana) |
-| Rickey Patel | [rickey90](https://github.com/rickey90) |
-| Kyle Johnson | [kydojo](https://github.com/kydojo) |
-| Timothy Itodo | [itodotimothy6](https://github.com/itodotimothy6) |
-| Pankaj Raghav | [Panky-codes](https://github.com/Panky-codes) |
-| Thamara Andrade | [thamara](https://github.com/thamara) |
-| darksider3 | [Darksider3](https://github.com/Darksider3) |
-| Harsh Raj | [harshraj22](https://github.com/harshraj22) |
-| samuels96 | [samuels96](https://github.com/samuels96) |
 
 - A big thanks to [Shriam Kaushik](https://github.com/shriamkaushik) for the lovely new logo :heart:
 
