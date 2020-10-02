@@ -41,6 +41,11 @@ int main()
     {
         std::cout << "Key 'z' not found..\n";
     }
+    // for iterating through the map elements
+    for(auto i:unordmapAscii)
+    {
+        cout<<i.first<<" "<<i.second<<endl;
+    }
     return 0;
 }
 
