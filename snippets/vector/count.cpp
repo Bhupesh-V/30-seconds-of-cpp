@@ -1,9 +1,14 @@
-# count
+/*
+    Author : Rajvir Singh
+    Date   : 03/10/2020
+    Time   : 19:45
+    Description : It helps in counting the occurences of an element in a vector
+*/
 
-**Description**: It helps in counting the occurences of an element in a vector.
 
-**Example**:
-```cpp 
+
+#include<bits/stdc++.h>
+int main(){
     std::vector<int> v;
     
     // Initialize vector with the values {2,4,5,6,7,8,9,7,9,7,9,5,4,9,8}
@@ -26,8 +31,5 @@
     
     std::cout << std::endl;
 
-    // Time complexity is O(n) 
-
-```
-**[Run Code](https://rextester.com/UEGWZP45542)**
-**[See Sample Code](snippets\vector\count.cpp)**
+    return 0;
+}
