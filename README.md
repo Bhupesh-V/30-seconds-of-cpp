@@ -290,6 +290,20 @@
 </ol>
 </details>
 
+### Priority Queue 
+<details><summary>View contents</summary>
+<ol>
+<li><a href="priority_queue/priority_queue.md"><code>priority_queue</code></a></li>
+<li><a href="priority_queue/empty.md"><code>empty</code></a></li>
+<li><a href="priority_queue/top.md"><code>top</code></a></li>
+<li><a href="priority_queue/pop.md"><code>pop</code></a></li>
+<li><a href="priority_queue/push.md"><code>push</code></a></li>
+<li><a href="priority_queue/size.md"><code>push</code></a></li>
+
+
+</ol>
+</details>
+
 ## :speaking_head: Community
 Join other C++ enthusiasts on 
 - [Slack](https://join.slack.com/t/30-seconds-of-cpp/shared_invite/enQtNTU0MTYxMDk0MzQxLTlhY2Q1MWZmOTM0ODRmOWMwYTllYzVjMzM2ZDk5NjY3MDU2NDljNDlmMDQ5MTMyOGQyOTVlNzEwOTc0MmYwOWY)
