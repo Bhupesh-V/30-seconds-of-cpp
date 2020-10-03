@@ -9,8 +9,7 @@
 #include <vector>
 #include <algorithm>
 
-int main()
-{
+int main(){
     std::vector<int> origin {1, 2, 3};
     // destination size is required to be at least the number of values to be copied
     std::vector<int> destination(origin.size());

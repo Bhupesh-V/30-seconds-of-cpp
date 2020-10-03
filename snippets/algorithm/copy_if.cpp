@@ -9,8 +9,7 @@
 #include <vector>
 #include <algorithm>
 
-int main()
-{
+int main(){
     auto isOdd = [](int i) {
         return ((i%2) == 1);
     };
