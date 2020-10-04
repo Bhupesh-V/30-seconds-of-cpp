@@ -42,5 +42,4 @@ The function returns an OutputIterator res, which is the end of the output range
 	}
 ```
 **[See Sample code](snippets/vector/partial_sum.cpp)**<br>
-**[Run Code](https://rextester.com/ABC)**
-
+**[Run Code](https://ideone.com/Abig1G)**

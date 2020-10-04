@@ -25,4 +25,4 @@
     }
 ```
 **[See Sample Code](snippets/algorithm/equal.cpp)**
-**[Run Code](https://ideone.com/Abig1G)**
+  **[Run Code](https://rextester.com/RXRNU59365)**
