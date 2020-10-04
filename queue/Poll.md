@@ -1,3 +1,5 @@
+# pop
+
 **Description** : poll() method of Queue Interface returns and removes the element at the front the container. It deletes the element in the container. The method does not throws an exception when the Queue is empty, it returns null instead.
 
 **Example**:
