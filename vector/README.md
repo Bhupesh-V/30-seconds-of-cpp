@@ -1,5 +1,5 @@
 # `<vector>`
-:heavy_check_mark: [Vector](Vector.md)  
+:heavy_check_mark: [Vector](vector.md)  
 :heavy_check_mark: [assign](assign.md)  
 :heavy_check_mark: [at](at.md)  
 :heavy_check_mark: [back](back.md)  
@@ -29,5 +29,4 @@
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [swap](swap.md)  
-:heavy_check_mark: crend  
-:x: ~vector  
+:heavy_check_mark: crend 
