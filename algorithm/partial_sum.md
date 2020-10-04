@@ -33,7 +33,6 @@ The function returns an OutputIterator res, which is the end of the output range
 **Example** :
 
 ```cpp
-    // YOUR CODE
     std::vector<int> ves{ 1, 2, 3, 4, 4, 3, 7, 8, 9, 10 };
 	std::vector<int> result(4);
 	auto res = partial_sum(vec.begin(), vec.begin() + 4, result.begin());
