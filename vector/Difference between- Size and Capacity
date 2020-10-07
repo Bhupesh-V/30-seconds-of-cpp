@@ -1,0 +1,34 @@
+-Size is number of elements present in a vector
+-Capacity is the amount of space that the vector is currently using.
+
+Let's understand it with a very simple example:
+
+using namespace std;
+int main(){
+  vector<int > vec;
+  vec.push_back(1); 
+  vec.push_back(1); 
+  vec.push_back(1); 
+  cout<<"size of vector"<<vec.size()<<endl;
+  cout<<"capacity of vector"<<vec.capacity()<<endl;                // currently size is 3 and capacity is 4.
+  return 0;
+}
+
+Now if we push back one more element,
+
+using namespace std;
+  int main(){
+  vector<int> vec;
+  vec.push_back(1); 
+  vec.push_back(1); 
+  vec.push_back(1); 
+  vec.push_back(1);
+  cout<<"size of vector"<<vec.size()<<endl;
+  cout<<"capacity of vector"<<vec.capacity()<<endl;               // now size is: 4 capacity is 4
+  return 0;
+}
+
+
+Now if we try to insert one more element in vector then size will become 5 but capacity will become 8.
+it happens based on the datatype of vector, as here in this case vector in of type int, as we know size of int is 4 bytes so compiler will allocate 4 block of memory ..and when we try to add 5th element , vector::capacity() is doubled what we have currently.
+same keep on..for example : if we try to insert 9th element then size of vector will be 9 and capacity will b 16..
