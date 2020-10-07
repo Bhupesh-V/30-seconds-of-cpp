@@ -12,13 +12,11 @@ int factorialRecurrent(unsigned long InputValue)
 {
 	//Check if exeption 0 is given as input
 	if (InputValue == 0) {
-
 		// Value is 1 for 0
 		return(1);
 	}
 
 	else {
-
 		// Recurrent calculating Factorial
 		return(InputValue * factorialRecurrent(InputValue - 1));
 	}
