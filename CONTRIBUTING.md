@@ -110,3 +110,4 @@ Follow this style guide to add sample programs:
     std::cout << ...;      // ✅
 ```
 
+11. It is strongly recommended not to use `#include <bits/stdc++.h> ` as header file because many compilers do not support this header file.
