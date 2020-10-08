@@ -7,17 +7,11 @@
 #include<iostream>
 #include<vector>
 #include<numeric>
-std::vector<int> vec = {1,2,3,4,5,6,7,8,9,10};
 
-/**
- * Binary operation to demonstrate different operation in partial_sum
- * @param a left operand
- * @param b right operand
- * @return product of a and b
- */
 int mul(int a, int b) { return a * b; }
 
 int main() {
+	std::vector<int> vec = {1,2,3,4,5,6,7,8,9,10};
 	std::vector<int> result(4); // Store the result
 	auto res = partial_sum(vec.begin(), vec.begin() + 4, result.begin()); // res is the end iterator of the actual result (not necessrily result.end())
 	

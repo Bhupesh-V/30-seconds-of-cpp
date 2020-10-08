@@ -17,7 +17,7 @@ Note: The function does not create any output containers. The container to store
 The function takes the following parameters:
 1) _InputIterator first:
 
-    This is an iterator pointing to the first element of the range (input_first in the exmplre)
+    This is an iterator pointing to the first element of the range (input_first in the example)
 2) _InputIterator last:
 
     This is an iterator pointing to the last element of the range (input_last)
@@ -40,5 +40,5 @@ The function returns an OutputIterator res, which is the end of the output range
 		std::cout<<*it<<std::endl;
 	}
 ```
-**[See Sample code](snippets/vector/partial_sum.cpp)**<br>
+**[See Sample code](/snippets/algorithm/partial_sum.cpp)**<br>
 **[Run Code](https://ideone.com/Abig1G)**
