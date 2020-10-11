@@ -1,7 +1,9 @@
 # accumulate
 
 **Description ** : 
+
 - accumulates elements in the specified range
+- takes element in order [first,last)
 
 **Example**:
 ```cpp
