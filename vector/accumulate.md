@@ -1,6 +1,7 @@
 # accumulate
 
-**Description ** : accumulates elements in the specified range
+**Description ** : 
+- accumulates elements in the specified range
 
 **Example**:
 ```cpp
