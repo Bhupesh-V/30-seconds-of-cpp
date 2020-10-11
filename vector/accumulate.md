@@ -3,7 +3,7 @@
 **Description ** : 
 
 - accumulates elements in the specified range
-- takes element in order [first,last)
+- takes elements in order [first,last)
 
 **Example**:
 ```cpp
