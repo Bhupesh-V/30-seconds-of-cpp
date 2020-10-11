@@ -15,4 +15,4 @@
 ```
 
 **[See Sample Code](../snippets/vector/accumulate.cpp)**
-**[Run Code](https://rextester.com/YWRND73408)**
+**[Run Code](https://rextester.com/XCLZ3983)**
