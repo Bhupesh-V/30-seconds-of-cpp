@@ -9,8 +9,7 @@
 #include <iostream> 
 #include <algorithm> 
 using namespace std; 
-int main() 
-{ 
+int main(){
     int v[] = { 3, 2, 10, 45, 33, 56, 23, 47 }, i; // 3, 2, 10, 45, 33, 56, 23, 47 
   
     // Using std::nth_element with n as 5 

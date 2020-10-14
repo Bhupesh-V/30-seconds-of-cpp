@@ -9,8 +9,7 @@
 #include <vector>
 #include <algorithm>
 
-int main()
-{
+int main(){
     std::vector<int> origin {1, 2, 3};
     std::vector<int> destination;
 

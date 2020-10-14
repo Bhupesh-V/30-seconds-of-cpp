@@ -15,7 +15,7 @@
 	}
     } 
   
-int main() { 
+int main(){
     int a[] = { 5, 6, 7, 7, 6, 5, 5, 6 , 8 }; 
     int asize = sizeof(a) / sizeof(a[0]); 
     std::cout << "\n The array is : "; 

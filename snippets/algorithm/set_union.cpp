@@ -9,8 +9,7 @@
 #include <vector>
 #include <algorithm>
 
-int main()
-{
+int main(){
     std::vector<int> v1 {3, 1, 5};
     std::vector<int> v2 {1, 0};
 
