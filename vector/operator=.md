@@ -11,32 +11,31 @@ vector::operator=
 // vector::operator=
 #include <iostream> 
 #include <vector> 
-using namespace std; 
   
 int main(){ 
 
-    // storing values in myvector1
-    std::vector<int> myvector1{ 1, 2, 3 };  
+    // storing values in myVector1
+    std::vector<int> myVector1{ 10, 20, 30 };  
 
-    // storing values in myvector2
-    std::vector<int> myvector2{ 3, 2, 1, 4 };                           
+    // storing values in myVector2
+    std::vector<int> myVector2{ 30, 20, 10, 40 };                           
 
 
-    // replacing values of myvector1 with myvector2 by direct assignment using operator=
-    myvector1 = myvector2; 
+    // replacing values of myVector1 with myVector2 by direct assignment using operator=
+    myVector1 = myVector2; 
                                             
-    std::cout << "myvector1 = "; 
+    std::cout << "myVector1 = "; 
 
 
-    // traversing myvector1
-    for (auto it = myvector1.begin(); it != myvector1.end(); ++it){
+    // traversing myVector1
+    for (auto it : myVector1){
  
-       // printing values stored in myvector1
-       std::cout << ' ' << *it;
+       // printing values stored in myVector1
+       std::cout << ' ' << it;
     }                                      
 
     return 0; 
 } 
 ```
 
-**[Run Code](https://rextester.com/RZZZ51216)**
+**[Run Code](https://rextester.com/GAMG89777)**
