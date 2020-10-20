@@ -21,7 +21,7 @@
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
-:x: equal_range  
+:heavy_check_mark: [equal_range](equal_range.md)  
 :x: extract  
 :x: insert_or_assign  
 :x: key_comp  
