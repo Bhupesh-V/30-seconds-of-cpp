@@ -6,13 +6,13 @@
 :heavy_check_mark: [end](end.md)  
 :heavy_check_mark: [insert](insert.md)  
 :heavy_check_mark: [rbegin](rbegin.md)  
-:x: clear  
+:heavy_check_mark: [clear](clear.md)  
+:heavy_check_mark: [empty](empty.md)  
 :x: contains  
 :x: crbegin  
 :x: crend  
 :x: emplace  
 :x: emplace_hint  
-:x: empty  
 :x: equal_range  
 :x: erase  
 :x: extract  
