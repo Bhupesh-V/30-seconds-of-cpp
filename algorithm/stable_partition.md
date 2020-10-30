@@ -1,4 +1,4 @@
-# stable\_partition
+# stable_partition
 
 **Description :** This function is used to order elements such that leftmost elements evaluate the predicate as true and remaining elements are placed at the right hand side of the collection.
 
