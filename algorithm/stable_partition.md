@@ -29,10 +29,5 @@ int main() {
 }
 ```
 
-The output is :
-
-```
-2 4 8 2 1 3 5 9
-```
 
 **[Run Code](https://ideone.com/JFOxNU)**
