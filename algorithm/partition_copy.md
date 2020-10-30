@@ -1,4 +1,4 @@
-# unique_copy
+# partition_copy
 
 **Description** : Copies the elements from the range (first, last) to two different ranges depending on the value returned by the predicate p. The elements that satisfy the predicate p are copied to the range beginning at d_first_true. The rest of the elements are copied to the range beginning at d_first_false.
 
