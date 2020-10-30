@@ -14,7 +14,7 @@ We can partition a vector to have pair integers at the left and odd ones at the 
 int main() {
     std::vector<int> array{ 1, 3, 2, 4, 5, 8, 9, 2 };
 
-    // Partition the array in a pair and an odd part
+    // Partition the array in an even and odd pair
     stable_partition(array.begin(), array.end(), [](int val) {
             return val % 2 == 0;
         });
@@ -29,10 +29,5 @@ int main() {
 }
 ```
 
-The output is :
-
-```
-2 4 8 2 1 3 5 9
-```
 
 **[Run Code](https://ideone.com/JFOxNU)**
