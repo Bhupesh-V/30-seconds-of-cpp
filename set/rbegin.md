@@ -6,24 +6,24 @@
 **Example :**
 ```cpp
 
-#include <bits/stdc++.h> 
-using namespace std; 
-int main() 
-{ 
+#include<iostream>
+#include<set>
+
+int main() {
+    // Create a set object holding integers
+    std::set<int> s{ 14, 12, 15, 11, 10 };
   
-    int arr[] = { 14, 12, 15, 11, 10 }; 
+    std::set<int>::reverse_iterator rit = s.rbegin(); 
   
-    // initializes the set from an array 
-    set<int> s(arr, arr + 5); 
-  
-    set<int>::reverse_iterator rit; 
-  
-    // prints all elements in reverse order 
-    std::cout << *(s.rbegin()) <<std::endl; 
-  
+    // prints all elements in reverse order
+    for (; rit != s.rend(); ++rit) {
+    	std::cout << *rit <<std::endl; 
+    }
+    
     return 0; 
 } 
 
 ```
 
-**[Run Code](https://ideone.com/z0iUbJ)**
+**[See Sample code](../snippets/set/rbegin.cpp)**
+**[Run Code](https://ideone.com/EhQVkb)**
