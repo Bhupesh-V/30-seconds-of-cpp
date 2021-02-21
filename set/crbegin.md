@@ -12,15 +12,15 @@
 
 int main() {
 	// Create a set object holding integers
-	std::set<int> mySet{ 3, 1, 5, 2, 4 };
+	std::set<int> myset{ 3, 1, 5, 2, 4 };
 
-	// Get a const_reverse_iterator pointing to the last element
-	std::set<int>::reverse_iterator r_it = mySet.crbegin();
-
-	// Iterate through the const_reverse_iterator
-	for (; r_it != mySet.crend(); ++r_it){
-		std::cout << *r_it << std::endl;
+	// Prints all elements in reverse order
+	std::cout << "myset backwards: ";
+	for(auto it = myset.crbegin(); it != myset.crend(); ++it){
+		std::cout << *it << ' ';
 	}
+
+	std::cout << '\n';
 
 	return 0;
 }
