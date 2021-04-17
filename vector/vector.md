@@ -21,7 +21,7 @@ int main(void)
 	// iteratedConstructor {10, 10, 10}
 	// copiedConstructor {10, 10, 10}
 
-	system("pause");
+	system("pause");//This should only be used in IDE's in which command line gets closed as soon as the program finishes execution
 	return 0;
 }
 ```
