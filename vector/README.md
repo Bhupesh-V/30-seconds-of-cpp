@@ -30,4 +30,4 @@
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [crend](crend.md)  
-:x: ~vector  
+:heavy_check_mark: [~vector](~vector.md)  
