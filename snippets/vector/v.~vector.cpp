@@ -4,8 +4,8 @@
     Time   : 19/11
     Description : Destroys the container object.
 */
-
-#include <bits/stdc++.h>
+#include <iostream>
+#include <vector>
 
 int main()
 {
