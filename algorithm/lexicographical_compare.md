@@ -21,7 +21,7 @@ the result of comparison would be false.
         
         string b[] = {"dog","pigglet","cow"};
       
-        if( lexicographical_compare(a,a+3,b,b+3)) { 
+        if( lexicographical_compare(a->begin(), a->end(), b->begin(), b->end())) { 
         
         cout << "True"; 
           
