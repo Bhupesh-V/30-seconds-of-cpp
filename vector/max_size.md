@@ -4,17 +4,11 @@
 - Returns the maximum number of elements that a vector can hold.
 - Depends on the limitations of the system on which program is running.
 
-**Example**:
-```cpp
-	//Create two vectors, one empty and one having 6 elements
-	std::vector<int> vector1;
-	std::vector<int> vector2{10, 30, 30, 40, 50, 60};
+std::vector<int>vector3;
 	
-	//Display the maximum number of elements both can hold
-	std::cout << "The maximum size of vector1 is: " << vector1.max_size() << std::endl;
-	std::cout << "The maximum size of vector2 is: " << vector2.max_size() << std::endl;
-```
-
-**[See Sample Code](../snippets/vector/max_size.cpp)**
-**[Run Code](https://rextester.com/FPVV25502)**
-
+for (int i=0; i<100; i++) 
+vector3.push_back(i);
+		     
+std::cout << "size: " << vector3.size() << "\n";
+std::cout << "capacity: " << vector3.capacity() << "\n";
+std::cout << "max_size: " << vector3.max_size() << "\n";
