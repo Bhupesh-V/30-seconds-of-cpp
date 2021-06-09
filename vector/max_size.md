@@ -1,14 +1,21 @@
 # max_size
 
+/*
+Author : Gregory Pytak
+Date : 8/6/2021
+Time : 5:07
+Description : Updated max_size.md for vector.
+*/
+
 **Description** :
 - Returns the maximum number of elements that a vector can hold.
 - Depends on the limitations of the system on which program is running.
 
-std::vector<int>vector3;
+std::vector<int>vector;
 	
 for (int i=0; i<100; i++) 
-vector3.push_back(i);
+vector.push_back(i);
 		     
-std::cout << "size: " << vector3.size() << "\n";
-std::cout << "capacity: " << vector3.capacity() << "\n";
-std::cout << "max_size: " << vector3.max_size() << "\n";
+std::cout << "size: " << vector.size() << "\n";
+std::cout << "capacity: " << vector.capacity() << "\n";
+std::cout << "max_size: " << vector.max_size() << "\n";
