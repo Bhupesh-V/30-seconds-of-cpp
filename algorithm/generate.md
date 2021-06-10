@@ -27,8 +27,7 @@ using namespace std;
 int main()
 {
     int i;
-  
-    
+    // Declaring a vector of size 10
     vector<int> v1(10);
   
     // using std::generate
