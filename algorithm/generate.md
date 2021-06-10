@@ -19,7 +19,7 @@ The generator function has to be defined by the user, and it is called successiv
 // Defining the generator function
 int gen()
 {
-    static int i = 0;
+    static int i = 1;
     return ++i;
 }
   
