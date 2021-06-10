@@ -1,3 +1,9 @@
+/*
+Author : Shaochen Ren
+Date : 9/06/2021
+Time : 8:39:13
+Description : Updated max_size.md for vector.
+*/
 # generate
 **Description** : Used to generate numbers based upon a generator function, and then, it assigns those values to the elements in the container in the range [first, last).
 The generator function has to be defined by the user, and it is called successively for assigning the numbers.
