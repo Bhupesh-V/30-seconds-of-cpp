@@ -1,4 +1,4 @@
-# accumulate
+# merge
 
 **Description :** This function is used to merge two maps by transferring the nodes from source map to destination map or we can say it extracts each element from source to
 destination map except for the elements with same key value.
@@ -25,4 +25,4 @@ int main(){
     std::cout << kv.first << ", " << kv.second << '\n';}
 }
 ```
-**[Run Code](https://ideone.com/Gf2d0G)**
+**[Run Code](https://en.cppreference.com/w/cpp/container/map/merge)**
