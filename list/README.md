@@ -28,7 +28,7 @@
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [unique](unique.md)  
 :x: flip  
-:x: get_allocator  
-:x: pop_back  
-:x: push_back  
+:heavy_check_mark: [get_allocator](get_allocator.md)  
+:heavy_check_mark: [pop_back](pop_back.md)  
+:heavy_check_mark: [push_back](push_back.md)  
 :x: ~list  
