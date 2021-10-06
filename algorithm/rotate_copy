@@ -1,0 +1,42 @@
+# rotate_copy
+
+**Description** : The elements in the range `[first,last)`to the range beginning at result, but rotating the order of the elements in such a way that the element pointed by middle becomes the first element in the resulting range.
+
+**Example**:
+```cpp
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+//main code
+int main()
+{
+    //an array (source)
+    int arr[] = { 10, 20, 30, 40, 50 };
+
+    //vector
+    std::vector<int> v(5);
+
+    //printing array and vector elements
+    std::cout << "array elements : ";
+    for (int x : arr)
+        std::cout << x << " ";
+
+
+    std::cout << "\nvector elements before rotating : ";
+    for (int x : v)
+        std::cout << x << " ";
+    
+
+    //rotating and copy array elements to the vector
+    std::rotate_copy(arr + 0, arr + 2, arr + 5, v.begin());
+
+    std::cout << "\nvector elements after rotating : ";
+    for (int x : v)
+        std::cout << x << " ";
+
+    return 0;
+}
+
+```
+**[Run Code](https://rextester.com/USCJ35545)**
