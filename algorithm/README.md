@@ -76,7 +76,7 @@
 :heavy_check_mark: [transform_reduce](transform_reduce.md)  
 :heavy_check_mark: [unique](unique.md)  
 :heavy_check_mark: [upper_bound](upper_bound.md)  
-:x: destroy  
+:heavy_check_mark: [destroy](destroy.md)  
 :x: exclusive_scan  
 :x: find_end  
 :x: generate_n  
