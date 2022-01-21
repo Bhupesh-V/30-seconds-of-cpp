@@ -14,5 +14,7 @@
     std::cout << '\n';
 
 ```
-**[See Sample code](../snippets/algorithm/adjacent_difference.cpp)**
-**[Run Code](https://rextester.com/MUMXYS97563)**
+**Time Complexity :**  Linear in the distance between first and last, minus one. i.e. O(last-first-1)
+
+
+**[See Sample code](../snippets/algorithm/adjacent_difference.cpp)	[Run Code](https://rextester.com/MUMXYS97563)**
