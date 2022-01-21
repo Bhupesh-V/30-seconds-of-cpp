@@ -17,6 +17,7 @@
         show(a); 
   
         std::sort(a, a+10); 
+        /*for a vector we can alternatively use sort(a.begin(),a.end());
   
         std::cout << "\n\n The array after sorting is : "; 
         show(a); 
