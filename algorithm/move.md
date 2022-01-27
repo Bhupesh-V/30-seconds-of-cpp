@@ -1,26 +1,25 @@
 # move
 
-**Description**: Moves the element to the vector permanently. The value is lost after the process.
+**Description**: Moves a range of elements from a container permanently. The value is copied from the original container into the destination container.
+
+**Note**: This function should not be confused with the move() function from the <utility> module which has a different functionality.
 
 **Example**:
 ```cpp
-    std::string str1 = "Hello";             
-    std::string str2 = "Word";             
+    std::vector<int> v1 = {1,2,3,4};             
+    std::vector<int> v2 = {5,6,7,8};
 
-    std::vector<std::string> avector;
+    std::move(v2.begin(),v2.end(),std::back_inserter(v1)); //copies v2 to the end of v1
 
-    avector.push_back (str1);               // copies the first string
-    avector.push_back (std::move(str2));    // moves the second string
-
-    std::cout << "Printing the vector: ";
-    for (std::string& x:avector) {
+    std::cout << "Printing the vector v1: ";
+    for (int& x: v1) {
         std::cout << ' ' << x;  
-    } 
+    }
     std::cout << '\n';
 
-    std::cout << "First string after copy: "
-              << str1 << std::endl;
-    std::cout << "Second string after move: "
-              << str2 << std::endl;
+    std::cout << "Printing the vector v2: ";
+    for (int& x: v2) {
+        std::cout << ' ' << x;  
+    }
 ```
-**[Run Code](https://rextester.com/ENU74789)**
+**[Run Code](https://rextester.com/ZQXQTC72342)**
