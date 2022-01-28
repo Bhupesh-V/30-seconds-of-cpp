@@ -1,6 +1,6 @@
 
 # Heading
-**Description : ** This function returns the value at a certain key of an unordered map
+**Description :** This function returns the value at a certain key of an unordered map
 
 **Example :**
 //Demonstrates at() function on unordered maps
