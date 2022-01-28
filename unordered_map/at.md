@@ -12,7 +12,8 @@
 int main() {
     //the time complexity for declaring an unordered map on average ~O(1)
     std::unordered_map<std::string, std::string> flowers;
-
+    //here we create an unordered map "flowers" which maps flower names to their colors
+    
     //the time complexity for insertion on average ~O(1)
     flowers.insert({"Rose", "red"});
     flowers.insert({"Lily", "white"});
