@@ -17,7 +17,7 @@ std::vector<int> v { 7,14,21,46,299,346};
         sum+=v[i];
     }
     
-    std::cout << '\n' << "The reduced Data set: " << sum << std::endl;
+    std::cout << '\n'  << "The reduced Data set: " << sum << std::endl;
 
     return 0;
 }
