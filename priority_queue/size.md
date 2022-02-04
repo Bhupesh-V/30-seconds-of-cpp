@@ -11,7 +11,7 @@
     my.push(10);
     my.push(4);
 
-    // returns the first value of the queue(largest)
+    // Prints the size of the priority_queue.
     std::cout << my.size();
 ```
 
