@@ -5,6 +5,6 @@ jobs:
     name: Automate update_readme.py
     runs-on: ubuntu-18.04
     steps:
-  - name: Update Readme
-    run: python update_readme.py
-    shell: python        
+      - name: Update Readme
+        run: python update_readme.py
+        shell: python
