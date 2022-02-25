@@ -1,5 +1,4 @@
 find_end
-move_backward
 generate_n
 swap_ranges
 rotate_copy
