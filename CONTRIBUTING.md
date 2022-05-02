@@ -7,7 +7,7 @@
 3. Create [Branch](https://help.github.com/en/articles/about-branches) :herb: with your feature `<feature>`.
 4. [Push](https://help.github.com/en/articles/pushing-to-a-remote) changes.
 5. Submit [Pull Request](https://help.github.com/en/articles/about-pull-requests) :smile:.
-6. Make PR(s) in either `snippets` directory or in one of the following :
+6. Make PR(s) in either the `snippets` directory or in one of the following:
    - [algorithm](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/algorithm)
    - [list](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/list)
    - [stack](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/stack)
@@ -16,10 +16,10 @@
    - [queue](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/queue)
    - [priority_queue](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/priority_queue)
    - [unordered_map](https://github.com/Bhupesh-V/30-seconds-of-cpp/tree/master/unordered_map)
-7. If you are feeling confused on what to contribute, head over to [Projects](https://github.com/Bhupesh-V/30-seconds-of-cpp/projects), select the directory you want to contribute to for e.g choose `<algorithm>` & from the **Algorithms To Implement** column select any one method.You can either submit a small C++ code snippet demonstrating the same in the `snippets` directory or submit a overview of the choosen method in `<name_of_directory>` see for example [all_of.md](https://github.com/Bhupesh-V/30-seconds-of-cpp/blob/master/algorithm/all_of.md).
+7. If you are feeling confused on what to contribute, head over to [Projects](https://github.com/Bhupesh-V/30-seconds-of-cpp/projects), select the directory you want to contribute to. For example, choose `<algorithm>` & from the **Algorithms To Implement** column, select any one method. You can either submit a small C++ code snippet demonstrating the same in the `snippets` directory or submit an overview of the chosen method in `<name_of_directory>`. See for example [all_of.md](https://github.com/Bhupesh-V/30-seconds-of-cpp/blob/master/algorithm/all_of.md).
 8. Always follow the [style guide](https://github.com/Bhupesh-V/30-seconds-of-cpp/blob/master/CONTRIBUTING.md#style-guide).
 9. Do not update any `README.md` or `todo.txt` files (unless you find a typo 😅)
-10. Enjoy contributing!.
+10. Enjoy contributing!
 11. If you have any doubts, open an [issue](https://github.com/Bhupesh-V/30-seconds-of-cpp/issues/new). 
 
 For adding functions in different directories, use the following template (copy from raw format): 
@@ -30,7 +30,7 @@ For adding functions in different directories, use the following template (copy 
 
 **Description :**  < description >.
   
-**Example** :
+**Example :**
 
 ```cpp
     // YOUR CODE
@@ -41,7 +41,7 @@ For adding functions in different directories, use the following template (copy 
     int num_items1 = count(v.begin(), v.end(), target1);
     std::cout << "number: " << target1 << " count: " << num_items1 << '\n';
 ```
-**[See Sample code](snippets/vector/example.cpp)**<br>
+**[See Sample Code](snippets/vector/example.cpp)**<br>
 **[Run Code](https://rextester.com/ABC)**
 
 ---
@@ -51,10 +51,10 @@ For adding functions in different directories, use the following template (copy 
 Follow this style guide to add sample programs:
 
 1. Naming Style: 
-   For example if you are demonstrating `erase` in `list` name your file **`erase.md`** and save it in the `list` directory.
+   For example, if you are demonstrating `erase` in `list` name your file **`erase.md`** and save it in the `list` directory.
 
-2. For adding Code Snippets in the [`snippets`](https://github.com/Bhupesh-V/30-Seconds-of-cpp/snippets/) directory.
-   Add the following comment header in every program. The comment header should always be at the top of program.
+2. For adding Code Snippets in the [`snippets`](https://github.com/Bhupesh-V/30-Seconds-of-cpp/snippets/) directory,
+   add the following comment header in every program. The comment header should always be at the top of program.
 ```cpp
 /*
     Author : this must be your name ;)
@@ -78,11 +78,11 @@ Follow this style guide to add sample programs:
 ```
 
 4. Indentation : 
-    Use **1 Tab** or **4 Spaces**. Be consistent with whatever you choose
+    Use **1 Tab** or **4 Spaces**. Be consistent with whatever you choose.
     Use only one indenting format for the whole program.
 
 5. Add appropriate comments wherever necessary to explain the code.
-> Programs wth NO Comments at all will not be merged.
+> Programs with NO comments at all will not be merged.
 
 6. Expression should be readable, Use 1 space between different tokens.
 ```cpp 
@@ -101,7 +101,7 @@ Follow this style guide to add sample programs:
 ```
 8. Always use pre-increment(++i) in loops instead of post-increment(i++).
 
-9. When submitting `markdown` files of methods in different directories, name your file exactly as the function/method name. For example `push_back.md`, `swap.md` etc.
+9. When submitting `markdown` files of methods in different directories, name your file exactly the same as the function/method name. For example, `push_back.md`, `swap.md` etc.
 
 10. Always use prefix ```std::``` for functions and types from the std namespace, either on the `markdown` files or on the snippet code files.
 ```cpp 
