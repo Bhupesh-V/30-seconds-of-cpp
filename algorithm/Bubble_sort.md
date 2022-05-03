@@ -4,23 +4,53 @@
 
 **Example** :
 ```cpp
-def bubble_sort(list):
-    n = len(list)
+#include <iostream>
 
-    for i in range(n-1):
-        for j in range(n-1):
-            if list[j] > list[j+1]: 
-                tmp = list[j]
-                list[j] = list[j+1]
-                list[j+1] = tmp
+using namespace std;
 
-    return list
-   
+
+
+
+// perform bubble sort
+void bubbleSort(int array[], int size) {
+
+  // loop to access each array element
+  for (int step = 0; step < size; ++step) {
+      
+    // loop to compare array elements
+    for (int i = 0; i < size - step; ++i) {
+
+      // compare two adjacent elements
+      // change > to < to sort in descending order
+      if (array[i] > array[i + 1]) {
+
+        // swapping elements if elements
+        // are not in the intended order
+        int temp = array[i];
+        array[i] = array[i + 1];
+        array[i + 1] = temp;
+      }
+    }
+  }
+}
+
+// print array
+void printArray(int array[], int size) {
+  for (int i = 0; i < size; ++i) {
+    cout << "  " << array[i];
+  }
+  cout << "\n";
+}
 
 int main() {
-    list = [100,4,5,6]
-    bubble_sort(list)
-    print(list)
-                            
-    }
+  int data[] = {10,4,6,9};
+  
+  // find array's length
+  int size = sizeof(data) / sizeof(data[0]);
+  
+  bubbleSort(data, size);
+  
+  cout << "Sorted Array in Ascending Order:\n";  
+  printArray(data, size);
+}
 ```
