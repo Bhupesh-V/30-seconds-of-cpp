@@ -1,10 +1,8 @@
 # Bubble sort
-/*
-    Author : David ;)
-    Date : Date format 03/05/2022
-    Time : Time format 11:19
-    Description : Bubblle sort the simplest type of algorthim sorting.
-*/
+
+**Description :** Simplest sorting algorthim that works by comparing consecutive items and replaces the bigger number to the righ until highest number is at the end of the list and does it until all items are in the correct order.
+
+**Example** :
 
 def bubble_sort(list):
     n = len(list)
