@@ -51,3 +51,5 @@ int main() {
   printArray(data, size);
 }
 ```
+
+**[Run Code]https://rextester.com/NJHL25972
