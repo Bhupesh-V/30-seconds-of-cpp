@@ -36,6 +36,7 @@ void printArray(int array[], int size) {
   std::cout << "\n";
 }
 
+
 int main() {
   int data[] = {10,4,6,9};
   
