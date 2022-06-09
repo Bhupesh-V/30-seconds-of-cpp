@@ -30,22 +30,10 @@ int main(){
     // swap the contents of colors_map and grocery_map
     colors_map.swap(grocery_map);
 
-    std::cout << "Does colors_map contain an element with key \"Blue\"? "<<
-    << colors_map.contains("Blue") << std::endl;
-
-    std::cout << "Does colors_map contain an element with key \"Apple\"? "<<
-    << colors_map.contains("Apple") << std::endl;
-
     std::cout << "colors_map value at \"Apple\": " <<
     << colors_map.at("Apple") << std::endl;
 
-    std::cout << "Does grocery_map contain an element with key \"Milk\"? "<<
-    << grocery_map.contains("Blue") << std::endl;
-
-    std::cout << "Does grocery_map contain an element with key \"Green\"? "<<
-    << grocery_map.contains("Apple") << std::endl;
-
-    std::cout << "colors_map value at \"Green\": " <<
+    std::cout << "grocery_map value at \"Green\": " <<
     << grocery_map.at("Green") << std::endl;
 
 }
