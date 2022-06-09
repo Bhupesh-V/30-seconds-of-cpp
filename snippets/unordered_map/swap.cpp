@@ -1,3 +1,10 @@
+/*
+    Author : Adriel Bustamante
+    Date : 07/06/2022
+    Time : 21:22
+    Description : Example of unordered_map::swap().
+*/
+
 #include <iostream>
 #include <unordered_map>
 #include <string>

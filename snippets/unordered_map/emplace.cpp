@@ -1,3 +1,10 @@
+/*
+    Author : Adriel Bustamante
+    Date : 07/06/2022
+    Time : 21:00
+    Description : Example of unordered_map::emplace().
+*/
+
 #include <iostream>
 #include <string>
 #include <unordered_map>
