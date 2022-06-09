@@ -244,11 +244,16 @@
 ### Unordered_map 
 <details><summary>View contents</summary>
 <ol>
+<li><a href="unordered_map/at.md"><code>at</code></a></li>
+<li><a href="unordered_map/clear.md"><code>clear</code></a></li>
+<li><a href="unordered_map/contains.md"><code>contains</code></a></li>
 <li><a href="unordered_map/count.md"><code>count</code></a></li>
+<li><a href="unordered_map/emplace.md"><code>emplace</code></a></li>
 <li><a href="unordered_map/erase.md"><code>erase</code></a></li>
 <li><a href="unordered_map/find.md"><code>find</code></a></li>
 <li><a href="unordered_map/insert.md"><code>insert</code></a></li>
 <li><a href="unordered_map/size.md"><code>size</code></a></li>
+<li><a href="unordered_map/swap.md"><code>swap</code></a></li>
 
 </ol>
 </details>
