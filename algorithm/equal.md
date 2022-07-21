@@ -9,7 +9,7 @@
     std::vector<int> v3 {3, 5, 3, 1, 2, 3};
 
     // Compare two equal vectors
-    if(std::equal(v1.begin(),v1.end(),v3)){
+    if(std::equal(v1.begin(),v1.end(),v3.begin())){
         std::cout << "Vectors are equa!";
     }
     else {
@@ -17,7 +17,7 @@
     }
 
     // Compare two unequal vectors
-        if(std::equal(v1.begin(),v1.end(),v2)){
+        if(std::equal(v1.begin(),v1.end(),v2.begin()){
         std::cout << "Vectors are equa!";
     }
     else {
