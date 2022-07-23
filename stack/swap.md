@@ -1,6 +1,6 @@
 # swap
 
-**Description** : swap() function is used to swap the contents of one stack with another stack of same type and size
+**Description** : swap() function is used to swap the contents of one stack with another stack of same type. Sizes may differ.
 
 **Example**:
 ```cpp
