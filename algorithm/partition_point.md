@@ -16,30 +16,40 @@ int main()
 {
     vector<int> exampleVector{2,4,3,4,5,6,9};
     
-    auto is_even = [](int i)
-    {
+    auto is_even = [](int i) {
         return i % 2 == 0;
     };
+    
+    std::stable_partition(exampleVector.begin(), exampleVector.end(), [](int x) {
+        return x % 2 == 0;
+    });
      
     // ensure that entered vector is partitioned first
     cout << "Partitioned vector: ";
-    for (int &element:exampleVector)
-    {
+    for (int &element:exampleVector) {
         cout << element << " ";
     }
     cout << endl << endl;
+     
+    // use built-in partition_point function in C++
+    vector<int>::iterator iter;
+    auto throughVector = std::partition_point(exampleVector.begin(), exampleVector.end(), [](int elementDividend) {
+        return elementDividend % 2 == 0;
+    });
+    
+    auto throughVector2 = std::partition_point(exampleVector.begin(), exampleVector.end(), [](int elementDividend2) {
+        return elementDividend2 % 2 != 0;
+    });
     
     // declare partition value and location
-    const auto partitionElement = partition_point(exampleVector.cbegin(), exampleVector.cend(), is_even);
-    const int partitionIndex = distance(exampleVector.cbegin(), partitionElement);
+    const auto partitionElement = std::partition_point(exampleVector.cbegin(), exampleVector.cend(), is_even);
+    const int partitionIndex = std::distance(exampleVector.cbegin(), partitionElement);
     
     // display results
-    if (partitionIndex == exampleVector.size())
-    {
+    if (partitionIndex == exampleVector.size()) {
         cout << "All elements are true, so the partition point is the last true value. It is: " << *partitionElement;
     }
-    else
-    {
+    else {
         cout << "Partition point is " << *partitionElement << " and it is the first false value.";
     }
     cout << endl;
@@ -49,4 +59,4 @@ int main()
     return 0;
 }
 ```
-**[Run Code](https://rextester.com/DLHH79928)**
+**[Run Code](https://rextester.com/CCUG7228)**
