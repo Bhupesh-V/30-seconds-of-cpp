@@ -11,19 +11,16 @@
 
 using namespace std;
 
-bool pred(int x)
-{
+bool pred(int x) {
 return (x % 4 == 0);
 }
 
-int main()
-{
+int main() {
 vector<int> partitionTest = {12,20,15,18,21,10,22,45};
 
-bool partIndicator = is_partitioned(partitionTest.begin(), partitionTest.end(), pred);
+bool partIndicator = std::is_partitioned(partitionTest.begin(), partitionTest.end(), pred);
 
-if (partIndicator)
-{
+if (partIndicator) {
 cout << "The vector is partitioned";
 }
 else {
@@ -34,4 +31,4 @@ return 0;
 
 ```
 
-**[Run Code](https://rextester.com/RHNX94414)**
+**[Run Code](https://rextester.com/NRT73285)**
