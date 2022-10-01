@@ -21,5 +21,5 @@ int main()
 	return 0;
 }
 ```
-**[See Sample code](../snippets/vector/accumulate.cpp)**
+**[See Sample code](https://github.com/deepanshumidha5140/30-seconds-of-cpp/blob/master/snippets/vector/accumulate.cpp)**
 **[Run Code](https://rextester.com/BFYS36316)**
