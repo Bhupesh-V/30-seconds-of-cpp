@@ -1,6 +1,6 @@
 # sort
 
-**Description :**  This function is implemented as Quick-sort. The complexity of it is O(N*log(N)).
+**Description :**  This function is implemented using Intro-Sort (Insertion Sort + heap Sort + Quick Sort). The complexity of it is O(N*log(N)).
 
 **Example** :
 
