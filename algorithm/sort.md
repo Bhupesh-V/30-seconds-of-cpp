@@ -1,13 +1,13 @@
 # sort
 
-**Description :**  This function is implemented as Quick-sort. The complexity of it is O(N*log(N)).
+**Description :**  This function is implemented using Intro-Sort (Insertion Sort + heap Sort + Quick Sort). The complexity of it is O(N*log(N)).
 
 **Example** :
 
 ```cpp   
     void show(int a[]) { 
         for(int i = 0; i < 10; ++i) 
-            std::cout << a[i] << " "; 
+            std::cout << a[i] << ' '; 
     } 
   
     int main() {
