@@ -9,14 +9,13 @@
 ```cpp
 #include <bits/stdc++.h>
 #include <vector>
-using namespace std;
+#include<numeric>
 
-int main()
-{
+int main() {
     std::vector<int> v = {3, 13, 27};
     int sum = 7;
-    cout << "Result using accumulate: ";
-    cout << accumulate(v.begin(), v.end(), sum);
+    std::cout << "Result using accumulate: ";
+    std::cout << accumulate(v.begin(), v.end(), sum);
  
 	return 0;
 }
