@@ -7,34 +7,38 @@
 **Example** :
 
 ```cpp
+/*
+    Author : parth_s
+    Date : 03/10/2022
+    Time : 02:12
+    Description : Implementation of emplace_hint method in an unordered_map in C++
+*/
+
 #include <iostream>
 #include<string>
 #include<unordered_map>
 
-using namespace std;
-
-
 int main() {
   
     // initialize unordered_map container
-    unordered_map<int, string> mp;
+    std::unordered_map<int, std::string> mp;
   
     // inserting elements in random order
-    mp.emplace_hint(mp.begin(),3,"three");
-    mp.emplace_hint(mp.begin(),1,"one");
-    mp.emplace_hint(mp.begin(),2,"two");
+    mp.emplace_hint(mp.begin(), 3, "three");
+    mp.emplace_hint(mp.begin(), 1, "one");
+    mp.emplace_hint(mp.begin(), 2, "two");
 
         
     // printing the map elements 
-    cout<<"The unordered_map elements are:"<<endl;
-    cout<<"key\telement"<<endl;
+    std::cout<<"The unordered_map elements are:"<<"\n";
+    std::cout<<"key\telement"<<"\n";
     
     for(auto itr = mp.begin(); itr!=mp.end(); itr++){
-        cout<<itr->first<<"\t";
-        cout<<itr->second<<endl;    
+        std::cout<<itr->first<<"\t";
+        std::cout<<itr->second<<"\n";    
     }
     
     return 1;
 }
 ```
-**[Run Code](https://rextester.com/QJT17849)**
+**[Run Code](https://rextester.com/AULM68896)**
