@@ -9,7 +9,6 @@
 #include <set>
 
 int main() {
-
     // Create a set object holding integers
     std::set <int> S {1, 2, 5, 6, -3};
 
