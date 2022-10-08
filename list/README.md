@@ -13,7 +13,7 @@
 :heavy_check_mark: [end](end.md)  
 :heavy_check_mark: [erase](erase.md)  
 :heavy_check_mark: [front](front.md)  
-:heavy_chech_mark: [get_allocator](get_allocator.md)  
+:heavy_check_mark: [get_allocator](get_allocator.md)  
 :heavy_check_mark: [insert](insert.md)  
 :heavy_check_mark: [max_size](max_size.md)  
 :heavy_check_mark: [merge](merge.md)  
