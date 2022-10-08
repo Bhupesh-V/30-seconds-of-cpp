@@ -1,5 +1,2 @@
 flip
 ~list
-pop_back
-push_back
-get_allocator
