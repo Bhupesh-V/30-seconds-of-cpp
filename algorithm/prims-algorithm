@@ -1,0 +1,161 @@
+//Code of Prims algorithm for calculating distance between cities
+
+#include <iostream>
+using namespace std;
+int I = 36767;
+
+class prims
+{
+    string cities[20];
+    int g[10][10];
+    int res[2][10];
+    int nv;
+    int track[10];
+
+public:
+    prims()
+    {
+        for (int i; i < nv; i++)
+        {
+            for (int j; j < nv; j++)
+            {
+                g[i][j] = I;
+                if (i == 0 || i == 1)res[i][j] = -1;
+            }
+        }
+    }
+
+    void getdata()
+    {
+        cout << "enter no of cities : ";
+        cin >> nv;
+        for (int i = 0; i < nv; i++)
+        {
+            if (i < nv - 1)
+            {
+                res[0][i] = 0;
+                res[1][i] = 0;
+            }
+            track[i] = I;
+            cout << "enter city alocated at index " << i << " : ";
+            cin >> cities[i];
+        }
+        int a;
+        for (int i = 0; i < nv; i++)
+        {
+            for (int j = i + 1; j < nv; j++)
+            {
+                cout << "if " << cities[i] << " is  connected to " << cities[j] << ". Enter the money spent on it,else enter -1 :";
+                cin >> a;
+                if (a != -1)
+                {
+                    g[i][j] = g[j][i];
+                }
+            }
+        }
+    }
+
+    void primmst()
+    {
+        int min = I;
+        int u, v;
+
+        for (int i = 0; i < nv; i++)
+        {
+            for (int j = 0; j < nv; j++)
+            {
+                if (g[i][j] < min)
+                {
+                    min = g[i][j];
+                    u = i;
+                    v = j;
+                }
+                res[0][0] = u;
+                res[1][0] = v;
+                track[u] = 0;
+                track[v] = 0;
+                for (int i = 0; i < nv - 1; i++)
+                {
+                    if (track[i] != 0)
+                    {
+
+                        if (g[i][u] < g[i][v])
+                        {
+                            track[i] = v;
+                        }
+                        else
+                        {
+                            track[i] = u;
+                        }
+                    }
+                }
+                for (int i = 0; i < nv - 1; i++)
+                {
+                    int k;
+                    min = I;
+                    for (int j = 0; j < nv; j++)
+                    {
+                        if (track[j] != 0 && g[j][track[j]] < min)
+                        {
+                            j = k;
+                            min = g[j][track[j]];
+                        }
+                        res[0][i] = k;
+                        res[1][i] = track[k];
+                        track[k] = 0;
+                    }
+                    for (int j = 0; j < nv; j++)
+                    {
+                        if (track[j] != 0 && g[j][k] < g[j][track[j]])
+                        {
+                            track[j] = k;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    void printmst()
+    {
+        cout << "\nThe minimum cost Spanning Tree connecting cities:\n\n";
+        int sum = 0;
+        for (int i = 0; i < nv - 1; i++)
+        {
+            // cout<<res[0][i]<<" "<<res[1][i]<<endl;
+            int c = g[res[0][i]][res[1][i]];
+            cout << cities[res[0][i]] << "---" << cities[res[1][i]] << " cost: " << c << endl;
+            sum += c;
+        }
+        cout << endl;
+        cout << "Total cost of connection of all cities: " << sum << endl;
+    }
+};
+
+int main()
+{
+
+    prims gt;
+    int choice;
+    do
+    {
+        cout << "\n\t-------------Menu Driven-------------\n";
+        cout << "\n\t1)Entering Cities and cost\n\t2)Perform Prims\n\t3)Print the result\n\t4)Exit\n";
+        cout << "\tEnter your choice:";
+        cin >> choice;
+        switch (choice)
+        {
+        case 1:
+            gt.getdata();
+            break;
+        case 2:
+            gt.primmst();
+            break;
+        case 3:
+            gt.printmst();
+            break;
+        default:
+            cout << "\t\nThank you!";
+        }
+    } while (choice != 4);
+    return 0;
+}
