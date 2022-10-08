@@ -6,7 +6,7 @@ Syntax: mymap.insert({"key","value"});
 **Example** :
 
 ```cpp
-// Demonstrates begin() 
+// Demonstrates insert() 
 #include <iostream> 
 #include <map> 
 using namespace std; 
