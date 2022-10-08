@@ -26,7 +26,7 @@ Required code to implement ordered set
     int main()
     {
         pbds s;
-        for (int i = 0; i < 100; i++)
+        for (int i = 0; i < 99; i++)
         {
             s.insert(i); // inserting elements into the set
         }
