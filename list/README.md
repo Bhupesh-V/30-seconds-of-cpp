@@ -13,10 +13,13 @@
 :heavy_check_mark: [end](end.md)  
 :heavy_check_mark: [erase](erase.md)  
 :heavy_check_mark: [front](front.md)  
+:heavy_chech_mark: [get_allocator](get_allocator.md)  
 :heavy_check_mark: [insert](insert.md)  
 :heavy_check_mark: [max_size](max_size.md)  
 :heavy_check_mark: [merge](merge.md)  
+:heavy_check_mark: [pop_back](pop_back.md)  
 :heavy_check_mark: [pop_front](pop_front.md)  
+:heavy_check_mark: [push_back](push_back.md)  
 :heavy_check_mark: [rbegin](rbegin.md)  
 :heavy_check_mark: [remove](remove.md)  
 :heavy_check_mark: [rend](rend.md)  
@@ -28,7 +31,4 @@
 :heavy_check_mark: [swap](swap.md)  
 :heavy_check_mark: [unique](unique.md)  
 :x: flip  
-:x: get_allocator  
-:x: pop_back  
-:x: push_back  
 :x: ~list  
