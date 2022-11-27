@@ -95,7 +95,7 @@ Follow this style guide to add sample programs:
     for (int i = 0; i < 45 ; i++)
         std::cout << i << " ";               // ❌
     
-    for (int i = 0;i < 45; ++i){
+    for (int i = 0; i < 45; ++i) {
         std::cout << i << " ";               // ✅.
     }
 ```
