@@ -1,6 +1,6 @@
 # get_allocator
 
-**Description** : get_allocator() function is used to return a copy of the allocator object associated with a list container
+**Description** : get_allocator() function is used to return a copy of the allocator object associated with a list container.
 
 **Example**:
 ```cpp
