@@ -4,10 +4,9 @@
 
 **Example** :
 ```cpp
-struct Object {
+struct Object{
     int value;
-    ~Object() 
-	{ 
+    ~Object(){ 
 		std::cout << value << " destructed\n"; 
 	}
 };
@@ -15,10 +14,12 @@ struct Object {
 std::vector<Object> myVector (8);
 
 //manually giving values to the objects
-for(int i = 0; i < 8; i++)
-	{
+
+for(int i = 0; i < 8; i++){
 		myVector[i].value = i;
 	}
+
+//assigning the pointer to a variable for readibility
 
 auto ptr = &myVector;
 
