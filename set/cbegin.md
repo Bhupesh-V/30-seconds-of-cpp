@@ -11,15 +11,15 @@
 
 int main ()
 {
-std::set<int> myset = {50,20,60,10,25};
+    std::set<int> myset = {50,20,60,10,25};
 
-std::cout << "myset contains:";
-for (auto it=myset.cbegin(); it != myset.cend(); ++it)
-    std::cout << ' ' << *it;
+    std::cout << "myset contains:";
+    for (auto it=myset.cbegin(); it != myset.cend(); ++it)
+        std::cout << ' ' << *it;
 
-std::cout << '\n';
+    std::cout << '\n';
 
-return 0;
+    return 0;
 }
 
 ```
