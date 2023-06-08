@@ -1,7 +1,7 @@
 # count
 
-**Description :** This function is used to determine if an element is in the map. It returns one if the element is in the map 
-else it returns zero.
+**Description :** This function is used to determine if an element is in the map. More verbally, this function obtains the number of elements that match a specific key, but since this container (an unordered map) does not allow for duplicates, it only returns either 1 or 0.
+So, it returns 1 if the element is in the map, else it returns 0.
 
 **Example** :
 
@@ -14,8 +14,8 @@ else it returns zero.
 
 int main (){
     //Creates a map of Spanish Speaking Countries in the Caribbean and calls it SpanishSpeakingCaribbean
-    std::unordered_multimap<std::string,std::string> SpanishSpeakingCaribbean = {
-        {"Cuba","Havana"},
+    std::unordered_multimap<std::string, std::string> SpanishSpeakingCaribbean = {
+        {"Cuba", "Havana"},
         {"Dominican Republic", "Santo Domingo"},
         {"Puerto Rico", "San Juan"}
 		};
