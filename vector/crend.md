@@ -8,7 +8,7 @@
 #include <iostream>
 #include <vector>
 
-nt main ()
+int main ()
 {
   std::vector<int> myvector = {10,20,30,40,50};
 

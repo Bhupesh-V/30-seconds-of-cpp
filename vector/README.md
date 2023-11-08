@@ -29,5 +29,5 @@
 :heavy_check_mark: [size](size.md)  
 :heavy_check_mark: [sort](sort.md)  
 :heavy_check_mark: [swap](swap.md)  
-:heavy_check_mark: crend  
-:x: ~vector  
+:heavy_check_mark: [crend](crend.md)  
+:x: [~vector](~vector.md)  
