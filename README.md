@@ -290,11 +290,6 @@
 </ol>
 </details>
 
-## :speaking_head: Community
-Join other C++ enthusiasts on 
-- [Slack](https://join.slack.com/t/30-seconds-of-cpp/shared_invite/enQtNTU0MTYxMDk0MzQxLTlhY2Q1MWZmOTM0ODRmOWMwYTllYzVjMzM2ZDk5NjY3MDU2NDljNDlmMDQ5MTMyOGQyOTVlNzEwOTc0MmYwOWY)
-- [Discord](https://discord.gg/KAD3JZq)
-
 ## :globe_with_meridians: 30 Seconds of Knowledge
 > Experience *30 Seconds of C++* as a [Web Extension](https://chrome.google.com/webstore/detail/30-seconds-of-knowledge/mmgplondnjekobonklacmemikcnhklla?hl=en) built by [Stefan Petrovic](https://github.com/petrovicstefanrs)
 
