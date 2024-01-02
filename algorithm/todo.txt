@@ -29,4 +29,5 @@ exclusive_scan
 reduce
 transform_inclusive_scan
 transform_exclusive_scan
-inner_product
+
+
